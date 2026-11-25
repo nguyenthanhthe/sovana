@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0.0",
+  "dailySweep": {
+    "startDate": "1900-01-01",
+    "endDate": "2100-12-31",
+    "totalDays": 73414,
+    "window73050InclusiveEndDate": "2100-01-01",
+    "window73050Days": 73050,
+    "mismatches": 0,
+    "aggregateSha256": "5ac0f49b6819749e271625f4463d5b3a9d9de3264c6cd3ca3227aea372f3c51d",
+    "tsElapsedMs": 1665.28,
+    "pyElapsedMs": 10553.7
+  },
+  "adversarialVectors": {
+    "totalVectors": 10000,
+    "mismatches": 0,
+    "aggregateSha256": "9a0e16cb93ad83cf36fe7ef43526a37c712cafc549ba487e552030bb6fe16da4",
+    "tsElapsedMs": 917.31,
+    "tsMsPerOp": 0.0917,
+    "pyElapsedMs": 4187.02,
+    "pyMsPerOp": 0.4187,
+    "sampleVectors": [
+      {
+        "index": 0,
+        "input": {
+          "year": 2052,
+          "month": 2,
+          "day": 21,
+          "hour": 6,
+          "minute": 31,
+          "second": 7,
+          "location": "01",
+          "calendarMode": "CN_UTC8",
+          "leapMonthPolicy": "next-month",
+          "lateZiPolicy": "next-day"
+        },
+        "sha256": "bbb49780fb9b05496246c78e06660fe0f4ea9f000381eb3123391501567c17a1"
+      },
+      {
+        "index": 1,
+        "input": {
+          "year": 1959,
+          "month": 1,
+          "day": 2,
+          "hour": 19,
+          "minute": 37,
+          "second": 37,
+          "location": "02",
+          "calendarMode": "VN_UTC7",
+          "leapMonthPolicy": "keep",
+          "lateZiPolicy": "next-day"
+        },
+        "sha256": "1da1db6e05f7e8f8ecb60a782895d356e343d9644d898e5c3686c44f19ae0464"
+      },
+      {
+        "index": 100,
+        "input": {
+          "year": 1944,
+          "month": 3,
+          "day": 28,
+          "hour": 15,
+          "minute": 56,
+          "second": 0,
+          "location": "004",
+          "calendarMode": "CN_UTC8"
+        },
+        "sha256": "ba0e9840008d46244aeec3c0951f70bb1a63854adac6aa58998512109ab400bf"
+      },
+      {
+        "index": 843,
+        "input": {
+          "year": 1904,
+          "month": 3,
+          "day": 15,
+          "hour": 0,
+          "minute": 30,
+          "second": 0,
+          "location": "Sài Gòn",
+          "calendarMode": "VN_UTC7",
+          "lateZiPolicy": "next-day"
+        },
+        "sha256": "c973337ca1be650695442083233ba6fb390f97469cc00cb9785d7780e215d0ed"
+      },
+      {
+        "index": 1500,
+        "input": {
+          "year": 1954,
+          "month": 2,
+          "day": 19,
+          "hour": 11,
+          "minute": 31,
+          "second": 18,
+          "location": "83",
+          "calendarMode": "VN_UTC7"
+        },
+        "sha256": "af0a9de273c78befe025705afb17cece668cfdf45eb7a1ad02e9ed172c2df235"
+      },
+      {
+        "index": 5000,
+        "input": {
+          "year": 1948,
+          "month": 4,
+          "day": 8,
+          "hour": 0,
+          "minute": 59,
+          "second": 59,
+          "location": "692",
+          "calendarMode": "VN_UTC7",
+          "leapMonthPolicy": "keep",
+          "lateZiPolicy": "next-day"
+        },
+        "sha256": "793179408671f817407b493b1a35f4db434659e0f98ec89050ab7e32f974014d"
+      },
+      {
+        "index": 9999,
+        "input": {
+          "year": 1949,
+          "month": 11,
+          "day": 16,
+          "hour": 21,
+          "minute": 15,
+          "second": 37,
+          "location": "168",
+          "calendarMode": "CN_UTC8",
+          "leapMonthPolicy": "keep",
+          "lateZiPolicy": "next-day",
+          "migrationDestination": "04"
+        },
+        "sha256": "9d6a4d42658b3860669d0eb889ebeb42952f499972cbe9160791177e4faf3b89"
+      }
+    ]
+  },
+  "bundleStats": {
+    "jsFilesCount": 15,
+    "rawBytes": 66338,
+    "gzippedBytes": 16753
+  }
+}
