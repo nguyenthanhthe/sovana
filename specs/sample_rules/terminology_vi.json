@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "1.0.0",
+  "license": "MIT",
+  "stems": [
+    {
+      "index": 0,
+      "nameVi": "Giáp",
+      "yinYang": "Dương",
+      "elementVi": "Mộc"
+    },
+    {
+      "index": 1,
+      "nameVi": "Ất",
+      "yinYang": "Âm",
+      "elementVi": "Mộc"
+    },
+    {
+      "index": 2,
+      "nameVi": "Bính",
+      "yinYang": "Dương",
+      "elementVi": "Hỏa"
+    },
+    {
+      "index": 3,
+      "nameVi": "Đinh",
+      "yinYang": "Âm",
+      "elementVi": "Hỏa"
+    },
+    {
+      "index": 4,
+      "nameVi": "Mậu",
+      "yinYang": "Dương",
+      "elementVi": "Thổ"
+    },
+    {
+      "index": 5,
+      "nameVi": "Kỷ",
+      "yinYang": "Âm",
+      "elementVi": "Thổ"
+    },
+    {
+      "index": 6,
+      "nameVi": "Canh",
+      "yinYang": "Dương",
+      "elementVi": "Kim"
+    },
+    {
+      "index": 7,
+      "nameVi": "Tân",
+      "yinYang": "Âm",
+      "elementVi": "Kim"
+    },
+    {
+      "index": 8,
+      "nameVi": "Nhâm",
+      "yinYang": "Dương",
+      "elementVi": "Thủy"
+    },
+    {
+      "index": 9,
+      "nameVi": "Quý",
+      "yinYang": "Âm",
+      "elementVi": "Thủy"
+    }
+  ],
+  "branches": [
+    {
+      "index": 0,
+      "nameVi": "Tý",
+      "yinYang": "Dương",
+      "elementVi": "Thủy",
+      "solarWindow": "23:00–01:00",
+      "azimuthDeg": 0
+    },
+    {
+      "index": 1,
+      "nameVi": "Sửu",
+      "yinYang": "Âm",
+      "elementVi": "Thổ",
+      "solarWindow": "01:00–03:00",
+      "azimuthDeg": 30
+    },
+    {
+      "index": 2,
+      "nameVi": "Dần",
+      "yinYang": "Dương",
+      "elementVi": "Mộc",
+      "solarWindow": "03:00–05:00",
+      "azimuthDeg": 60
+    },
+    {
+      "index": 3,
+      "nameVi": "Mão",
+      "yinYang": "Âm",
+      "elementVi": "Mộc",
+      "solarWindow": "05:00–07:00",
+      "azimuthDeg": 90
+    },
+    {
+      "index": 4,
+      "nameVi": "Thìn",
+      "yinYang": "Dương",
+      "elementVi": "Thổ",
+      "solarWindow": "07:00–09:00",
+      "azimuthDeg": 120
+    },
+    {
+      "index": 5,
+      "nameVi": "Tỵ",
+      "yinYang": "Âm",
+      "elementVi": "Hỏa",
+      "solarWindow": "09:00–11:00",
+      "azimuthDeg": 150
+    },
+    {
+      "index": 6,
+      "nameVi": "Ngọ",
+      "yinYang": "Dương",
+      "elementVi": "Hỏa",
+      "solarWindow": "11:00–13:00",
+      "azimuthDeg": 180
+    },
+    {
+      "index": 7,
+      "nameVi": "Mùi",
+      "yinYang": "Âm",
+      "elementVi": "Thổ",
+      "solarWindow": "13:00–15:00",
+      "azimuthDeg": 210
+    },
+    {
+      "index": 8,
+      "nameVi": "Thân",
+      "yinYang": "Dương",
+      "elementVi": "Kim",
+      "solarWindow": "15:00–17:00",
+      "azimuthDeg": 240
+    },
+    {
+      "index": 9,
+      "nameVi": "Dậu",
+      "yinYang": "Âm",
+      "elementVi": "Kim",
+      "solarWindow": "17:00–19:00",
+      "azimuthDeg": 270
+    },
+    {
+      "index": 10,
+      "nameVi": "Tuất",
+      "yinYang": "Dương",
+      "elementVi": "Thổ",
+      "solarWindow": "19:00–21:00",
+      "azimuthDeg": 300
+    },
+    {
+      "index": 11,
+      "nameVi": "Hợi",
+      "yinYang": "Âm",
+      "elementVi": "Thủy",
+      "solarWindow": "21:00–23:00",
+      "azimuthDeg": 330
+    }
+  ],
+  "domains": {
+    "menh": {
+      "palaceVi": "Mệnh",
+      "meaningVi": "Khí chất cốt lõi, tư duy định hướng và bản lĩnh lập thân."
+    },
+    "quan": {
+      "palaceVi": "Quan Lộc",
+      "meaningVi": "Con đường sự nghiệp, năng lực quản trị, học thuật và vị thế chuyên môn."
+    },
+    "tai": {
+      "palaceVi": "Tài Bạch",
+      "meaningVi": "Dòng tiền, phương thức tạo giá trị kinh tế và kỷ luật quản trị vốn."
+    },
+    "phu_the": {
+      "palaceVi": "Phu Thê",
+      "meaningVi": "Tương tác hôn nhân, bạn đời đồng hành và cam kết dài hạn."
+    },
+    "tat_ach": {
+      "palaceVi": "Tật Ách",
+      "meaningVi": "Cơ địa sinh học, khuynh hướng bệnh lý tiềm ẩn và sức bền thần kinh."
+    },
+    "phuc": {
+      "palaceVi": "Phúc Đức",
+      "meaningVi": "Đời sống tinh thần, nền nếp gia phong và khả năng phục hồi nội tâm."
+    },
+    "dien": {
+      "palaceVi": "Điền Trạch",
+      "meaningVi": "Tài sản tích lũy dài hạn, nơi an cư và nền tảng hậu cần."
+    },
+    "thien_di": {
+      "palaceVi": "Thiên Di",
+      "meaningVi": "Môi trường bên ngoài, cơ hội dịch chuyển địa lý và đối ngoại."
+    }
+  },
+  "sihua": {
+    "Hóa Lộc": "Khởi nguồn sinh cơ, tài lộc hanh thông, duyên tương tác thuận lợi.",
+    "Hóa Quyền": "Năng lực tự chủ, sức mạnh thực thi, trách nhiệm điều hành và kiểm soát.",
+    "Hóa Khoa": "Thanh danh học thuật, minh bạch giải nguy, quý nhân và tri thức hệ thống.",
+    "Hóa Kỵ": "Điểm nghẽn tập trung cao độ, áp lực thử thách, thị phi hoặc hao tổn cần hóa giải."
+  },
+  "brightnessLevels": {
+    "Miếu": "Độ sáng cực đại — sao phát huy trọn vẹn phẩm chất ưu việt chính danh.",
+    "Vượng": "Độ sáng mạnh — khí lực sung mãn, thuận lợi triển khai năng lực thực tế.",
+    "Đắc": "Đắc địa — sao hợp vị trí, đủ lực nâng đỡ và phát triển ổn định.",
+    "Lợi": "Bậc trung khá (thang 7 bậc Toàn Thư) — có lợi thế chuyên biệt nhưng cần nỗ lực.",
+    "Bình": "Bình hòa — trạng thái trung tính, chịu ảnh hưởng lớn từ cát/sát tinh hội chiếu.",
+    "Bất": "Bất đắc địa (thang 7 bậc Toàn Thư) — sao kém lực, dễ gặp lực cản môi trường.",
+    "Hãm": "Hãm địa — sao lạc vị trí khắc chế, cần Tuần/Triệt hoặc cát hóa chế giải."
+  },
+  "baziTerms": {
+    "THAN_VUONG": "Nhật Chủ Thân Vượng (Tỷ-Ấn ≥ 5200 bps): nội lực mạnh, hỉ Thực Thương tiết tú hoặc Tài Quan khắc tiết.",
+    "CAN_BANG": "Nhật Chủ Trung Hòa Cân Bằng (4400 < bps < 5200): khí ngũ hành điều hòa, tùy tiết hậu chọn Dụng thần.",
+    "THAN_NHUOC": "Nhật Chủ Thân Nhược (Tỷ-Ấn ≤ 4400 bps): nội lực mỏng, hỉ Ấn tinh sinh thân và Tỷ Kiếp phân gánh.",
+    "DieuHauDungThan": "Điều Hậu Dụng Thần theo Cùng Thông Bảo Giám: cân bằng hàn - nhiệt - táo - thấp của tháng sinh.",
+    "ThongCan": "Thông Căn: Thiên Can lộ trên mặt chữ có gốc Tàng Can đồng hành vững chắc dưới Địa Chi.",
+    "TuanKhong": "Tuần Không (Không Vong): hai Địa Chi cuối mỗi tuần Giáp không có Thiên Can phối hợp."
+  },
+  "liuyaoTerms": {
+    "TheUng": "Hào Thế (chủ thể đương sự) và Hào Ứng (đối tác, mục tiêu hoặc hoàn cảnh đối ứng, cách Thế 3 hào).",
+    "DungThan": "Dụng Thần: hào Lục Thân đại diện trực tiếp cho sự việc đang chiêm hỏi.",
+    "NguyenThan": "Nguyên Thần: hào sinh phù cho Dụng Thần.",
+    "KyThan": "Kỵ Thần: hào khắc chế Dụng Thần.",
+    "PhucThan": "Phục Thần: hào Dụng Thần vắng mặt trên quẻ chính, ẩn dưới hào Phi Thần của quẻ Bát Thuần bản cung.",
+    "NguyetPha": "Nguyệt Phá: hào bị Địa Chi của tháng kiến trực xung."
+  },
+  "solverTerms": {
+    "AxiomaticSilo": "Hệ tiên đề đóng kín (nam-phai, toan-thu, bazi, liuyao), cấm trộn lẫn hằng số trái phái.",
+    "ParaconsistentConflict": "Lưỡng thuyết bảo toàn mâu thuẫn: giữ nguyên cả hai nhánh suy diễn đối lập kèm truy vết thay vì ghi đè.",
+    "AntiBarnumRectification": "Định bàn Entropy Shannon chỉ dùng mốc biến cố khách quan, cơ địa y sinh và cấu trúc anh chị em.",
+    "InvariantIntersection": "Giao thoa bất biến: chỉ xuất kết luận đúng đồng thời trên mọi ứng viên giờ sinh khi hậu nghiệm chưa đạt ngưỡng khóa."
+  }
+}

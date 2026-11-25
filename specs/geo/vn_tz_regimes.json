@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Vietnam regional historical timezone regimes (1900-2100), separating North (VN_NORTH_DRV, lat >= 17.006N) and South (VN_SOUTH_RVN, lat < 17.006N) to correct IANA Asia/Ho_Chi_Minh 1960-1975 northern UTC+8 error.",
+  "parallel17LatDeg": 17.006,
+  "vietnamBoundingBox": {
+    "minLat": 8.0,
+    "maxLat": 23.5,
+    "minLon": 102.0,
+    "maxLon": 117.5
+  },
+  "zones": {
+    "VN_NORTH_DRV": [
+      {
+        "id": "VN_PRE_1906_LMT",
+        "startLocal": "1900-01-01T00:00:00",
+        "endLocal": "1906-07-01T00:00:00",
+        "utcOffsetSeconds": 25600,
+        "utcOffsetLabel": "+07:06:40",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25600],
+        "decision121CpLunar": false,
+        "historicalNote": "Pre-standardization French Indochina Local Mean Time (106°40'E)"
+      },
+      {
+        "id": "VN_1906_1911_PHU_LIEN_LMT",
+        "startLocal": "1906-07-01T00:00:00",
+        "endLocal": "1911-05-01T00:00:00",
+        "utcOffsetSeconds": 25590,
+        "utcOffsetLabel": "+07:06:30",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25590],
+        "decision121CpLunar": false,
+        "historicalNote": "Phu Lien Observatory standard time (+07:06:30)"
+      },
+      {
+        "id": "VN_INDOCHINA_UTC7",
+        "startLocal": "1911-05-01T00:00:00",
+        "endLocal": "1942-12-31T23:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25200],
+        "decision121CpLunar": false,
+        "historicalNote": "French Indochina adoption of UTC+7 (105°E)"
+      },
+      {
+        "id": "VN_VICHY_UTC8",
+        "startLocal": "1943-01-01T00:00:00",
+        "endLocal": "1945-03-14T23:00:00",
+        "utcOffsetSeconds": 28800,
+        "utcOffsetLabel": "+08:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [28800],
+        "decision121CpLunar": false,
+        "historicalNote": "Vichy French Indochina wartime DST/UTC+8"
+      },
+      {
+        "id": "VN_1945_JAPAN_UTC9",
+        "startLocal": "1945-03-15T00:00:00",
+        "endLocal": "1945-09-02T00:00:00",
+        "utcOffsetSeconds": 32400,
+        "utcOffsetLabel": "+09:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [32400],
+        "decision121CpLunar": false,
+        "historicalNote": "Imperial Japan military occupation Tokyo time (UTC+9)"
+      },
+      {
+        "id": "VN_NORTH_1945_1947_UTC7",
+        "startLocal": "1945-09-02T00:00:00",
+        "endLocal": "1947-04-01T00:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25200],
+        "decision121CpLunar": false,
+        "historicalNote": "DRV Independence restoration of UTC+7"
+      },
+      {
+        "id": "VN_1945_1954_CONTESTED",
+        "startLocal": "1947-04-01T00:00:00",
+        "endLocal": "1955-07-01T00:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": true,
+        "candidateOffsetsSeconds": [25200, 28800],
+        "decision121CpLunar": false,
+        "historicalNote": "First Indochina War: DRV areas used UTC+7 while French-held urban centers (Hanoi until 1954-10-10, Haiphong until 1955-05-13) used UTC+8"
+      },
+      {
+        "id": "VN_NORTH_DRV_1955_1967_UTC7",
+        "startLocal": "1955-07-01T00:00:00",
+        "endLocal": "1968-01-01T00:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25200],
+        "decision121CpLunar": false,
+        "historicalNote": "North Vietnam (DRV) official UTC+7 (105°E); IANA tzdb incorrectly applies UTC+8 from 1960-1975"
+      },
+      {
+        "id": "VN_NORTH_DRV_1968_1975_UTC7",
+        "startLocal": "1968-01-01T00:00:00",
+        "endLocal": "1975-06-13T00:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25200],
+        "decision121CpLunar": true,
+        "historicalNote": "North Vietnam (DRV) UTC+7 + Decision 121-CP (1967-08-08, eff. 1968-01-01) unifying official Vietnamese Lunar Calendar to 105°E"
+      },
+      {
+        "id": "VN_UNIFIED_UTC7",
+        "startLocal": "1975-06-13T00:00:00",
+        "endLocal": "2101-01-01T00:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25200],
+        "decision121CpLunar": true,
+        "historicalNote": "Unified Vietnam official UTC+7 (105°E)"
+      }
+    ],
+    "VN_SOUTH_RVN": [
+      {
+        "id": "VN_PRE_1906_LMT",
+        "startLocal": "1900-01-01T00:00:00",
+        "endLocal": "1906-07-01T00:00:00",
+        "utcOffsetSeconds": 25600,
+        "utcOffsetLabel": "+07:06:40",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25600],
+        "decision121CpLunar": false,
+        "historicalNote": "Pre-standardization French Indochina Local Mean Time (106°40'E)"
+      },
+      {
+        "id": "VN_1906_1911_PHU_LIEN_LMT",
+        "startLocal": "1906-07-01T00:00:00",
+        "endLocal": "1911-05-01T00:00:00",
+        "utcOffsetSeconds": 25590,
+        "utcOffsetLabel": "+07:06:30",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25590],
+        "decision121CpLunar": false,
+        "historicalNote": "Phu Lien Observatory standard time (+07:06:30)"
+      },
+      {
+        "id": "VN_INDOCHINA_UTC7",
+        "startLocal": "1911-05-01T00:00:00",
+        "endLocal": "1942-12-31T23:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25200],
+        "decision121CpLunar": false,
+        "historicalNote": "French Indochina adoption of UTC+7 (105°E)"
+      },
+      {
+        "id": "VN_VICHY_UTC8",
+        "startLocal": "1943-01-01T00:00:00",
+        "endLocal": "1945-03-14T23:00:00",
+        "utcOffsetSeconds": 28800,
+        "utcOffsetLabel": "+08:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [28800],
+        "decision121CpLunar": false,
+        "historicalNote": "Vichy French Indochina wartime DST/UTC+8"
+      },
+      {
+        "id": "VN_1945_JAPAN_UTC9",
+        "startLocal": "1945-03-15T00:00:00",
+        "endLocal": "1945-09-02T00:00:00",
+        "utcOffsetSeconds": 32400,
+        "utcOffsetLabel": "+09:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [32400],
+        "decision121CpLunar": false,
+        "historicalNote": "Imperial Japan military occupation Tokyo time (UTC+9)"
+      },
+      {
+        "id": "VN_SOUTH_1945_1947_UTC7",
+        "startLocal": "1945-09-02T00:00:00",
+        "endLocal": "1947-04-01T00:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25200],
+        "decision121CpLunar": false,
+        "historicalNote": "Post-August 1945 restoration of UTC+7"
+      },
+      {
+        "id": "VN_SOUTH_1947_1955_UTC8",
+        "startLocal": "1947-04-01T00:00:00",
+        "endLocal": "1955-06-30T23:00:00",
+        "utcOffsetSeconds": 28800,
+        "utcOffsetLabel": "+08:00",
+        "isContestedZone": true,
+        "candidateOffsetsSeconds": [28800, 25200],
+        "decision121CpLunar": false,
+        "historicalNote": "French Cochinchina / State of Vietnam UTC+8 decree (resistance zones observed UTC+7)"
+      },
+      {
+        "id": "VN_SOUTH_1955_1959_UTC7",
+        "startLocal": "1955-07-01T00:00:00",
+        "endLocal": "1959-12-31T23:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25200],
+        "decision121CpLunar": false,
+        "historicalNote": "South Vietnam (RVN) revert to UTC+7 from 1955-07-01"
+      },
+      {
+        "id": "VN_SOUTH_RVN_1960_1975_UTC8",
+        "startLocal": "1960-01-01T00:00:00",
+        "endLocal": "1975-06-13T00:00:00",
+        "utcOffsetSeconds": 28800,
+        "utcOffsetLabel": "+08:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [28800],
+        "decision121CpLunar": false,
+        "historicalNote": "Republic of Vietnam (Saigon / South Vietnam) UTC+8 (1960-01-01 to 1975-06-12; reverted 1975-06-13)"
+      },
+      {
+        "id": "VN_UNIFIED_UTC7",
+        "startLocal": "1975-06-13T00:00:00",
+        "endLocal": "2101-01-01T00:00:00",
+        "utcOffsetSeconds": 25200,
+        "utcOffsetLabel": "+07:00",
+        "isContestedZone": false,
+        "candidateOffsetsSeconds": [25200],
+        "decision121CpLunar": true,
+        "historicalNote": "PRG Decree 1975-06-13 unifying South Vietnam back to UTC+7 (105°E)"
+      }
+    ]
+  }
+}

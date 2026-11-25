@@ -1,0 +1,393 @@
+{
+  "schemaVersion": "1.0.0",
+  "silo": "liuyao",
+  "sources": [
+    {
+      "id": "ZSBY",
+      "titleZh": "增刪卜易",
+      "titleVi": "Tăng San Bốc Dịch (Dã Hạc Lão Nhân)",
+      "sourcePath": "knowledge/public-domain-classics/markdown/zh_liuyao_zeng_shan_bu_yi.md"
+    },
+    {
+      "id": "MHYS",
+      "titleZh": "梅花易數",
+      "titleVi": "Mai Hoa Dịch Số (Thiệu Khang Tiết)",
+      "sourcePath": "knowledge/public-domain-classics/markdown/zh_iching_mei_hua_yi_shu.md"
+    },
+    {
+      "id": "CDQV",
+      "titleZh": "國文周易演解",
+      "titleVi": "Quốc Văn Chu Dịch Diễn Giải (Phan Bội Châu)",
+      "sourcePath": "knowledge/public-domain-classics/raw/PhanBoiChau_ChuDichQuocVanDienGiai.epub"
+    }
+  ],
+  "summary": {
+    "zengShanBuYiCount": 14,
+    "meiHuaYiShuCount": 6,
+    "phanBoiChauTermsCount": 9
+  },
+  "tuanKhongSixPairs": [
+    { "xunHeadVi": "Giáp Tý", "emptyBranches": [10, 11], "emptyBranchesVi": ["Tuất", "Hợi"] },
+    { "xunHeadVi": "Giáp Tuất", "emptyBranches": [8, 9], "emptyBranchesVi": ["Thân", "Dậu"] },
+    { "xunHeadVi": "Giáp Thân", "emptyBranches": [6, 7], "emptyBranchesVi": ["Ngọ", "Mùi"] },
+    { "xunHeadVi": "Giáp Ngọ", "emptyBranches": [4, 5], "emptyBranchesVi": ["Thìn", "Tỵ"] },
+    { "xunHeadVi": "Giáp Thìn", "emptyBranches": [2, 3], "emptyBranchesVi": ["Dần", "Mão"] },
+    { "xunHeadVi": "Giáp Dần", "emptyBranches": [0, 1], "emptyBranchesVi": ["Tý", "Sửu"] }
+  ],
+  "tienThanPairs": [
+    { "fromBranch": 11, "toBranch": 0, "fromVi": "Hợi", "toVi": "Tý" },
+    { "fromBranch": 2, "toBranch": 3, "fromVi": "Dần", "toVi": "Mão" },
+    { "fromBranch": 5, "toBranch": 6, "fromVi": "Tỵ", "toVi": "Ngọ" },
+    { "fromBranch": 8, "toBranch": 9, "fromVi": "Thân", "toVi": "Dậu" },
+    { "fromBranch": 1, "toBranch": 4, "fromVi": "Sửu", "toVi": "Thìn" },
+    { "fromBranch": 4, "toBranch": 7, "fromVi": "Thìn", "toVi": "Mùi" },
+    { "fromBranch": 7, "toBranch": 10, "fromVi": "Mùi", "toVi": "Tuất" }
+  ],
+  "thoaiThanPairs": [
+    { "fromBranch": 0, "toBranch": 11, "fromVi": "Tý", "toVi": "Hợi" },
+    { "fromBranch": 3, "toBranch": 2, "fromVi": "Mão", "toVi": "Dần" },
+    { "fromBranch": 6, "toBranch": 5, "fromVi": "Ngọ", "toVi": "Tỵ" },
+    { "fromBranch": 9, "toBranch": 8, "fromVi": "Dậu", "toVi": "Thân" },
+    { "fromBranch": 4, "toBranch": 1, "fromVi": "Thìn", "toVi": "Sửu" },
+    { "fromBranch": 7, "toBranch": 4, "fromVi": "Mùi", "toVi": "Thìn" },
+    { "fromBranch": 10, "toBranch": 7, "fromVi": "Tuất", "toVi": "Mùi" }
+  ],
+  "zengShanBuYi": [
+    {
+      "id": "ZS-TK-01",
+      "topic": "Tuần Không — Nguyên Lý Chân / Giả Không",
+      "hanziOriginal": "旺不為空，動不為空，有日建動爻生扶者不為空…月破為空…眞空即春土、夏金、秋木、三冬逢火是眞空。",
+      "hanViet": "Vượng bất vi Không, động bất vi Không, hữu Nhật kiến động hào sinh phù giả bất vi Không... Nguyệt phá vi Không... Chân Không tức xuân Thổ, hạ Kim, thu Mộc, tam đông phùng Hỏa thị Chân Không.",
+      "literalMeaningVi": "Hào vượng tướng, hào phát động hoặc được Nhật kiến/hào động sinh phù thì không phải Không thật (chỉ tạm ẩn chờ xuất Tuần); hào bị Nguyệt Phá hoặc rơi vào Chân Không theo mùa mới là Không hoàn toàn.",
+      "classicalSource": "增刪卜易 · 旬空章第二十六 (zh_liuyao_zeng_shan_bu_yi.md:5358)",
+      "predicate": {
+        "op": "and",
+        "args": [
+          { "op": "liuyao_state_flag", "flag": "theTuanKhong" },
+          {
+            "op": "or",
+            "args": [
+              { "op": "liuyao_state_flag", "flag": "theDong" },
+              { "op": "liuyao_state_flag", "flag": "theVuongTuong" }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Hào Thế lâm Tuần Không nhưng lại vượng tướng hoặc phát động là trạng thái 'Giả Không': sự việc chỉ tạm thời trì hoãn hay chưa lộ rõ ngay, đến kỳ Xuất Tuần hoặc ngày Xung Không sẽ thực thi.",
+      "actionableAdviceVi": "Chưa nên kết luận thất bại khi kết quả chưa hiện ngay; tiếp tục chuẩn bị nguồn lực và chọn thời điểm chuyển sang chu kỳ mới để triển khai."
+    },
+    {
+      "id": "ZS-TK-02",
+      "topic": "Tuần Không — Thế Lâm Không Hưu Tù Tĩnh",
+      "hanziOriginal": "凡遇旬空…靜而休囚無助，乃為到底全空。",
+      "hanViet": "Phàm ngộ Tuần Không... tĩnh nhi hưu tù vô trợ, nãi vi đáo để toàn Không.",
+      "literalMeaningVi": "Hào Thế rơi vào Tuần Không mà tĩnh lặng, lại hưu tù không được sinh trợ thì dễ rơi vào bế tắc hoặc khó thành tựu thực chất.",
+      "classicalSource": "增刪卜易 · 旬空章第二十六 (zh_liuyao_zeng_shan_bu_yi.md:5358-5360)",
+      "predicate": {
+        "op": "and",
+        "args": [
+          { "op": "liuyao_state_flag", "flag": "theTuanKhong" },
+          { "op": "liuyao_state_flag", "flag": "theHuuTu" },
+          { "op": "not", "arg": { "op": "liuyao_state_flag", "flag": "theDong" } }
+        ]
+      },
+      "modernInterpretationVi": "Tâm thế hoặc thực lực chủ thể (Hào Thế) đang phân tán, thiếu chuẩn bị hoặc chưa có điều kiện ngoại cảnh nâng đỡ trong giai đoạn này.",
+      "actionableAdviceVi": "Tạm hoãn quyết định cam kết lớn; ưu tiên bổ sung thông tin, củng cố năng lực và chờ thời điểm chín muồi hơn."
+    },
+    {
+      "id": "ZS-TK-03",
+      "topic": "Tuần Không — Ứng Lâm Tuần Không",
+      "hanziOriginal": "應爻旬空，對方猶疑未決或事未實。",
+      "hanViet": "Ứng hào Tuần Không, đối phương do dự vị quyết hoặc sự vị thực.",
+      "literalMeaningVi": "Hào Ứng (đối tác, mục tiêu hoặc hoàn cảnh đối diện) lâm Tuần Không báo hiệu phía đối ứng còn thiếu cam kết rõ ràng hoặc thông tin chưa đầy đủ.",
+      "classicalSource": "增刪卜易 · 旬空章第二十六 (zh_liuyao_zeng_shan_bu_yi.md:5349-5360)",
+      "predicate": { "op": "liuyao_state_flag", "flag": "ungTuanKhong" },
+      "modernInterpretationVi": "Đối tác, khách hàng hoặc điều kiện bên ngoài hiện chưa dứt khoát; hợp đồng hoặc lời hứa cần chờ kiểm chứng sau khi qua hạn Tuần Không.",
+      "actionableAdviceVi": "Xác minh lại điều khoản bằng văn bản, đặt mốc thời gian phản hồi cụ thể và giữ phương án dự phòng."
+    },
+    {
+      "id": "ZS-NP-01",
+      "topic": "Nguyệt Phá — Hào Tĩnh Vô Trợ",
+      "hanziOriginal": "月建沖之爲月破…惟靜而不動又無日辰動爻生助者則到底而破矣。",
+      "hanViet": "Nguyệt kiến xung chi vi Nguyệt Phá... duy tĩnh nhi bất động hựu vô Nhật thần động hào sinh trợ giả tắc đáo để nhi phá hỹ.",
+      "literalMeaningVi": "Hào bị Địa Chi tháng kiến trực xung gọi là Nguyệt Phá; nếu tĩnh mà hưu tù không có Nhật hay hào động cứu giúp thì lực suy tan rã.",
+      "classicalSource": "增刪卜易 · 月破章第二十七 (zh_liuyao_zeng_shan_bu_yi.md:251,255)",
+      "predicate": {
+        "op": "and",
+        "args": [
+          { "op": "liuyao_state_flag", "flag": "theNguyetPha" },
+          { "op": "not", "arg": { "op": "liuyao_state_flag", "flag": "theDong" } }
+        ]
+      },
+      "modernInterpretationVi": "Chủ thể đang chịu sức ép trực tiếp từ bối cảnh tháng hiện tại (Nguyệt Phá) mà chưa có động lực xoay chuyển nội tại.",
+      "actionableAdviceVi": "Không nên đối đầu trực diện với hoàn cảnh bất lợi trong tháng xung phá; giữ an toàn nguồn lực và chờ qua tháng sau."
+    },
+    {
+      "id": "ZS-NP-02",
+      "topic": "Nguyệt Phá — Hào Động Xuất Nguyệt Thực Phá",
+      "hanziOriginal": "神兆機於動…目下雖破，出月則不破，今日雖破，實破之日則不破，合之日則不破。",
+      "hanViet": "Thần triệu cơ ư động... mục hạ tuy phá, xuất nguyệt tắc bất phá, kim nhật tuy phá, thực phá chi nhật tắc bất phá, hợp chi nhật tắc bất phá.",
+      "literalMeaningVi": "Thần cơ hiện ở hào động: dẫu hiện tại lâm Nguyệt Phá nhưng nếu phát động thì qua tháng, đến ngày Thực Phá hoặc ngày Hợp Phá sẽ hết phá.",
+      "classicalSource": "增刪卜易 · 月破章第二十七 (zh_liuyao_zeng_shan_bu_yi.md:255)",
+      "predicate": {
+        "op": "and",
+        "args": [
+          { "op": "liuyao_state_flag", "flag": "theNguyetPha" },
+          { "op": "liuyao_state_flag", "flag": "theDong" }
+        ]
+      },
+      "modernInterpretationVi": "Tuy gặp trở ngại thời điểm trước mắt nhưng bản thân đã chủ động chuyển động; sự việc có cơ hội tháo gỡ khi bước sang tháng mới hoặc ngày tương hợp.",
+      "actionableAdviceVi": "Kiên trì giữ đà hành động có kiểm soát và đặt lịch tái đánh giá vào giai đoạn chuyển tháng tiếp theo."
+    },
+    {
+      "id": "ZS-TT-01",
+      "topic": "Tiến Thần",
+      "hanziOriginal": "亥化子，寅化卯，巳化午，申化酉，丑化辰，辰化未，未化戌…進神由此而進也，如春天花木枝繁葉茂。",
+      "hanViet": "Hợi hóa Tý, Dần hóa Mão, Tỵ hóa Ngọ, Thân hóa Dậu, Sửu hóa Thìn, Thìn hóa Mùi, Mùi hóa Tuất... Tiến Thần do thử nhi tiến dã, như xuân thiên hoa mộc chi phồn diệp mậu.",
+      "literalMeaningVi": "Bảy cặp Địa Chi hóa Tiến Thần tượng trưng cho khí lực tăng trưởng liên tục như cây cối mùa xuân nảy lộc xum xuê.",
+      "classicalSource": "增刪卜易 · 進神退神章第二十九 (zh_liuyao_zeng_shan_bu_yi.md:439-447)",
+      "predicate": { "op": "liuyao_state_flag", "flag": "hoaTienThan" },
+      "modernInterpretationVi": "Xu hướng sự việc đang tiến triển theo chiều tăng dần quy mô, ảnh hưởng và đà phát triển — rất thuận nếu đây là hào cát hoặc Dụng Thần.",
+      "actionableAdviceVi": "Tận dụng đà tăng trưởng để mở rộng hợp tác hoặc đẩy nhanh tiến độ hạng mục trọng tâm."
+    },
+    {
+      "id": "ZS-TT-02",
+      "topic": "Thoái Thần",
+      "hanziOriginal": "子化亥，卯化寅，午化巳，酉化申，辰化丑，未化辰，戌化未…退神由此而退也，如秋天花木漸漸凋零。",
+      "hanViet": "Tý hóa Hợi, Mão hóa Dần, Ngọ hóa Tỵ, Dậu hóa Thân, Thìn hóa Sửu, Mùi hóa Thìn, Tuất hóa Mùi... Thoái Thần do thử nhi thoái dã, như thu thiên hoa mộc tiệm tiệm điêu linh.",
+      "literalMeaningVi": "Bảy cặp Địa Chi hóa Thoái Thần tượng trưng cho khí thế giảm dần, co hẹp hoặc rút lui như lá cây mùa thu.",
+      "classicalSource": "增刪卜易 · 進神退神章第二十九 (zh_liuyao_zeng_shan_bu_yi.md:443-449)",
+      "predicate": { "op": "liuyao_state_flag", "flag": "hoaThoaiThan" },
+      "modernInterpretationVi": "Động lực hoặc quy mô của yếu tố hóa Thoái đang thu hẹp dần; nếu là Kỵ Thần (rủi ro/trở ngại) thì đây là tín hiệu giảm nhẹ đáng mừng.",
+      "actionableAdviceVi": "Tinh gọn đầu tư, tránh mở rộng dàn trải và thu hồi dần các hạng mục kém hiệu quả."
+    },
+    {
+      "id": "ZS-PP-01",
+      "topic": "Phi Phục Thần — Phi Lai Sinh Phục",
+      "hanziOriginal": "亥水而生寅木，謂之飛來生伏得長生，此用神不現，尋得伏神而遇生扶有用。",
+      "hanViet": "Hợi Thủy nhi sinh Dần Mộc, vị chi Phi lai sinh Phục đắc Trường Sinh, thử Dụng Thần bất hiện, tầm đắc Phục Thần nhi ngộ sinh phù hữu dụng.",
+      "literalMeaningVi": "Dụng Thần ẩn dưới hào Phi Thần nhưng được Phi Thần tương sinh (Phi sinh Phục) là tượng được nâng đỡ nuôi dưỡng ngầm, tuy ẩn mà hữu dụng.",
+      "classicalSource": "增刪卜易 · 飛伏神章第二十八 (zh_liuyao_zeng_shan_bu_yi.md:333,344)",
+      "predicate": {
+        "op": "and",
+        "args": [
+          { "op": "liuyao_state_flag", "flag": "hasPhucThan" },
+          { "op": "liuyao_state_flag", "flag": "phiSinhPhuc" }
+        ]
+      },
+      "modernInterpretationVi": "Nguồn lực hoặc cơ hội cốt lõi chưa lộ diện công khai trên bề mặt nhưng đang được điều kiện hiện tại âm thầm bảo trợ và nuôi lớn.",
+      "actionableAdviceVi": "Kiên nhẫn bồi đắp mối quan hệ hậu thuẫn và chuẩn bị sẵn sàng cho thời điểm cơ hội chính thức xuất hiện."
+    },
+    {
+      "id": "ZS-PP-02",
+      "topic": "Phi Phục Thần — Phi Lai Khắc Phục",
+      "hanziOriginal": "辰土克子水，此乃飛來克伏，謂之飛克，伏神遭克害，名爲伏神受制，有用亦無用矣。",
+      "hanViet": "Thìn Thổ khắc Tý Thủy, thử nãi Phi lai khắc Phục, vị chi Phi khắc, Phục Thần tao khắc hại, danh vi Phục Thần thụ chế.",
+      "literalMeaningVi": "Phục Thần ẩn dưới hào Phi Thần bị chính Phi Thần khắc chế gọi là Phi Khắc Phục, khiến nguồn lực tiềm ẩn khó thoát ra được.",
+      "classicalSource": "增刪卜易 · 飛伏神章第二十八 (zh_liuyao_zeng_shan_bu_yi.md:342,350)",
+      "predicate": {
+        "op": "and",
+        "args": [
+          { "op": "liuyao_state_flag", "flag": "hasPhucThan" },
+          { "op": "liuyao_state_flag", "flag": "phiKhacPhuc" }
+        ]
+      },
+      "modernInterpretationVi": "Yếu tố đang tìm kiếm bị kìm hãm bởi chính hoàn cảnh hoặc cấu trúc hiện hành bao bọc bên trên.",
+      "actionableAdviceVi": "Xem xét gỡ bỏ ràng buộc hiện tại hoặc tìm kênh tiếp cận mới thay vì cố chờ kết quả từ kênh cũ."
+    },
+    {
+      "id": "ZS-PP-03",
+      "topic": "Phi Phục Thần — Không Hạ Phục Thần Dị Ư Dẫn Bạt",
+      "hanziOriginal": "空下伏神，易於引撥…但得飛神臨破休囚入墓而伏神皆易出也。",
+      "hanViet": "Không hạ Phục Thần, dị ư dẫn bạt... đãn đắc Phi Thần lâm phá hưu tù nhập mộ nhi Phục Thần giai dị xuất dã.",
+      "literalMeaningVi": "Phục Thần nằm dưới Phi Thần lâm Tuần Không hoặc Nguyệt Phá thì lớp che chắn mỏng yếu nên Phục Thần rất dễ xuất hiện.",
+      "classicalSource": "增刪卜易 · 飛伏神章第二十八 (zh_liuyao_zeng_shan_bu_yi.md:344-346)",
+      "predicate": {
+        "op": "and",
+        "args": [
+          { "op": "liuyao_state_flag", "flag": "hasPhucThan" },
+          { "op": "liuyao_state_flag", "flag": "phiLamKhongPha" }
+        ]
+      },
+      "modernInterpretationVi": "Rào cản bề mặt hiện đang lỏng lẻo hoặc tạm thời vắng bóng, tạo điều kiện thuận lợi để cơ hội ẩn tàng nhanh chóng lộ diện.",
+      "actionableAdviceVi": "Chủ động bước ra nắm bắt cơ hội khi khoảng trống thuận lợi xuất hiện."
+    },
+    {
+      "id": "ZS-AD-01",
+      "topic": "Ám Động & Nhật Phá",
+      "hanziOriginal": "靜爻旺相日辰沖之爲暗動，靜爻休囚日辰沖之爲破。",
+      "hanViet": "Tĩnh hào vượng tướng Nhật thần xung chi vi Ám Động, tĩnh hào hưu tù Nhật thần xung chi vi Phá.",
+      "literalMeaningVi": "Hào tĩnh nhưng vượng tướng mà bị Nhật thần xung kích gọi là Ám Động (chuyển động ngầm); hào tĩnh mà hưu tù bị Nhật xung mới gọi là Nhật Phá.",
+      "classicalSource": "增刪卜易 · 暗動章第二十二 (zh_liuyao_zeng_shan_bu_yi.md:5226)",
+      "predicate": { "op": "liuyao_state_flag", "flag": "theAmDong" },
+      "modernInterpretationVi": "Dù bề ngoài có vẻ yên tĩnh, chủ thể đang âm thầm tích tụ lực đẩy và biến chuyển ngầm dưới tác động trực tiếp của hoàn cảnh ngày gieo quẻ.",
+      "actionableAdviceVi": "Quan sát kỹ các chuyển động hậu trường và giữ tâm thế chủ động chuẩn bị trước thay đổi sắp tới."
+    },
+    {
+      "id": "ZS-HD-01",
+      "topic": "Biến Hào — Hồi Đầu Sinh",
+      "hanziOriginal": "動爻變出回頭生，諸事得助而吉。",
+      "hanViet": "Động hào biến xuất hồi đầu sinh, chư sự đắc trợ nhi cát.",
+      "literalMeaningVi": "Hào phát động biến sang hào mới có Ngũ Hành sinh ngược lại hào gốc gọi là Hồi Đầu Sinh, báo hiệu hậu thuẫn tăng cường.",
+      "classicalSource": "增刪卜易 · 卦變生克墓絕章第二十四 (zh_liuyao_zeng_shan_bu_yi.md:5273-5275)",
+      "predicate": { "op": "liuyao_state_flag", "flag": "hoaHoiDauSinh" },
+      "modernInterpretationVi": "Bước chuyển đổi đang thực hiện sẽ mang lại nguồn lực bồi đắp ngược trở lại, càng đi sâu càng có hậu thuẫn.",
+      "actionableAdviceVi": "Mạnh dạn triển khai bước tiếp theo vì hệ quả lâu dài mang tính nuôi dưỡng tích cực."
+    },
+    {
+      "id": "ZS-HD-02",
+      "topic": "Biến Hào — Hồi Đầu Khắc",
+      "hanziOriginal": "凡遇卦化克者，不論用神之衰旺皆以凶推。",
+      "hanViet": "Phàm ngộ quái hóa khắc giả, bất luận Dụng Thần chi suy vượng giai dĩ hung suy.",
+      "literalMeaningVi": "Hào động hoặc quẻ biến quay lại khắc chế gốc (Hồi Đầu Khắc) là dấu hiệu phản tác dụng ở giai đoạn sau.",
+      "classicalSource": "增刪卜易 · 卦變生克墓絕章第二十四 (zh_liuyao_zeng_shan_bu_yi.md:5273)",
+      "predicate": { "op": "liuyao_state_flag", "flag": "hoaHoiDauKhac" },
+      "modernInterpretationVi": "Phương án hành động hiện tại tiềm ẩn hệ quả tự triệt tiêu hoặc gây áp lực ngược trở lại bản thân ở chặng cuối.",
+      "actionableAdviceVi": "Rà soát lại rủi ro dài hạn trước khi ký kết hoặc điều chỉnh phương án để tránh tự làm khó mình về sau."
+    },
+    {
+      "id": "ZS-TU-01",
+      "topic": "Tương Quan Thế – Ứng Hỗ Trợ",
+      "hanziOriginal": "世應相生相合，主客協和；世應相沖相克，多有阻隔。",
+      "hanViet": "Thế Ứng tương sinh tương hợp, chủ khách hiệp hòa; Thế Ứng tương xung tương khắc, đa hữu trở cách.",
+      "literalMeaningVi": "Hào Thế và Hào Ứng sinh hợp thì chủ – khách thuận thảo; xung khắc thì cần thương lượng điều chỉnh kỳ vọng.",
+      "classicalSource": "增刪卜易 · 世應章 (zh_liuyao_zeng_shan_bu_yi.md)",
+      "predicate": { "op": "liuyao_the_ung_relation", "relation": "UNG_SINH_THE" },
+      "modernInterpretationVi": "Hoàn cảnh và đối tác (Ứng) đang có xu hướng nâng đỡ, thuận lợi cho phía chủ thể (Thế).",
+      "actionableAdviceVi": "Chủ động đề xuất hợp tác minh bạch để tận dụng thiện chí sẵn có từ đối tác."
+    }
+  ],
+  "meiHuaYiShu": [
+    {
+      "id": "MH-TD-01",
+      "topic": "Thể Dụng Tổng Quyết — Phân Chủ Khách",
+      "hanziOriginal": "體卦為主，用卦為事，互卦為事之中間，變卦為事之終。",
+      "hanViet": "Thể quái vi chủ, Dụng quái vi sự, Hỗ quái vi sự chi trung gian, Biến quái vi sự chi chung.",
+      "literalMeaningVi": "Quẻ Thể là bản thân chủ thể, quẻ Dụng là sự việc hoặc đối tượng, quẻ Hỗ là diễn biến trung gian, quẻ Biến là kết cục sau cùng.",
+      "classicalSource": "梅花易數 · 體用總訣 (zh_iching_mei_hua_yi_shu.md:860,1183)",
+      "predicate": { "op": "liuyao_has_moving", "value": true },
+      "modernInterpretationVi": "Cấu trúc Bản Quái – Hỗ Quái – Biến Quái cho phép nhìn trọn dòng thời gian khởi đầu, quá trình chuyển tiếp và kết quả cuối cùng của vấn đề.",
+      "actionableAdviceVi": "Đánh giá công việc theo cả ba chặng (khởi đầu – quá trình – kết cục) thay vì chỉ nhìn phản ứng tức thời."
+    },
+    {
+      "id": "MH-TD-02",
+      "topic": "Thể Dụng — Dụng Sinh Thể",
+      "hanziOriginal": "用生體，有進益之喜。",
+      "hanViet": "Dụng sinh Thể, hữu tiến ích chi hỉ.",
+      "literalMeaningVi": "Quẻ Dụng sinh cho quẻ Thể là dấu hiệu thu được lợi ích, trợ lực từ sự việc hoặc đối tác.",
+      "classicalSource": "梅花易數 · 體用總訣 (zh_iching_mei_hua_yi_shu.md:1187)",
+      "predicate": { "op": "liuyao_the_ung_relation", "relation": "UNG_SINH_THE" },
+      "modernInterpretationVi": "Hoàn cảnh bên ngoài đang tạo điều kiện thuận lợi bồi đắp trực tiếp cho mục tiêu của bạn.",
+      "actionableAdviceVi": "Mở lòng tiếp nhận cơ hội và hợp tác cùng nguồn lực đang tìm đến."
+    },
+    {
+      "id": "MH-TD-03",
+      "topic": "Thể Dụng — Thể Khắc Dụng",
+      "hanziOriginal": "體克用，諸事吉。",
+      "hanViet": "Thể khắc Dụng, chư sự cát.",
+      "literalMeaningVi": "Quẻ Thể khắc chế được quẻ Dụng là chủ thể làm chủ tình thế, việc khó nhưng làm được.",
+      "classicalSource": "梅花易數 · 體用總訣 (zh_iching_mei_hua_yi_shu.md:1187)",
+      "predicate": { "op": "liuyao_the_ung_relation", "relation": "THE_KHAC_UNG" },
+      "modernInterpretationVi": "Bạn giữ thế chủ động kiểm soát tình hình; dù có độ thử thách nhất định, nỗ lực thực thi sẽ mang lại kết quả.",
+      "actionableAdviceVi": "Giữ vững kỷ luật thực thi và giải quyết dứt điểm từng đầu việc."
+    },
+    {
+      "id": "MH-TD-04",
+      "topic": "Thể Dụng — Thể Sinh Dụng (Tiết Khí)",
+      "hanziOriginal": "體生用，有耗失之患。",
+      "hanViet": "Thể sinh Dụng, hữu hao thất chi hoạn.",
+      "literalMeaningVi": "Quẻ Thể sinh cho quẻ Dụng là bị tiết khí, dễ tốn công sức hoặc chi phí nhiều hơn thu về.",
+      "classicalSource": "梅花易數 · 體用總訣 (zh_iching_mei_hua_yi_shu.md:1185-1187)",
+      "predicate": { "op": "liuyao_the_ung_relation", "relation": "THE_SINH_UNG" },
+      "modernInterpretationVi": "Bạn đang đầu tư nhiều tâm sức hoặc tài chính cho đối tượng/dự án; cần tính kỹ điểm hòa vốn và giới hạn nguồn lực.",
+      "actionableAdviceVi": "Đặt ngưỡng ngân sách và thời gian rõ ràng để tránh hao tổn kéo dài."
+    },
+    {
+      "id": "MH-TD-05",
+      "topic": "Thể Dụng — Dụng Khắc Thể",
+      "hanziOriginal": "用克體，諸事凶。",
+      "hanViet": "Dụng khắc Thể, chư sự hung.",
+      "literalMeaningVi": "Quẻ Dụng khắc quẻ Thể báo hiệu áp lực từ bên ngoài lấn át, cần thận trọng phòng thủ.",
+      "classicalSource": "梅花易數 · 體用總訣 (zh_iching_mei_hua_yi_shu.md:1187)",
+      "predicate": { "op": "liuyao_the_ung_relation", "relation": "UNG_KHAC_THE" },
+      "modernInterpretationVi": "Bối cảnh hiện tại mang nhiều lực cản và yêu cầu khắt khe; không thích hợp mạo hiểm đối đầu.",
+      "actionableAdviceVi": "Ưu tiên bảo toàn nội lực, lắng nghe phản biện và tìm yếu tố trung gian hóa giải áp lực."
+    },
+    {
+      "id": "MH-TD-06",
+      "topic": "Thể Dụng — Tỷ Hòa",
+      "hanziOriginal": "體用比和，則百事順遂。",
+      "hanViet": "Thể Dụng tỷ hòa, tắc bách sự thuận toại.",
+      "literalMeaningVi": "Quẻ Thể và quẻ Dụng đồng hành Ngũ Hành gọi là Tỷ Hòa, chủ đồng thuận và suôn sẻ.",
+      "classicalSource": "梅花易數 · 體用總訣 (zh_iching_mei_hua_yi_shu.md:1187)",
+      "predicate": { "op": "liuyao_the_ung_relation", "relation": "TY_HOA" },
+      "modernInterpretationVi": "Chủ thể và đối tác cùng chí hướng, đồng điệu nhịp làm việc nên dễ đạt đồng thuận.",
+      "actionableAdviceVi": "Đẩy mạnh hợp tác đồng đội và chốt các thỏa thuận dựa trên lợi ích song phương."
+    }
+  ],
+  "phanBoiChauTerms": [
+    {
+      "id": "PBC-01",
+      "termVi": "Bất Dịch – Giao Dịch – Biến Dịch (Thể & Dụng)",
+      "hanzi": "不易 · 交易 · 變易（體用）",
+      "epubPageRef": "EPUB/page_16.html",
+      "meaningVi": "Bất dịch là nguyên thể chân lý bất biến (Thể); Giao dịch và Biến dịch là sự tương tác, vận hóa ứng dụng trong vạn sự vạn vật (Dụng)."
+    },
+    {
+      "id": "PBC-02",
+      "termVi": "Thời (Thì của Quẻ)",
+      "hanzi": "時",
+      "epubPageRef": "EPUB/page_18.html, EPUB/page_294.html",
+      "meaningVi": "Mỗi quẻ đều có một chữ Thời làm chủ, mọi hào trong quẻ đều tùy địa vị và hoàn cảnh thời thế mà ứng xử hợp đạo."
+    },
+    {
+      "id": "PBC-03",
+      "termVi": "Nguyên – Hanh – Lợi – Trinh",
+      "hanzi": "元亨利貞",
+      "epubPageRef": "EPUB/page_32.html, EPUB/page_33.html",
+      "meaningVi": "Nguyên là khởi nguồn tốt lành và chí hướng chính đáng; Hanh là thông suốt phát triển; Lợi là thuận hợp ích lợi; Trinh là giữ bền chính đạo đến viên mãn."
+    },
+    {
+      "id": "PBC-04",
+      "termVi": "Tiềm Long Vật Dụng (Sơ Cửu quẻ Càn)",
+      "hanzi": "潛龍勿用",
+      "epubPageRef": "EPUB/page_40.html",
+      "meaningVi": "Rồng còn ẩn mình ở dưới thấp: khi lực lượng chưa đủ và thời thế chưa mở, cần tĩnh dưỡng tích lũy thực lực, chớ vội phô trương hành động."
+    },
+    {
+      "id": "PBC-05",
+      "termVi": "Kháng Long Hữu Hối (Thượng Cửu quẻ Càn)",
+      "hanzi": "亢龍有悔",
+      "epubPageRef": "EPUB/page_46.html, EPUB/page_63.html",
+      "meaningVi": "Rồng lên đến cực điểm cao quá tất có lúc hối tiếc vì vật cùng tất biến; người sáng suốt biết tiến thoái, giữ mực khi đang ở đỉnh cao."
+    },
+    {
+      "id": "PBC-06",
+      "termVi": "Hào Thế – Hào Ứng (Địa vị tương ứng)",
+      "hanzi": "世爻 · 應爻",
+      "epubPageRef": "EPUB/page_268.html, EPUB/page_294.html",
+      "meaningVi": "Cặp hào đối ứng cách nhau 3 vị trí trong sáu hào: một bên giữ vị trí chủ thể (Thế), một bên đối ứng hoàn cảnh hoặc đối tác (Ứng)."
+    },
+    {
+      "id": "PBC-07",
+      "termVi": "Quẻ Địa Thiên Thái",
+      "hanzi": "地天泰",
+      "epubPageRef": "EPUB/page_162.html",
+      "meaningVi": "Thái nghĩa là thông suốt, an thích; Càn (Dương) ở dưới thăng lên, Khôn (Âm) ở trên giáng xuống, trời đất giao hòa mà vạn vật hanh thông."
+    },
+    {
+      "id": "PBC-08",
+      "termVi": "Quẻ Thiên Địa Bĩ",
+      "hanzi": "天地否",
+      "epubPageRef": "EPUB/page_176.html",
+      "meaningVi": "Bĩ nghĩa là bế tắc, cùng quẫn; Thái và Bĩ chuyển hóa tương đối cho nhau theo lẽ tuần hoàn không có gì tuyệt đối bất biến."
+    },
+    {
+      "id": "PBC-09",
+      "termVi": "Quẻ Thủy Hỏa Ký Tế & Quẻ Hỏa Thủy Vị Tế",
+      "hanzi": "水火既濟 · 火水未濟",
+      "epubPageRef": "EPUB/page_643.html, EPUB/page_644.html, EPUB/page_652.html, EPUB/page_654.html",
+      "meaningVi": "Ký Tế là việc đã thành nhưng cần giữ chính đạo phòng suy ở cuối (sơ cát chung loạn); Vị Tế đặt ở cuối 64 quẻ để biểu thị sự vận động sinh sinh bất tận, mở ra chu kỳ mới."
+    }
+  ]
+}

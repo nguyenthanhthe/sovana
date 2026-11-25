@@ -1,0 +1,1830 @@
+{
+  "schemaVersion": "1.0.0",
+  "silo": "nam-phai",
+  "titleVi": "Kho Phú Cổ Truyền & Phân Kỳ Tiên Đề Tử Vi Nam Phái Việt Nam",
+  "priorArtAttribution": [
+    "MIT: engines/lasotuvi-vn (doanguyen, 2016) — DiaBan.py, Sao.py",
+    "MIT: engines/ziwei-doushu (Renhuai123, 2026) — school-tables.generated.ts, patterns-ding*.ts",
+    "Public Domain: 紫微斗數全書 (zh_ziwei_doushu_quanshu.md)",
+    "Clean-room mathematical formula verification only (zero prose copied): Tân Biên & Nghiệm Lý Toàn Thư"
+  ],
+  "summary": {
+    "totalPatterns": 28,
+    "m2FullyEvaluableCount": 25,
+    "requiresM3StarsCount": 3
+  },
+  "patterns": [
+    {
+      "id": "NP-PC-01",
+      "nameZh": "得三空（命無正曜）",
+      "nameHanViet": "Đắc Tam Không",
+      "nameVi": "Mệnh Vô Chính Diệu Đắc Tam Không",
+      "hanziOriginal": "命無正曜，三空致富貴（週・截・地空・天空）。",
+      "hanViet": "Mệnh Vô Chính Diệu, Tam Không trí phú quý (Tuần, Triệt, Địa Không, Thiên Không).",
+      "literalMeaningVi": "Mệnh Vô Chính Diệu hội đủ ba trong bốn sao Không (Tuần Không, Triệt Không, Địa Không, Thiên Không) tại Mệnh hoặc Tam Phương tạo bước bứt phá.",
+      "classicalSource": "Tử Vi Đẩu Số Nam Phái — Tân Biên & Nghiệm Lý Toàn Thư (clean-room math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [
+        "Thiên Không"
+      ],
+      "siloDivergenceNote": "Đặc trưng Nam Phái Việt Nam: Vô Chính Diệu đắc Tam Không chuyển hung thành phát (nhưng Nghiệm Lý lưu ý kỵ Hóa Kỵ/Sát tinh xâm phạm hay Thủy Mệnh gặp Hỏa Không).",
+      "evaluatorKey": "np_dac_tam_khong_core",
+      "m2CorePredicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "exact": 0
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "and",
+                "args": [
+                  {
+                    "op": "palace_has_flag",
+                    "palace": "Mệnh",
+                    "flag": "tuanTrung"
+                  },
+                  {
+                    "op": "palace_has_flag",
+                    "palace": "Mệnh",
+                    "flag": "trietLo"
+                  }
+                ]
+              },
+              {
+                "op": "and",
+                "args": [
+                  {
+                    "op": "or",
+                    "args": [
+                      {
+                        "op": "palace_has_flag",
+                        "palace": "Mệnh",
+                        "flag": "tuanTrung"
+                      },
+                      {
+                        "op": "palace_has_flag",
+                        "palace": "Mệnh",
+                        "flag": "trietLo"
+                      }
+                    ]
+                  },
+                  {
+                    "op": "star_in_tam_phuong",
+                    "star": "Địa Không",
+                    "palace": "Mệnh"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "exact": 0
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "tuanTrung"
+              },
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "trietLo"
+              }
+            ]
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Địa Không",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Không",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tư duy khoáng đạt, không bị trói buộc bởi lối mòn cũ; biết tận dụng thời cơ đột phá ở những lĩnh vực mới mẻ hoặc phi truyền thống.",
+      "actionableAdviceVi": "Giữ chữ tín và kiểm soát rủi ro pháp lý khi bứt phá nhanh, tránh nóng vội đốt cháy giai đoạn."
+    },
+    {
+      "id": "NP-PC-02",
+      "nameZh": "廟旺遇旬截",
+      "nameHanViet": "Miếu Vượng Ngộ Tuần Triệt",
+      "nameVi": "Miếu Vượng Ngộ Tuần / Triệt (Tiền Trở Hậu Thông)",
+      "hanziOriginal": "星臨廟旺最怕空亡。",
+      "hanViet": "Tinh lâm Miếu Vượng tối phạ Không Vong.",
+      "literalMeaningVi": "Chính tinh Miếu hoặc Vượng thủ Mệnh gặp Tuần hoặc Triệt đóng tại cung Mệnh, giai đoạn đầu (trước 30 tuổi) thường gặp lực cản rồi mới thông suốt.",
+      "classicalSource": "紫微斗數全書 · 形性賦 (L189) & Nam Phái Tân Biên (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Nam Phái phân định rõ Triệt ảnh hưởng mạnh tiền vận (trước 30 tuổi), Tuần tác động dai dẳng hơn nhưng chuyển hóa được qua rèn luyện.",
+      "evaluatorKey": "np_mieu_vuong_tuan_triet",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_brightness_in",
+                "star": "Tử Vi",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Cơ",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thái Dương",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Vũ Khúc",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Đồng",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Liêm Trinh",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Phủ",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thái Âm",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Tham Lang",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Cự Môn",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Tướng",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Lương",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thất Sát",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Phá Quân",
+                "palace": "Mệnh",
+                "levels": [
+                  "Miếu",
+                  "Vượng"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "tuanTrung"
+              },
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "trietLo"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Năng lực thực chất rất tốt nhưng tuổi trẻ thường gặp rào cản khởi đầu hoặc chậm được ghi nhận; càng trưởng thành sau 30 tuổi càng vững vàng.",
+      "actionableAdviceVi": "Kiên nhẫn tích lũy chiều sâu trong thập kỷ đầu sự nghiệp, tránh bỏ cuộc giữa chừng vì chậm kết quả."
+    },
+    {
+      "id": "NP-PC-03",
+      "nameZh": "陷地逢旬截反為奇格",
+      "nameHanViet": "Hãm Địa Phùng Tuần Triệt Phản Vi Kỳ Cách",
+      "nameVi": "Hãm Địa Phùng Tuần / Triệt — Phản Vi Kỳ Cách",
+      "hanziOriginal": "若逢敗地，扶持大有奇功。",
+      "hanViet": "Nhược phùng bại địa, phù trì đại hữu kỳ công.",
+      "literalMeaningVi": "Chính tinh lạc Hãm thủ Mệnh gặp Tuần hoặc Triệt đóng tại Mệnh lại giúp ngăn chế cái xấu, hóa giải bế tắc thành kỳ cách.",
+      "classicalSource": "紫微斗數全書 · 太微賦 (L138) & Nam Phái Tân Biên (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Trục quy luật đảo chiều đặc trưng của Nam Phái: Tuần/Triệt với sao Hãm đóng vai trò 'hàng rào bảo vệ' giảm nhiễu.",
+      "evaluatorKey": "np_ham_dia_tuan_triet_phan_vi_ky",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "min": 1
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_brightness_in",
+                "star": "Tử Vi",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Cơ",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thái Dương",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Vũ Khúc",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Đồng",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Liêm Trinh",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Phủ",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thái Âm",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Tham Lang",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Cự Môn",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Tướng",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thiên Lương",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thất Sát",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Phá Quân",
+                "palace": "Mệnh",
+                "levels": [
+                  "Hãm"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "not",
+            "arg": {
+              "op": "or",
+              "args": [
+                {
+                  "op": "star_brightness_in",
+                  "star": "Tử Vi",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Thiên Cơ",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Thái Dương",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Vũ Khúc",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Thiên Đồng",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Liêm Trinh",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Thiên Phủ",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Thái Âm",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Tham Lang",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Cự Môn",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Thiên Tướng",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Thiên Lương",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Thất Sát",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                },
+                {
+                  "op": "star_brightness_in",
+                  "star": "Phá Quân",
+                  "palace": "Mệnh",
+                  "levels": [
+                    "Miếu",
+                    "Vượng",
+                    "Đắc"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "tuanTrung"
+              },
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "trietLo"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Nhờ yếu tố tiết chế (Tuần/Triệt) giữ phanh kịp thời mà biến bất lợi ban đầu thành động lực tự rèn luyện, càng qua thử thách càng bản lĩnh.",
+      "actionableAdviceVi": "Đón nhận kỷ luật và quy chuẩn như điểm tựa bảo vệ giúp bạn đi đường dài an toàn."
+    },
+    {
+      "id": "NP-PC-04",
+      "nameZh": "命旬身截・命截身旬",
+      "nameHanViet": "Mệnh Tuần Thân Triệt / Mệnh Triệt Thân Tuần",
+      "nameVi": "Mệnh Tuần Thân Triệt (hoặc Mệnh Triệt Thân Tuần)",
+      "hanziOriginal": "身命分居旬空截空。",
+      "hanViet": "Thân Mệnh phân cư Tuần Không Triệt Không.",
+      "literalMeaningVi": "Cung Mệnh đóng Tuần (hoặc Triệt) và cung Thân đóng Triệt (hoặc Tuần), tạo thế chuyển đổi rõ giữa tiền vận (Mệnh) và hậu vận (Thân).",
+      "classicalSource": "Tử Vi Đẩu Số Nam Phái — Nghiệm Lý Toàn Thư & Tân Biên (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Nam Phái nhấn mạnh tính phân kỳ hai nửa đời người giữa cung Mệnh và cung Thân khi chia nhau gánh Tuần và Triệt.",
+      "evaluatorKey": "np_menh_tuan_than_triet",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "tuanTrung"
+              },
+              {
+                "op": "palace_has_flag",
+                "palace": "Thân",
+                "flag": "trietLo"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "trietLo"
+              },
+              {
+                "op": "palace_has_flag",
+                "palace": "Thân",
+                "flag": "tuanTrung"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Cuộc đời thường có bước ngoặt chuyển nghề hoặc thay đổi môi trường sống rõ rệt giữa tiền vận và hậu vận (sau tuổi 30).",
+      "actionableAdviceVi": "Chủ động chuẩn bị kỹ năng chuyển đổi nghề nghiệp ở ngưỡng 30 tuổi để bước vào hậu vận chủ động."
+    },
+    {
+      "id": "NP-PC-05",
+      "nameZh": "太歲四靈（龍鳳虎蓋）",
+      "nameHanViet": "Vòng Thái Tuế Đắc Tứ Linh (Long Phượng Hổ Cái)",
+      "nameVi": "Vòng Thái Tuế Đắc Tứ Linh (Long – Phượng – Hổ – Cái)",
+      "hanziOriginal": "太歲官符白虎，會龍池鳳閣華蓋。",
+      "hanViet": "Thái Tuế Quan Phù Bạch Hổ, hội Long Trì Phượng Các Hoa Cái.",
+      "literalMeaningVi": "Mệnh thuộc tam hợp Thái Tuế – Quan Phù – Bạch Hổ và Tam Phương Mệnh hội đủ Tứ Linh (Long Trì, Phượng Các, Bạch Hổ, Hoa Cái).",
+      "classicalSource": "Tử Vi Nghiệm Lý Toàn Thư (Cụ Thiên Lương — math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [
+        "Long Trì",
+        "Phượng Các",
+        "Hoa Cái"
+      ],
+      "siloDivergenceNote": "Học thuyết cốt lõi của Cụ Thiên Lương (Nam Phái Việt Nam): vòng Thái Tuế chính danh kết hợp Tứ Linh tạo phong thái uy tín tự nhiên.",
+      "evaluatorKey": "np_thai_tue_tu_linh_core",
+      "m2CorePredicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Thái Tuế",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Quan Phù",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Bạch Hổ",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Bạch Hổ",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Thái Tuế",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Quan Phù",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Bạch Hổ",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Long Trì",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Phượng Các",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Bạch Hổ",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Hoa Cái",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Người có chính kiến, trọng lẽ phải và phong thái thanh lịch tự trọng (Thái Tuế – Tứ Linh), dễ được tin cậy ở vai trò chuyên gia hoặc quản lý chuẩn mực.",
+      "actionableAdviceVi": "Giữ vững lý tưởng chính trực nhưng tránh khắt khe quá mức với đồng nghiệp có nhịp làm việc khác mình."
+    },
+    {
+      "id": "NP-PC-06",
+      "nameZh": "日月照璧（對宮照）",
+      "nameHanViet": "Nhật Nguyệt Chiếu Bích (Đối Cung Chiếu)",
+      "nameVi": "Nhật Nguyệt Chiếu Bích (Nam Phái — Đối Cung)",
+      "hanziOriginal": "命或田宅居丑未，對宮日月同臨照璧。",
+      "hanViet": "Mệnh hoặc Điền Trạch cư Sửu Mùi, đối cung Nhật Nguyệt đồng lâm chiếu bích.",
+      "literalMeaningVi": "Cung Điền Trạch (hoặc Mệnh) tọa tại Sửu hoặc Mùi, đối cung có Thái Dương và Thái Âm đồng cung chiếu rọi vào.",
+      "classicalSource": "Tử Vi Đẩu Số Tân Biên 19.1.5 (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Phân kỳ rõ với Toàn Thư Định Phú #5: Toàn Thư đặt Nhật Nguyệt nằm ngay tại Điền Trạch; Nam Phái Tân Biên đặt Điền Trạch tại Sửu/Mùi nhận Nhật Nguyệt từ đối cung chiếu về.",
+      "evaluatorKey": "np_nhat_nguyet_chieu_bich_doi_cung",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Điền Trạch",
+            "branches": [
+              1,
+              7
+            ]
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Thái Dương",
+            "palace": "Điền Trạch",
+            "relation": "opposite"
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Thái Âm",
+            "palace": "Điền Trạch",
+            "relation": "opposite"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tài sản và nhà cửa được ánh sáng âm dương từ bên ngoài chiếu rọi bồi đắp, thuận lợi phát triển bất động sản hoặc cơ nghiệp gia đình.",
+      "actionableAdviceVi": "Mở rộng kết nối đối ngoại để thu hút nguồn lực đầu tư cho tài sản lâu dài."
+    },
+    {
+      "id": "NP-PC-07",
+      "nameZh": "泛水桃花（南派）",
+      "nameHanViet": "Phiếm Thủy Đào Hoa",
+      "nameVi": "Phiếm Thủy Đào Hoa (Tham Lang Tý Hợi + Kình/Đà/Đào Hoa)",
+      "hanziOriginal": "貪居亥子，名為泛水桃花（會羊陀桃花）。",
+      "hanViet": "Tham cư Hợi Tý, danh vi Phiếm Thủy Đào Hoa (hội Dương Đà Đào Hoa).",
+      "literalMeaningVi": "Tham Lang thủ Mệnh tại Tý hoặc Hợi đồng cung Kình Dương hoặc Đà La (đầy đủ hơn khi hội thêm Đào Hoa).",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 太微賦 (L155) & Tân Biên (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [
+        "Đào Hoa"
+      ],
+      "siloDivergenceNote": "Bản lõi Nam Phái xét Tham Lang tại Tý/Hợi đồng cung Kình/Đà; khi đủ bộ M3 có thêm Đào Hoa tại Mệnh hoặc Tam Phương.",
+      "evaluatorKey": "np_phiem_thuy_dao_hoa_core",
+      "m2CorePredicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              0,
+              11
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Tham Lang",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Kình Dương",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Đà La",
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              0,
+              11
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Tham Lang",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Kình Dương",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Đà La",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Đào Hoa",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Sức hút giao tiếp, nghệ thuật và duyên xã giao cực lớn, nhưng dễ xao nhãng cảm xúc nếu thiếu ranh giới rõ ràng.",
+      "actionableAdviceVi": "Chuyển hóa năng lượng cảm xúc vào sáng tạo nghệ thuật, truyền thông hoặc thương mại dịch vụ và giữ kỷ luật đời sống riêng."
+    },
+    {
+      "id": "NP-PC-08",
+      "nameZh": "馬頭帶劍（南派午宮擎羊）",
+      "nameHanViet": "Mã Đầu Đới Kiếm (Nam Phái — Kình Dương Cư Ngọ)",
+      "nameVi": "Mã Đầu Đới Kiếm (Nam Phái — Kình Dương Cư Ngọ)",
+      "hanziOriginal": "馬頭帶劍，鎮衛邊疆（南派取擎羊居午守命）。",
+      "hanViet": "Mã Đầu Đới Kiếm, trấn vệ biên cương (Nam Phái thủ Kình Dương cư Ngọ thủ Mệnh).",
+      "literalMeaningVi": "Kình Dương tọa thủ cung Mệnh tại Ngọ (cung Ngọ tượng Mã, Kình Dương tượng Kiếm), chủ uy dũng lập công ở môi trường thử thách.",
+      "classicalSource": "Tử Vi Đẩu Số Tân Biên 19.2.19 & 太微賦 (L146)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "PHÂN KỲ CỐT LÕI: Toàn Thư Quyển 1 #10 phủ định 'bất thị cư Ngọ cách' nên bất khả thi; Nam Phái Việt Nam nhận Kình Dương tại Ngọ thủ Mệnh là Mã Đầu Đới Kiếm.",
+      "evaluatorKey": "np_ma_dau_doi_kiem_ngo",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              6
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Kình Dương",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Khí chất mạnh mẽ, quyết liệt, dám xông pha vào việc khó hoặc lập nghiệp phương xa; cần tiết chế nóng nảy để giữ bền uy tín.",
+      "actionableAdviceVi": "Hướng nghị lực mạnh vào thể thao, kỹ thuật cao, quản trị dự án áp lực lớn và rèn luyện sự bình tĩnh."
+    },
+    {
+      "id": "NP-PC-09",
+      "nameZh": "紫府武相格",
+      "nameHanViet": "Tử Phủ Vũ Tướng",
+      "nameVi": "Tử Phủ Vũ Tướng",
+      "hanziOriginal": "紫微天府武曲天相會命三方。",
+      "hanViet": "Tử Vi Thiên Phủ Vũ Khúc Thiên Tướng hội Mệnh tam phương.",
+      "literalMeaningVi": "Bốn chính tinh Tử Vi, Thiên Phủ, Vũ Khúc, Thiên Tướng hội tụ đủ trong Tam Phương Tứ Chính cung Mệnh.",
+      "classicalSource": "Tử Vi Đẩu Số Nam Phái — Tân Biên (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Hệ sao chủ lực của Nam Phái về năng lực quản trị, lãnh đạo và thực thi tài chính.",
+      "evaluatorKey": "np_tu_phu_vu_tuong",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Tử Vi",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Phủ",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Vũ Khúc",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Tướng",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tổ hợp cân bằng giữa tầm nhìn điều hành (Tử Vi), năng lực giữ nguồn lực (Thiên Phủ), thực thi tài chính (Vũ Khúc) và chữ tín phò tá (Thiên Tướng).",
+      "actionableAdviceVi": "Phát triển sự nghiệp quản trị doanh nghiệp, tài chính – ngân hàng hoặc điều hành tổ chức quy chuẩn."
+    },
+    {
+      "id": "NP-PC-10",
+      "nameZh": "機月同梁格",
+      "nameHanViet": "Cơ Nguyệt Đồng Lương",
+      "nameVi": "Cơ Nguyệt Đồng Lương",
+      "hanziOriginal": "機月同梁作吏人。",
+      "hanViet": "Cơ Nguyệt Đồng Lương tác lại nhân.",
+      "literalMeaningVi": "Thiên Cơ, Thái Âm, Thiên Đồng, Thiên Lương hội tụ trong Tam Phương Tứ Chính cung Mệnh.",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 骨髓賦 (L635) & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Cách cục kinh điển của tầng lớp tham mưu, kỹ sư hệ thống, học giả và công chức chuyên môn.",
+      "evaluatorKey": "np_co_nguyet_dong_luong",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Cơ",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thái Âm",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Đồng",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Lương",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Ưa sự ổn định, quy trình mạch lạc, tư duy phân tích tinh tế và tinh thần hợp tác ôn hòa trong tổ chức.",
+      "actionableAdviceVi": "Xây dựng chuyên môn sâu trong giáo dục, nghiên cứu, công nghệ, tài chính kế toán hoặc quản trị hệ thống."
+    },
+    {
+      "id": "NP-PC-11",
+      "nameZh": "殺破廉貪格",
+      "nameHanViet": "Sát Phá Liêm Tham",
+      "nameVi": "Sát Phá Liêm Tham (Trúc La Tam Hạn)",
+      "hanziOriginal": "七殺破軍貪狼廉貞會三方。",
+      "hanViet": "Thất Sát Phá Quân Tham Lang Liêm Trinh hội Tam Phương.",
+      "literalMeaningVi": "Thất Sát, Phá Quân, Tham Lang (kèm Liêm Trinh) hội tụ trong Tam Phương Tứ Chính cung Mệnh, chủ động biến, khai phá và cải cách.",
+      "classicalSource": "Tử Vi Đẩu Số Nam Phái — Tân Biên (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Phân hóa rõ theo độ sáng: Miếu/Vượng chủ khai sáng bứt phá mạnh; Hãm + Sát cần kỷ luật chặt để tránh thay đổi liên tục.",
+      "evaluatorKey": "np_sat_pha_liem_tham",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thất Sát",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Phá Quân",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Tham Lang",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Liêm Trinh",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tinh thần tiên phong, thích ứng nhanh với biến động, không ngại phá bỏ khuôn cũ để tạo giá trị mới.",
+      "actionableAdviceVi": "Chọn lĩnh vực năng động (khởi nghiệp, chuyển đổi số, thương mại, kỹ thuật thực địa) và giữ cam kết hoàn thành đến cùng."
+    },
+    {
+      "id": "NP-PC-12",
+      "nameZh": "巨日同臨",
+      "nameHanViet": "Cự Nhật Đồng Lâm",
+      "nameVi": "Cự Nhật Đồng Lâm (Dần Thân)",
+      "hanziOriginal": "巨日同宮，官封三代。",
+      "hanViet": "Cự Nhật đồng cung, quan phong tam đại.",
+      "literalMeaningVi": "Cự Môn và Thái Dương đồng cung tại Mệnh (chỉ xảy ra tại Dần hoặc Thân).",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 骨髓賦 (L632) & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Nam Phái đánh giá Cự Nhật tại Dần vượng hơn tại Thân vì Thái Dương ở Dần đang lên, ở Thân đã xế chiều.",
+      "evaluatorKey": "np_cu_nhat_dong_lam",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              2,
+              8
+            ]
+          },
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Cự Môn",
+              "Thái Dương"
+            ],
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Năng lực thuyết phục, giảng dạy, truyền thông và phân tích vấn đề sáng rõ; dễ tạo uy tín xã hội qua ngôn từ và tri thức.",
+      "actionableAdviceVi": "Phát huy khả năng trình bày, giảng huấn hoặc ngoại giao; lưu ý lắng nghe nhiều hơn khi giữ vị thế cao."
+    },
+    {
+      "id": "NP-PC-13",
+      "nameZh": "明祿暗祿（鴛鴦祿會・六合）",
+      "nameHanViet": "Minh Lộc Ám Lộc (Uyên Ương Lộc Hội — Nhị Hợp)",
+      "nameVi": "Minh Lộc Ám Lộc / Uyên Ương Lộc Hội (Nam Phái — Nhị Hợp)",
+      "hanziOriginal": "祿存化祿分居命宮與六合宮（明祿暗祿）。",
+      "hanViet": "Lộc Tồn Hóa Lộc phân cư Mệnh cung dữ Lục Hợp cung.",
+      "literalMeaningVi": "Lộc Tồn thủ Mệnh và Hóa Lộc tại cung Nhị Hợp (13 - b) mod 12, hoặc ngược lại Hóa Lộc tại Mệnh và Lộc Tồn tại cung Nhị Hợp.",
+      "classicalSource": "Tử Vi Đẩu Số Tân Biên 19.2.26 (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "PHÂN KỲ CỐT LÕI: Toàn Thư Định Quý #25 lấy Lộc Tồn Mệnh + Hóa Lộc đối cung Thiên Di; Nam Phái Tân Biên lấy cung Nhị Hợp (Lục Hợp) làm Ám Lộc.",
+      "evaluatorKey": "np_minh_loc_am_loc_nhi_hop",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Lộc Tồn",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Hóa Lộc",
+                "palace": "Mệnh",
+                "relation": "nhi_hop"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Lộc",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Lộc Tồn",
+                "palace": "Mệnh",
+                "relation": "nhi_hop"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Nguồn thu chính (Minh Lộc) có dòng hỗ trợ ngầm từ đối tác, hậu phương hoặc nguồn thu phụ trợ (Ám Lộc Nhị Hợp).",
+      "actionableAdviceVi": "Xây dựng cả kênh thu nhập chính quy lẫn mạng lưới đối tác tin cậy hỗ trợ song hành."
+    },
+    {
+      "id": "NP-PC-14",
+      "nameZh": "君臣慶會（南派三方）",
+      "nameHanViet": "Quân Thần Khánh Hội (Nam Phái — Tam Phương)",
+      "nameVi": "Quân Thần Khánh Hội (Nam Phái — Tam Phương)",
+      "hanziOriginal": "紫微守命，三方會齊左右昌曲魁鉞（及府相）。",
+      "hanViet": "Tử Vi thủ Mệnh, Tam Phương hội tề Tả Hữu Xương Khúc Khôi Việt.",
+      "literalMeaningVi": "Tử Vi thủ Mệnh, Tam Phương Tứ Chính hội Tả Phụ, Hữu Bật cùng Văn Xương/Văn Khúc hoặc Khôi/Việt.",
+      "classicalSource": "Tử Vi Đẩu Số Tân Biên (Nam Phái — math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Toàn Thư #6 đòi Tử Vi – Tả – Hữu đồng cung Mệnh; Nam Phái mở rộng xét Tử Vi tại Mệnh hội đủ Tả Hữu cùng văn tinh/quý tinh trong Tam Phương.",
+      "evaluatorKey": "np_quan_than_khanh_hoi_tam_phuong",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_palace",
+            "star": "Tử Vi",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Tả Phụ",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Hữu Bật",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Văn Xương",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Văn Khúc",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Thiên Khôi",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Thiên Việt",
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Quy tụ đầy đủ ban tham mưu (Xương Khúc), thực thi (Tả Hữu) và quý nhân (Khôi Việt) quanh người đứng đầu (Tử Vi).",
+      "actionableAdviceVi": "Phát huy nghệ thuật ủy quyền và kết nối nhân tài đa lĩnh vực."
+    },
+    {
+      "id": "NP-PC-15",
+      "nameZh": "府相朝垣（南派）",
+      "nameHanViet": "Phủ Tướng Triều Viên (Nam Phái)",
+      "nameVi": "Phủ Tướng Triều Viên (Nam Phái)",
+      "hanziOriginal": "天府天相朝拱命宮（命坐寅申巳亥或三方會府相）。",
+      "hanViet": "Thiên Phủ Thiên Tướng triều củng Mệnh cung.",
+      "literalMeaningVi": "Thiên Phủ và Thiên Tướng đồng thời hội chiếu trong Tam Phương Tứ Chính cung Mệnh (hoặc phân thủ Tài – Quan).",
+      "classicalSource": "Tử Vi Đẩu Số Tân Biên (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Toàn Thư #19 giới hạn Mệnh tại Dần/Thân và Phủ–Tướng tại Tài–Quan; Nam Phái chấp nhận cả thế Phủ–Tướng triều củng trong Tam Phương Mệnh.",
+      "evaluatorKey": "np_phu_tuong_trieu_vien",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Phủ",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Tướng",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Nền tảng tài chính vững (Phủ) kết hợp tác phong chuẩn mực, giữ chữ tín (Tướng), mang lại sự ổn định nghề nghiệp lâu dài.",
+      "actionableAdviceVi": "Xây dựng uy tín bền bỉ và quản trị nguồn lực thận trọng."
+    },
+    {
+      "id": "NP-PC-16",
+      "nameZh": "三奇嘉會",
+      "nameHanViet": "Tam Kỳ Gia Hội",
+      "nameVi": "Tam Kỳ Gia Hội (Khoa – Quyền – Lộc)",
+      "hanziOriginal": "科權祿拱，名譽昭彰。",
+      "hanViet": "Khoa Quyền Lộc củng, danh dự chiêu chương.",
+      "literalMeaningVi": "Hóa Lộc, Hóa Quyền và Hóa Khoa cùng hội trong Tam Phương Tứ Chính cung Mệnh.",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 骨髓賦 & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Tương đồng cấu trúc giữa hai phái; Nam Phái xét thêm Tứ Hóa theo can Canh/Nhâm dẫn tới tập người đạt Tam Kỳ khác nhau.",
+      "evaluatorKey": "np_tam_ky_gia_hoi",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Hóa Lộc",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Hóa Quyền",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Hóa Khoa",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Ba yếu tố tài lộc, quyền lực thực thi và danh tiếng tri thức hội tụ, tạo thuận lợi rõ rệt trong học vấn và thăng tiến.",
+      "actionableAdviceVi": "Giữ tâm thế khiêm nhường và đóng góp giá trị thực để thành công không chỉ là hình thức."
+    },
+    {
+      "id": "NP-PC-17",
+      "nameZh": "祿馬交馳（南派）",
+      "nameHanViet": "Lộc Mã Giao Trì",
+      "nameVi": "Lộc Mã Giao Trì",
+      "hanziOriginal": "祿馬最喜交馳。",
+      "hanViet": "Lộc Mã tối hỉ giao trì.",
+      "literalMeaningVi": "Thiên Mã và Lộc Tồn (hoặc Hóa Lộc) cùng hội trong Tam Phương Tứ Chính cung Mệnh.",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 太微賦 & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Nam Phái đặc biệt trọng Lộc Mã giao trì tại Mệnh hoặc Tài Bạch/Thiên Di cho người kinh doanh xuất nhập khẩu, di chuyển.",
+      "evaluatorKey": "np_loc_ma_giao_tri",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Mã",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Lộc Tồn",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Hóa Lộc",
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Cơ hội kinh tế nảy sinh trong quá trình di chuyển, giao thương và mở rộng địa bàn hoạt động.",
+      "actionableAdviceVi": "Chủ động nắm bắt cơ hội công tác xa hoặc giao dịch liên vùng."
+    },
+    {
+      "id": "NP-PC-18",
+      "nameZh": "貪火相逢（南派）",
+      "nameHanViet": "Tham Hỏa Tương Phùng (Nam Phái)",
+      "nameVi": "Tham Hỏa Tương Phùng (Nam Phái)",
+      "hanziOriginal": "貪狼火星居廟旺，名鎮諸邦。",
+      "hanViet": "Tham Lang Hỏa Tinh cư miếu vượng, danh trấn chư bang.",
+      "literalMeaningVi": "Tham Lang (Miếu/Vượng) và Hỏa Tinh đồng cung thủ Mệnh (trong bảng Nam Phái giao nhau tại cung Thìn đắc địa của Hỏa Tinh).",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 骨髓賦 & Nam Phái DiaBan.py",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Theo bảng Nam Phái (DiaBan.py), Hỏa Tinh đắc địa tại Dần–Ngọ và Tham Lang Vượng tại Thìn, nên Tham Hỏa đồng cung Miếu/Vượng–Đắc xảy ra tại Thìn (4).",
+      "evaluatorKey": "np_tham_hoa_tuong_phung",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Tham Lang",
+              "Hỏa Tinh"
+            ],
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_brightness_in",
+            "star": "Tham Lang",
+            "palace": "Mệnh",
+            "levels": [
+              "Miếu",
+              "Vượng"
+            ]
+          },
+          {
+            "op": "star_brightness_in",
+            "star": "Hỏa Tinh",
+            "palace": "Mệnh",
+            "levels": [
+              "Miếu",
+              "Vượng",
+              "Đắc"
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Khả năng tạo bước nhảy vọt đột xuất nhờ nhạy bén nắm bắt thời cơ và hành động dứt khoát.",
+      "actionableAdviceVi": "Chuẩn bị sẵn nền tảng quản trị rủi ro để giữ vững thành quả sau cú bứt phá."
+    },
+    {
+      "id": "NP-PC-19",
+      "nameZh": "貪鈴相逢（南派）",
+      "nameHanViet": "Tham Linh Tương Phùng (Nam Phái)",
+      "nameVi": "Tham Linh Tương Phùng (Nam Phái)",
+      "hanziOriginal": "貪鈴並守，將相之名。",
+      "hanViet": "Tham Linh tịnh thủ, tướng tướng chi danh.",
+      "literalMeaningVi": "Tham Lang (Miếu/Vượng) và Linh Tinh đồng cung thủ Mệnh (đắc địa), chủ khả năng bứt phá bền bỉ và mưu lược.",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 骨髓賦 (L629) & Nam Phái DiaBan.py",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Tương ứng cặp với Tham Hỏa; Nam Phái xem Linh Tinh thiên về mưu tính âm thầm và bền sức hơn Hỏa Tinh bùng phát nhanh.",
+      "evaluatorKey": "np_tham_linh_tuong_phung",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Tham Lang",
+              "Linh Tinh"
+            ],
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_brightness_in",
+            "star": "Tham Lang",
+            "palace": "Mệnh",
+            "levels": [
+              "Miếu",
+              "Vượng"
+            ]
+          },
+          {
+            "op": "star_brightness_in",
+            "star": "Linh Tinh",
+            "palace": "Mệnh",
+            "levels": [
+              "Miếu",
+              "Vượng",
+              "Đắc"
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Khả năng đột phá có tính toán chiến lược, biết chờ thời cơ chín muồi để tạo kết quả bất ngờ.",
+      "actionableAdviceVi": "Giữ sự điềm tĩnh và minh bạch mục tiêu trong hợp tác dài hạn."
+    },
+    {
+      "id": "NP-PC-20",
+      "nameZh": "坐貴向貴（南派）",
+      "nameHanViet": "Tọa Quý Hướng Quý",
+      "nameVi": "Tọa Quý Hướng Quý (Khôi Việt Tọa Chiếu)",
+      "hanziOriginal": "天魁天鉞，蓋世文章；坐貴向貴。",
+      "hanViet": "Thiên Khôi Thiên Việt, cái thế văn chương; tọa Quý hướng Quý.",
+      "literalMeaningVi": "Thiên Khôi thủ Mệnh và Thiên Việt ở đối cung Thiên Di (hoặc ngược lại).",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 定貴局 #9 & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Thống nhất giữa hai phái về thế đối xung Mệnh – Thiên Di của cặp Khôi – Việt.",
+      "evaluatorKey": "np_toa_quy_huong_quy",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Thiên Khôi",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Thiên Việt",
+                "palace": "Mệnh",
+                "relation": "opposite"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Thiên Việt",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Thiên Khôi",
+                "palace": "Mệnh",
+                "relation": "opposite"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Nhân cách tự trọng đi kèm nhân duyên gặp người hướng dẫn, đối tác thiện chí trong công việc và học tập.",
+      "actionableAdviceVi": "Chủ động giữ chữ tín và mở rộng giao lưu với cộng đồng chuyên môn."
+    },
+    {
+      "id": "NP-PC-21",
+      "nameZh": "日照雷門（日出扶桑）",
+      "nameHanViet": "Nhật Chiếu Lôi Môn (Nhật Xuất Phù Tang)",
+      "nameVi": "Nhật Chiếu Lôi Môn (Thái Dương Cư Mão)",
+      "hanziOriginal": "日照雷門，富貴榮華。",
+      "hanViet": "Nhật chiếu Lôi Môn, phú quý vinh hoa.",
+      "literalMeaningVi": "Thái Dương thủ Mệnh (hoặc Quan Lộc) tại cung Mão (phương Đông Lôi Môn).",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 骨髓賦 (L638) & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Tại Mão trong Nam Phái là thế Thái Dương – Thiên Lương đồng cung, kết hợp ánh sáng và đức độ.",
+      "evaluatorKey": "np_nhat_chieu_loi_mon",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  3
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thái Dương",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Quan Lộc",
+                "branches": [
+                  3
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thái Dương",
+                "palace": "Quan Lộc"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Sinh khí vươn lên rạng rỡ kết hợp tinh thần chính trực (Nhật Lương tại Mão), rất hợp giáo dục, truyền thông, y khoa hoặc quản lý công.",
+      "actionableAdviceVi": "Kiên trì theo đuổi giá trị chuẩn mực lâu dài và truyền cảm hứng cho tập thể."
+    },
+    {
+      "id": "NP-PC-22",
+      "nameZh": "月朗天門",
+      "nameHanViet": "Nguyệt Lãng Thiên Môn",
+      "nameVi": "Nguyệt Lãng Thiên Môn (Thái Âm Cư Hợi)",
+      "hanziOriginal": "月朗天門，進爵封侯。",
+      "hanViet": "Nguyệt lãng Thiên Môn, tiến tước phong hầu.",
+      "literalMeaningVi": "Thái Âm thủ Mệnh tại cung Hợi (Thiên Môn), độ sáng Miếu địa cực đẹp.",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 骨髓賦 (L638) & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Cả hai phái đều xếp Thái Âm cư Hợi là thượng cách về trí tuệ thanh nhã và tích lũy tài sản.",
+      "evaluatorKey": "np_nguyet_lang_thien_mon",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              11
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Thái Âm",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tâm trí sáng suốt, thanh cao, nhạy cảm nghệ thuật hoặc tài chính bền vững.",
+      "actionableAdviceVi": "Phát huy chiều sâu nghiên cứu và duy trì kế hoạch tài chính dài hạn."
+    },
+    {
+      "id": "NP-PC-23",
+      "nameZh": "明珠出海",
+      "nameHanViet": "Minh Châu Xuất Hải",
+      "nameVi": "Minh Châu Xuất Hải (Mệnh Mùi Vô Chính Diệu)",
+      "hanziOriginal": "三合明珠生旺地，穩步蟾宮。",
+      "hanViet": "Tam hợp minh châu sinh vượng địa, ổn bộ Thiềm cung.",
+      "literalMeaningVi": "Mệnh tại Mùi Vô Chính Diệu, đối cung Sửu có Thái Dương – Thái Âm đồng cung chiếu về.",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 骨髓賦 (L634) & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Thống nhất giữa hai phái; Nam Phái lưu ý thêm Tuần/Triệt có thể ảnh hưởng mức độ khai thông ánh sáng đối cung.",
+      "evaluatorKey": "np_minh_chau_xuat_hai",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              7
+            ]
+          },
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "exact": 0
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Thái Dương",
+            "palace": "Mệnh",
+            "relation": "opposite"
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Thái Âm",
+            "palace": "Mệnh",
+            "relation": "opposite"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tư chất thông minh, tiếp thu nhanh từ môi trường và tỏa sáng bền vững khi bước ra xã hội.",
+      "actionableAdviceVi": "Mạnh dạn giao lưu học hỏi ngoài phạm vi gia đình để kích hoạt thế đối cung."
+    },
+    {
+      "id": "NP-PC-24",
+      "nameZh": "石中隱玉（南派）",
+      "nameHanViet": "Thạch Trung Ẩn Ngọc (Cự Môn Tý Ngọ)",
+      "nameVi": "Thạch Trung Ẩn Ngọc (Cự Môn Tý Ngọ + Khoa Quyền Lộc)",
+      "hanziOriginal": "巨門子午科權祿，石中隱玉福興隆。",
+      "hanViet": "Cự Môn Tý Ngọ Khoa Quyền Lộc, Thạch trung ẩn ngọc phúc hưng long.",
+      "literalMeaningVi": "Cự Môn độc thủ Mệnh tại Tý hoặc Ngọ và Tam Phương hội ít nhất hai trong Tam Kỳ (Hóa Lộc, Hóa Quyền, Hóa Khoa) hoặc Lộc Tồn.",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư (L1444) & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Nam Phái nhấn mạnh điều kiện hội Khoa/Quyền/Lộc (hoặc Lộc Tồn) để viên ngọc được mài giũa phát quang, tránh Cự Môn đơn độc.",
+      "evaluatorKey": "np_thach_trung_an_ngoc",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              0,
+              6
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Cự Môn",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "exact": 1
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Hóa Lộc",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Hóa Quyền",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Hóa Khoa",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Lộc Tồn",
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tài năng nội hàm sâu sắc, trải qua rèn luyện thực tế càng sáng giá và có tiếng nói chuyên môn trọng lượng.",
+      "actionableAdviceVi": "Chấp nhận quá trình mài giũa ban đầu và giữ thái độ khiêm nhường khi phát ngôn."
+    },
+    {
+      "id": "NP-PC-25",
+      "nameZh": "空劫得地巳亥",
+      "nameHanViet": "Không Kiếp Đắc Địa Tỵ Hợi",
+      "nameVi": "Không Kiếp Đắc Địa Tỵ Hợi",
+      "hanziOriginal": "地空地劫居寅申巳亥（南派重巳亥）。",
+      "hanViet": "Địa Không Địa Kiếp cư Dần Thân Tỵ Hợi (Nam Phái trọng Tỵ Hợi).",
+      "literalMeaningVi": "Địa Không và Địa Kiếp tọa thủ Mệnh tại Tỵ (5) hoặc Hợi (11) (trong Nam Phái DiaBan.py, Không Kiếp đắc địa tại Tứ Sinh), giúp giảm tính phá tán và tăng sức sáng tạo đột phá.",
+      "classicalSource": "Tử Vi Đẩu Số Nam Phái — DiaBan.py & Tân Biên (math predicate)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Trong Nam Phái (DiaBan.py), Không Kiếp Đắc địa tại Tứ Sinh {Dần, Tỵ, Thân, Hợi}; đặc biệt Hợi là nơi Không–Kiếp giáp hoặc đồng cung tại giờ Tý.",
+      "evaluatorKey": "np_khong_kiep_dac_dia_ty_hoi",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              5,
+              11
+            ]
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Địa Không",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Địa Kiếp",
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tư duy khác biệt, sáng tạo táo bạo và khả năng xoay chuyển tình thế nhanh trong lĩnh vực công nghệ, nghiên cứu hoặc nghệ thuật.",
+      "actionableAdviceVi": "Dành phần lớn sáng tạo cho công việc chuyên môn và duy trì quỹ dự phòng an toàn."
+    },
+    {
+      "id": "NP-PC-26",
+      "nameZh": "祿逢沖破（南派）",
+      "nameHanViet": "Lộc Phùng Xung Phá",
+      "nameVi": "Lộc Phùng Xung Phá (Lộc Gặp Không Kiếp / Kỵ)",
+      "hanziOriginal": "祿逢沖破，吉處藏凶。",
+      "hanViet": "Lộc phùng xung phá, cát xứ tàng hung.",
+      "literalMeaningVi": "Lộc Tồn hoặc Hóa Lộc tại Mệnh/Tài Bạch gặp Địa Không, Địa Kiếp hoặc Hóa Kỵ đồng cung hay xung phá.",
+      "classicalSource": "Tử Vi Đẩu Số Toàn Thư · 太微賦 (L134) & Nam Phái Tân Biên",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "Thống nhất giữa hai phái về nguyên tắc Lộc kỵ Không Kiếp/Tuần Triệt/Hóa Kỵ xung phá.",
+      "evaluatorKey": "np_loc_phung_xung_pha",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "or",
+                "args": [
+                  {
+                    "op": "star_in_palace",
+                    "star": "Lộc Tồn",
+                    "palace": "Mệnh"
+                  },
+                  {
+                    "op": "sihua_in_palace",
+                    "transform": "Hóa Lộc",
+                    "palace": "Mệnh"
+                  }
+                ]
+              },
+              {
+                "op": "or",
+                "args": [
+                  {
+                    "op": "star_in_palace",
+                    "star": "Địa Không",
+                    "palace": "Mệnh"
+                  },
+                  {
+                    "op": "star_in_palace",
+                    "star": "Địa Kiếp",
+                    "palace": "Mệnh"
+                  },
+                  {
+                    "op": "sihua_in_palace",
+                    "transform": "Hóa Kỵ",
+                    "palace": "Mệnh"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "or",
+                "args": [
+                  {
+                    "op": "star_in_palace",
+                    "star": "Lộc Tồn",
+                    "palace": "Tài Bạch"
+                  },
+                  {
+                    "op": "sihua_in_palace",
+                    "transform": "Hóa Lộc",
+                    "palace": "Tài Bạch"
+                  }
+                ]
+              },
+              {
+                "op": "or",
+                "args": [
+                  {
+                    "op": "star_in_palace",
+                    "star": "Địa Không",
+                    "palace": "Tài Bạch"
+                  },
+                  {
+                    "op": "star_in_palace",
+                    "star": "Địa Kiếp",
+                    "palace": "Tài Bạch"
+                  },
+                  {
+                    "op": "sihua_in_palace",
+                    "transform": "Hóa Kỵ",
+                    "palace": "Tài Bạch"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Nguồn thu đến nhanh nhưng dễ phát sinh chi phí đột xuất hoặc tranh chấp hợp đồng nếu thiếu kiểm soát.",
+      "actionableAdviceVi": "Áp dụng kỷ luật ngân sách chặt chẽ và rà soát kỹ pháp lý trước khi hùn hạp."
+    },
+    {
+      "id": "NP-PC-27",
+      "nameZh": "庚干四化分歧",
+      "nameHanViet": "Can Canh Tứ Hóa Phân Kỳ",
+      "nameVi": "Phân Kỳ Tứ Hóa Can Canh (Nam Phái vs Toàn Thư)",
+      "hanziOriginal": "庚干四化：陽武同陰 vs 陽武陰同。",
+      "hanViet": "Canh can Tứ Hóa: Dương Vũ Đồng Âm vs Dương Vũ Âm Đồng.",
+      "literalMeaningVi": "Người tuổi Canh (tận cùng năm dương lịch số 0): Nam Phái an Thiên Đồng Hóa Khoa, Thái Âm Hóa Kỵ; Toàn Thư an Thái Âm Hóa Khoa, Thiên Đồng Hóa Kỵ.",
+      "classicalSource": "specs/axioms/nam-phai.json vs specs/axioms/toan-thu.json",
+      "status": "disputed",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "PHÂN KỲ TỨ HÓA CAN CANH: nam-phai.json dùng [Thái Dương, Vũ Khúc, Thiên Đồng, Thái Âm] (Thiên Đồng Hóa Khoa, Thái Âm Hóa Kỵ); toan-thu.json dùng [Thái Dương, Vũ Khúc, Thái Âm, Thiên Đồng] (Thái Âm Hóa Khoa, Thiên Đồng Hóa Kỵ).",
+      "evaluatorKey": "np_can_canh_tu_hoa_fork",
+      "predicate": {
+        "op": "year_stem_in",
+        "stems": [
+          6
+        ]
+      },
+      "modernInterpretationVi": "Với người sinh năm Canh, điểm nhấn học thuật (Hóa Khoa) và điểm thử thách cần tháo gỡ (Hóa Kỵ) hoán đổi giữa Thiên Đồng (phúc tinh tâm lý) và Thái Âm (tài sản, mẫu thân).",
+      "actionableAdviceVi": "So sánh cả hai góc nhìn khi tự chiêm nghiệm các năm vận động của Thái Âm và Thiên Đồng."
+    },
+    {
+      "id": "NP-PC-28",
+      "nameZh": "壬干四化分歧",
+      "nameHanViet": "Can Nhâm Tứ Hóa Phân Kỳ",
+      "nameVi": "Phân Kỳ Tứ Hóa Can Nhâm (Nam Phái vs Toàn Thư)",
+      "hanziOriginal": "壬干四化：梁紫府武 vs 梁紫輔武。",
+      "hanViet": "Nhâm can Tứ Hóa: Lương Tử Phủ Vũ vs Lương Tử Phụ Vũ.",
+      "literalMeaningVi": "Người tuổi Nhâm (tận cùng năm dương lịch số 2): Nam Phái an Thiên Phủ Hóa Khoa; Toàn Thư an Tả Phụ Hóa Khoa.",
+      "classicalSource": "specs/axioms/nam-phai.json vs specs/axioms/toan-thu.json",
+      "status": "disputed",
+      "requiresM3Stars": [],
+      "siloDivergenceNote": "PHÂN KỲ TỨ HÓA CAN NHÂM: nam-phai.json dùng [Thiên Lương, Tử Vi, Thiên Phủ, Vũ Khúc]; toan-thu.json dùng [Thiên Lương, Tử Vi, Tả Phụ, Vũ Khúc].",
+      "evaluatorKey": "np_can_nham_tu_hoa_fork",
+      "predicate": {
+        "op": "year_stem_in",
+        "stems": [
+          8
+        ]
+      },
+      "modernInterpretationVi": "Với người sinh năm Nhâm, Hóa Khoa rơi vào Thiên Phủ (Nam Phái — uy tín quản trị kho tàng, ổn định) hay Tả Phụ (Toàn Thư — uy tín qua cộng sự, phò tá).",
+      "actionableAdviceVi": "Đối chiếu cung vị của cả Thiên Phủ và Tả Phụ trên lá số để thấy rõ kênh quý nhân trợ lực."
+    }
+  ]
+}

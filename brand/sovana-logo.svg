@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 160" width="680" height="160" role="img" aria-label="SOVANA — Astronomical Ephemeris &amp; Bi-Temporal GIS Engine">
+  <defs>
+    <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="eclipticGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0B0F17" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Obsidian Container -->
+  <rect width="680" height="160" rx="24" fill="url(#logoBg)" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Embedded SOVANA Mark at (22, 20) scaled to 120x120 -->
+  <g transform="translate(22, 20) scale(0.234375)">
+    <rect width="512" height="512" rx="96" fill="#0B0F17" stroke="#1E293B" stroke-width="6"/>
+    <circle cx="256" cy="256" r="140" fill="url(#coreGlow)"/>
+    <circle cx="256" cy="256" r="168" fill="none" stroke="#1E293B" stroke-width="3" stroke-dasharray="6 10"/>
+    <line x1="256" y1="64" x2="256" y2="448" stroke="#06B6D4" stroke-width="3" stroke-opacity="0.6"/>
+    <line x1="64" y1="256" x2="448" y2="256" stroke="#06B6D4" stroke-width="3" stroke-opacity="0.6"/>
+    <line x1="256" y1="64" x2="256" y2="88" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+    <line x1="256" y1="424" x2="256" y2="448" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+    <line x1="64" y1="256" x2="88" y2="256" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+    <line x1="424" y1="256" x2="448" y2="256" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="256" cy="256" rx="184" ry="74" transform="rotate(-23.44 256 256)" fill="none" stroke="url(#eclipticGrad)" stroke-width="11"/>
+    <ellipse cx="256" cy="256" rx="140" ry="140" fill="none" stroke="#334155" stroke-width="3"/>
+    <path d="M256 176 L274 238 L336 256 L274 274 L256 336 L238 274 L176 256 L238 238 Z" fill="#F8FAFC"/>
+    <path d="M256 204 L267 245 L308 256 L267 267 L256 308 L245 267 L204 256 L245 245 Z" fill="#D4AF37"/>
+    <circle cx="256" cy="256" r="10" fill="#0B0F17" stroke="#F8FAFC" stroke-width="3"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="172" y="82" fill="#F8FAFC" font-family="'Be Vietnam Pro', 'Inter', 'Segoe UI', system-ui, sans-serif" font-size="48" font-weight="700" letter-spacing="8">SOVANA</text>
+
+  <!-- Telemetry Subtitle -->
+  <text x="174" y="114" fill="#94A3B8" font-family="'JetBrains Mono', 'Cascadia Code', monospace" font-size="12" font-weight="500" letter-spacing="1.4">EPHEMERIS · BI-TEMPORAL GIS · DETERMINISTIC KERNEL</text>
+
+  <!-- Status Pill -->
+  <rect x="536" y="34" width="116" height="24" rx="6" fill="#064E3B" stroke="#10B981" stroke-width="1"/>
+  <text x="594" y="50" text-anchor="middle" fill="#10B981" font-family="'JetBrains Mono', 'Cascadia Code', monospace" font-size="11" font-weight="600" letter-spacing="1">MIT CORE</text>
+</svg>

@@ -1,0 +1,1573 @@
+{
+  "schemaVersion": "1.0.0",
+  "elementsOrderVi": [
+    "Mộc",
+    "Hỏa",
+    "Thổ",
+    "Kim",
+    "Thủy"
+  ],
+  "hiddenStemsByBranch": {
+    "0": [
+      {
+        "stemIndex": 9,
+        "weightBps": 1000
+      }
+    ],
+    "1": [
+      {
+        "stemIndex": 5,
+        "weightBps": 600
+      },
+      {
+        "stemIndex": 9,
+        "weightBps": 300
+      },
+      {
+        "stemIndex": 7,
+        "weightBps": 100
+      }
+    ],
+    "2": [
+      {
+        "stemIndex": 0,
+        "weightBps": 600
+      },
+      {
+        "stemIndex": 2,
+        "weightBps": 300
+      },
+      {
+        "stemIndex": 4,
+        "weightBps": 100
+      }
+    ],
+    "3": [
+      {
+        "stemIndex": 1,
+        "weightBps": 1000
+      }
+    ],
+    "4": [
+      {
+        "stemIndex": 4,
+        "weightBps": 600
+      },
+      {
+        "stemIndex": 1,
+        "weightBps": 300
+      },
+      {
+        "stemIndex": 9,
+        "weightBps": 100
+      }
+    ],
+    "5": [
+      {
+        "stemIndex": 2,
+        "weightBps": 600
+      },
+      {
+        "stemIndex": 6,
+        "weightBps": 300
+      },
+      {
+        "stemIndex": 4,
+        "weightBps": 100
+      }
+    ],
+    "6": [
+      {
+        "stemIndex": 3,
+        "weightBps": 700
+      },
+      {
+        "stemIndex": 5,
+        "weightBps": 300
+      }
+    ],
+    "7": [
+      {
+        "stemIndex": 5,
+        "weightBps": 600
+      },
+      {
+        "stemIndex": 3,
+        "weightBps": 300
+      },
+      {
+        "stemIndex": 1,
+        "weightBps": 100
+      }
+    ],
+    "8": [
+      {
+        "stemIndex": 6,
+        "weightBps": 600
+      },
+      {
+        "stemIndex": 8,
+        "weightBps": 300
+      },
+      {
+        "stemIndex": 4,
+        "weightBps": 100
+      }
+    ],
+    "9": [
+      {
+        "stemIndex": 7,
+        "weightBps": 1000
+      }
+    ],
+    "10": [
+      {
+        "stemIndex": 4,
+        "weightBps": 600
+      },
+      {
+        "stemIndex": 7,
+        "weightBps": 300
+      },
+      {
+        "stemIndex": 3,
+        "weightBps": 100
+      }
+    ],
+    "11": [
+      {
+        "stemIndex": 8,
+        "weightBps": 700
+      },
+      {
+        "stemIndex": 0,
+        "weightBps": 300
+      }
+    ]
+  },
+  "tenGodsNamesVi": [
+    "Tỷ Kiên",
+    "Kiếp Tài",
+    "Thực Thần",
+    "Thương Quan",
+    "Thiên Tài",
+    "Chính Tài",
+    "Thất Sát",
+    "Chính Quan",
+    "Thiên Ấn",
+    "Chính Ấn"
+  ],
+  "napAm60": [
+    {
+      "index": 0,
+      "canChiVi": "Giáp Tý",
+      "napAmVi": "Hải Trung Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 1,
+      "canChiVi": "Ất Sửu",
+      "napAmVi": "Hải Trung Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 2,
+      "canChiVi": "Bính Dần",
+      "napAmVi": "Lư Trung Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 3,
+      "canChiVi": "Đinh Mão",
+      "napAmVi": "Lư Trung Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 4,
+      "canChiVi": "Mậu Thìn",
+      "napAmVi": "Đại Lâm Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 5,
+      "canChiVi": "Kỷ Tỵ",
+      "napAmVi": "Đại Lâm Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 6,
+      "canChiVi": "Canh Ngọ",
+      "napAmVi": "Lộ Bàng Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 7,
+      "canChiVi": "Tân Mùi",
+      "napAmVi": "Lộ Bàng Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 8,
+      "canChiVi": "Nhâm Thân",
+      "napAmVi": "Kiếm Phong Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 9,
+      "canChiVi": "Quý Dậu",
+      "napAmVi": "Kiếm Phong Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 10,
+      "canChiVi": "Giáp Tuất",
+      "napAmVi": "Sơn Đầu Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 11,
+      "canChiVi": "Ất Hợi",
+      "napAmVi": "Sơn Đầu Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 12,
+      "canChiVi": "Bính Tý",
+      "napAmVi": "Giản Hạ Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 13,
+      "canChiVi": "Đinh Sửu",
+      "napAmVi": "Giản Hạ Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 14,
+      "canChiVi": "Mậu Dần",
+      "napAmVi": "Thành Đầu Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 15,
+      "canChiVi": "Kỷ Mão",
+      "napAmVi": "Thành Đầu Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 16,
+      "canChiVi": "Canh Thìn",
+      "napAmVi": "Bạch Lạp Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 17,
+      "canChiVi": "Tân Tỵ",
+      "napAmVi": "Bạch Lạp Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 18,
+      "canChiVi": "Nhâm Ngọ",
+      "napAmVi": "Dương Liễu Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 19,
+      "canChiVi": "Quý Mùi",
+      "napAmVi": "Dương Liễu Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 20,
+      "canChiVi": "Giáp Thân",
+      "napAmVi": "Tuyền Trung Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 21,
+      "canChiVi": "Ất Dậu",
+      "napAmVi": "Tuyền Trung Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 22,
+      "canChiVi": "Bính Tuất",
+      "napAmVi": "Ốc Thượng Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 23,
+      "canChiVi": "Đinh Hợi",
+      "napAmVi": "Ốc Thượng Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 24,
+      "canChiVi": "Mậu Tý",
+      "napAmVi": "Tích Lịch Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 25,
+      "canChiVi": "Kỷ Sửu",
+      "napAmVi": "Tích Lịch Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 26,
+      "canChiVi": "Canh Dần",
+      "napAmVi": "Tùng Bách Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 27,
+      "canChiVi": "Tân Mão",
+      "napAmVi": "Tùng Bách Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 28,
+      "canChiVi": "Nhâm Thìn",
+      "napAmVi": "Trường Lưu Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 29,
+      "canChiVi": "Quý Tỵ",
+      "napAmVi": "Trường Lưu Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 30,
+      "canChiVi": "Giáp Ngọ",
+      "napAmVi": "Sa Trung Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 31,
+      "canChiVi": "Ất Mùi",
+      "napAmVi": "Sa Trung Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 32,
+      "canChiVi": "Bính Thân",
+      "napAmVi": "Sơn Hạ Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 33,
+      "canChiVi": "Đinh Dậu",
+      "napAmVi": "Sơn Hạ Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 34,
+      "canChiVi": "Mậu Tuất",
+      "napAmVi": "Bình Địa Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 35,
+      "canChiVi": "Kỷ Hợi",
+      "napAmVi": "Bình Địa Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 36,
+      "canChiVi": "Canh Tý",
+      "napAmVi": "Bích Thượng Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 37,
+      "canChiVi": "Tân Sửu",
+      "napAmVi": "Bích Thượng Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 38,
+      "canChiVi": "Nhâm Dần",
+      "napAmVi": "Kim Bạch Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 39,
+      "canChiVi": "Quý Mão",
+      "napAmVi": "Kim Bạch Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 40,
+      "canChiVi": "Giáp Thìn",
+      "napAmVi": "Phú Đăng Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 41,
+      "canChiVi": "Ất Tỵ",
+      "napAmVi": "Phú Đăng Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 42,
+      "canChiVi": "Bính Ngọ",
+      "napAmVi": "Thiên Hà Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 43,
+      "canChiVi": "Đinh Mùi",
+      "napAmVi": "Thiên Hà Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 44,
+      "canChiVi": "Mậu Thân",
+      "napAmVi": "Đại Trạch Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 45,
+      "canChiVi": "Kỷ Dậu",
+      "napAmVi": "Đại Trạch Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 46,
+      "canChiVi": "Canh Tuất",
+      "napAmVi": "Thoa Xuyến Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 47,
+      "canChiVi": "Tân Hợi",
+      "napAmVi": "Thoa Xuyến Kim",
+      "elementVi": "Kim",
+      "cucNumber": 4
+    },
+    {
+      "index": 48,
+      "canChiVi": "Nhâm Tý",
+      "napAmVi": "Tang Đố Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 49,
+      "canChiVi": "Quý Sửu",
+      "napAmVi": "Tang Đố Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 50,
+      "canChiVi": "Giáp Dần",
+      "napAmVi": "Đại Khê Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 51,
+      "canChiVi": "Ất Mão",
+      "napAmVi": "Đại Khê Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 52,
+      "canChiVi": "Bính Thìn",
+      "napAmVi": "Sa Trung Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 53,
+      "canChiVi": "Đinh Tỵ",
+      "napAmVi": "Sa Trung Thổ",
+      "elementVi": "Thổ",
+      "cucNumber": 5
+    },
+    {
+      "index": 54,
+      "canChiVi": "Mậu Ngọ",
+      "napAmVi": "Thiên Thượng Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 55,
+      "canChiVi": "Kỷ Mùi",
+      "napAmVi": "Thiên Thượng Hỏa",
+      "elementVi": "Hỏa",
+      "cucNumber": 6
+    },
+    {
+      "index": 56,
+      "canChiVi": "Canh Thân",
+      "napAmVi": "Thạch Lựu Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 57,
+      "canChiVi": "Tân Dậu",
+      "napAmVi": "Thạch Lựu Mộc",
+      "elementVi": "Mộc",
+      "cucNumber": 3
+    },
+    {
+      "index": 58,
+      "canChiVi": "Nhâm Tuất",
+      "napAmVi": "Đại Hải Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    },
+    {
+      "index": 59,
+      "canChiVi": "Quý Hợi",
+      "napAmVi": "Đại Hải Thủy",
+      "elementVi": "Thủy",
+      "cucNumber": 2
+    }
+  ],
+  "seasonalMultiplierBps": {
+    "Mộc": [
+      1250,
+      650,
+      1500,
+      1500,
+      1000,
+      800,
+      800,
+      650,
+      500,
+      500,
+      650,
+      1250
+    ],
+    "Hỏa": [
+      500,
+      800,
+      1250,
+      1250,
+      800,
+      1500,
+      1500,
+      1000,
+      650,
+      650,
+      1000,
+      500
+    ],
+    "Thổ": [
+      650,
+      1500,
+      500,
+      500,
+      1500,
+      1250,
+      1250,
+      1500,
+      800,
+      800,
+      1500,
+      650
+    ],
+    "Kim": [
+      800,
+      1250,
+      650,
+      650,
+      1250,
+      500,
+      500,
+      1250,
+      1500,
+      1500,
+      1250,
+      800
+    ],
+    "Thủy": [
+      1500,
+      1000,
+      800,
+      800,
+      500,
+      650,
+      650,
+      500,
+      1250,
+      1250,
+      500,
+      1500
+    ]
+  },
+  "cungThongBaoGiamDieuHau": {
+    "0": {
+      "0": {
+        "primaryGodStemIndices": [
+          3,
+          6,
+          2
+        ],
+        "summaryVi": "Giáp Mộc tháng Tý hàn đống, tiên dụng Đinh Hỏa ôn mộc, Canh Kim phách Giáp dẫn Đinh, Bính Hỏa giải hàn."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          3,
+          6,
+          2
+        ],
+        "summaryVi": "Giáp Mộc tháng Sửu nghiêm hàn, dụng Đinh Hỏa sinh diễm, Canh Kim phách mộc, Bính Hỏa hồi xuân."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          2,
+          9
+        ],
+        "summaryVi": "Giáp Mộc tháng Dần sơ xuân còn dư hàn, tiên Bính Hỏa sưởi ấm, thứ Quý Thủy nhuận gốc."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          6,
+          3,
+          2
+        ],
+        "summaryVi": "Giáp Mộc tháng Mão Dương Nhận vượng cực, dụng Canh Kim đẽo gọt dẫn Đinh Hỏa thành tài."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          6,
+          3,
+          8
+        ],
+        "summaryVi": "Giáp Mộc tháng Thìn thấp thổ vượng, dụng Canh Kim chế mộc, Đinh Hỏa luyện kim, Nhâm Thủy phụ trợ."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          9,
+          3,
+          6
+        ],
+        "summaryVi": "Giáp Mộc tháng Tỵ hỏa vượng mộc khô, cấp dụng Quý Thủy nhuận căn, Đinh Canh phối hợp."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          9,
+          6,
+          3
+        ],
+        "summaryVi": "Giáp Mộc tháng Ngọ mộc tử hỏa viêm, tối cần Quý Thủy giải nhiệt, Canh Kim phát thủy nguyên."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          9,
+          6,
+          3
+        ],
+        "summaryVi": "Giáp Mộc tháng Mùi táo thổ khát thủy, thượng tuần trọng Quý Thủy, hạ tuần dụng Canh Đinh."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          6,
+          3,
+          8
+        ],
+        "summaryVi": "Giáp Mộc tháng Thân tuyệt mộc phùng Sát, dụng Đinh Hỏa luyện Canh Kim tạo khí cụ lớn."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          3,
+          6,
+          2
+        ],
+        "summaryVi": "Giáp Mộc tháng Dậu Chính Quan đương lệnh, dụng Đinh Hỏa chế kim, Bính Hỏa điều hậu."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          0,
+          6,
+          3,
+          9
+        ],
+        "summaryVi": "Giáp Mộc tháng Tuất thổ táo mộc khô, dụng Giáp trợ thân, Quý nhuận táo, Canh Đinh tương tế."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          6,
+          3,
+          2,
+          4
+        ],
+        "summaryVi": "Giáp Mộc tháng Hợi thủy vượng mộc phiếm, dụng Canh Đinh tạo tài khí, Mậu Thổ ngăn thủy, Bính noãn."
+      }
+    },
+    "1": {
+      "0": {
+        "primaryGodStemIndices": [
+          2
+        ],
+        "summaryVi": "Ất Mộc tháng Tý hàn cốc đóng băng, chuyên thủ Bính Hỏa dương quang giải đống."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          2
+        ],
+        "summaryVi": "Ất Mộc tháng Sửu thấp nê hàn lạnh, duy dụng Bính Hỏa sưởi ấm hồi sinh hoa thảo."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          2,
+          9
+        ],
+        "summaryVi": "Ất Mộc tháng Dần xuân hàn chưa tan, thủ Bính Hỏa sưởi ấm kiêm Quý Thủy nhuận trạch."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          2,
+          9
+        ],
+        "summaryVi": "Ất Mộc tháng Mão Kiến Lộc thanh mậu, đắc Bính hướng dương và Quý tư nhuận tất vinh hiển."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          9,
+          2
+        ],
+        "summaryVi": "Ất Mộc tháng Thìn mộc dư khí, tiên Quý Thủy dưỡng gốc, thứ Bính Hỏa khai hoa."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          9
+        ],
+        "summaryVi": "Ất Mộc tháng Tỵ Thương Quan hỏa vượng, hoa thảo tiêu khô, chuyên dụng Quý Thủy cam lộ."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          9,
+          2
+        ],
+        "summaryVi": "Ất Mộc tháng Ngọ hỏa liệt mộc khô, cấp dụng Quý Thủy nhuận diệp, Bính phụ."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          9,
+          2
+        ],
+        "summaryVi": "Ất Mộc tháng Mùi táo thổ tuyết căn, dụng Quý Thủy tư nhuận thổ mộc."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          2,
+          9,
+          5
+        ],
+        "summaryVi": "Ất Mộc tháng Thân Quan tinh nắm lệnh, dụng Bính chế Canh, Kỷ Thổ bồi căn, Quý nhuận."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          9,
+          2
+        ],
+        "summaryVi": "Ất Mộc tháng Dậu Thất Sát cường vượng, trước Thu phân trọng Quý, sau Thu phân trọng Bính."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          9,
+          7
+        ],
+        "summaryVi": "Ất Mộc tháng Tuất khô thổ tàng hỏa, dụng Quý Thủy nhuận căn, Tân Kim phát thủy nguyên."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          2,
+          4
+        ],
+        "summaryVi": "Ất Mộc tháng Hợi thủy vượng mộc trôi, dụng Bính Hỏa sưởi ấm và Mậu Thổ chế thủy bồi căn."
+      }
+    },
+    "2": {
+      "0": {
+        "primaryGodStemIndices": [
+          8,
+          4,
+          0
+        ],
+        "summaryVi": "Bính Hỏa tháng Tý Đông chí nhất dương sinh, dụng Nhâm Thủy chiếu ánh, Mậu Giáp chế hóa Sát."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          8,
+          0
+        ],
+        "summaryVi": "Bính Hỏa tháng Sửu tuyết hậu dương quang, hỉ Nhâm Thủy thanh chiếu, Giáp Mộc trợ hỏa giải hàn."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          8,
+          6
+        ],
+        "summaryVi": "Bính Hỏa tháng Dần Trường Sinh dương thăng, dụng Nhâm Thủy chiếu rọi, Canh Kim phát nguồn Nhâm."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          8,
+          5
+        ],
+        "summaryVi": "Bính Hỏa tháng Mão mộc vượng tắc hỏa, chuyên dụng Nhâm Thủy thông minh, Kỷ Thổ phụ."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          8,
+          0
+        ],
+        "summaryVi": "Bính Hỏa tháng Thìn Thực Thần tiết khí hối quang, tiên Nhâm Thủy ánh nhật, thứ Giáp sơ thổ."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          8,
+          6
+        ],
+        "summaryVi": "Bính Hỏa tháng Tỵ Kiến Lộc viêm liệt, cấp dụng Nhâm Thủy giải viêm, Canh Kim sinh Nhâm."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          8,
+          6
+        ],
+        "summaryVi": "Bính Hỏa tháng Ngọ Dương Nhận cực nhiệt, tối cần Nhâm Thủy tế hỏa, Canh Kim trợ nguồn thủy."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          8,
+          6
+        ],
+        "summaryVi": "Bính Hỏa tháng Mùi hỏa thoái khí táo, dụng Nhâm Thủy Canh Kim điều hòa thanh khiết."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          8,
+          4
+        ],
+        "summaryVi": "Bính Hỏa tháng Thân nhật chiếu giang hà, dụng Nhâm Thủy phụ huy, Mậu Thổ phòng thủy thái quá."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          8,
+          0
+        ],
+        "summaryVi": "Bính Hỏa tháng Dậu nhật cận hoàng hôn, dụng Nhâm Thủy phản chiếu, Giáp Mộc trợ Bính."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          0,
+          8
+        ],
+        "summaryVi": "Bính Hỏa tháng Tuất hỏa nhập Mộ khố kỵ thổ hối quang, tiên Giáp sơ thổ, thứ Nhâm ánh chiếu."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          0,
+          4,
+          8
+        ],
+        "summaryVi": "Bính Hỏa tháng Hợi Thất Sát đương quyền, tiên Giáp Mộc hóa Sát sinh Bính, Mậu chế thủy."
+      }
+    },
+    "3": {
+      "0": {
+        "primaryGodStemIndices": [
+          0,
+          6
+        ],
+        "summaryVi": "Đinh Hỏa tháng Tý Sát trọng hàn cực, chuyên thủ Giáp Mộc hóa Sát dẫn Đinh, Canh phách Giáp."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          0,
+          6
+        ],
+        "summaryVi": "Đinh Hỏa tháng Sửu hàn thấp tiết khí, chuyên dụng Giáp Mộc dẫn Đinh, Canh Kim phách mộc."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          0,
+          6
+        ],
+        "summaryVi": "Đinh Hỏa tháng Dần Ấn vượng dễ tắc hỏa, dụng Canh Kim phách Giáp dẫn Đinh minh mẫn."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          6,
+          0
+        ],
+        "summaryVi": "Đinh Hỏa tháng Mão ướt mộc khó sinh đăng hỏa, dụng Canh khứ Ất và Giáp chân mộc dẫn Đinh."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          0,
+          6
+        ],
+        "summaryVi": "Đinh Hỏa tháng Thìn Thương Quan nắm lệnh, tiên Giáp sơ thổ dẫn Đinh, thứ Canh bổ mộc."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          0,
+          6
+        ],
+        "summaryVi": "Đinh Hỏa tháng Tỵ Bính đoạt Đinh quang, dụng Giáp dẫn Đinh, Canh phách Giáp sinh hỏa."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          8,
+          6,
+          0
+        ],
+        "summaryVi": "Đinh Hỏa tháng Ngọ Kiến Lộc hỏa vượng, dụng Nhâm Canh điều tiết kiêm Giáp tồn nguyên."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          0,
+          8,
+          6
+        ],
+        "summaryVi": "Đinh Hỏa tháng Mùi mộc nhập khố thoái khí, dụng Giáp dẫn Đinh, Nhâm Canh điều hậu."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          0,
+          6,
+          2
+        ],
+        "summaryVi": "Đinh Hỏa tháng Thân Tài vượng thân nhược, chuyên dụng Giáp Mộc sinh Đinh, Canh bổ Giáp, Bính noãn kim."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          0,
+          6,
+          2
+        ],
+        "summaryVi": "Đinh Hỏa tháng Dậu Thiên Tài nắm lệnh, dụng Giáp Canh dẫn hỏa luyện kim, Bính tá."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          0,
+          6,
+          4
+        ],
+        "summaryVi": "Đinh Hỏa tháng Tuất Thương Quan táo thổ tiết khí, tiên Giáp sơ thổ sinh Đinh, thứ Canh."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          0,
+          6
+        ],
+        "summaryVi": "Đinh Hỏa tháng Hợi Chính Quan nắm lệnh, chuyên dụng Giáp Mộc hóa Nhâm sinh Đinh, Canh tá Giáp."
+      }
+    },
+    "4": {
+      "0": {
+        "primaryGodStemIndices": [
+          2,
+          0
+        ],
+        "summaryVi": "Mậu Thổ tháng Tý băng tuyết đóng địa, Bính Hỏa vi tôn sưởi ấm, Giáp Mộc vi tá."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          2,
+          0
+        ],
+        "summaryVi": "Mậu Thổ tháng Sửu nghiêm hàn thấp đống, chuyên trọng Bính Hỏa hồi dương, Giáp trợ Bính."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          2,
+          0,
+          9
+        ],
+        "summaryVi": "Mậu Thổ tháng Dần Sát vượng địa hàn, vô Bính bất noãn, vô Giáp bất linh, vô Quý bất nhuận."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          2,
+          0,
+          9
+        ],
+        "summaryVi": "Mậu Thổ tháng Mão Quan tinh nắm lệnh, tiên Bính sưởi thổ, thứ Giáp Quý tương tế."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          0,
+          9,
+          2
+        ],
+        "summaryVi": "Mậu Thổ tháng Thìn thổ trọng đương quyền, tiên Giáp sơ thổ, thứ Quý nhuận, Bính noãn."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          0,
+          2,
+          9
+        ],
+        "summaryVi": "Mậu Thổ tháng Tỵ Kiến Lộc hỏa viêm thổ táo, tiên Giáp sơ phách, Quý Bính điều hòa."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          8,
+          0,
+          2
+        ],
+        "summaryVi": "Mậu Thổ tháng Ngọ Đế Vượng khô liệt, cấp dụng Nhâm Thủy điều hậu nhuận táo, Giáp phụ."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          9,
+          2,
+          0
+        ],
+        "summaryVi": "Mậu Thổ tháng Mùi táo thổ khô kiệt, tiên Quý Thủy nhuận trạch, thứ Bính Giáp."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          2,
+          9,
+          0
+        ],
+        "summaryVi": "Mậu Thổ tháng Thân Thực Thần tiết khí hàn sinh, tiên Bính Hỏa ôn thổ, thứ Quý Giáp."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          2,
+          9
+        ],
+        "summaryVi": "Mậu Thổ tháng Dậu Thương Quan tiết tú kim hàn, chuyên dụng Bính Hỏa ôn noãn, Quý nhuận."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          0,
+          2,
+          9
+        ],
+        "summaryVi": "Mậu Thổ tháng Tuất thổ chuyên vượng cực, tiên Giáp sơ thổ, thứ Bính Quý tương tế."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          0,
+          2
+        ],
+        "summaryVi": "Mậu Thổ tháng Hợi Tài vượng thủy hàn, phi Giáp bất linh, phi Bính bất noãn."
+      }
+    },
+    "5": {
+      "0": {
+        "primaryGodStemIndices": [
+          2,
+          0,
+          4
+        ],
+        "summaryVi": "Kỷ Thổ tháng Tý điền viên băng đống, chuyên tôn Bính Hỏa giải hàn, Mậu Giáp chế thủy trợ hỏa."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          2,
+          0
+        ],
+        "summaryVi": "Kỷ Thổ tháng Sửu thấp nê cực hàn, duy cậy Bính Hỏa dương quang sưởi ấm, Giáp tá."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          2,
+          0,
+          9
+        ],
+        "summaryVi": "Kỷ Thổ tháng Dần dư hàn chưa hết, thủ Bính giải hàn, Giáp Quý điều hòa thổ mạch."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          0,
+          9,
+          2
+        ],
+        "summaryVi": "Kỷ Thổ tháng Mão Thất Sát đương lệnh, dụng Giáp Quý Bính phối hợp sinh cơ."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          2,
+          9,
+          0
+        ],
+        "summaryVi": "Kỷ Thổ tháng Thìn điền thổ đắc thời, tiên Bính noãn thổ, hậu Quý nhuận, Giáp sơ."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          9,
+          2
+        ],
+        "summaryVi": "Kỷ Thổ tháng Tỵ hỏa táo thổ khát, cấp dụng Quý Thủy tư nhuận, Bính Hỏa tương thành."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          9,
+          2
+        ],
+        "summaryVi": "Kỷ Thổ tháng Ngọ giá sắc khô tiêu, chuyên thủ Quý Thủy cam lộ giải viêm, Bính phụ."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          9,
+          2
+        ],
+        "summaryVi": "Kỷ Thổ tháng Mùi tam phục thổ táo, Quý Thủy vi yếu nhuận điền, Bính Hỏa thứ chi."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          2,
+          9
+        ],
+        "summaryVi": "Kỷ Thổ tháng Thân Thương Quan tiết tú khí lương, ngoại Bính ôn noãn, nội Quý tư nhuận."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          2,
+          9
+        ],
+        "summaryVi": "Kỷ Thổ tháng Dậu Thực Thần kim thanh, dụng Bính Hỏa sưởi ấm kiêm Quý Thủy nhuận trạch."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          0,
+          2,
+          9
+        ],
+        "summaryVi": "Kỷ Thổ tháng Tuất thổ cường táo kết, tiên Giáp sơ thổ, thứ Bính Quý điều hòa."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          2,
+          0,
+          4
+        ],
+        "summaryVi": "Kỷ Thổ tháng Hợi Tài đa thổ đãng, dụng Bính Hỏa noãn thổ, Mậu Thổ đê phòng, Giáp trợ Bính."
+      }
+    },
+    "6": {
+      "0": {
+        "primaryGodStemIndices": [
+          3,
+          0,
+          2
+        ],
+        "summaryVi": "Canh Kim tháng Tý Thương Quan thủy lãnh kim hàn, dụng Đinh Giáp rèn kim kiêm Bính giải đống."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          2,
+          3,
+          0
+        ],
+        "summaryVi": "Canh Kim tháng Sửu hàn nê mộ kim, tiên Bính Hỏa giải đống, thứ Đinh Giáp rèn luyện."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          2,
+          0,
+          3
+        ],
+        "summaryVi": "Canh Kim tháng Dần mộc vượng kim khuyết hàn dư, dụng Bính ấm kim hoặc Đinh Giáp luyện khí."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          3,
+          0
+        ],
+        "summaryVi": "Canh Kim tháng Mão Tài tinh đương lệnh, chuyên dụng Đinh Hỏa luyện kim, Giáp Mộc dẫn Đinh."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          0,
+          3
+        ],
+        "summaryVi": "Canh Kim tháng Thìn thổ dày dễ vùi kim, tiên Giáp sơ thổ, hậu Đinh Hỏa luyện thành khí."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          8,
+          2,
+          4,
+          3
+        ],
+        "summaryVi": "Canh Kim tháng Tỵ Trường Sinh hỏa vượng, tiên Nhâm Thủy chế hỏa hộ kim, thứ Mậu Bính Đinh."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          8,
+          9
+        ],
+        "summaryVi": "Canh Kim tháng Ngọ hỏa liệt kim dung, cấp dụng Nhâm Quý Thủy chế hỏa cứu kim."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          3,
+          0,
+          9
+        ],
+        "summaryVi": "Canh Kim tháng Mùi táo thổ sinh kim, dụng Đinh Giáp luyện chế kiêm Quý Thủy nhuận táo."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          3,
+          0
+        ],
+        "summaryVi": "Canh Kim tháng Thân Kiến Lộc cương nhuệ, tất dụng Đinh Hỏa rèn kiếm, Giáp Mộc dẫn Đinh."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          3,
+          0,
+          2
+        ],
+        "summaryVi": "Canh Kim tháng Dậu Dương Nhận cực cương, chuyên thủ Đinh Hỏa rèn giũa, Giáp dẫn, Bính điều hậu."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          0,
+          8
+        ],
+        "summaryVi": "Canh Kim tháng Tuất thổ dày mai kim, tiên Giáp Mộc sơ thổ, thứ Nhâm Thủy đào tẩy."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          3,
+          2
+        ],
+        "summaryVi": "Canh Kim tháng Hợi thủy lãnh kim hàn, dụng Đinh Hỏa luyện kim kiêm Bính Hỏa sưởi ấm."
+      }
+    },
+    "7": {
+      "0": {
+        "primaryGodStemIndices": [
+          2,
+          8,
+          4
+        ],
+        "summaryVi": "Tân Kim tháng Tý kim thủy thương quan đông đống, tất dụng Bính Hỏa ôn noãn, Nhâm Mậu phụ."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          2,
+          8
+        ],
+        "summaryVi": "Tân Kim tháng Sửu hàn thấp đóng băng, tiên Bính Hỏa giải hàn, thứ Nhâm Thủy đào tẩy."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          5,
+          8,
+          6
+        ],
+        "summaryVi": "Tân Kim tháng Dần Tài vượng thân nhược, dụng Kỷ sinh thân, Nhâm đào tẩy, Canh trợ chế mộc."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          8,
+          0
+        ],
+        "summaryVi": "Tân Kim tháng Mão Thiên Tài vượng cực, dụng Nhâm Thủy sinh hợp giải nguy, Giáp phụ."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          8,
+          0
+        ],
+        "summaryVi": "Tân Kim tháng Thìn mẫu vượng tử tướng, nhược thổ dày thì Giáp sơ thổ, Nhâm Thủy tẩy châu."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          8,
+          0,
+          9
+        ],
+        "summaryVi": "Tân Kim tháng Tỵ hỏa vượng nung châu ngọc, cấp dụng Nhâm Quý Thủy giải viêm hộ kim."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          8,
+          5,
+          9
+        ],
+        "summaryVi": "Tân Kim tháng Ngọ Đinh hỏa khắc luyện thái quá, chuyên thủ Nhâm Kỷ kiêm Quý Thủy nhuận hộ."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          8,
+          6,
+          0
+        ],
+        "summaryVi": "Tân Kim tháng Mùi táo thổ vùi kim, tiên Nhâm Thủy nhuận thổ tẩy kim, Canh Giáp tá."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          8,
+          0,
+          4
+        ],
+        "summaryVi": "Tân Kim tháng Thân kim vượng đương quyền, chuyên dụng Nhâm Thủy tiết tú phát quang."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          8,
+          0
+        ],
+        "summaryVi": "Tân Kim tháng Dậu Kiến Lộc thuần kim, duy hỉ Nhâm Thủy đào tẩy hiển lộ tinh hoa."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          8,
+          0
+        ],
+        "summaryVi": "Tân Kim tháng Tuất táo thổ mẫu vượng, tiên Nhâm Thủy nhuận tẩy, thứ Giáp Mộc sơ thổ."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          8,
+          2
+        ],
+        "summaryVi": "Tân Kim tháng Hợi Thương Quan thủy hàn, tiên Nhâm thanh tẩy, hậu Bính Hỏa ôn kim."
+      }
+    },
+    "8": {
+      "0": {
+        "primaryGodStemIndices": [
+          2,
+          4
+        ],
+        "summaryVi": "Nhâm Thủy tháng Tý Dương Nhận băng phong, tiên Bính Hỏa giải đống, thứ Mậu Thổ chế nhận."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          2,
+          0,
+          3
+        ],
+        "summaryVi": "Nhâm Thủy tháng Sửu băng tuyết ngưng kết, chuyên dụng Bính Hỏa giải hàn, Giáp Đinh phụ."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          6,
+          2,
+          4
+        ],
+        "summaryVi": "Nhâm Thủy tháng Dần Thực Thần vượng tiết khí, dụng Canh phát nguồn, Bính noãn, Mậu chế."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          4,
+          7,
+          6
+        ],
+        "summaryVi": "Nhâm Thủy tháng Mão Thương Quan tiết lưu, dụng Mậu Thổ đê phòng, Tân Canh phát nguồn."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          0,
+          6
+        ],
+        "summaryVi": "Nhâm Thủy tháng Thìn thổ vượng tắc giang, tiên Giáp Mộc sơ thổ, thứ Canh Kim sinh thủy."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          8,
+          7,
+          6
+        ],
+        "summaryVi": "Nhâm Thủy tháng Tỵ tuyệt địa hỏa vượng thủy khô, dụng Nhâm tỷ trợ và Tân Canh phát nguồn."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          9,
+          6,
+          7
+        ],
+        "summaryVi": "Nhâm Thủy tháng Ngọ Tài Quan cực vượng, cấp dụng Quý Tỷ kiếp và Canh Tân Ấn thụ hộ thân."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          7,
+          6,
+          0
+        ],
+        "summaryVi": "Nhâm Thủy tháng Mùi táo thổ khắc chế, tiên Tân Canh phát nguồn, thứ Giáp Mộc sơ thổ."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          4,
+          3
+        ],
+        "summaryVi": "Nhâm Thủy tháng Thân Trường Sinh thu lão thủy hồng, chuyên dụng Mậu Thổ đê phòng, Đinh chế Canh."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          7,
+          0
+        ],
+        "summaryVi": "Nhâm Thủy tháng Dậu kim bạch thủy thanh, dụng Giáp Mộc tiết thủy thành văn chương tú khí."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          0,
+          2
+        ],
+        "summaryVi": "Nhâm Thủy tháng Tuất Thất Sát táo thổ nắm lệnh, dụng Giáp chế Tuất thổ, Bính Hỏa điều hòa."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          4,
+          2
+        ],
+        "summaryVi": "Nhâm Thủy tháng Hợi Kiến Lộc uông dương, chuyên dụng Mậu Thổ đê điều ngăn lũ, Bính giải hàn."
+      }
+    },
+    "9": {
+      "0": {
+        "primaryGodStemIndices": [
+          2,
+          7
+        ],
+        "summaryVi": "Quý Thủy tháng Tý Kiến Lộc sương tuyết đóng băng, chuyên thủ Bính Hỏa giải đống, Tân phát nguồn."
+      },
+      "1": {
+        "primaryGodStemIndices": [
+          2,
+          3
+        ],
+        "summaryVi": "Quý Thủy tháng Sửu hàn đống cực điểm, phi Bính Hỏa bất năng giải đống hồi dương."
+      },
+      "2": {
+        "primaryGodStemIndices": [
+          7,
+          2
+        ],
+        "summaryVi": "Quý Thủy tháng Dần Thương Quan mộc thịnh tiết thủy, tiên Tân Kim phát nguồn, thứ Bính giải hàn."
+      },
+      "3": {
+        "primaryGodStemIndices": [
+          6,
+          7
+        ],
+        "summaryVi": "Quý Thủy tháng Mão Thực Thần tiết tú, chuyên dụng Canh Tân Kim sinh phù thủy nguyên."
+      },
+      "4": {
+        "primaryGodStemIndices": [
+          2,
+          7,
+          0
+        ],
+        "summaryVi": "Quý Thủy tháng Thìn thấp thổ tàng thủy, tiên Bính hóa vân vũ, thứ Tân Giáp tương tế."
+      },
+      "5": {
+        "primaryGodStemIndices": [
+          7,
+          8
+        ],
+        "summaryVi": "Quý Thủy tháng Tỵ hỏa vượng thủy nhược, chuyên thủ Tân Kim Chính Ấn phát nguồn kiêm Nhâm kiếp trợ."
+      },
+      "6": {
+        "primaryGodStemIndices": [
+          6,
+          7,
+          8
+        ],
+        "summaryVi": "Quý Thủy tháng Ngọ tuyệt địa chí nhược, cấp dụng Canh Tân phát nguồn kiêm Nhâm Tỷ Kiếp phân lực."
+      },
+      "7": {
+        "primaryGodStemIndices": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "summaryVi": "Quý Thủy tháng Mùi Sát vượng táo liệt, dụng Canh Tân phát nguồn và Nhâm Quý trợ thân."
+      },
+      "8": {
+        "primaryGodStemIndices": [
+          3
+        ],
+        "summaryVi": "Quý Thủy tháng Thân kim vượng tử địa, dụng Đinh Hỏa chế Canh Kim khai thông chân Ấn."
+      },
+      "9": {
+        "primaryGodStemIndices": [
+          7,
+          2
+        ],
+        "summaryVi": "Quý Thủy tháng Dậu Tân Kim đắc lệnh kim ôn thủy noãn, dụng Tân phát nguyên kiêm Bính ấm."
+      },
+      "10": {
+        "primaryGodStemIndices": [
+          7,
+          0,
+          8
+        ],
+        "summaryVi": "Quý Thủy tháng Tuất Quan vượng thổ táo, tiên Tân Kim phát nguồn, thứ Giáp sơ thổ, Nhâm trợ."
+      },
+      "11": {
+        "primaryGodStemIndices": [
+          6,
+          7,
+          2,
+          3
+        ],
+        "summaryVi": "Quý Thủy tháng Hợi vượng thủy hóa mộc, dụng Canh Tân cố bản kiêm Bính Đinh giải hàn."
+      }
+    }
+  }
+}

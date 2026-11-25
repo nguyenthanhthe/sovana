@@ -1,0 +1,5759 @@
+{
+  "schemaVersion": "1.0.0",
+  "silo": "bazi",
+  "sources": [
+    {
+      "id": "CTBG",
+      "titleZh": "窮通寶鑑",
+      "titleVi": "Cùng Thông Bảo Giám",
+      "sourcePath": "specs/axioms/bazi.json#cungThongBaoGiamDieuHau"
+    },
+    {
+      "id": "DTS",
+      "titleZh": "滴天髓",
+      "titleVi": "Trích Thiên Tủy",
+      "sourcePath": "knowledge/public-domain-classics/markdown/zh_bazi_di_tian_sui.md"
+    },
+    {
+      "id": "YHZP",
+      "titleZh": "淵海子平",
+      "titleVi": "Uyên Hải Tử Bình",
+      "sourcePath": "knowledge/public-domain-classics/markdown/zh_bazi_yuan_hai_zi_ping.md"
+    },
+    {
+      "id": "ZPZQ",
+      "titleZh": "子平真詮",
+      "titleVi": "Tử Bình Chân Thuyên",
+      "sourcePath": "summary_pending_full_md_harvest"
+    }
+  ],
+  "summary": {
+    "cungThongBaoGiamCount": 120,
+    "diTianSuiCount": 26,
+    "yuanHaiZiPingCount": 8,
+    "ziPingZhenQuanCount": 6
+  },
+  "cungThongBaoGiam": [
+    {
+      "id": "CTBG-0-0",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        3,
+        6,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Đinh",
+        "Canh",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Tý",
+      "modernInterpretationVi": "Giáp Mộc tháng Tý hàn đống, tiên dụng Đinh Hỏa ôn mộc, Canh Kim phách Giáp dẫn Đinh, Bính Hỏa giải hàn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Tý. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-0-1",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        3,
+        6,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Đinh",
+        "Canh",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Giáp Mộc tháng Sửu nghiêm hàn, dụng Đinh Hỏa sinh diễm, Canh Kim phách mộc, Bính Hỏa hồi xuân.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Sửu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-0-2",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        2,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Dần",
+      "modernInterpretationVi": "Giáp Mộc tháng Dần sơ xuân còn dư hàn, tiên Bính Hỏa sưởi ấm, thứ Quý Thủy nhuận gốc.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Dần. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-0-3",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        6,
+        3,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Đinh",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        3,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Đinh",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Mão",
+      "modernInterpretationVi": "Giáp Mộc tháng Mão Dương Nhận vượng cực, dụng Canh Kim đẽo gọt dẫn Đinh Hỏa thành tài.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Mão. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-0-4",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        6,
+        3,
+        8
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Đinh",
+        "Nhâm"
+      ],
+      "secondaryGodStemIndices": [
+        3,
+        8
+      ],
+      "secondaryGodStemsVi": [
+        "Đinh",
+        "Nhâm"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Giáp Mộc tháng Thìn thấp thổ vượng, dụng Canh Kim chế mộc, Đinh Hỏa luyện kim, Nhâm Thủy phụ trợ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Thìn. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-0-5",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        9,
+        3,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Đinh",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        3,
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Đinh",
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Giáp Mộc tháng Tỵ hỏa vượng mộc khô, cấp dụng Quý Thủy nhuận căn, Đinh Canh phối hợp.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Tỵ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-0-6",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        9,
+        6,
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Canh",
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        3
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Đinh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Giáp Mộc tháng Ngọ mộc tử hỏa viêm, tối cần Quý Thủy giải nhiệt, Canh Kim phát thủy nguyên.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Ngọ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-0-7",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        9,
+        6,
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Canh",
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        3
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Đinh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Giáp Mộc tháng Mùi táo thổ khát thủy, thượng tuần trọng Quý Thủy, hạ tuần dụng Canh Đinh.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Mùi. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-0-8",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        6,
+        3,
+        8
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Đinh",
+        "Nhâm"
+      ],
+      "secondaryGodStemIndices": [
+        3,
+        8
+      ],
+      "secondaryGodStemsVi": [
+        "Đinh",
+        "Nhâm"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Thân",
+      "modernInterpretationVi": "Giáp Mộc tháng Thân tuyệt mộc phùng Sát, dụng Đinh Hỏa luyện Canh Kim tạo khí cụ lớn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Thân. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-0-9",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        3,
+        6,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Đinh",
+        "Canh",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Giáp Mộc tháng Dậu Chính Quan đương lệnh, dụng Đinh Hỏa chế kim, Bính Hỏa điều hậu.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Dậu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-0-10",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        0,
+        6,
+        3,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh",
+        "Đinh",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        3,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Đinh",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Giáp Mộc tháng Tuất thổ táo mộc khô, dụng Giáp trợ thân, Quý nhuận táo, Canh Đinh tương tế.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Tuất. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-0-11",
+      "dayStemIndex": 0,
+      "dayStemVi": "Giáp",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        6,
+        3,
+        2,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Đinh",
+        "Bính",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        3,
+        2,
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Đinh",
+        "Bính",
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              0
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Giáp nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Giáp Mộc tháng Hợi thủy vượng mộc phiếm, dụng Canh Đinh tạo tài khí, Mậu Thổ ngăn thủy, Bính noãn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Giáp sinh tháng Hợi. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-1-0",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [],
+      "secondaryGodStemsVi": [],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Tý",
+      "modernInterpretationVi": "Ất Mộc tháng Tý hàn cốc đóng băng, chuyên thủ Bính Hỏa dương quang giải đống.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Tý. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-1-1",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [],
+      "secondaryGodStemsVi": [],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Ất Mộc tháng Sửu thấp nê hàn lạnh, duy dụng Bính Hỏa sưởi ấm hồi sinh hoa thảo.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Sửu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-1-2",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        2,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Dần",
+      "modernInterpretationVi": "Ất Mộc tháng Dần xuân hàn chưa tan, thủ Bính Hỏa sưởi ấm kiêm Quý Thủy nhuận trạch.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Dần. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-1-3",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        2,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Mão",
+      "modernInterpretationVi": "Ất Mộc tháng Mão Kiến Lộc thanh mậu, đắc Bính hướng dương và Quý tư nhuận tất vinh hiển.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Mão. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-1-4",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        9,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Ất Mộc tháng Thìn mộc dư khí, tiên Quý Thủy dưỡng gốc, thứ Bính Hỏa khai hoa.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Thìn. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-1-5",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [],
+      "secondaryGodStemsVi": [],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Ất Mộc tháng Tỵ Thương Quan hỏa vượng, hoa thảo tiêu khô, chuyên dụng Quý Thủy cam lộ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Tỵ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-1-6",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        9,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Ất Mộc tháng Ngọ hỏa liệt mộc khô, cấp dụng Quý Thủy nhuận diệp, Bính phụ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Ngọ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-1-7",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        9,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Ất Mộc tháng Mùi táo thổ tuyết căn, dụng Quý Thủy tư nhuận thổ mộc.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Mùi. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-1-8",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        2,
+        9,
+        5
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Quý",
+        "Kỷ"
+      ],
+      "secondaryGodStemIndices": [
+        9,
+        5
+      ],
+      "secondaryGodStemsVi": [
+        "Quý",
+        "Kỷ"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Thân",
+      "modernInterpretationVi": "Ất Mộc tháng Thân Quan tinh nắm lệnh, dụng Bính chế Canh, Kỷ Thổ bồi căn, Quý nhuận.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Thân. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-1-9",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        9,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Ất Mộc tháng Dậu Thất Sát cường vượng, trước Thu phân trọng Quý, sau Thu phân trọng Bính.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Dậu. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-1-10",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        9,
+        7
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Tân"
+      ],
+      "secondaryGodStemIndices": [
+        7
+      ],
+      "secondaryGodStemsVi": [
+        "Tân"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Ất Mộc tháng Tuất khô thổ tàng hỏa, dụng Quý Thủy nhuận căn, Tân Kim phát thủy nguyên.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Tuất. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-1-11",
+      "dayStemIndex": 1,
+      "dayStemVi": "Ất",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        2,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              1
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Ất nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Ất Mộc tháng Hợi thủy vượng mộc trôi, dụng Bính Hỏa sưởi ấm và Mậu Thổ chế thủy bồi căn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Ất sinh tháng Hợi. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-2-0",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        8,
+        4,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Mậu",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        4,
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Mậu",
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Tý",
+      "modernInterpretationVi": "Bính Hỏa tháng Tý Đông chí nhất dương sinh, dụng Nhâm Thủy chiếu ánh, Mậu Giáp chế hóa Sát.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Tý. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-1",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        8,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Bính Hỏa tháng Sửu tuyết hậu dương quang, hỉ Nhâm Thủy thanh chiếu, Giáp Mộc trợ hỏa giải hàn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Sửu. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-2",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        8,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Dần",
+      "modernInterpretationVi": "Bính Hỏa tháng Dần Trường Sinh dương thăng, dụng Nhâm Thủy chiếu rọi, Canh Kim phát nguồn Nhâm.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Dần. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-3",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        8,
+        5
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Kỷ"
+      ],
+      "secondaryGodStemIndices": [
+        5
+      ],
+      "secondaryGodStemsVi": [
+        "Kỷ"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Mão",
+      "modernInterpretationVi": "Bính Hỏa tháng Mão mộc vượng tắc hỏa, chuyên dụng Nhâm Thủy thông minh, Kỷ Thổ phụ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Mão. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-4",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        8,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Bính Hỏa tháng Thìn Thực Thần tiết khí hối quang, tiên Nhâm Thủy ánh nhật, thứ Giáp sơ thổ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Thìn. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-5",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        8,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Bính Hỏa tháng Tỵ Kiến Lộc viêm liệt, cấp dụng Nhâm Thủy giải viêm, Canh Kim sinh Nhâm.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Tỵ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-6",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        8,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Bính Hỏa tháng Ngọ Dương Nhận cực nhiệt, tối cần Nhâm Thủy tế hỏa, Canh Kim trợ nguồn thủy.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Ngọ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-7",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        8,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Bính Hỏa tháng Mùi hỏa thoái khí táo, dụng Nhâm Thủy Canh Kim điều hòa thanh khiết.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Mùi. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-8",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        8,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Thân",
+      "modernInterpretationVi": "Bính Hỏa tháng Thân nhật chiếu giang hà, dụng Nhâm Thủy phụ huy, Mậu Thổ phòng thủy thái quá.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Thân. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-9",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        8,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Bính Hỏa tháng Dậu nhật cận hoàng hôn, dụng Nhâm Thủy phản chiếu, Giáp Mộc trợ Bính.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Dậu. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-2-10",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        0,
+        8
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Nhâm"
+      ],
+      "secondaryGodStemIndices": [
+        8
+      ],
+      "secondaryGodStemsVi": [
+        "Nhâm"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Bính Hỏa tháng Tuất hỏa nhập Mộ khố kỵ thổ hối quang, tiên Giáp sơ thổ, thứ Nhâm ánh chiếu.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Tuất. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-2-11",
+      "dayStemIndex": 2,
+      "dayStemVi": "Bính",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        0,
+        4,
+        8
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Mậu",
+        "Nhâm"
+      ],
+      "secondaryGodStemIndices": [
+        4,
+        8
+      ],
+      "secondaryGodStemsVi": [
+        "Mậu",
+        "Nhâm"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              2
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Bính nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Bính Hỏa tháng Hợi Thất Sát đương quyền, tiên Giáp Mộc hóa Sát sinh Bính, Mậu chế thủy.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Bính sinh tháng Hợi. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-0",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        0,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Tý",
+      "modernInterpretationVi": "Đinh Hỏa tháng Tý Sát trọng hàn cực, chuyên thủ Giáp Mộc hóa Sát dẫn Đinh, Canh phách Giáp.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Tý. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-1",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        0,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Đinh Hỏa tháng Sửu hàn thấp tiết khí, chuyên dụng Giáp Mộc dẫn Đinh, Canh Kim phách mộc.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Sửu. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-2",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        0,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Dần",
+      "modernInterpretationVi": "Đinh Hỏa tháng Dần Ấn vượng dễ tắc hỏa, dụng Canh Kim phách Giáp dẫn Đinh minh mẫn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Dần. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-3",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        6,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Mão",
+      "modernInterpretationVi": "Đinh Hỏa tháng Mão ướt mộc khó sinh đăng hỏa, dụng Canh khứ Ất và Giáp chân mộc dẫn Đinh.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Mão. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-3-4",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        0,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Đinh Hỏa tháng Thìn Thương Quan nắm lệnh, tiên Giáp sơ thổ dẫn Đinh, thứ Canh bổ mộc.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Thìn. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-5",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        0,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Đinh Hỏa tháng Tỵ Bính đoạt Đinh quang, dụng Giáp dẫn Đinh, Canh phách Giáp sinh hỏa.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Tỵ. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-6",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        8,
+        6,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Canh",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Đinh Hỏa tháng Ngọ Kiến Lộc hỏa vượng, dụng Nhâm Canh điều tiết kiêm Giáp tồn nguyên.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Ngọ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-3-7",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        0,
+        8,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Nhâm",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        8,
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Nhâm",
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Đinh Hỏa tháng Mùi mộc nhập khố thoái khí, dụng Giáp dẫn Đinh, Nhâm Canh điều hậu.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Mùi. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-8",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        0,
+        6,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Thân",
+      "modernInterpretationVi": "Đinh Hỏa tháng Thân Tài vượng thân nhược, chuyên dụng Giáp Mộc sinh Đinh, Canh bổ Giáp, Bính noãn kim.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Thân. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-9",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        0,
+        6,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Đinh Hỏa tháng Dậu Thiên Tài nắm lệnh, dụng Giáp Canh dẫn hỏa luyện kim, Bính tá.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Dậu. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-10",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        0,
+        6,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Đinh Hỏa tháng Tuất Thương Quan táo thổ tiết khí, tiên Giáp sơ thổ sinh Đinh, thứ Canh.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Tuất. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-3-11",
+      "dayStemIndex": 3,
+      "dayStemVi": "Đinh",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        0,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              3
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Đinh nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Đinh Hỏa tháng Hợi Chính Quan nắm lệnh, chuyên dụng Giáp Mộc hóa Nhâm sinh Đinh, Canh tá Giáp.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Đinh sinh tháng Hợi. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-4-0",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        2,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Tý",
+      "modernInterpretationVi": "Mậu Thổ tháng Tý băng tuyết đóng địa, Bính Hỏa vi tôn sưởi ấm, Giáp Mộc vi tá.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Tý. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-4-1",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        2,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Mậu Thổ tháng Sửu nghiêm hàn thấp đống, chuyên trọng Bính Hỏa hồi dương, Giáp trợ Bính.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Sửu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-4-2",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        2,
+        0,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Dần",
+      "modernInterpretationVi": "Mậu Thổ tháng Dần Sát vượng địa hàn, vô Bính bất noãn, vô Giáp bất linh, vô Quý bất nhuận.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Dần. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-4-3",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        2,
+        0,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Mão",
+      "modernInterpretationVi": "Mậu Thổ tháng Mão Quan tinh nắm lệnh, tiên Bính sưởi thổ, thứ Giáp Quý tương tế.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Mão. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-4-4",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        0,
+        9,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Quý",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        9,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Quý",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Mậu Thổ tháng Thìn thổ trọng đương quyền, tiên Giáp sơ thổ, thứ Quý nhuận, Bính noãn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Thìn. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-4-5",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        0,
+        2,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Bính",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        2,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Bính",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Mậu Thổ tháng Tỵ Kiến Lộc hỏa viêm thổ táo, tiên Giáp sơ phách, Quý Bính điều hòa.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Tỵ. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-4-6",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        8,
+        0,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Mậu Thổ tháng Ngọ Đế Vượng khô liệt, cấp dụng Nhâm Thủy điều hậu nhuận táo, Giáp phụ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Ngọ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-4-7",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        9,
+        2,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Bính",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        2,
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Bính",
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Mậu Thổ tháng Mùi táo thổ khô kiệt, tiên Quý Thủy nhuận trạch, thứ Bính Giáp.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Mùi. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-4-8",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        2,
+        9,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Quý",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        9,
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Quý",
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Thân",
+      "modernInterpretationVi": "Mậu Thổ tháng Thân Thực Thần tiết khí hàn sinh, tiên Bính Hỏa ôn thổ, thứ Quý Giáp.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Thân. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-4-9",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        2,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Mậu Thổ tháng Dậu Thương Quan tiết tú kim hàn, chuyên dụng Bính Hỏa ôn noãn, Quý nhuận.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Dậu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-4-10",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        0,
+        2,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Bính",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        2,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Bính",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Mậu Thổ tháng Tuất thổ chuyên vượng cực, tiên Giáp sơ thổ, thứ Bính Quý tương tế.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Tuất. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-4-11",
+      "dayStemIndex": 4,
+      "dayStemVi": "Mậu",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        0,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              4
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Mậu nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Mậu Thổ tháng Hợi Tài vượng thủy hàn, phi Giáp bất linh, phi Bính bất noãn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Mậu sinh tháng Hợi. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-5-0",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        2,
+        0,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Tý",
+      "modernInterpretationVi": "Kỷ Thổ tháng Tý điền viên băng đống, chuyên tôn Bính Hỏa giải hàn, Mậu Giáp chế thủy trợ hỏa.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Tý. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-5-1",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        2,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Kỷ Thổ tháng Sửu thấp nê cực hàn, duy cậy Bính Hỏa dương quang sưởi ấm, Giáp tá.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Sửu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-5-2",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        2,
+        0,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Dần",
+      "modernInterpretationVi": "Kỷ Thổ tháng Dần dư hàn chưa hết, thủ Bính giải hàn, Giáp Quý điều hòa thổ mạch.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Dần. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-5-3",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        0,
+        9,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Quý",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        9,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Quý",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Mão",
+      "modernInterpretationVi": "Kỷ Thổ tháng Mão Thất Sát đương lệnh, dụng Giáp Quý Bính phối hợp sinh cơ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Mão. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-5-4",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        2,
+        9,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Quý",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        9,
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Quý",
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Kỷ Thổ tháng Thìn điền thổ đắc thời, tiên Bính noãn thổ, hậu Quý nhuận, Giáp sơ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Thìn. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-5-5",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        9,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Kỷ Thổ tháng Tỵ hỏa táo thổ khát, cấp dụng Quý Thủy tư nhuận, Bính Hỏa tương thành.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Tỵ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-5-6",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        9,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Kỷ Thổ tháng Ngọ giá sắc khô tiêu, chuyên thủ Quý Thủy cam lộ giải viêm, Bính phụ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Ngọ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-5-7",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        9,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Kỷ Thổ tháng Mùi tam phục thổ táo, Quý Thủy vi yếu nhuận điền, Bính Hỏa thứ chi.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Mùi. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-5-8",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        2,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Thân",
+      "modernInterpretationVi": "Kỷ Thổ tháng Thân Thương Quan tiết tú khí lương, ngoại Bính ôn noãn, nội Quý tư nhuận.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Thân. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-5-9",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        2,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Kỷ Thổ tháng Dậu Thực Thần kim thanh, dụng Bính Hỏa sưởi ấm kiêm Quý Thủy nhuận trạch.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Dậu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-5-10",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        0,
+        2,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Bính",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        2,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Bính",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Kỷ Thổ tháng Tuất thổ cường táo kết, tiên Giáp sơ thổ, thứ Bính Quý điều hòa.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Tuất. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-5-11",
+      "dayStemIndex": 5,
+      "dayStemVi": "Kỷ",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        2,
+        0,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              5
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Kỷ nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Kỷ Thổ tháng Hợi Tài đa thổ đãng, dụng Bính Hỏa noãn thổ, Mậu Thổ đê phòng, Giáp trợ Bính.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Kỷ sinh tháng Hợi. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-6-0",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        3,
+        0,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Đinh",
+        "Giáp",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Tý",
+      "modernInterpretationVi": "Canh Kim tháng Tý Thương Quan thủy lãnh kim hàn, dụng Đinh Giáp rèn kim kiêm Bính giải đống.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Tý. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-6-1",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        2,
+        3,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Đinh",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        3,
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Đinh",
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Canh Kim tháng Sửu hàn nê mộ kim, tiên Bính Hỏa giải đống, thứ Đinh Giáp rèn luyện.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Sửu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-6-2",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        2,
+        0,
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp",
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        3
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Đinh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Dần",
+      "modernInterpretationVi": "Canh Kim tháng Dần mộc vượng kim khuyết hàn dư, dụng Bính ấm kim hoặc Đinh Giáp luyện khí.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Dần. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-6-3",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        3,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Đinh",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Mão",
+      "modernInterpretationVi": "Canh Kim tháng Mão Tài tinh đương lệnh, chuyên dụng Đinh Hỏa luyện kim, Giáp Mộc dẫn Đinh.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Mão. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-6-4",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        0,
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [
+        3
+      ],
+      "secondaryGodStemsVi": [
+        "Đinh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Canh Kim tháng Thìn thổ dày dễ vùi kim, tiên Giáp sơ thổ, hậu Đinh Hỏa luyện thành khí.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Thìn. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-6-5",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        8,
+        2,
+        4,
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Bính",
+        "Mậu",
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [
+        2,
+        4,
+        3
+      ],
+      "secondaryGodStemsVi": [
+        "Bính",
+        "Mậu",
+        "Đinh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Canh Kim tháng Tỵ Trường Sinh hỏa vượng, tiên Nhâm Thủy chế hỏa hộ kim, thứ Mậu Bính Đinh.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Tỵ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-6-6",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        8,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Canh Kim tháng Ngọ hỏa liệt kim dung, cấp dụng Nhâm Quý Thủy chế hỏa cứu kim.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Ngọ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-6-7",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        3,
+        0,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Đinh",
+        "Giáp",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Canh Kim tháng Mùi táo thổ sinh kim, dụng Đinh Giáp luyện chế kiêm Quý Thủy nhuận táo.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Mùi. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-6-8",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        3,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Đinh",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Thân",
+      "modernInterpretationVi": "Canh Kim tháng Thân Kiến Lộc cương nhuệ, tất dụng Đinh Hỏa rèn kiếm, Giáp Mộc dẫn Đinh.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Thân. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-6-9",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        3,
+        0,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Đinh",
+        "Giáp",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Canh Kim tháng Dậu Dương Nhận cực cương, chuyên thủ Đinh Hỏa rèn giũa, Giáp dẫn, Bính điều hậu.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Dậu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-6-10",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        0,
+        8
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Nhâm"
+      ],
+      "secondaryGodStemIndices": [
+        8
+      ],
+      "secondaryGodStemsVi": [
+        "Nhâm"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Canh Kim tháng Tuất thổ dày mai kim, tiên Giáp Mộc sơ thổ, thứ Nhâm Thủy đào tẩy.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Tuất. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-6-11",
+      "dayStemIndex": 6,
+      "dayStemVi": "Canh",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        3,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Đinh",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              6
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Canh nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Canh Kim tháng Hợi thủy lãnh kim hàn, dụng Đinh Hỏa luyện kim kiêm Bính Hỏa sưởi ấm.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Canh sinh tháng Hợi. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-7-0",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        2,
+        8,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Nhâm",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        8,
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Nhâm",
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Tý",
+      "modernInterpretationVi": "Tân Kim tháng Tý kim thủy thương quan đông đống, tất dụng Bính Hỏa ôn noãn, Nhâm Mậu phụ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Tý. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-7-1",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        2,
+        8
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Nhâm"
+      ],
+      "secondaryGodStemIndices": [
+        8
+      ],
+      "secondaryGodStemsVi": [
+        "Nhâm"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Tân Kim tháng Sửu hàn thấp đóng băng, tiên Bính Hỏa giải hàn, thứ Nhâm Thủy đào tẩy.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Sửu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-7-2",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        5,
+        8,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Kỷ",
+        "Nhâm",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        8,
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Nhâm",
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Dần",
+      "modernInterpretationVi": "Tân Kim tháng Dần Tài vượng thân nhược, dụng Kỷ sinh thân, Nhâm đào tẩy, Canh trợ chế mộc.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Kỷ (Thổ) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Dần. Ưu tiên sự ổn định, xây dựng nền tảng tích lũy bền vững, chuẩn hóa quy trình công việc và giữ cân bằng nhịp sinh hoạt điều độ."
+    },
+    {
+      "id": "CTBG-7-3",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        8,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Mão",
+      "modernInterpretationVi": "Tân Kim tháng Mão Thiên Tài vượng cực, dụng Nhâm Thủy sinh hợp giải nguy, Giáp phụ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Mão. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-7-4",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        8,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Tân Kim tháng Thìn mẫu vượng tử tướng, nhược thổ dày thì Giáp sơ thổ, Nhâm Thủy tẩy châu.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Thìn. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-7-5",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        8,
+        0,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Tân Kim tháng Tỵ hỏa vượng nung châu ngọc, cấp dụng Nhâm Quý Thủy giải viêm hộ kim.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Tỵ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-7-6",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        8,
+        5,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Kỷ",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        5,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Kỷ",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Tân Kim tháng Ngọ Đinh hỏa khắc luyện thái quá, chuyên thủ Nhâm Kỷ kiêm Quý Thủy nhuận hộ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Ngọ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-7-7",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        8,
+        6,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Canh",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Tân Kim tháng Mùi táo thổ vùi kim, tiên Nhâm Thủy nhuận thổ tẩy kim, Canh Giáp tá.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Mùi. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-7-8",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        8,
+        0,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Thân",
+      "modernInterpretationVi": "Tân Kim tháng Thân kim vượng đương quyền, chuyên dụng Nhâm Thủy tiết tú phát quang.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Thân. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-7-9",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        8,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Tân Kim tháng Dậu Kiến Lộc thuần kim, duy hỉ Nhâm Thủy đào tẩy hiển lộ tinh hoa.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Dậu. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-7-10",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        8,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Tân Kim tháng Tuất táo thổ mẫu vượng, tiên Nhâm Thủy nhuận tẩy, thứ Giáp Mộc sơ thổ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Tuất. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-7-11",
+      "dayStemIndex": 7,
+      "dayStemVi": "Tân",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        8,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              7
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Tân nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Tân Kim tháng Hợi Thương Quan thủy hàn, tiên Nhâm thanh tẩy, hậu Bính Hỏa ôn kim.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Tân sinh tháng Hợi. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-8-0",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        2,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Tý",
+      "modernInterpretationVi": "Nhâm Thủy tháng Tý Dương Nhận băng phong, tiên Bính Hỏa giải đống, thứ Mậu Thổ chế nhận.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Tý. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-8-1",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        2,
+        0,
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Giáp",
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        3
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Đinh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Nhâm Thủy tháng Sửu băng tuyết ngưng kết, chuyên dụng Bính Hỏa giải hàn, Giáp Đinh phụ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Sửu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-8-2",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        6,
+        2,
+        4
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Bính",
+        "Mậu"
+      ],
+      "secondaryGodStemIndices": [
+        2,
+        4
+      ],
+      "secondaryGodStemsVi": [
+        "Bính",
+        "Mậu"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Dần",
+      "modernInterpretationVi": "Nhâm Thủy tháng Dần Thực Thần vượng tiết khí, dụng Canh phát nguồn, Bính noãn, Mậu chế.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Dần. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-8-3",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        4,
+        7,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Mậu",
+        "Tân",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        7,
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Tân",
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Mão",
+      "modernInterpretationVi": "Nhâm Thủy tháng Mão Thương Quan tiết lưu, dụng Mậu Thổ đê phòng, Tân Canh phát nguồn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Mậu (Thổ) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Mão. Ưu tiên sự ổn định, xây dựng nền tảng tích lũy bền vững, chuẩn hóa quy trình công việc và giữ cân bằng nhịp sinh hoạt điều độ."
+    },
+    {
+      "id": "CTBG-8-4",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        0,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Nhâm Thủy tháng Thìn thổ vượng tắc giang, tiên Giáp Mộc sơ thổ, thứ Canh Kim sinh thủy.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Thìn. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-8-5",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        8,
+        7,
+        6
+      ],
+      "primaryGodStemsVi": [
+        "Nhâm",
+        "Tân",
+        "Canh"
+      ],
+      "secondaryGodStemIndices": [
+        7,
+        6
+      ],
+      "secondaryGodStemsVi": [
+        "Tân",
+        "Canh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Nhâm Thủy tháng Tỵ tuyệt địa hỏa vượng thủy khô, dụng Nhâm tỷ trợ và Tân Canh phát nguồn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Nhâm (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Tỵ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-8-6",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        9,
+        6,
+        7
+      ],
+      "primaryGodStemsVi": [
+        "Quý",
+        "Canh",
+        "Tân"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        7
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Tân"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Nhâm Thủy tháng Ngọ Tài Quan cực vượng, cấp dụng Quý Tỷ kiếp và Canh Tân Ấn thụ hộ thân.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Quý (Thủy) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Ngọ. Giữ tâm thế linh hoạt, tăng cường lắng nghe, nghiên cứu chiều sâu, điều tiết cảm xúc và duy trì dòng chảy hợp tác hài hòa."
+    },
+    {
+      "id": "CTBG-8-7",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        7,
+        6,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Tân",
+        "Canh",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        6,
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Canh",
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Nhâm Thủy tháng Mùi táo thổ khắc chế, tiên Tân Canh phát nguồn, thứ Giáp Mộc sơ thổ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Tân (Kim) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Mùi. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-8-8",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        4,
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Mậu",
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [
+        3
+      ],
+      "secondaryGodStemsVi": [
+        "Đinh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Thân",
+      "modernInterpretationVi": "Nhâm Thủy tháng Thân Trường Sinh thu lão thủy hồng, chuyên dụng Mậu Thổ đê phòng, Đinh chế Canh.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Mậu (Thổ) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Thân. Ưu tiên sự ổn định, xây dựng nền tảng tích lũy bền vững, chuẩn hóa quy trình công việc và giữ cân bằng nhịp sinh hoạt điều độ."
+    },
+    {
+      "id": "CTBG-8-9",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        7,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Tân",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Nhâm Thủy tháng Dậu kim bạch thủy thanh, dụng Giáp Mộc tiết thủy thành văn chương tú khí.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Tân (Kim) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Dậu. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-8-10",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        0,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Giáp",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Nhâm Thủy tháng Tuất Thất Sát táo thổ nắm lệnh, dụng Giáp chế Tuất thổ, Bính Hỏa điều hòa.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Giáp (Mộc) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Tuất. Phát huy tư duy tăng trưởng, học tập liên ngành, rèn luyện thể lực buổi sáng và giữ môi trường làm việc thông thoáng nhiều sinh khí."
+    },
+    {
+      "id": "CTBG-8-11",
+      "dayStemIndex": 8,
+      "dayStemVi": "Nhâm",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        4,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Mậu",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              8
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Nhâm nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Nhâm Thủy tháng Hợi Kiến Lộc uông dương, chuyên dụng Mậu Thổ đê điều ngăn lũ, Bính giải hàn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Mậu (Thổ) làm trọng tâm điều hậu cho Nhật Chủ Nhâm sinh tháng Hợi. Ưu tiên sự ổn định, xây dựng nền tảng tích lũy bền vững, chuẩn hóa quy trình công việc và giữ cân bằng nhịp sinh hoạt điều độ."
+    },
+    {
+      "id": "CTBG-9-0",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 0,
+      "monthBranchVi": "Tý",
+      "primaryGodStemIndices": [
+        2,
+        7
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Tân"
+      ],
+      "secondaryGodStemIndices": [
+        7
+      ],
+      "secondaryGodStemsVi": [
+        "Tân"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              0
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Tý",
+      "modernInterpretationVi": "Quý Thủy tháng Tý Kiến Lộc sương tuyết đóng băng, chuyên thủ Bính Hỏa giải đống, Tân phát nguồn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Tý. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-9-1",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 1,
+      "monthBranchVi": "Sửu",
+      "primaryGodStemIndices": [
+        2,
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [
+        3
+      ],
+      "secondaryGodStemsVi": [
+        "Đinh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              1
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Sửu",
+      "modernInterpretationVi": "Quý Thủy tháng Sửu hàn đống cực điểm, phi Bính Hỏa bất năng giải đống hồi dương.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Sửu. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-9-2",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 2,
+      "monthBranchVi": "Dần",
+      "primaryGodStemIndices": [
+        7,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Tân",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              2
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Dần",
+      "modernInterpretationVi": "Quý Thủy tháng Dần Thương Quan mộc thịnh tiết thủy, tiên Tân Kim phát nguồn, thứ Bính giải hàn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Tân (Kim) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Dần. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-9-3",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 3,
+      "monthBranchVi": "Mão",
+      "primaryGodStemIndices": [
+        6,
+        7
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Tân"
+      ],
+      "secondaryGodStemIndices": [
+        7
+      ],
+      "secondaryGodStemsVi": [
+        "Tân"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              3
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Mão",
+      "modernInterpretationVi": "Quý Thủy tháng Mão Thực Thần tiết tú, chuyên dụng Canh Tân Kim sinh phù thủy nguyên.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Mão. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-9-4",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 4,
+      "monthBranchVi": "Thìn",
+      "primaryGodStemIndices": [
+        2,
+        7,
+        0
+      ],
+      "primaryGodStemsVi": [
+        "Bính",
+        "Tân",
+        "Giáp"
+      ],
+      "secondaryGodStemIndices": [
+        7,
+        0
+      ],
+      "secondaryGodStemsVi": [
+        "Tân",
+        "Giáp"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              4
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Thìn",
+      "modernInterpretationVi": "Quý Thủy tháng Thìn thấp thổ tàng thủy, tiên Bính hóa vân vũ, thứ Tân Giáp tương tế.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Bính (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Thìn. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-9-5",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 5,
+      "monthBranchVi": "Tỵ",
+      "primaryGodStemIndices": [
+        7,
+        8
+      ],
+      "primaryGodStemsVi": [
+        "Tân",
+        "Nhâm"
+      ],
+      "secondaryGodStemIndices": [
+        8
+      ],
+      "secondaryGodStemsVi": [
+        "Nhâm"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              5
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Tỵ",
+      "modernInterpretationVi": "Quý Thủy tháng Tỵ hỏa vượng thủy nhược, chuyên thủ Tân Kim Chính Ấn phát nguồn kiêm Nhâm kiếp trợ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Tân (Kim) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Tỵ. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-9-6",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 6,
+      "monthBranchVi": "Ngọ",
+      "primaryGodStemIndices": [
+        6,
+        7,
+        8
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Tân",
+        "Nhâm"
+      ],
+      "secondaryGodStemIndices": [
+        7,
+        8
+      ],
+      "secondaryGodStemsVi": [
+        "Tân",
+        "Nhâm"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              6
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Ngọ",
+      "modernInterpretationVi": "Quý Thủy tháng Ngọ tuyệt địa chí nhược, cấp dụng Canh Tân phát nguồn kiêm Nhâm Tỷ Kiếp phân lực.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Ngọ. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-9-7",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 7,
+      "monthBranchVi": "Mùi",
+      "primaryGodStemIndices": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Tân",
+        "Nhâm",
+        "Quý"
+      ],
+      "secondaryGodStemIndices": [
+        7,
+        8,
+        9
+      ],
+      "secondaryGodStemsVi": [
+        "Tân",
+        "Nhâm",
+        "Quý"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              7
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Mùi",
+      "modernInterpretationVi": "Quý Thủy tháng Mùi Sát vượng táo liệt, dụng Canh Tân phát nguồn và Nhâm Quý trợ thân.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Mùi. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-9-8",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 8,
+      "monthBranchVi": "Thân",
+      "primaryGodStemIndices": [
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [],
+      "secondaryGodStemsVi": [],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              8
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Thân",
+      "modernInterpretationVi": "Quý Thủy tháng Thân kim vượng tử địa, dụng Đinh Hỏa chế Canh Kim khai thông chân Ấn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Đinh (Hỏa) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Thân. Chủ động truyền cảm hứng, giữ nhịp độ nhiệt huyết ổn định, chú trọng giao tiếp minh bạch và tránh trì hoãn trong thời điểm then chốt."
+    },
+    {
+      "id": "CTBG-9-9",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 9,
+      "monthBranchVi": "Dậu",
+      "primaryGodStemIndices": [
+        7,
+        2
+      ],
+      "primaryGodStemsVi": [
+        "Tân",
+        "Bính"
+      ],
+      "secondaryGodStemIndices": [
+        2
+      ],
+      "secondaryGodStemsVi": [
+        "Bính"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              9
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Dậu",
+      "modernInterpretationVi": "Quý Thủy tháng Dậu Tân Kim đắc lệnh kim ôn thủy noãn, dụng Tân phát nguyên kiêm Bính ấm.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Tân (Kim) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Dậu. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-9-10",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 10,
+      "monthBranchVi": "Tuất",
+      "primaryGodStemIndices": [
+        7,
+        0,
+        8
+      ],
+      "primaryGodStemsVi": [
+        "Tân",
+        "Giáp",
+        "Nhâm"
+      ],
+      "secondaryGodStemIndices": [
+        0,
+        8
+      ],
+      "secondaryGodStemsVi": [
+        "Giáp",
+        "Nhâm"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              10
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Tuất",
+      "modernInterpretationVi": "Quý Thủy tháng Tuất Quan vượng thổ táo, tiên Tân Kim phát nguồn, thứ Giáp sơ thổ, Nhâm trợ.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Tân (Kim) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Tuất. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    },
+    {
+      "id": "CTBG-9-11",
+      "dayStemIndex": 9,
+      "dayStemVi": "Quý",
+      "monthBranchIndex": 11,
+      "monthBranchVi": "Hợi",
+      "primaryGodStemIndices": [
+        6,
+        7,
+        2,
+        3
+      ],
+      "primaryGodStemsVi": [
+        "Canh",
+        "Tân",
+        "Bính",
+        "Đinh"
+      ],
+      "secondaryGodStemIndices": [
+        7,
+        2,
+        3
+      ],
+      "secondaryGodStemsVi": [
+        "Tân",
+        "Bính",
+        "Đinh"
+      ],
+      "when": {
+        "op": "and",
+        "args": [
+          {
+            "op": "day_stem_in",
+            "stems": [
+              9
+            ]
+          },
+          {
+            "op": "month_branch_in",
+            "branches": [
+              11
+            ]
+          }
+        ]
+      },
+      "classicalSource": "窮通寶鑑 (Cùng Thông Bảo Giám) — Quý nhật sinh tháng Hợi",
+      "modernInterpretationVi": "Quý Thủy tháng Hợi vượng thủy hóa mộc, dụng Canh Tân cố bản kiêm Bính Đinh giải hàn.",
+      "actionableAdviceVi": "Ưu tiên bồi đắp khí Canh (Kim) làm trọng tâm điều hậu cho Nhật Chủ Quý sinh tháng Hợi. Rèn tính kỷ luật, ra quyết định dứt khoát dựa trên dữ kiện rõ ràng, tinh gọn mục tiêu và giữ nguyên tắc trong quản trị tài chính."
+    }
+  ],
+  "diTianSui": [
+    {
+      "id": "DTS-01",
+      "section": "Thông Thiên Luận",
+      "hanziOriginal": "五陽皆陽丙為最，五陰皆陰癸為至。",
+      "hanViet": "Ngũ dương giai dương Bính vi tối, ngũ âm giai âm Quý vi chí.",
+      "literalMeaningVi": "Trong năm Can dương thì Bính Hỏa thuần dương mạnh nhất; trong năm Can âm thì Quý Thủy thuần âm sâu nhất.",
+      "classicalSource": "滴天髓 · 通天論 (zh_bazi_di_tian_sui.md:127)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          2,
+          9
+        ]
+      },
+      "modernInterpretationVi": "Khí chất Bính Hỏa rực rỡ, quang minh và bộc trực; khí chất Quý Thủy nhu hòa, thấm sâu, tinh tế và giàu sức thích nghi.",
+      "actionableAdviceVi": "Người mang Nhật Chủ Bính cần giữ sự tiết chế để tránh nóng vội; người mang Nhật Chủ Quý nên rèn bản lĩnh kiên định trước biến động."
+    },
+    {
+      "id": "DTS-02",
+      "section": "Thông Thiên Luận",
+      "hanziOriginal": "五陽從氣不從勢，五陰從勢無情義。",
+      "hanViet": "Ngũ dương tòng khí bất tòng thế, ngũ âm tòng thế vô tình nghĩa.",
+      "literalMeaningVi": "Năm Can dương trọng khí bản nguyên mà ít khuất phục thế ngoài; năm Can âm dễ thuận theo đại thế hoàn cảnh.",
+      "classicalSource": "滴天髓 · 通天論 (zh_bazi_di_tian_sui.md:132)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          0,
+          2,
+          4,
+          6,
+          8
+        ]
+      },
+      "modernInterpretationVi": "Can dương thiên về giữ vững nguyên tắc nội tại ngay cả khi áp lực lớn; Can âm linh hoạt xoay chuyển theo bối cảnh và dòng chảy thời cuộc.",
+      "actionableAdviceVi": "Can dương cần học cách thỏa hiệp chiến lược; Can âm cần thiết lập ranh giới giá trị cốt lõi để không bị cuốn trôi."
+    },
+    {
+      "id": "DTS-03",
+      "section": "Thiên Can Luận — Giáp",
+      "hanziOriginal": "甲木參天，脱胎要火，春不容金，秋不容土，火熾乘龍，水蕩騎虎，地潤天和，植立千古。",
+      "hanViet": "Giáp Mộc tham thiên, thoát thai yếu Hỏa, xuân bất dung Kim, thu bất dung Thổ, hỏa sí thừa Long, thủy đãng kỵ Hổ, địa nhuận thiên hòa, thực lập thiên cổ.",
+      "literalMeaningVi": "Giáp Mộc như đại thụ chọc trời, đầu xuân cần Hỏa sưởi, mùa xuân kỵ Kim quá nặng, mùa thu cần Thủy trước Thổ; Hỏa quá vượng cần Thìn tiết, Thủy quá lớn cần Dần nạp.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:143)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          0
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Giáp Mộc mang chí hướng vươn cao, chính trực và có năng lực gánh vác lâu dài khi được môi trường ấm áp, cân bằng nuôi dưỡng.",
+      "actionableAdviceVi": "Xây dựng nền tảng chuyên môn sâu (rễ vững), chọn môi trường khích lệ sáng tạo (Hỏa) và tránh ôm đồm quá tải."
+    },
+    {
+      "id": "DTS-04",
+      "section": "Thiên Can Luận — Ất",
+      "hanziOriginal": "乙木雖柔，刲羊解牛，懷丁抱丙，跨雞乘猴，虛濕之地，騎馬亦憂，籐蘿繫甲，可春可秋。",
+      "hanViet": "Ất Mộc tuy nhu, khuê Dương giải Ngưu, hoài Đinh bão Bính, khóa Kê thừa Hầu, hư thấp chi địa, kỵ Mã diệc ưu, đằng la hệ Giáp, khả xuân khả thu.",
+      "literalMeaningVi": "Ất Mộc tuy mềm mại như dây leo nhưng đủ sức chế hóa Thổ Sửu Mùi; có Bính Đinh ấm áp thì không ngại Kim Dậu Thân; tựa vào Giáp Mộc đại thụ thì bốn mùa đều vững.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:149)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          1
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Ất Mộc khéo léo, dẻo dai và có sức sống bền bỉ trong nghịch cảnh nhờ khả năng liên kết đồng đội và nương tựa hệ sinh thái vững.",
+      "actionableAdviceVi": "Phát huy thế mạnh kết nối, tìm người đồng hành hoặc cố vấn tin cậy (Đằng la hệ Giáp) và tránh làm việc trong môi trường ẩm trệ thiếu động lực."
+    },
+    {
+      "id": "DTS-05",
+      "section": "Thiên Can Luận — Bính",
+      "hanziOriginal": "丙火猛烈，欺霜侮雪，能煆庚金，逄辛反怯，土眾成慈，水猖顯節，虎馬犬鄉，甲來焚滅。",
+      "hanViet": "Bính Hỏa mãnh liệt, khi sương vũ tuyết, năng đoán Canh Kim, phùng Tân phản khiếp, Thổ chúng thành từ, Thủy xương hiển tiết, Hổ Mã Khuyển hương, Giáp lai phần diệt.",
+      "literalMeaningVi": "Bính Hỏa mạnh mẽ chẳng ngại băng sương, rèn được Canh Kim nhưng gặp Tân lại hợp hóa thành dịu; gặp Thổ nhiều thành bao dung, gặp Thủy vượng giữ tiết tháo, nhưng tam hợp Dần Ngọ Tuất lại thêm Giáp Mộc dễ bùng cháy quá độ.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:154)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          2
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Bính Hỏa giàu năng lượng dẫn dắt, hào sảng và tỏa sáng tự nhiên; khi tiết chế được sự cực đoan sẽ trở thành điểm tựa ấm áp cho tập thể.",
+      "actionableAdviceVi": "Giữ kỷ luật nghỉ ngơi và lắng nghe phản hồi, đặc biệt khi vận thế thuận lợi dễ hưng phấn quá mức."
+    },
+    {
+      "id": "DTS-06",
+      "section": "Thiên Can Luận — Đinh",
+      "hanziOriginal": "丁火柔中，內性昭融，抱乙而考，合壬而忠，旺而不烈，衰而不窮，如有嫡母，可秋可冬。",
+      "hanViet": "Đinh Hỏa nhu trung, nội tính chiêu dung, bão Ất nhi hiếu, hợp Nhâm nhi trung, vượng nhi bất liệt, suy nhi bất cùng, như hữu đích mẫu, khả thu khả đông.",
+      "literalMeaningVi": "Đinh Hỏa mềm mại trung hòa mà bên trong sáng suốt; vượng không gay gắt, suy không tắt lịm; có Giáp Mộc (đích mẫu) tiếp sức thì thu đông vẫn bền bỉ.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:159)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          3
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Đinh Hỏa tinh tế, sâu sắc như ngọn đèn trí tuệ, càng trong giai đoạn thử thách càng giữ được sự minh mẫn và lòng trung thành.",
+      "actionableAdviceVi": "Kiên trì trau dồi tri thức nền tảng (Ấn Mộc) để duy trì nguồn sáng nội tâm ổn định suốt đường dài."
+    },
+    {
+      "id": "DTS-07",
+      "section": "Thiên Can Luận — Mậu",
+      "hanziOriginal": "戊土固重，既中且正，靜翕動闢，萬物司命，水旺物生，火燥囍潤，若在坤艮，怕沖宜靜。",
+      "hanViet": "Mậu Thổ cố trọng, ký trung thả chính, tĩnh hấp động tích, vạn vật tư mệnh, Thủy vượng vật sinh, Hỏa táo hỉ nhuận, nhược tại Khôn Cấn, phạ xung nghi tĩnh.",
+      "literalMeaningVi": "Mậu Thổ như núi cao vững chãi, trung chính hậu trọng; gặp Thủy vượng giúp sinh trưởng, Hỏa khô cần nhuần ướt; đóng ở Dần Thân thích tĩnh lặng tránh xung động.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:164)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          4
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Mậu Thổ đáng tin cậy, vững vàng và có khả năng giữ nhịp cho cả tổ chức nhờ tính nhất quán và sức chịu đựng cao.",
+      "actionableAdviceVi": "Giữ tư duy cởi mở để tránh cố chấp, chủ động tiếp nhận dòng chảy mới (Thủy/Mộc) giúp hệ thống không bị khô cứng."
+    },
+    {
+      "id": "DTS-08",
+      "section": "Thiên Can Luận — Kỷ",
+      "hanziOriginal": "己土卑濕，中正蓄藏，不愁木盛，不畏水旺，火少火晦，金多金明，若要物昌，宜助宜幫。",
+      "hanViet": "Kỷ Thổ ty thấp, trung chính súc tàng, bất sầu Mộc thịnh, bất úy Thủy vượng, Hỏa thiểu Hỏa hối, Kim đa Kim minh, nhược yếu vật xương, nghi trợ nghi bang.",
+      "literalMeaningVi": "Kỷ Thổ như đất ruộng màu mỡ hàm chứa vạn vật, không ngại Mộc thịnh hay Thủy vượng, có khả năng dưỡng Kim sáng ngời nhưng cần Hỏa ấm và trợ lực để sinh trưởng.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:169)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          5
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Kỷ Thổ khiêm nhường, bao dung và giỏi nuôi dưỡng tài năng xung quanh; sức mạnh nằm ở sự bền bỉ tích lũy âm thầm.",
+      "actionableAdviceVi": "Chủ động khẳng định đóng góp của bản thân và duy trì ngọn lửa nhiệt huyết để tránh tự ti hoặc quá ôm việc cho người khác."
+    },
+    {
+      "id": "DTS-09",
+      "section": "Thiên Can Luận — Canh",
+      "hanziOriginal": "庚金帶煞，剛強為最，得水而清，得火而銳，土潤則生，土乾則脆，能勝甲兄，輸於乙妹。",
+      "hanViet": "Canh Kim đới sát, cương cường vi tối, đắc Thủy nhi thanh, đắc Hỏa nhi nhuệ, Thổ nhuận tắc sinh, Thổ can tắc thúy, năng thắng Giáp huynh, thâu ư Ất muội.",
+      "literalMeaningVi": "Canh Kim cương nghị nhất trong mười Can, gặp Thủy thì thanh thoát, gặp Hỏa rèn thì sắc bén; Thổ ẩm sinh Kim, Thổ khô làm giòn gãy; thắng được Giáp cứng nhưng dễ mềm lòng hợp Ất.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:174)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          6
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Canh Kim thẳng thắn, trọng nghĩa khí và có sức bứt phá trong môi trường cạnh tranh, càng qua tôi luyện càng sắc sảo.",
+      "actionableAdviceVi": "Kết hợp kỷ luật thép với sự mềm mỏng giao tiếp (Thủy thanh) để tránh gây tổn thương trong hợp tác."
+    },
+    {
+      "id": "DTS-10",
+      "section": "Thiên Can Luận — Tân",
+      "hanziOriginal": "辛金軟弱，溫潤而清，畏土之疊，樂水之盈，能扶社稷，能救生靈，熱則喜母，寒則喜丁。",
+      "hanViet": "Tân Kim nhuyễn nhược, ôn nhuận nhi thanh, úy Thổ chi điệp, lạc Thủy chi doanh, năng phù xã tắc, năng cứu sinh linh, nhiệt tắc hỉ mẫu, hàn tắc hỉ Đinh.",
+      "literalMeaningVi": "Tân Kim ôn nhuận thanh tú như châu ngọc, sợ Thổ dày vùi lấp, ưa Thủy gột rửa sáng ngời; mùa hạ nóng cần Thổ ẩm che chở, mùa đông lạnh cần Đinh Hỏa sưởi ấm.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:179)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          7
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Tân Kim có gu thẩm mỹ tinh tế, tiêu chuẩn cao và trọng danh dự; tỏa sáng mạnh mẽ khi được rèn giũa đúng phương pháp.",
+      "actionableAdviceVi": "Tránh để cầu toàn thái quá gây áp lực nội tâm; tìm không gian thể hiện giá trị tinh gọn và giữ vòng kết nối ấm áp."
+    },
+    {
+      "id": "DTS-11",
+      "section": "Thiên Can Luận — Nhâm",
+      "hanziOriginal": "壬水汪洋，能洩金氣，剛中之德，周流不滯，通根透癸，沖天奔地，化則有情，從則相濟。",
+      "hanViet": "Nhâm Thủy uông dương, năng tiết Kim khí, cương trung chi đức, chu lưu bất trệ, thông căn thấu Quý, xung thiên bôn địa, hóa tắc hữu tình, tòng tắc tương tế.",
+      "literalMeaningVi": "Nhâm Thủy mênh mông như đại dương sông lớn, lưu thông không ngừng; nếu có rễ mạnh và Quý trợ sẽ cuồn cuộn khó ngăn, biết điều tiết bằng Thổ Mộc thì sinh ích lớn.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:184)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          8
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Nhâm Thủy có tầm nhìn rộng, thông tuệ và khả năng điều phối nguồn lực lớn khi có mục tiêu rõ ràng làm bờ đê định hướng.",
+      "actionableAdviceVi": "Thiết lập kế hoạch hành động cụ thể và cam kết dài hạn để dòng năng lượng sáng tạo không bị phân tán."
+    },
+    {
+      "id": "DTS-12",
+      "section": "Thiên Can Luận — Quý",
+      "hanziOriginal": "癸水至弱，達於天津，龍德而運，功化斯神，不畏火土，不論庚辛，合戊見火，火根乃真。",
+      "hanViet": "Quý Thủy chí nhược, đạt ư Thiên Tân, long đức nhi vận, công hóa tư thần, bất úy Hỏa Thổ, bất luận Canh Tân, hợp Mậu kiến Hỏa, Hỏa căn nãi chân.",
+      "literalMeaningVi": "Quý Thủy như mưa móc tinh khiết, tuy nhu nhược mà thấu suốt trời cao; khéo vận dụng Mộc Thủy sẽ hóa giải Hỏa Thổ, âm thầm nuôi dưỡng vạn vật.",
+      "classicalSource": "滴天髓 · 天干論 (zh_bazi_di_tian_sui.md:189)",
+      "predicate": {
+        "op": "day_stem_in",
+        "stems": [
+          9
+        ]
+      },
+      "modernInterpretationVi": "Nhật Chủ Quý Thủy nhạy bén, giàu trực giác và khả năng thấu cảm sâu sắc; lấy nhu thắng cương là sở trường tự nhiên.",
+      "actionableAdviceVi": "Tin vào trực giác phân tích nhưng cần neo giữ bằng dữ kiện thực tế và duy trì ranh giới năng lượng cá nhân."
+    },
+    {
+      "id": "DTS-13",
+      "section": "Địa Chi Luận",
+      "hanziOriginal": "陽支動且強，速達顯災祥。陰支靜且專，否泰每經年。",
+      "hanViet": "Dương chi động thả cường, tốc đạt hiển tai tường. Âm chi tĩnh thả chuyên, bĩ thái mỗi kinh niên.",
+      "literalMeaningVi": "Chi dương (Tý Dần Thìn Ngọ Thân Tuất) tính động và mạnh, biến chuyển nhanh chóng; Chi âm (Sửu Mão Tỵ Mùi Dậu Hợi) tính tĩnh và chuyên sâu, cát hung tích tụ theo năm tháng.",
+      "classicalSource": "滴天髓 · 地支論 (zh_bazi_di_tian_sui.md:199,203)",
+      "predicate": null,
+      "modernInterpretationVi": "Cấu trúc Địa Chi phản ánh nhịp độ biểu hiện kết quả: nhanh nhạy quyết liệt ở nhóm Dương chi hoặc chín muồi chậm chắc ở nhóm Âm chi.",
+      "actionableAdviceVi": "Điều chỉnh kỳ vọng theo nhịp thời gian tự nhiên của lá số thay vì nóng vội so sánh tốc độ với người khác."
+    },
+    {
+      "id": "DTS-14",
+      "section": "Địa Chi Luận",
+      "hanziOriginal": "生方怕動庫宜開，敗地逄沖子細裁。",
+      "hanViet": "Sinh phương phạ động khố nghi khai, bại địa phùng xung tử tế tài.",
+      "literalMeaningVi": "Tứ Sinh (Dần Thân Tỵ Hợi) sợ xung động bất ổn; Tứ Khố (Thìn Tuất Sửu Mùi) hợp khai mở vừa độ; Tứ Bại (Tý Ngọ Mão Dậu) gặp xung cần xét kỹ hỉ kỵ.",
+      "classicalSource": "滴天髓 · 地支論 (zh_bazi_di_tian_sui.md:207)",
+      "predicate": null,
+      "modernInterpretationVi": "Sự xáo trộn không phải lúc nào cũng xấu: với cung Mộ Khố, va chạm đúng lúc lại là bước ngoặt mở khóa tiềm năng tích lũy.",
+      "actionableAdviceVi": "Giữ ổn định nền tảng khi khởi sự và xem những giai đoạn biến động như cơ hội kiểm chứng, khai mở năng lực mới."
+    },
+    {
+      "id": "DTS-15",
+      "section": "Địa Chi Luận",
+      "hanziOriginal": "旺者沖衰衰者拔，衰者沖旺旺神發。",
+      "hanViet": "Vượng giả xung suy suy giả bạt, suy giả xung vượng vượng thần phát.",
+      "literalMeaningVi": "Khí vượng xung khí suy thì gốc suy bị bật; khí suy xung khí vượng thì khí vượng càng kích phát mạnh hơn.",
+      "classicalSource": "滴天髓 · 地支論 (zh_bazi_di_tian_sui.md:219)",
+      "predicate": null,
+      "modernInterpretationVi": "Tác động của xung khắc phụ thuộc vào tương quan thực lực gốc: nội lực vững thì thử thách càng làm bật tài năng; nội lực mỏng thì cần bảo vệ căn cơ.",
+      "actionableAdviceVi": "Củng cố thực lực cốt lõi trước khi bước vào các chu kỳ cạnh tranh hoặc chuyển dịch lớn."
+    },
+    {
+      "id": "DTS-16",
+      "section": "Địa Chi Luận",
+      "hanziOriginal": "陽順陰逆，其理固殊，陽生陰死，其論勿執。",
+      "hanViet": "Dương thuận âm nghịch, kỳ lý cố thù, dương sinh âm tử, kỳ luận vật chấp.",
+      "literalMeaningVi": "Dương thuận Âm nghịch là lẽ tự nhiên, nhưng không nên chấp cứng thuyết Dương sinh Âm tử mà bỏ qua lực sinh phù thực tế của Tàng Can.",
+      "classicalSource": "滴天髓 · 地支論 (zh_bazi_di_tian_sui.md:223)",
+      "predicate": null,
+      "modernInterpretationVi": "Đánh giá vận mệnh cần nhìn toàn cục lực sinh trợ thực tế (như Ất Mộc gặp Hợi vẫn có Nhâm Thủy dưỡng) chứ không rập khuôn nhãn tên Tràng Sinh – Tử.",
+      "actionableAdviceVi": "Phân tích thực chất nguồn lực hỗ trợ trong hoàn cảnh hiện tại thay vì lo âu vì tên gọi hình thức."
+    },
+    {
+      "id": "DTS-17",
+      "section": "Cách Cục Luận",
+      "hanziOriginal": "官煞相混來問我，有可有不可。",
+      "hanViet": "Quan Sát tương hỗn lai vấn ngã, hữu khả hữu bất khả.",
+      "literalMeaningVi": "Chính Quan và Thất Sát cùng hiện có lúc chấp nhận được, có lúc kỵ — cốt lõi xem thần nào nắm lệnh chủ đạo và có thanh lọc quy về một mối hay không.",
+      "classicalSource": "滴天髓 · 格局論 (zh_bazi_di_tian_sui.md:332)",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Chính Quan"
+          },
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Thất Sát"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Vừa có Chính Quan (khuôn phép) vừa có Thất Sát (quyết liệt) dễ tạo áp lực đa chiều nếu thiếu điều phối; khi chọn được một trục ưu tiên rõ ràng sẽ thành khí phách lãnh đạo.",
+      "actionableAdviceVi": "Thống nhất kỷ luật công việc và mục tiêu hành động theo một hướng chính, tránh ôm đồm hai vai trò trái ngược cùng lúc."
+    },
+    {
+      "id": "DTS-18",
+      "section": "Cách Cục Luận",
+      "hanziOriginal": "傷官見官果難辨，可見不可見。",
+      "hanViet": "Thương Quan kiến Quan quả nan biện, khả kiến bất khả kiến.",
+      "literalMeaningVi": "Thương Quan gặp Chính Quan vốn khó luận cứng: có Tài thông quan hoặc Ấn hộ thân thì thấy Quan vẫn tốt, thiếu điều tiết mới sinh xung đột.",
+      "classicalSource": "滴天髓 · 格局論 (zh_bazi_di_tian_sui.md:337)",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Thương Quan"
+          },
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Chính Quan"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Cá tính sáng tạo phản biện (Thương Quan) đối diện quy chuẩn tổ chức (Chính Quan) có thể thành đột phá giá trị nếu có cầu nối lợi ích thực tế (Tài) hoặc tri thức chuẩn mực (Ấn).",
+      "actionableAdviceVi": "Chuyển hóa tinh thần phản biện thành giải pháp thực tiễn (Tài) hoặc luận cứ chuyên môn vững (Ấn) thay vì đối đầu cảm tính."
+    },
+    {
+      "id": "DTS-19",
+      "section": "Tòng Hóa Luận",
+      "hanziOriginal": "從得真者只論從，從神又有吉和凶。真從之像有幾人，假從亦可發其身。",
+      "hanViet": "Tòng đắc chân giả chỉ luận Tòng, Tòng thần hựu hữu cát hòa hung. Chân Tòng chi tượng hữu kỷ nhân, giả Tòng diệc khả phát kỳ thân.",
+      "literalMeaningVi": "Tòng chân thật thì thuận theo thế thần chủ đạo; người Chân Tòng rất hiếm, đa phần là Giả Tòng nhưng gặp vận trợ lực vẫn thành tựu.",
+      "classicalSource": "滴天髓 · 從化論 (zh_bazi_di_tian_sui.md:348,362)",
+      "predicate": {
+        "op": "bazi_strength_is",
+        "value": "THAN_NHUOC"
+      },
+      "modernInterpretationVi": "Khi thế lực bản thân mỏng mà xu thế môi trường quá mạnh, khôn ngoan là biết nương theo dòng chảy lớn và cộng tác cùng đội ngũ mạnh để vươn lên.",
+      "actionableAdviceVi": "Định vị vai trò chuyên gia hoặc cộng sự chiến lược trong hệ sinh thái lớn thay vì đơn độc đối đầu xu thế."
+    },
+    {
+      "id": "DTS-20",
+      "section": "Suy Vượng Luận",
+      "hanziOriginal": "能知衰旺之真機，其於立命之奧，思過半矣。",
+      "hanViet": "Năng tri suy vượng chi chân cơ, kỳ ư lập mệnh chi áo, tư quá bán hỹ.",
+      "literalMeaningVi": "Hiểu thấu cơ chế thực sự của Suy và Vượng (trong vượng có suy, trong suy có vượng) thì đã nắm quá nửa bí quyết lập mệnh.",
+      "classicalSource": "滴天髓 · 衰旺論 (zh_bazi_di_tian_sui.md:440)",
+      "predicate": null,
+      "modernInterpretationVi": "Phép xem Bát Tự lấy cân nhắc thực lực Nhật Chủ làm gốc, không cực đoan khen chê phiến diện vì điểm mạnh quá đà cũng thành điểm yếu và ngược lại.",
+      "actionableAdviceVi": "Tự đánh giá trung thực điểm dư thừa và điểm khuyết thiếu của bản thân để điều chỉnh chiến lược từng giai đoạn."
+    },
+    {
+      "id": "DTS-21",
+      "section": "Trung Hòa Luận",
+      "hanziOriginal": "能識中和之正理，而於五行之妙，有全能焉。",
+      "hanViet": "Năng thức trung hòa chi chính lý, nhi ư Ngũ Hành chi diệu, hữu toàn năng yên.",
+      "literalMeaningVi": "Thấu suốt lẽ chính của Trung Hòa là nắm trọn tinh hoa điều phối Ngũ Hành.",
+      "classicalSource": "滴天髓 · 中和論 (zh_bazi_di_tian_sui.md:450)",
+      "predicate": {
+        "op": "bazi_strength_is",
+        "value": "CAN_BANG"
+      },
+      "modernInterpretationVi": "Trạng thái cân bằng nội tại và hài hòa với môi trường là nền tảng bền vững nhất cho sức khỏe tinh thần và sự nghiệp đường dài.",
+      "actionableAdviceVi": "Duy trì nhịp sống điều độ, không thái quá trong tham vọng cũng không thụ động buông xuôi."
+    },
+    {
+      "id": "DTS-22",
+      "section": "Hàn Noãn Luận",
+      "hanziOriginal": "天道有寒暖，發育萬物，人道得之，不可過也。地道有燥濕，生成品彙，人道得之，不可偏也。",
+      "hanViet": "Thiên đạo hữu hàn noãn, phát dục vạn vật, nhân đạo đắc chi, bất khả quá dã. Địa đạo hữu táo thấp, sinh thành phẩm vị, nhân đạo đắc chi, bất khả thiên dã.",
+      "literalMeaningVi": "Trời đất có hàn ấm, khô ẩm giúp vạn vật sinh thành; mệnh người cũng cần điều hậu để tránh quá lạnh, quá nóng, quá khô hay quá ẩm.",
+      "classicalSource": "滴天髓 · 寒暖論 (zh_bazi_di_tian_sui.md:480,484)",
+      "predicate": null,
+      "modernInterpretationVi": "Điều Hậu (cân bằng nhiệt – ẩm theo mùa sinh) là nguyên tắc nhân văn bậc nhất của Bát Tự, giúp mệnh cục sinh động và bền sức.",
+      "actionableAdviceVi": "Chủ động bù đắp yếu tố thời tiết/tâm tính còn lệch trong lối sống, môi trường và lựa chọn đối tác bổ khuyết."
+    },
+    {
+      "id": "DTS-23",
+      "section": "Thông Cách Luận",
+      "hanziOriginal": "兩意本相通，中間有關隔，此關若通也，到處歡相得。",
+      "hanViet": "Lưỡng ý bản tương thông, trung gian hữu quan cách, thử quan nhược thông dã, đáo xứ hoan tương đắc.",
+      "literalMeaningVi": "Hai khí vốn có tình tương thông nhưng bị ngăn cách ở giữa; nếu khơi thông được nút thắt (thông quan) thì mọi bề đều thuận hòa.",
+      "classicalSource": "滴天髓 · 通隔論 (zh_bazi_di_tian_sui.md:543)",
+      "predicate": null,
+      "modernInterpretationVi": "Khi hai yếu tố đối kháng nhau trong lá số (như Tỷ Kiếp tranh Tài, Quan Sát khắc Thân), chỉ cần một yếu tố trung gian hóa giải (Thực Thương hoặc Ấn) là bế tắc chuyển thành động lực.",
+      "actionableAdviceVi": "Tìm 'cầu nối thông quan' trong công việc và quan hệ — dùng chuyên môn trung lập hoặc lợi ích chung để hóa giải xung đột."
+    },
+    {
+      "id": "DTS-24",
+      "section": "Thanh Trọc Luận",
+      "hanziOriginal": "一清到底有清神，管取平生富貴真，澄濁求清清得去，時來寒谷也生春。",
+      "hanViet": "Nhất thanh đáo để hữu thanh thần, quản thủ bình sinh phú quý chân, trừng trọc cầu thanh thanh đắc khứ, thời lai hàn cốc dã sinh xuân.",
+      "literalMeaningVi": "Một mạch thanh khiết đến cùng tất giữ được chân thần; dẫu cục có tạp trọc nhưng biết gạn đục khơi trong thì đến thời hang lạnh cũng hóa mùa xuân.",
+      "classicalSource": "滴天髓 · 清濁論 (zh_bazi_di_tian_sui.md:553)",
+      "predicate": null,
+      "modernInterpretationVi": "Sự minh bạch về mục tiêu và loại bỏ nhiễu loạn giúp mệnh cục phát huy tối đa giá trị ngay cả khi xuất phát điểm có nhiều thử thách.",
+      "actionableAdviceVi": "Tinh giản các mục tiêu dàn trải, kiên trì lọc bỏ thói quen và cam kết gây nhiễu để tập trung vào trục giá trị cốt lõi."
+    },
+    {
+      "id": "DTS-25",
+      "section": "Thuận Phản Luận",
+      "hanziOriginal": "君賴臣生理最微，兒能生母洩天機，母慈滅子關頭異，夫健何為又怕妻。",
+      "hanViet": "Quân lại thần sinh lý tối vi, nhi năng sinh mẫu tiết thiên cơ, mẫu từ diệt tử quan đầu dị, phu kiện hà vi hựu phạ thê.",
+      "literalMeaningVi": "Lẽ sinh khắc phản phục rất tinh vi: khi quá vượng thì cần lực khắc chế ngược lại để cứu sinh (như Thổ ngăn Thủy giữ Mộc, Kim phạt Mộc khơi Hỏa).",
+      "classicalSource": "滴天髓 · 順反論 (zh_bazi_di_tian_sui.md:625)",
+      "predicate": null,
+      "modernInterpretationVi": "Yêu chiều hay bảo bọc quá mức ('mẫu từ diệt tử') cũng gây trì trệ như thiếu thốn; đôi khi áp lực kỷ luật đúng lúc lại là nguồn sinh khí.",
+      "actionableAdviceVi": "Tránh để vùng an toàn quá mức làm mai một động lực; đón nhận thử thách có kiểm soát để rèn bản lĩnh."
+    },
+    {
+      "id": "DTS-26",
+      "section": "Quý Tiện Phú Bần Luận",
+      "hanziOriginal": "何知其人貴，官星有理會…何知其人富，財氣通門戶…何知其人壽，性定元氣厚。",
+      "hanViet": "Hà tri kỳ nhân quý, Quan tinh hữu lý hội... Hà tri kỳ nhân phú, Tài khí thông môn hộ... Hà tri kỳ nhân thọ, tính định nguyên khí hậu.",
+      "literalMeaningVi": "Biết người quý ở chỗ Quan tinh có trật tự điều phối; biết người phú ở chỗ Tài khí lưu thông có gốc; biết người thọ ở chỗ tâm tính điềm tĩnh và nguyên khí dày dặn.",
+      "classicalSource": "滴天髓 · 貴賤貧富吉凶壽夭論 (zh_bazi_di_tian_sui.md:903,911,926)",
+      "predicate": null,
+      "modernInterpretationVi": "Uy tín nghề nghiệp đến từ kỷ luật và trách nhiệm (Quan), thịnh vượng đến từ dòng giá trị lưu thông bền bỉ (Tài), và trường thọ đến từ tâm an – khí vững.",
+      "actionableAdviceVi": "Nuôi dưỡng cả ba trụ cột: chuẩn mực nghề nghiệp, dòng tiền minh bạch và sự bình tĩnh nội tâm."
+    }
+  ],
+  "yuanHaiZiPing": [
+    {
+      "id": "YHZP-01",
+      "section": "Luận Nhật Vi Chủ",
+      "hanziOriginal": "取日干為主，以年為根，以月為苗，以日為花，以時為果。",
+      "hanViet": "Thủ Nhật Can vi chủ, dĩ Niên vi căn, dĩ Nguyệt vi miêu, dĩ Nhật vi hoa, dĩ Thời vi quả.",
+      "literalMeaningVi": "Lấy Thiên Can ngày sinh làm chủ thể (Nhật Chủ): trụ Năm là gốc rễ, trụ Tháng là mầm thân, trụ Ngày là hoa, trụ Giờ là quả.",
+      "classicalSource": "淵海子平 · 論日為主 (zh_bazi_yuan_hai_zi_ping.md:106)",
+      "modernInterpretationVi": "Cấu trúc Tứ Trụ mô tả trọn vòng đời: gốc gia đình (Năm), môi trường trưởng thành và sự nghiệp (Tháng), bản thân và phối ngẫu (Ngày), thành quả hậu vận và thế hệ sau (Giờ).",
+      "actionableAdviceVi": "Hiểu rõ vai trò từng giai đoạn để trân trọng cội nguồn, đầu tư vào giai đoạn sung sức nhất và gieo nhân lành cho hậu vận."
+    },
+    {
+      "id": "YHZP-02",
+      "section": "Luận Nhật Vi Chủ",
+      "hanziOriginal": "以日為主，年為本，月為提綱，時為輔佐。",
+      "hanViet": "Dĩ Nhật vi chủ, Niên vi bản, Nguyệt vi đề cương, Thời vi phụ tá.",
+      "literalMeaningVi": "Lấy Nhật làm chủ, Năm làm gốc, Tháng làm đề cương (nắm giữ khí tiết toàn cục), Giờ làm phụ tá.",
+      "classicalSource": "淵海子平 · 論日為主 (zh_bazi_yuan_hai_zi_ping.md:110)",
+      "modernInterpretationVi": "Nguyệt Lệnh (chi Tháng) quyết định hơn một nửa khí hậu và bố cục lực lượng của toàn lá số Bát Tự.",
+      "actionableAdviceVi": "Luôn ưu tiên xét bối cảnh thời thế và mùa sinh (Nguyệt Lệnh) trước khi chọn hướng phát triển cá nhân."
+    },
+    {
+      "id": "YHZP-03",
+      "section": "Luận Ngũ Hành Sinh Khắc",
+      "hanziOriginal": "強金得水，方挫其鋒；強水得木，方泄其勢；強木得火，方化其頑；強火得土，方止其燄；強土得金，方制其害。",
+      "hanViet": "Cường Kim đắc Thủy, phương tỏa kỳ phong; cường Thủy đắc Mộc, phương tiết kỳ thế; cường Mộc đắc Hỏa, phương hóa kỳ ngoan; cường Hỏa đắc Thổ, phương chỉ kỳ diễm; cường Thổ đắc Kim, phương chế kỳ hại.",
+      "literalMeaningVi": "Kim quá cứng cần Thủy làm dịu mũi nhọn; Thủy quá mạnh cần Mộc dẫn lưu; Mộc quá rậm cần Hỏa hóa tú; Hỏa quá bốc cần Thổ thu liễm; Thổ quá dày cần Kim khai phá.",
+      "classicalSource": "淵海子平 · 論五行生剋 (zh_bazi_yuan_hai_zi_ping.md:103)",
+      "modernInterpretationVi": "Nguyên lý tiết tú (dẫn khí thừa sang kênh tạo giá trị) giúp sức mạnh dư thừa trở thành tài hoa thay vì va chạm.",
+      "actionableAdviceVi": "Khi cảm thấy năng lượng dư thừa hoặc bứt rứt, hãy chuyển hóa qua sáng tạo, sản xuất hoặc rèn luyện chuyên môn thay vì kiềm nén."
+    },
+    {
+      "id": "YHZP-04",
+      "section": "Luận Nguyệt Lệnh",
+      "hanziOriginal": "假令月令有用神，得父母力。年有用神，得祖宗力；時有用神，得子孫力；反此則不得力。",
+      "hanViet": "Giả lệnh Nguyệt Lệnh hữu Dụng Thần, đắc phụ mẫu lực. Niên hữu Dụng Thần, đắc tổ tông lực; Thời hữu Dụng Thần, đắc tử tôn lực.",
+      "literalMeaningVi": "Dụng Thần đắc lực ở trụ nào thì hưởng trợ lực từ phương diện tương ứng: trụ Năm là tổ tiên, trụ Tháng là cha mẹ/môi trường lớn, trụ Giờ là con cháu/hậu bối.",
+      "classicalSource": "淵海子平 · 論月令 (zh_bazi_yuan_hai_zi_ping.md:127-129)",
+      "modernInterpretationVi": "Vị trí của Dụng Thần và Hỷ Thần cho biết nguồn quý nhân thuận lợi nhất đến từ gia phong, bằng hữu đồng trang lứa hay thế hệ kế cận.",
+      "actionableAdviceVi": "Chủ động vun đắp mối quan hệ và chọn cộng tác ở khâu có trường khí tương trợ mạnh nhất."
+    },
+    {
+      "id": "YHZP-05",
+      "section": "Tứ Ngôn Độc Bộ",
+      "hanziOriginal": "獨物易取，亂則難尋。去留舒配，論格要精。",
+      "hanViet": "Độc vật dị thủ, loạn tắc nan tầm. Khứ lưu thư phối, luận cách yếu tinh.",
+      "literalMeaningVi": "Khí chuyên nhất thì dễ lấy làm cách cục, hỗn loạn thì khó nắm bắt; phép luận cách cốt ở biết bỏ chỗ tạp và giữ chỗ tinh.",
+      "classicalSource": "淵海子平 · 四言獨步 (zh_bazi_yuan_hai_zi_ping.md:4284)",
+      "modernInterpretationVi": "Lá số càng rõ trục chủ đạo càng dễ định hướng sự nghiệp; khi nhiều yếu tố đan xen cần ưu tiên giải quyết từng nút thắt rõ ràng.",
+      "actionableAdviceVi": "Tập trung vào một thế mạnh mũi nhọn thay vì phân tán sức lực cho quá nhiều hướng song song."
+    },
+    {
+      "id": "YHZP-06",
+      "section": "Tứ Ngôn Độc Bộ",
+      "hanziOriginal": "辰戌丑未，四土之神。人元三用，透旺為真。寅申巳亥，四生之局。用物身強，遇之發福。",
+      "hanViet": "Thìn Tuất Sửu Mùi, tứ Thổ chi thần. Nhân nguyên tam dụng, thấu vượng vi chân. Dần Thân Tỵ Hợi, tứ Sinh chi cục. Dụng vật thân cường, ngộ chi phát phúc.",
+      "literalMeaningVi": "Bốn chi Thìn Tuất Sửu Mùi tàng ba khí, lấy thần thấu lộ và vượng làm chân; bốn chi Dần Thân Tỵ Hợi là nơi Trường Sinh của Tứ Hành, thân cường dụng đúng rất phát.",
+      "classicalSource": "淵海子平 · 四言獨步 (zh_bazi_yuan_hai_zi_ping.md:4293)",
+      "modernInterpretationVi": "Các chi Tàng Can phức hợp (Tứ Mộ và Tứ Sinh) cần xem Thiên Can lộ mặt nào đắc thế mới biết tài năng ẩn tàng đang được kích hoạt theo hướng nào.",
+      "actionableAdviceVi": "Đưa năng lực tiềm ẩn ra thực hành cụ thể ngoài đời thực để chuyển hóa tiềm năng thành thành tựu."
+    },
+    {
+      "id": "YHZP-07",
+      "section": "Tứ Ngôn Độc Bộ",
+      "hanziOriginal": "財官臨庫，不沖不發。",
+      "hanViet": "Tài Quan lâm khố, bất xung bất phát.",
+      "literalMeaningVi": "Tài tinh hoặc Quan tinh nằm trong Mộ Khố (Thìn Tuất Sửu Mùi) thường cần vận hoặc chi xung khai mở đúng mức mới phát lộ.",
+      "classicalSource": "淵海子平 · 四言獨步 (zh_bazi_yuan_hai_zi_ping.md:4297)",
+      "modernInterpretationVi": "Nguồn lực tiềm ẩn trong kho tàng thường cần chất xúc tác từ thử thách hoặc biến chuyển ngoại cảnh để bứt phá thành kết quả rõ rệt.",
+      "actionableAdviceVi": "Tích lũy vững chắc trước khi đón sóng thay đổi, tránh e ngại mọi xáo trộn mang tính khai mở."
+    },
+    {
+      "id": "YHZP-08",
+      "section": "Tứ Ngôn Độc Bộ",
+      "hanziOriginal": "先印後財，自成其福。先財後印，反成其辱。",
+      "hanViet": "Tiên Ấn hậu Tài, tự thành kỳ phúc. Tiên Tài hậu Ấn, phản thành kỳ nhục.",
+      "literalMeaningVi": "Có học vấn/nền tảng (Ấn) trước rồi mới cầu lợi lộc (Tài) thì bền vững; ham lợi trước mà bỏ quên nền tảng hay làm Tài phá Ấn thì dễ sinh trắc trở.",
+      "classicalSource": "淵海子平 · 四言獨步 (zh_bazi_yuan_hai_zi_ping.md:4299)",
+      "modernInterpretationVi": "Thứ tự phát triển bền vững là bồi đắp tri thức, uy tín và nền móng đạo đức trước khi mở rộng quy mô tài chính.",
+      "actionableAdviceVi": "Đầu tư vào năng lực cốt lõi và chữ tín lâu dài trước khi chạy theo lợi nhuận ngắn hạn."
+    }
+  ],
+  "ziPingZhenQuan": [
+    {
+      "id": "ZPZQ-01",
+      "sourceStatus": "summary_pending_full_md_harvest",
+      "section": "Luận Dụng Thần & Nguyệt Lệnh",
+      "hanziOriginal": "八字用神，專求月令。",
+      "hanViet": "Bát Tự Dụng Thần, chuyên cầu Nguyệt Lệnh.",
+      "literalMeaningVi": "Tìm Dụng Thần trong Bát Tự chuyên lấy Nguyệt Lệnh làm trục chính rồi xét sự thấu lộ trên Thiên Can.",
+      "classicalSource": "子平真詮 (Tử Bình Chân Thuyên) — Luận Dụng Thần [tóm lược nguyên lý, chờ số hóa bản markdown đầy đủ]",
+      "predicate": null,
+      "modernInterpretationVi": "Mỗi mệnh cục đều có một điểm tựa trung tâm xuất phát từ mùa sinh và cấu trúc Thập Thần chủ đạo; nắm đúng trục này giúp mọi quyết định chọn nghề và tu dưỡng trở nên nhất quán.",
+      "actionableAdviceVi": "Xác định rõ thế mạnh tự nhiên của Nguyệt Lệnh để chọn môi trường phát huy sở trường thay vì chạy theo xu hướng nhất thời."
+    },
+    {
+      "id": "ZPZQ-02",
+      "sourceStatus": "summary_pending_full_md_harvest",
+      "section": "Nguyên Tắc Phù Ức — Thân Vượng",
+      "hanziOriginal": "日主旺相，宜洩宜剋，喜食傷財官。",
+      "hanViet": "Nhật Chủ vượng tướng, nghi tiết nghi khắc, hỉ Thực Thương Tài Quan.",
+      "literalMeaningVi": "Nhật Chủ vượng mạnh nên dùng Thực Thương để tiết tú tài hoa hoặc dùng Tài Quan để rèn luyện, tạo giá trị thực tế.",
+      "classicalSource": "子平真詮 (Tử Bình Chân Thuyên) — Phù Ức Thân Vượng",
+      "predicate": {
+        "op": "bazi_strength_is",
+        "value": "THAN_VUONG"
+      },
+      "modernInterpretationVi": "Nội lực dồi dào (Thân Vượng) thích hợp nhận trọng trách, sáng tạo sản phẩm hoặc quản trị mục tiêu có độ thử thách cao để năng lượng được chuyển hóa hữu ích.",
+      "actionableAdviceVi": "Chủ động đặt mục tiêu lớn và đầu ra cụ thể (Thực Thương/Tài Quan) tránh để sức lực dư thừa dẫn đến bảo thủ."
+    },
+    {
+      "id": "ZPZQ-03",
+      "sourceStatus": "summary_pending_full_md_harvest",
+      "section": "Nguyên Tắc Phù Ức — Thân Nhược",
+      "hanziOriginal": "日主衰弱，喜印綬生扶、比劫助身。",
+      "hanViet": "Nhật Chủ suy nhược, hỉ Ấn thụ sinh phù, Tỷ Kiếp trợ thân.",
+      "literalMeaningVi": "Nhật Chủ suy nhược ưa Ấn tinh nuôi dưỡng và Tỷ Kiếp đồng hành để gánh vác được Tài Quan.",
+      "classicalSource": "子平真詮 (Tử Bình Chân Thuyên) — Phù Ức Thân Nhược",
+      "predicate": {
+        "op": "bazi_strength_is",
+        "value": "THAN_NHUOC"
+      },
+      "modernInterpretationVi": "Khi nội lực mỏng (Thân Nhược), chìa khóa thành công là học hỏi chuyên sâu (Ấn) và xây dựng đội ngũ tin cậy (Tỷ Kiếp) trước khi gánh áp lực lớn.",
+      "actionableAdviceVi": "Ưu tiên bồi dưỡng sức khỏe, tri thức và mạng lưới cộng sự thay vì đơn độc ôm hết trách nhiệm."
+    },
+    {
+      "id": "ZPZQ-04",
+      "sourceStatus": "summary_pending_full_md_harvest",
+      "section": "Luận Chính Quan & Quan Ấn Tương Sinh",
+      "hanziOriginal": "官以生印，印以護身，官印相生為貴格。",
+      "hanViet": "Quan dĩ sinh Ấn, Ấn dĩ hộ thân, Quan Ấn tương sinh vi quý cách.",
+      "literalMeaningVi": "Chính Quan sinh Ấn, Ấn lại nuôi dưỡng Nhật Chủ; vòng tuần hoàn Quan – Ấn – Thân tạo nên phẩm cách thanh cao và bền vững.",
+      "classicalSource": "子平真詮 (Tử Bình Chân Thuyên) — Luận Chính Quan",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Chính Quan"
+          },
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Chính Ấn"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Sự kết hợp giữa trách nhiệm tổ chức (Quan) và tri thức, đạo đức nghề nghiệp (Ấn) giúp xây dựng uy tín vững chắc, được cấp trên và đồng nghiệp tin trọng.",
+      "actionableAdviceVi": "Gắn kết kỷ luật thực thi với việc nâng cao học thuật và giữ chuẩn mực ứng xử minh bạch."
+    },
+    {
+      "id": "ZPZQ-05",
+      "sourceStatus": "summary_pending_full_md_harvest",
+      "section": "Luận Thất Sát & Thực Thần Chế Sát",
+      "hanziOriginal": "食神制殺，英雄獨壓萬人。",
+      "hanViet": "Thực Thần chế Sát, anh hùng độc áp vạn nhân.",
+      "literalMeaningVi": "Thất Sát mạnh được Thực Thần ôn hòa chế ngự đúng độ thì áp lực chuyển hóa thành tài năng kiệt xuất.",
+      "classicalSource": "子平真詮 (Tử Bình Chân Thuyên) — Luận Thất Sát",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Thực Thần"
+          },
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Thất Sát"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Áp lực và thử thách gay gắt (Thất Sát) khi gặp trí tuệ bình tĩnh, sáng tạo và khéo léo (Thực Thần) sẽ tạo nên năng lực giải quyết khủng hoảng xuất sắc.",
+      "actionableAdviceVi": "Đối diện việc khó bằng tư duy chuyên môn điềm tĩnh và giải pháp sáng tạo thay vì đối đầu nóng nảy."
+    },
+    {
+      "id": "ZPZQ-06",
+      "sourceStatus": "summary_pending_full_md_harvest",
+      "section": "Luận Thương Quan Phối Ấn",
+      "hanziOriginal": "傷官配印，貴不可言。",
+      "hanViet": "Thương Quan phối Ấn, quý bất khả ngôn.",
+      "literalMeaningVi": "Thương Quan sắc sảo phóng khoáng được Chính Ấn thu liễm và nâng tầm thành trí tuệ lớn.",
+      "classicalSource": "子平真詮 (Tử Bình Chân Thuyên) — Luận Thương Quan",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Thương Quan"
+          },
+          {
+            "op": "bazi_has_ten_god",
+            "tenGod": "Chính Ấn"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tư duy đột phá giàu cá tính (Thương Quan) khi có nền tảng học thuật và kỷ luật nội tâm (Chính Ấn) dẫn đường sẽ tạo ra công trình có chiều sâu.",
+      "actionableAdviceVi": "Nuôi dưỡng sự tự do sáng tạo song hành cùng thói quen đọc sâu, kiểm chứng kỹ và tôn trọng nguyên tắc."
+    }
+  ]
+}

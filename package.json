@@ -1,0 +1,30 @@
+{
+  "name": "sovana-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SOVANA — Open-Source Deterministic Astronomical Ephemeris, Bi-Temporal Vietnam GIS, and Symbolic Calculation Engine (MIT)",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "verify:lockstep": "node tests/golden/verify_lockstep.mjs && node tests/golden/verify_full_stack_lockstep.mjs",
+    "verify:fullstack": "node tests/golden/verify_full_stack_lockstep.mjs"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "fast-check": "^3.22.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

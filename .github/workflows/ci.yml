@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    name: Polyglot Lockstep CI (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "pnpm"
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install Node.js workspace dependencies
+        run: pnpm install
+
+      - name: Sync Python uv workspace
+        run: uv sync --all-packages
+
+      - name: Build TypeScript packages
+        run: pnpm build
+
+      - name: TypeScript typecheck
+        run: pnpm typecheck
+
+      - name: Run TypeScript unit & property tests
+        run: pnpm test
+
+      - name: Lint Python with Ruff
+        run: uv run ruff check
+
+      - name: Typecheck Python with mypy
+        run: uv run mypy python/sovana/src
+
+      - name: Run Python pytest suite
+        run: uv run pytest
+
+      - name: Verify cross-runtime SHA-256 lockstep
+        run: pnpm verify:lockstep

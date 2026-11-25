@@ -1,0 +1,485 @@
+{
+  "schemaVersion": "1.0.0",
+  "siloId": "toan-thu",
+  "nameVi": "Tử Vi Đẩu Số Toàn Thư",
+  "palaceOrderCounterClockwise": [
+    "Mệnh",
+    "Huynh Đệ",
+    "Phu Thê",
+    "Tử Tức",
+    "Tài Bạch",
+    "Tật Ách",
+    "Thiên Di",
+    "Nô Bộc",
+    "Quan Lộc",
+    "Điền Trạch",
+    "Phúc Đức",
+    "Phụ Mẫu"
+  ],
+  "sihuaByStem": {
+    "0": [
+      "Liêm Trinh",
+      "Phá Quân",
+      "Vũ Khúc",
+      "Thái Dương"
+    ],
+    "1": [
+      "Thiên Cơ",
+      "Thiên Lương",
+      "Tử Vi",
+      "Thái Âm"
+    ],
+    "2": [
+      "Thiên Đồng",
+      "Thiên Cơ",
+      "Văn Xương",
+      "Liêm Trinh"
+    ],
+    "3": [
+      "Thái Âm",
+      "Thiên Đồng",
+      "Thiên Cơ",
+      "Cự Môn"
+    ],
+    "4": [
+      "Tham Lang",
+      "Thái Âm",
+      "Hữu Bật",
+      "Thiên Cơ"
+    ],
+    "5": [
+      "Vũ Khúc",
+      "Tham Lang",
+      "Thiên Lương",
+      "Văn Khúc"
+    ],
+    "6": [
+      "Thái Dương",
+      "Vũ Khúc",
+      "Thái Âm",
+      "Thiên Đồng"
+    ],
+    "7": [
+      "Cự Môn",
+      "Thái Dương",
+      "Văn Khúc",
+      "Văn Xương"
+    ],
+    "8": [
+      "Thiên Lương",
+      "Tử Vi",
+      "Tả Phụ",
+      "Vũ Khúc"
+    ],
+    "9": [
+      "Phá Quân",
+      "Cự Môn",
+      "Thái Âm",
+      "Tham Lang"
+    ]
+  },
+  "brightnessLevels": [
+    "Miếu",
+    "Vượng",
+    "Đắc",
+    "Lợi",
+    "Bình",
+    "Bất",
+    "Hãm"
+  ],
+  "majorStarBrightnessByBranch": {
+    "Tử Vi": [
+      "Bình",
+      "Miếu",
+      "Miếu",
+      "Vượng",
+      "Đắc",
+      "Vượng",
+      "Miếu",
+      "Miếu",
+      "Vượng",
+      "Vượng",
+      "Đắc",
+      "Vượng"
+    ],
+    "Thiên Cơ": [
+      "Miếu",
+      "Hãm",
+      "Đắc",
+      "Vượng",
+      "Miếu",
+      "Bình",
+      "Miếu",
+      "Hãm",
+      "Đắc",
+      "Vượng",
+      "Miếu",
+      "Bình"
+    ],
+    "Thái Dương": [
+      "Hãm",
+      "Bất",
+      "Vượng",
+      "Miếu",
+      "Vượng",
+      "Vượng",
+      "Miếu",
+      "Đắc",
+      "Đắc",
+      "Hãm",
+      "Bất",
+      "Hãm"
+    ],
+    "Vũ Khúc": [
+      "Vượng",
+      "Miếu",
+      "Đắc",
+      "Lợi",
+      "Miếu",
+      "Bình",
+      "Vượng",
+      "Miếu",
+      "Đắc",
+      "Lợi",
+      "Miếu",
+      "Bình"
+    ],
+    "Thiên Đồng": [
+      "Vượng",
+      "Bất",
+      "Vượng",
+      "Bình",
+      "Bình",
+      "Miếu",
+      "Bất",
+      "Bất",
+      "Vượng",
+      "Bình",
+      "Bình",
+      "Miếu"
+    ],
+    "Liêm Trinh": [
+      "Bình",
+      "Lợi",
+      "Miếu",
+      "Bình",
+      "Lợi",
+      "Hãm",
+      "Bình",
+      "Lợi",
+      "Miếu",
+      "Bình",
+      "Lợi",
+      "Hãm"
+    ],
+    "Thiên Phủ": [
+      "Miếu",
+      "Miếu",
+      "Miếu",
+      "Đắc",
+      "Vượng",
+      "Đắc",
+      "Vượng",
+      "Miếu",
+      "Đắc",
+      "Vượng",
+      "Vượng",
+      "Đắc"
+    ],
+    "Thái Âm": [
+      "Miếu",
+      "Miếu",
+      "Hãm",
+      "Hãm",
+      "Hãm",
+      "Hãm",
+      "Hãm",
+      "Bất",
+      "Lợi",
+      "Vượng",
+      "Vượng",
+      "Miếu"
+    ],
+    "Tham Lang": [
+      "Bình",
+      "Miếu",
+      "Bất",
+      "Bình",
+      "Đắc",
+      "Bình",
+      "Bình",
+      "Miếu",
+      "Bất",
+      "Bình",
+      "Đắc",
+      "Lợi"
+    ],
+    "Cự Môn": [
+      "Vượng",
+      "Bất",
+      "Miếu",
+      "Miếu",
+      "Hãm",
+      "Vượng",
+      "Vượng",
+      "Bất",
+      "Miếu",
+      "Miếu",
+      "Hãm",
+      "Vượng"
+    ],
+    "Thiên Tướng": [
+      "Miếu",
+      "Miếu",
+      "Miếu",
+      "Bình",
+      "Đắc",
+      "Đắc",
+      "Miếu",
+      "Đắc",
+      "Miếu",
+      "Bình",
+      "Đắc",
+      "Đắc"
+    ],
+    "Thiên Lương": [
+      "Miếu",
+      "Vượng",
+      "Miếu",
+      "Đắc",
+      "Miếu",
+      "Hãm",
+      "Miếu",
+      "Vượng",
+      "Hãm",
+      "Đắc",
+      "Đắc",
+      "Hãm"
+    ],
+    "Thất Sát": [
+      "Vượng",
+      "Miếu",
+      "Miếu",
+      "Vượng",
+      "Miếu",
+      "Bình",
+      "Vượng",
+      "Miếu",
+      "Miếu",
+      "Vượng",
+      "Miếu",
+      "Bình"
+    ],
+    "Phá Quân": [
+      "Miếu",
+      "Vượng",
+      "Đắc",
+      "Hãm",
+      "Vượng",
+      "Bình",
+      "Miếu",
+      "Vượng",
+      "Đắc",
+      "Hãm",
+      "Vượng",
+      "Bình"
+    ]
+  },
+  "thaiTueRing": [
+    "Thái Tuế",
+    "Thiếu Dương",
+    "Tang Môn",
+    "Thiếu Âm",
+    "Quan Phù",
+    "Tử Phù",
+    "Tuế Phá",
+    "Long Đức",
+    "Bạch Hổ",
+    "Phúc Đức",
+    "Điếu Khách",
+    "Trực Phù"
+  ],
+  "trangSinhRing": {
+    "names": [
+      "Tràng Sinh",
+      "Mộc Dục",
+      "Quan Đới",
+      "Lâm Quan",
+      "Đế Vượng",
+      "Suy",
+      "Bệnh",
+      "Tử",
+      "Mộ",
+      "Tuyệt",
+      "Thai",
+      "Dưỡng"
+    ],
+    "startBranchByCuc": {
+      "2": 8,
+      "3": 11,
+      "4": 5,
+      "5": 8,
+      "6": 2
+    }
+  },
+  "bacSyRing": [
+    "Bác Sỹ",
+    "Lực Sĩ",
+    "Thanh Long",
+    "Tiểu Hao",
+    "Tướng Quân",
+    "Tấu Thư",
+    "Phi Liêm",
+    "Hỷ Thần",
+    "Bệnh Phù",
+    "Đại Hao",
+    "Phục Binh",
+    "Quan Phủ"
+  ],
+  "locTonByStem": [
+    2,
+    3,
+    5,
+    6,
+    5,
+    6,
+    8,
+    9,
+    11,
+    0
+  ],
+  "thienKhoiVietByStem": [
+    [
+      1,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      11,
+      9
+    ],
+    [
+      9,
+      11
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "menhChuByBranch": [
+    "Tham Lang",
+    "Cự Môn",
+    "Lộc Tồn",
+    "Văn Khúc",
+    "Liêm Trinh",
+    "Vũ Khúc",
+    "Phá Quân",
+    "Vũ Khúc",
+    "Liêm Trinh",
+    "Văn Khúc",
+    "Lộc Tồn",
+    "Cự Môn"
+  ],
+  "thanChuByBranch": [
+    "Linh Tinh",
+    "Thiên Tướng",
+    "Thiên Lương",
+    "Thiên Đồng",
+    "Văn Xương",
+    "Thiên Cơ",
+    "Hỏa Tinh",
+    "Thiên Tướng",
+    "Thiên Lương",
+    "Thiên Đồng",
+    "Văn Xương",
+    "Thiên Cơ"
+  ],
+  "trietByStemPair": {
+    "0": [
+      8,
+      9
+    ],
+    "1": [
+      6,
+      7
+    ],
+    "2": [
+      4,
+      5
+    ],
+    "3": [
+      2,
+      3
+    ],
+    "4": [
+      0,
+      1
+    ]
+  },
+  "minorStarBrightnessByBranch": {
+    "Hỏa Tinh": [
+      "Hãm", "Đắc", "Miếu", "Lợi", "Hãm", "Đắc",
+      "Miếu", "Lợi", "Hãm", "Đắc", "Miếu", "Lợi"
+    ],
+    "Linh Tinh": [
+      "Hãm", "Đắc", "Miếu", "Lợi", "Hãm", "Đắc",
+      "Miếu", "Lợi", "Hãm", "Đắc", "Miếu", "Lợi"
+    ],
+    "Kình Dương": [
+      "Hãm", "Miếu", "Bình", "Hãm", "Miếu", "Bình",
+      "Hãm", "Miếu", "Bình", "Hãm", "Miếu", "Bình"
+    ],
+    "Đà La": [
+      "Bình", "Miếu", "Hãm", "Bình", "Miếu", "Hãm",
+      "Bình", "Miếu", "Hãm", "Bình", "Miếu", "Hãm"
+    ],
+    "Địa Không": [
+      "Bình", "Hãm", "Hãm", "Bình", "Hãm", "Miếu",
+      "Miếu", "Bình", "Miếu", "Miếu", "Hãm", "Hãm"
+    ],
+    "Địa Kiếp": [
+      "Hãm", "Hãm", "Bình", "Bình", "Hãm", "Bất",
+      "Miếu", "Bình", "Miếu", "Bình", "Bình", "Hãm"
+    ],
+    "Văn Xương": [
+      "Đắc", "Miếu", "Hãm", "Vượng", "Đắc", "Miếu",
+      "Hãm", "Lợi", "Đắc", "Miếu", "Hãm", "Lợi"
+    ],
+    "Văn Khúc": [
+      "Đắc", "Miếu", "Bình", "Vượng", "Đắc", "Miếu",
+      "Hãm", "Vượng", "Đắc", "Miếu", "Hãm", "Vượng"
+    ],
+    "Lộc Tồn": [
+      "Miếu", "Bình", "Miếu", "Miếu", "Bình", "Miếu",
+      "Miếu", "Bình", "Miếu", "Miếu", "Bình", "Miếu"
+    ],
+    "Thiên Mã": [
+      "Bình", "Bình", "Vượng", "Bình", "Bình", "Bình",
+      "Bình", "Bình", "Vượng", "Bình", "Bình", "Bình"
+    ]
+  }
+}

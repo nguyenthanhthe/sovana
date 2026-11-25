@@ -1,0 +1,2618 @@
+{
+  "schemaVersion": "1.0.0",
+  "silo": "toan-thu",
+  "titleZh": "紫微斗數全書",
+  "titleVi": "Tử Vi Đẩu Số Toàn Thư (Quyển 1 — 49 Cách Cục & Phú Trọng Tâm)",
+  "sourceMarkdown": "knowledge/public-domain-classics/markdown/zh_ziwei_doushu_quanshu.md",
+  "summary": {
+    "totalPatterns": 49,
+    "verifiedCount": 35,
+    "unreachableCount": 5,
+    "disputedCount": 9,
+    "byGroup": {
+      "dinh_phu": 6,
+      "dinh_quy": 27,
+      "dinh_ban_tien": 8,
+      "dinh_tap": 8
+    },
+    "keyVersesCount": 14
+  },
+  "patterns": [
+    {
+      "id": "TT-DF-01",
+      "no": 1,
+      "group": "dinh_phu",
+      "nameZh": "財蔭夾印",
+      "nameHanViet": "Tài Ấm Giáp Ấn",
+      "nameVi": "Tài Ấm Giáp Ấn",
+      "hanziOriginal": "相守命，武梁來夾是也，田宅宮亦然。",
+      "hanViet": "Tướng thủ Mệnh, Vũ Lương lai giáp thị dã, Điền Trạch cung diệc nhiên.",
+      "literalMeaningVi": "Thiên Tướng thủ Mệnh (hoặc Điền Trạch), Vũ Khúc (Tài) và Thiên Lương (Ấm) giáp hai bên.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定富局 #1 (zh_ziwei_doushu_quanshu.md:886)",
+      "status": "unreachable",
+      "unit": "chart",
+      "whyUnreachable": "Bất khả thi về hình học an sao: Thiên Lương luôn nằm ở cung kế tiếp thuận chiều sau Thiên Tướng (delta(Thiên Tướng -> Thiên Lương) == 1 bất biến), còn khoảng cách từ Vũ Khúc đến Thiên Tướng luôn là số chẵn {0, 2, 4, 6, 8, 10}, nên Vũ Khúc không bao giờ đứng kề ±1 bên Thiên Tướng.",
+      "evaluatorKey": "tt_df_01_unreachable",
+      "predicate": null,
+      "modernInterpretationVi": "Cổ thư ghi chép cách cục biểu trưng cho sự hài hòa giữa tài nguyên (Vũ Khúc), phúc ấm nâng đỡ (Thiên Lương) và uy tín thực thi (Thiên Tướng); tuy nhiên theo phép an sao chuẩn thì tổ hợp giáp cung này không thể đồng thời xảy ra.",
+      "actionableAdviceVi": "Khi kiểm tra thực tế lá số có Thiên Tướng, hãy xét các sao hội chiếu Tam Phương Tứ Chính thay vì tìm thế giáp Vũ–Lương bất khả thi."
+    },
+    {
+      "id": "TT-DF-02",
+      "no": 2,
+      "group": "dinh_phu",
+      "nameZh": "日月夾財",
+      "nameHanViet": "Nhật Nguyệt Giáp Tài",
+      "nameVi": "Nhật Nguyệt Giáp Tài",
+      "hanziOriginal": "武守命，日月來夾是也，財帛宮亦然。",
+      "hanViet": "Vũ thủ Mệnh, Nhật Nguyệt lai giáp thị dã, Tài Bạch cung diệc nhiên.",
+      "literalMeaningVi": "Vũ Khúc thủ cung Mệnh (hoặc Tài Bạch), Thái Dương và Thái Âm giáp ở hai cung liền kề.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定富局 #2 (zh_ziwei_doushu_quanshu.md:887)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_df_02_nhat_nguyet_giap_tai",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Vũ Khúc",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Thái Âm",
+                "palace": "Mệnh",
+                "relation": "prev"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Thái Dương",
+                "palace": "Mệnh",
+                "relation": "next"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Vũ Khúc",
+                "palace": "Tài Bạch"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Thái Âm",
+                "palace": "Tài Bạch",
+                "relation": "prev"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Thái Dương",
+                "palace": "Tài Bạch",
+                "relation": "next"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tài tinh Vũ Khúc được hai sao Nhật Nguyệt trợ lực hai bên: tư duy quản trị tài chính thực tế kết hợp tầm nhìn minh bạch và tích lũy bền bỉ.",
+      "actionableAdviceVi": "Phát huy kỷ luật tài chính rõ ràng, kết hợp minh bạch sổ sách (Thái Dương) với dự phòng dài hạn (Thái Âm)."
+    },
+    {
+      "id": "TT-DF-03",
+      "no": 3,
+      "group": "dinh_phu",
+      "nameZh": "財祿夾馬",
+      "nameHanViet": "Tài Lộc Giáp Mã",
+      "nameVi": "Tài Lộc Giáp Mã",
+      "hanziOriginal": "馬守命，武祿來夾是也，逢生旺尤妙。",
+      "hanViet": "Mã thủ Mệnh, Vũ Lộc lai giáp thị dã, phùng sinh vượng vưu diệu.",
+      "literalMeaningVi": "Thiên Mã thủ cung Mệnh, có Vũ Khúc và Lộc Tồn giáp hai bên cung Mệnh.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定富局 #3 (zh_ziwei_doushu_quanshu.md:888)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_df_03_tai_loc_giap_ma",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_palace",
+            "star": "Thiên Mã",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Vũ Khúc",
+            "palace": "Mệnh",
+            "relation": "prev"
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Lộc Tồn",
+            "palace": "Mệnh",
+            "relation": "next"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Năng động dịch chuyển (Thiên Mã) được bảo trợ bởi nguồn vốn và kỷ luật tài chính (Vũ Khúc, Lộc Tồn), rất hiếm và thuận cho giao thương mở rộng.",
+      "actionableAdviceVi": "Mạnh dạn mở rộng mạng lưới liên vùng hoặc giao thương đa thị trường nhưng giữ nguyên tắc kiểm soát dòng tiền."
+    },
+    {
+      "id": "TT-DF-04",
+      "no": 4,
+      "group": "dinh_phu",
+      "nameZh": "蔭印拱身",
+      "nameHanViet": "Ấm Ấn Củng Thân",
+      "nameVi": "Ấm Ấn Củng Thân",
+      "hanziOriginal": "身臨田宅，梁相拱沖是也，勿坐空亡。",
+      "hanViet": "Thân lâm Điền Trạch, Lương Tướng củng xung thị dã, vật tọa Không Vong.",
+      "literalMeaningVi": "Thân cư Điền Trạch, Thiên Lương và Thiên Tướng cùng củng chiếu vào Tam Phương Tứ Chính cung Thân.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定富局 #4 (zh_ziwei_doushu_quanshu.md:889)",
+      "status": "unreachable",
+      "unit": "chart",
+      "whyUnreachable": "Bất khả thi về hình học an sao: khoảng cách Thiên Tướng -> Thiên Lương luôn bằng 1, trong khi tập hợp các cung Tam Phương Tứ Chính {+0, +4, +6, +8} có khoảng cách tối thiểu giữa hai cung khác nhau là 2, nên Thiên Lương và Thiên Tướng không thể đồng thời nhập Tam Hợp hoặc Xung Chiếu của cùng một cung.",
+      "evaluatorKey": "tt_df_04_unreachable",
+      "predicate": null,
+      "modernInterpretationVi": "Cách cục giả định Thiên Lương và Thiên Tướng đồng thời củng chiếu cung Thân tại Điền Trạch, nhưng theo quy luật an Thiên Phủ hệ thì hai sao này luôn đứng kề nhau chứ không thể chia hai góc Tam Phương.",
+      "actionableAdviceVi": "Đánh giá phúc ấm điền sản thực tế qua cường độ Thiên Phủ, Thái Âm hoặc Lộc Tồn tại Điền Trạch và Phúc Đức."
+    },
+    {
+      "id": "TT-DF-05",
+      "no": 5,
+      "group": "dinh_phu",
+      "nameZh": "日月照璧",
+      "nameHanViet": "Nhật Nguyệt Chiếu Bích",
+      "nameVi": "Nhật Nguyệt Chiếu Bích",
+      "hanziOriginal": "日月臨田宅宮是也，喜居墓庫。",
+      "hanViet": "Nhật Nguyệt lâm Điền Trạch cung thị dã, hỉ cư mộ khố.",
+      "literalMeaningVi": "Thái Dương và Thái Âm cùng đóng tại cung Điền Trạch (tự nhiên rơi vào cung Sửu hoặc Mùi — mộ khố).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定富局 #5 (zh_ziwei_doushu_quanshu.md:890)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_df_05_nhat_nguyet_chieu_bich",
+      "predicate": {
+        "op": "star_co_located",
+        "stars": [
+          "Thái Dương",
+          "Thái Âm"
+        ],
+        "palace": "Điền Trạch"
+      },
+      "modernInterpretationVi": "Điền Trạch có đủ âm dương điều hòa, biểu hiện nền tảng an cư vững chãi và khả năng tích lũy tài sản cố định bền lâu.",
+      "actionableAdviceVi": "Ưu tiên tích sản dài hạn và xây dựng không gian sống hài hòa ánh sáng – yên tĩnh (khác nhánh Nam Phái lấy Nhật Nguyệt ở đối cung chiếu về)."
+    },
+    {
+      "id": "TT-DF-06",
+      "no": 6,
+      "group": "dinh_phu",
+      "nameZh": "金燦光輝",
+      "nameHanViet": "Kim Xán Quang Huy",
+      "nameVi": "Kim Xán Quang Huy",
+      "hanziOriginal": "太陽單守，命在午宮是也。",
+      "hanViet": "Thái Dương đơn thủ, Mệnh tại Ngọ cung thị dã.",
+      "literalMeaningVi": "Thái Dương độc thủ cung Mệnh tại Ngọ (cực vượng giữa trưa, không có chính tinh khác đồng cung).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定富局 #6 (zh_ziwei_doushu_quanshu.md:891)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_df_06_kim_xan_quang_huy",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              6
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Thái Dương",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "exact": 1
+          }
+        ]
+      },
+      "modernInterpretationVi": "Thái Dương cực vượng tại Ngọ (Nhật Lệ Trung Thiên): khí chất quang minh, chính trực, tầm nhìn rộng và có sức lan tỏa lớn.",
+      "actionableAdviceVi": "Phát huy tinh thần phụng sự minh bạch và rèn sự lắng nghe để ánh sáng dẫn dắt không trở thành áp đặt."
+    },
+    {
+      "id": "TT-DQ-01",
+      "no": 1,
+      "group": "dinh_quy",
+      "nameZh": "日月夾命",
+      "nameHanViet": "Nhật Nguyệt Giáp Mệnh",
+      "nameVi": "Nhật Nguyệt Giáp Mệnh",
+      "hanziOriginal": "不坐空亡，遇逢本宮有吉星是也。",
+      "hanViet": "Bất tọa Không Vong, ngộ phùng bản cung hữu cát tinh thị dã.",
+      "literalMeaningVi": "Thái Dương và Thái Âm giáp hai bên cung Mệnh, Mệnh không lâm Không Vong và bản cung có ít nhất một cát tinh.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #1 (zh_ziwei_doushu_quanshu.md:896)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_01_nhat_nguyet_giap_menh",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "not",
+            "arg": {
+              "op": "or",
+              "args": [
+                {
+                  "op": "palace_has_flag",
+                  "palace": "Mệnh",
+                  "flag": "tuanTrung"
+                },
+                {
+                  "op": "palace_has_flag",
+                  "palace": "Mệnh",
+                  "flag": "trietLo"
+                }
+              ]
+            }
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "palace_star_count_in",
+                "palace": "Mệnh",
+                "stars": [
+                  "Tả Phụ",
+                  "Hữu Bật",
+                  "Văn Xương",
+                  "Văn Khúc",
+                  "Thiên Khôi",
+                  "Thiên Việt",
+                  "Lộc Tồn",
+                  "Thiên Mã"
+                ],
+                "min": 1
+              },
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Lộc",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Quyền",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Khoa",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "and",
+                "args": [
+                  {
+                    "op": "star_in_relative_palace",
+                    "star": "Thái Dương",
+                    "palace": "Mệnh",
+                    "relation": "prev"
+                  },
+                  {
+                    "op": "star_in_relative_palace",
+                    "star": "Thái Âm",
+                    "palace": "Mệnh",
+                    "relation": "next"
+                  }
+                ]
+              },
+              {
+                "op": "and",
+                "args": [
+                  {
+                    "op": "star_in_relative_palace",
+                    "star": "Thái Âm",
+                    "palace": "Mệnh",
+                    "relation": "prev"
+                  },
+                  {
+                    "op": "star_in_relative_palace",
+                    "star": "Thái Dương",
+                    "palace": "Mệnh",
+                    "relation": "next"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Được âm dương song chiếu từ hai bên cung Mệnh cùng nội lực cát tinh tại bản cung, tạo nền tảng hậu thuẫn cân bằng cả lý trí lẫn trực giác.",
+      "actionableAdviceVi": "Tận dụng thế cân bằng giữa tầm nhìn công khai và hậu thuẫn gia đình để theo đuổi mục tiêu dài hạn."
+    },
+    {
+      "id": "TT-DQ-02",
+      "no": 2,
+      "group": "dinh_quy",
+      "nameZh": "日出扶桑",
+      "nameHanViet": "Nhật Xuất Phù Tang",
+      "nameVi": "Nhật Xuất Phù Tang",
+      "hanziOriginal": "日在卯守命是也，守官祿宮亦然。",
+      "hanViet": "Nhật tại Mão thủ Mệnh thị dã, thủ Quan Lộc cung diệc nhiên.",
+      "literalMeaningVi": "Thái Dương đóng ở cung Mão thủ Mệnh hoặc thủ cung Quan Lộc (mặt trời mọc rạng đông).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #2 (zh_ziwei_doushu_quanshu.md:897)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_02_nhat_xuat_phu_tang",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  3
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thái Dương",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Quan Lộc",
+                "branches": [
+                  3
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thái Dương",
+                "palace": "Quan Lộc"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Sinh khí vươn lên mạnh mẽ như mặt trời buổi sớm (Nhật Chiếu Lôi Môn): sáng tạo, nhiệt huyết, dễ tạo uy tín trong sự nghiệp công hoặc học thuật.",
+      "actionableAdviceVi": "Chủ động nhận nhiệm vụ tiên phong vào giai đoạn khởi dựng và duy trì tính minh bạch trong chuyên môn."
+    },
+    {
+      "id": "TT-DQ-03",
+      "no": 3,
+      "group": "dinh_quy",
+      "nameZh": "月落亥宮",
+      "nameHanViet": "Nguyệt Lạc Hợi Cung",
+      "nameVi": "Nguyệt Lạc Hợi Cung (Nguyệt Lãng Thiên Môn)",
+      "hanziOriginal": "月在亥守命是也，又名月朗天門。",
+      "hanViet": "Nguyệt tại Hợi thủ Mệnh thị dã, hựu danh Nguyệt Lãng Thiên Môn.",
+      "literalMeaningVi": "Thái Âm đóng tại cung Hợi thủ Mệnh, còn gọi là Nguyệt Lãng Thiên Môn.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #3 (zh_ziwei_doushu_quanshu.md:898)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_03_nguyet_lac_hoi_cung",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              11
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Thái Âm",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Thái Âm miếu địa tại Hợi: trí tuệ tĩnh tại, sâu sắc, giàu cảm nhận nghệ thuật hoặc nghiên cứu, tích lũy tài sản bền bỉ.",
+      "actionableAdviceVi": "Phát huy chiều sâu tư duy và khả năng quản trị hậu cần, tài chính dài hạn trong sự điềm tĩnh."
+    },
+    {
+      "id": "TT-DQ-04",
+      "no": 4,
+      "group": "dinh_quy",
+      "nameZh": "月生滄海",
+      "nameHanViet": "Nguyệt Sinh Thương Hải",
+      "nameVi": "Nguyệt Sinh Thương Hải",
+      "hanziOriginal": "月在子宮守田宅是也。",
+      "hanViet": "Nguyệt tại Tý cung thủ Điền Trạch thị dã.",
+      "literalMeaningVi": "Thái Âm đóng tại cung Tý thủ cung Điền Trạch (trăng soi biển lớn).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #4 (zh_ziwei_doushu_quanshu.md:899)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_04_nguyet_sinh_thuong_hai",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Điền Trạch",
+            "branches": [
+              0
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Thái Âm",
+            "palace": "Điền Trạch"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Phúc khí an cư và nền tảng tích lũy gia sản dồi dào, hậu vận gia đạo yên ấm.",
+      "actionableAdviceVi": "Xây dựng chiến lược tích lũy tài sản cố định từ sớm và giữ nếp sống gia đình hài hòa."
+    },
+    {
+      "id": "TT-DQ-05",
+      "no": 5,
+      "group": "dinh_quy",
+      "nameZh": "輔弼拱主",
+      "nameHanViet": "Phụ Bật Củng Chủ",
+      "nameVi": "Phụ Bật Củng Chủ",
+      "hanziOriginal": "紫微守命，二星來拱是也，夾之亦然。",
+      "hanViet": "Tử Vi thủ Mệnh, nhị tinh lai củng thị dã, giáp chi diệc nhiên.",
+      "literalMeaningVi": "Tử Vi thủ Mệnh; Tả Phụ và Hữu Bật cùng hội Tam Phương Tứ Chính, hoặc giáp hai bên, hoặc đồng cung.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #5 (zh_ziwei_doushu_quanshu.md:900)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_05_phu_bat_cung_chu",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_palace",
+            "star": "Tử Vi",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "and",
+                "args": [
+                  {
+                    "op": "star_in_tam_phuong",
+                    "star": "Tả Phụ",
+                    "palace": "Mệnh"
+                  },
+                  {
+                    "op": "star_in_tam_phuong",
+                    "star": "Hữu Bật",
+                    "palace": "Mệnh"
+                  }
+                ]
+              },
+              {
+                "op": "and",
+                "args": [
+                  {
+                    "op": "star_in_relative_palace",
+                    "star": "Tả Phụ",
+                    "palace": "Mệnh",
+                    "relation": "prev"
+                  },
+                  {
+                    "op": "star_in_relative_palace",
+                    "star": "Hữu Bật",
+                    "palace": "Mệnh",
+                    "relation": "next"
+                  }
+                ]
+              },
+              {
+                "op": "and",
+                "args": [
+                  {
+                    "op": "star_in_relative_palace",
+                    "star": "Hữu Bật",
+                    "palace": "Mệnh",
+                    "relation": "prev"
+                  },
+                  {
+                    "op": "star_in_relative_palace",
+                    "star": "Tả Phụ",
+                    "palace": "Mệnh",
+                    "relation": "next"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Đế tinh Tử Vi có Tả Hữu phò tá: năng lực điều phối tổ chức, thu hút cộng sự đắc lực và nhận được sự tin cậy của tập thể.",
+      "actionableAdviceVi": "Chú trọng xây dựng đội ngũ kế cận và chia sẻ công trạng để phát huy trọn vẹn sức mạnh phò tá."
+    },
+    {
+      "id": "TT-DQ-06",
+      "no": 6,
+      "group": "dinh_quy",
+      "nameZh": "君臣慶會",
+      "nameHanViet": "Quân Thần Khánh Hội",
+      "nameVi": "Quân Thần Khánh Hội",
+      "hanziOriginal": "紫微左右同守命是也，更會相武陰妙上。",
+      "hanViet": "Tử Vi Tả Hữu đồng thủ Mệnh thị dã, cánh hội Tướng Vũ Âm diệu thượng.",
+      "literalMeaningVi": "Tử Vi, Tả Phụ và Hữu Bật đồng cung tại Mệnh (chữ 'đồng thủ' chỉ hội tụ cùng một cung).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #6 (zh_ziwei_doushu_quanshu.md:901)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_06_quan_than_khanh_hoi",
+      "predicate": {
+        "op": "star_co_located",
+        "stars": [
+          "Tử Vi",
+          "Tả Phụ",
+          "Hữu Bật"
+        ],
+        "palace": "Mệnh"
+      },
+      "modernInterpretationVi": "Vua tôi tương đắc ngay tại bản cung: khí chất lãnh đạo điềm đạm đi kèm mạng lưới cộng sự trung thành, rất thuận quản trị cấp cao.",
+      "actionableAdviceVi": "Giữ phong thái khoan hòa, trọng dụng hiền tài và tránh độc đoán khi nắm quyền quyết định."
+    },
+    {
+      "id": "TT-DQ-07",
+      "no": 7,
+      "group": "dinh_quy",
+      "nameZh": "財印夾祿",
+      "nameHanViet": "Tài Ấn Giáp Lộc",
+      "nameVi": "Tài Ấn Giáp Lộc",
+      "hanziOriginal": "祿守命，梁相來夾是也，入財亦然。",
+      "hanViet": "Lộc thủ Mệnh, Lương Tướng lai giáp thị dã, nhập Tài diệc nhiên.",
+      "literalMeaningVi": "Lộc Tồn thủ Mệnh (hoặc Tài Bạch), Thiên Lương và Thiên Tướng giáp hai bên.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #7 (zh_ziwei_doushu_quanshu.md:902)",
+      "status": "unreachable",
+      "unit": "chart",
+      "whyUnreachable": "Bất khả thi về hình học an sao: cùng họ 'Lương – Tướng giáp' với Tài Ấm Giáp Ấn (#1) vì delta(Thiên Tướng -> Thiên Lương) == 1 bất biến, hai sao liền kề không bao giờ giáp được ±1 hai bên một cung.",
+      "evaluatorKey": "tt_dq_07_unreachable",
+      "predicate": null,
+      "modernInterpretationVi": "Cổ văn ghi nhận ý niệm tài lộc được phúc ấm và ấn tín bao bọc, song không tồn tại trong hệ thống an sao chuẩn vì Thiên Lương – Thiên Tướng luôn đứng kề nhau.",
+      "actionableAdviceVi": "Đánh giá cách cục bảo trợ Lộc Tồn qua cặp Thiên Tướng – Thiên Lương trong Tam Phương hoặc Nhật Nguyệt giáp cung."
+    },
+    {
+      "id": "TT-DQ-08",
+      "no": 8,
+      "group": "dinh_quy",
+      "nameZh": "祿馬佩印",
+      "nameHanViet": "Lộc Mã Bội Ấn",
+      "nameVi": "Lộc Mã Bội Ấn",
+      "hanziOriginal": "馬前有祿，印星同宮是也。",
+      "hanViet": "Mã tiền hữu Lộc, Ấn tinh đồng cung thị dã.",
+      "literalMeaningVi": "Thiên Mã và Thiên Tướng (Ấn tinh) đồng thủ Mệnh, Lộc Tồn hoặc Hóa Lộc đồng cung hoặc ở cung kế tiếp.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #8 (zh_ziwei_doushu_quanshu.md:903)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_08_loc_ma_boi_an",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Thiên Mã",
+              "Thiên Tướng"
+            ],
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "or",
+                "args": [
+                  {
+                    "op": "star_in_palace",
+                    "star": "Lộc Tồn",
+                    "palace": "Mệnh"
+                  },
+                  {
+                    "op": "sihua_in_palace",
+                    "transform": "Hóa Lộc",
+                    "palace": "Mệnh"
+                  }
+                ]
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Lộc Tồn",
+                "palace": "Mệnh",
+                "relation": "next"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Hóa Lộc",
+                "palace": "Mệnh",
+                "relation": "next"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Sự xông xáo thực thi (Thiên Mã) kết hợp uy tín giữ chữ tín (Thiên Tướng) và tài nguyên lộc khí, rất hợp vai trò đại diện, thương mại hoặc điều hành dự án lưu động.",
+      "actionableAdviceVi": "Gắn tính cơ động với chuẩn mực pháp lý và chữ tín (Ấn) để phát triển bền vững."
+    },
+    {
+      "id": "TT-DQ-09",
+      "no": 9,
+      "group": "dinh_quy",
+      "nameZh": "坐貴向貴",
+      "nameHanViet": "Tọa Quý Hướng Quý",
+      "nameVi": "Tọa Quý Hướng Quý",
+      "hanziOriginal": "謂魁鉞在命迭相坐拱是也。",
+      "hanViet": "Vị Khôi Việt tại Mệnh điệt tương tọa củng thị dã.",
+      "literalMeaningVi": "Thiên Khôi ở Mệnh và Thiên Việt ở đối cung Thiên Di (hoặc ngược lại: Việt tại Mệnh, Khôi tại Thiên Di).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #9 (zh_ziwei_doushu_quanshu.md:904)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_09_toa_quy_huong_quy",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Thiên Khôi",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Thiên Việt",
+                "palace": "Mệnh",
+                "relation": "opposite"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Thiên Việt",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Thiên Khôi",
+                "palace": "Mệnh",
+                "relation": "opposite"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Trong có cốt cách quý nhân tự trọng (tọa Quý), ngoài ra xã hội dễ gặp người nâng đỡ đồng thanh tương ứng (hướng Quý).",
+      "actionableAdviceVi": "Giữ thái độ tử tế, tôn trọng tri thức và chủ động kết nối cố vấn hoặc cộng đồng chuyên môn."
+    },
+    {
+      "id": "TT-DQ-10",
+      "no": 10,
+      "group": "dinh_quy",
+      "nameZh": "馬頭帶劍",
+      "nameHanViet": "Mã Đầu Đới Kiếm",
+      "nameVi": "Mã Đầu Đới Kiếm (bản Toàn Thư)",
+      "hanziOriginal": "謂馬有刃是也，不是居午格。",
+      "hanViet": "Vị Mã hữu nhận thị dã, bất thị cư Ngọ cách.",
+      "literalMeaningVi": "Thiên Mã đồng cung với Kình Dương (chú văn Toàn Thư phủ định cách hiểu Kình Dương cư Ngọ).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #10 (zh_ziwei_doushu_quanshu.md:905)",
+      "status": "unreachable",
+      "unit": "chart",
+      "whyUnreachable": "Bất khả thi theo chú văn Toàn Thư: Thiên Mã chỉ an tại Tứ Sinh {Dần, Thân, Tỵ, Hợi} (2, 8, 5, 11) và Kình Dương luôn đứng sau Lộc Tồn 1 cung; tập vị trí Kình Dương tại 10 thiên can là {Mão, Thìn, Ngọ, Mùi, Ngọ, Mùi, Dậu, Tuất, Tý, Sửu} — hoàn toàn rời rạc với {Dần, Thân, Tỵ, Hợi}, nên Thiên Mã và Kình Dương không bao giờ đồng cung. Đồng thời chú văn tự phủ định 'không phải cách cư Ngọ' (trái ngược với Nam Phái Tân Biên nhận Kình Dương cư Ngọ làm Mã Đầu Đới Kiếm).",
+      "evaluatorKey": "tt_dq_10_unreachable",
+      "predicate": null,
+      "modernInterpretationVi": "Đây là phân kỳ học thuật kinh điển: theo đúng nguyên văn Toàn Thư thì Thiên Mã không bao giờ đồng cung Kình Dương; còn trong Nam Phái Việt Nam lại lấy Kình Dương cư Ngọ làm Mã Đầu Đới Kiếm.",
+      "actionableAdviceVi": "Đối chiếu cả hai hệ phái khi xem Kình Dương tại Ngọ thay vì máy móc áp một khuôn cố định."
+    },
+    {
+      "id": "TT-DQ-11",
+      "no": 11,
+      "group": "dinh_quy",
+      "nameZh": "七殺朝斗",
+      "nameHanViet": "Thất Sát Triều Đẩu",
+      "nameVi": "Thất Sát Triều Đẩu",
+      "hanziOriginal": "見前批注〈骨髓賦〉：「七殺朝斗，爵祿榮昌。」",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú): Thất Sát triều đẩu, tước lộc vinh xương.",
+      "literalMeaningVi": "Thất Sát thủ Mệnh tại bốn cung Tý, Dần, Ngọ, Thân (chỉ riêng Thất Sát tại Tý/Ngọ/Dần/Thân).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #11 & 骨髓賦 (zh_ziwei_doushu_quanshu.md:625,906)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_11_that_sat_trieu_dau",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_palace",
+            "star": "Thất Sát",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              0,
+              2,
+              6,
+              8
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Bản lĩnh quyết đoán, dám gánh vác việc lớn, có khả năng đột phá trong quản trị khủng hoảng hoặc lĩnh vực cạnh tranh cao.",
+      "actionableAdviceVi": "Rèn sự điềm tĩnh và lắng nghe tập thể để uy lực quyết đoán không biến thành đơn độc."
+    },
+    {
+      "id": "TT-DQ-12",
+      "no": 12,
+      "group": "dinh_quy",
+      "nameZh": "日月並明",
+      "nameHanViet": "Nhật Nguyệt Tịnh Minh",
+      "nameVi": "Nhật Nguyệt Tịnh Minh",
+      "hanziOriginal": "見前批注（《骨髓賦》：日月並明，佐九重於堯殿）。",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú: Nhật Nguyệt tịnh minh, tá cửu trùng ư Nghiêu điện).",
+      "literalMeaningVi": "Cách phổ thông: Thái Dương tại Tỵ (5), Thái Âm tại Dậu (9), Mệnh tọa Tỵ hoặc Dậu (cũng có thuyết tính Mệnh tại Sửu/Mùi tam hợp Tỵ–Dậu).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #12 & 骨髓賦 (zh_ziwei_doushu_quanshu.md:633,907)",
+      "status": "disputed",
+      "unit": "chart",
+      "disputeNote": "Chú văn chỉ ghi 'Kiến tiền phê chú'; các nhà chú giải có hai cách lấy (Mệnh Tỵ/Dậu có Nhật Tỵ Nguyệt Dậu vs Mệnh Sửu/Mùi tam hợp Tỵ Dậu). Theo chuẩn định lượng phổ thông lấy Thái Dương ở Tỵ, Thái Âm ở Dậu, Mệnh tại Tỵ hoặc Dậu.",
+      "evaluatorKey": "tt_dq_12_nhat_nguyet_tinh_minh",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  5
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thái Dương",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thái Âm",
+                "palace": "Quan Lộc"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  9
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thái Âm",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thái Dương",
+                "palace": "Tài Bạch"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Cả hai tinh tú sáng rực cùng đắc địa trợ lực trong Tam Hợp, giúp tư duy sáng suốt và khả năng cân bằng công – tư khéo léo.",
+      "actionableAdviceVi": "Khai thác thế mạnh truyền thông, quản lý hoặc tư vấn chiến lược với phong cách minh bạch."
+    },
+    {
+      "id": "TT-DQ-13",
+      "no": 13,
+      "group": "dinh_quy",
+      "nameZh": "明珠出海",
+      "nameHanViet": "Minh Châu Xuất Hải",
+      "nameVi": "Minh Châu Xuất Hải",
+      "hanziOriginal": "見前批注（命在未宮無正曜，對宮丑日月同度拱照）。",
+      "hanViet": "Kiến tiền phê chú (Mệnh tại Mùi cung Vô Chính Diệu, đối cung Sửu Nhật Nguyệt đồng độ củng chiếu).",
+      "literalMeaningVi": "Mệnh tại Mùi (7) Vô Chính Diệu (không có chính tinh), đối cung Sửu (1) có Thái Dương và Thái Âm đồng cung chiếu về.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #13 (zh_ziwei_doushu_quanshu.md:908)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_13_minh_chau_xuat_hai",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              7
+            ]
+          },
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "exact": 0
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Thái Dương",
+            "palace": "Mệnh",
+            "relation": "opposite"
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Thái Âm",
+            "palace": "Mệnh",
+            "relation": "opposite"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tuy bản cung Mệnh Vô Chính Diệu nhưng thế đứng tiếp nhận ánh sáng hội tụ từ đối cung và Tam Hợp (Cự–Cơ tại Mão, Đồng–Lương tại Hợi), học sâu hiểu rộng và tỏa sáng khi trưởng thành.",
+      "actionableAdviceVi": "Tìm môi trường năng động bên ngoài (Thiên Di) để phát huy trọn vẹn ánh sáng hội tụ về Mệnh."
+    },
+    {
+      "id": "TT-DQ-14",
+      "no": 14,
+      "group": "dinh_quy",
+      "nameZh": "日月同臨",
+      "nameHanViet": "Nhật Nguyệt Đồng Lâm",
+      "nameVi": "Nhật Nguyệt Đồng Lâm",
+      "hanziOriginal": "見前批注（《骨髓賦》：日月同臨，官居侯伯）。",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú: Nhật Nguyệt đồng lâm, quan cư hầu bá).",
+      "literalMeaningVi": "Thái Dương và Thái Âm đồng cung thủ Mệnh (tự nhiên xảy ra tại Sửu hoặc Mùi).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #14 & 骨髓賦 (zh_ziwei_doushu_quanshu.md:628,909)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_14_nhat_nguyet_dong_lam",
+      "predicate": {
+        "op": "star_co_located",
+        "stars": [
+          "Thái Dương",
+          "Thái Âm"
+        ],
+        "palace": "Mệnh"
+      },
+      "modernInterpretationVi": "Nội tâm dung hợp hai cực đối lập: lúc nhiệt tình cởi mở, lúc trầm tư thận trọng; khi điều hòa được nhịp nóng–lạnh sẽ tạo năng lực cân bằng hiếm có.",
+      "actionableAdviceVi": "Giữ nhất quán trong cam kết với người khác để tránh thay đổi tâm trạng đột ngột."
+    },
+    {
+      "id": "TT-DQ-15",
+      "no": 15,
+      "group": "dinh_quy",
+      "nameZh": "刑囚夾印",
+      "nameHanViet": "Hình Tù Giáp Ấn",
+      "nameVi": "Hình Tù Giáp Ấn",
+      "hanziOriginal": "天刑廉貞同臨身命，主武勇之人。",
+      "hanViet": "Thiên Hình Liêm Trinh đồng lâm Thân Mệnh, chủ vũ dũng chi nhân.",
+      "literalMeaningVi": "Thiên Hình và Liêm Trinh đồng cung tại Mệnh hoặc tại Thân (chú văn gốc không yêu cầu Thiên Tướng đồng cung).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #15 (zh_ziwei_doushu_quanshu.md:910)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_15_hinh_tu_giap_an",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Thiên Hình",
+              "Liêm Trinh"
+            ],
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Thiên Hình",
+              "Liêm Trinh"
+            ],
+            "palace": "Thân"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tính kỷ luật nghiêm minh, cương trực và bản lĩnh hành động dứt khoát; hợp các ngành pháp chế, kiểm toán, an ninh, kỹ thuật chính xác hoặc y khoa ngoại khoa.",
+      "actionableAdviceVi": "Chuyển hóa tính nguyên tắc nghiêm khắc thành kỷ luật nghề nghiệp chuẩn mực thay vì áp đặt trong đời sống tình cảm."
+    },
+    {
+      "id": "TT-DQ-16",
+      "no": 16,
+      "group": "dinh_quy",
+      "nameZh": "科權祿拱",
+      "nameHanViet": "Khoa Quyền Lộc Củng",
+      "nameVi": "Khoa Quyền Lộc Củng (Tam Kỳ Gia Hội)",
+      "hanziOriginal": "見前批注（《骨髓賦》：科權祿拱，名譽昭彰）。",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú: Khoa Quyền Lộc củng, danh dự chiêu chương).",
+      "literalMeaningVi": "Hóa Lộc, Hóa Quyền và Hóa Khoa cùng hội tụ trong Tam Phương Tứ Chính cung Mệnh.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #16 & 骨髓賦 (zh_ziwei_doushu_quanshu.md:627,911)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_16_khoa_quyen_loc_cung",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Hóa Lộc",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Hóa Quyền",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Hóa Khoa",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Hội tụ đủ ba đòn bẩy: cơ hội tài lộc (Lộc), năng lực thực thi (Quyền) và uy tín tri thức (Khoa), thuận lợi đạt thành tựu được xã hội công nhận.",
+      "actionableAdviceVi": "Biết đủ và giữ khiêm cung khi thuận lợi; chủ động chia sẻ giá trị để danh tiếng bền vững."
+    },
+    {
+      "id": "TT-DQ-17",
+      "no": 17,
+      "group": "dinh_quy",
+      "nameZh": "貪火相逢",
+      "nameHanViet": "Tham Hỏa Tương Phùng",
+      "nameVi": "Tham Hỏa Tương Phùng",
+      "hanziOriginal": "謂二星守命同居廟旺是也。",
+      "hanViet": "Vị nhị tinh thủ Mệnh đồng cư miếu vượng thị dã.",
+      "literalMeaningVi": "Tham Lang và Hỏa Tinh đồng cung thủ Mệnh và cả hai đều ở vị trí Miếu hoặc Vượng.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #17 (zh_ziwei_doushu_quanshu.md:912)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_17_tham_hoa_tuong_phung",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Tham Lang",
+              "Hỏa Tinh"
+            ],
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_brightness_in",
+            "star": "Tham Lang",
+            "palace": "Mệnh",
+            "levels": [
+              "Miếu",
+              "Vượng"
+            ]
+          },
+          {
+            "op": "star_brightness_in",
+            "star": "Hỏa Tinh",
+            "palace": "Mệnh",
+            "levels": [
+              "Miếu",
+              "Vượng"
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Cách cục bùng nổ mạnh mẽ hiếm gặp: khát vọng lớn gặp chất xúc tác quyết liệt tạo bước ngoặt bất ngờ về tài năng hoặc sự nghiệp.",
+      "actionableAdviceVi": "Tích lũy kỹ năng bài bản trước thời điểm bứt phá để giữ thành quả lâu dài sau giai đoạn tăng tốc nhanh."
+    },
+    {
+      "id": "TT-DQ-18",
+      "no": 18,
+      "group": "dinh_quy",
+      "nameZh": "武曲守垣",
+      "nameHanViet": "Vũ Khúc Thủ Viên",
+      "nameVi": "Vũ Khúc Thủ Viên",
+      "hanziOriginal": "武守命卯宮是也，余不是。",
+      "hanViet": "Vũ thủ Mệnh Mão cung thị dã, dư bất thị.",
+      "literalMeaningVi": "Vũ Khúc thủ Mệnh tại cung Mão (3) — chú văn chỉ rõ các cung khác không kể.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #18 (zh_ziwei_doushu_quanshu.md:913)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_18_vu_khuc_thu_vien",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              3
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Vũ Khúc",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Khí chất cương trực, quyết đoán tài chính tại cung Mão (cũng là thế Vũ–Sát đồng cung): nói đi đôi với làm, hợp khai phá dự án mới.",
+      "actionableAdviceVi": "Chú trọng sự mềm dẻo trong giao tiếp để đối tác cảm nhận được thiện chí đằng sau sự thẳng thắn."
+    },
+    {
+      "id": "TT-DQ-19",
+      "no": 19,
+      "group": "dinh_quy",
+      "nameZh": "府相朝垣",
+      "nameHanViet": "Phủ Tướng Triều Viên",
+      "nameVi": "Phủ Tướng Triều Viên",
+      "hanziOriginal": "見前批注（《骨髓賦》：府相同來會命宮，全家食祿）。",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú: Phủ Tướng đồng lai hội Mệnh cung, toàn gia thực lộc).",
+      "literalMeaningVi": "Mệnh tại Dần (2) hoặc Thân (8), Thiên Phủ và Thiên Tướng phân thủ hai cung Tài Bạch và Quan Lộc triều về Mệnh.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #19 & 骨髓賦 (zh_ziwei_doushu_quanshu.md:634,914)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_19_phu_tuong_trieu_vien",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              2,
+              8
+            ]
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "and",
+                "args": [
+                  {
+                    "op": "star_in_palace",
+                    "star": "Thiên Phủ",
+                    "palace": "Tài Bạch"
+                  },
+                  {
+                    "op": "star_in_palace",
+                    "star": "Thiên Tướng",
+                    "palace": "Quan Lộc"
+                  }
+                ]
+              },
+              {
+                "op": "and",
+                "args": [
+                  {
+                    "op": "star_in_palace",
+                    "star": "Thiên Tướng",
+                    "palace": "Tài Bạch"
+                  },
+                  {
+                    "op": "star_in_palace",
+                    "star": "Thiên Phủ",
+                    "palace": "Quan Lộc"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tài Bạch và Quan Lộc giữ trọn bộ đôi Thiên Phủ – Thiên Tướng vững vàng, tạo hậu phương nguồn lực và uy tín nghề nghiệp ổn định.",
+      "actionableAdviceVi": "Phát huy phong cách làm việc chuẩn mực, đáng tin cậy trong quản trị tài sản và điều hành tổ chức."
+    },
+    {
+      "id": "TT-DQ-20",
+      "no": 20,
+      "group": "dinh_quy",
+      "nameZh": "紫府朝垣",
+      "nameHanViet": "Tử Phủ Triều Viên",
+      "nameVi": "Tử Phủ Triều Viên (Tử Phủ Đồng Cung Dần Thân)",
+      "hanziOriginal": "見前批注（《骨髓賦》：紫府同宮，終身福厚 / 紫府朝垣，食祿萬鐘）。",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú: Tử Phủ đồng cung, chung thân phúc hậu).",
+      "literalMeaningVi": "Mệnh tọa tại Dần (2) hoặc Thân (8) có Tử Vi và Thiên Phủ đồng cung thủ Mệnh.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #20 & 骨髓賦 (zh_ziwei_doushu_quanshu.md:625,632,915)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_20_tu_phu_trieu_vien",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              2,
+              8
+            ]
+          },
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Tử Vi",
+              "Thiên Phủ"
+            ],
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Song đế tinh Tử Vi – Thiên Phủ đồng tọa bản cung: khí độ điềm tĩnh, khả năng bao quát chiến lược lẫn giữ nguồn lực thực tế.",
+      "actionableAdviceVi": "Tránh an phận thủ thường quá sớm; đặt mục tiêu đóng góp dài hạn xứng tầm năng lực bao quát."
+    },
+    {
+      "id": "TT-DQ-21",
+      "no": 21,
+      "group": "dinh_quy",
+      "nameZh": "文星暗拱",
+      "nameHanViet": "Văn Tinh Ám Củng",
+      "nameVi": "Văn Tinh Ám Củng (Xương Khúc Giáp Mệnh)",
+      "hanziOriginal": "見前批注（《骨髓賦》：文星暗拱，賈誼允矣登科；〈文昌文曲〉：昌曲夾命最為奇，假若命在丑宮，文昌在寅，文曲在子是也）。",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú: Văn tinh ám củng... Xương Khúc giáp Mệnh tối vi kỳ, giả nhược Mệnh tại Sửu cung, Văn Xương tại Dần, Văn Khúc tại Tý thị dã).",
+      "literalMeaningVi": "Văn Xương và Văn Khúc giáp hai bên cung Mệnh (±1), hoặc củng chiếu Tam Phương.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #21, 骨髓賦 & 文昌文曲條 (zh_ziwei_doushu_quanshu.md:641,916,1373)",
+      "status": "verified",
+      "unit": "chart",
+      "priorArtCorrectionNote": "Đính chính từ kiểm chứng toán học: MIT patterns-dinggui.ts:387-395 từng gắn cờ unreachable do nhầm lẫn khoảng cách giữa hai sao giáp ±1: hiệu số Văn Xương – Văn Khúc luôn chẵn {0, 2, 4, 6, 8, 10}, nhưng giáp cung b tại (b-1, b+1) đòi hỏi hiệu số bằng 2 (hoặc 10) — là số chẵn hoàn toàn khả thi! Cụ thể tại Mệnh Sửu/Mùi và giờ Dần/Thìn/Thân/Tuất, Xương–Khúc giáp Mệnh ±1 xảy ra thực tế (~2%), khớp nguyên văn Toàn Thư L1373 (Mệnh Sửu, Xương Dần, Khúc Tý).",
+      "evaluatorKey": "tt_dq_21_van_tinh_am_cung",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_relative_palace",
+                "star": "Văn Xương",
+                "palace": "Mệnh",
+                "relation": "prev"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Văn Khúc",
+                "palace": "Mệnh",
+                "relation": "next"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_relative_palace",
+                "star": "Văn Khúc",
+                "palace": "Mệnh",
+                "relation": "prev"
+              },
+              {
+                "op": "star_in_relative_palace",
+                "star": "Văn Xương",
+                "palace": "Mệnh",
+                "relation": "next"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Hai văn tinh Văn Xương và Văn Khúc kẹp hai bên cung Mệnh (hoặc chiếu hội Tam Phương): tư chất học thuật xuất sắc, văn phong thanh nhã và khả năng diễn đạt thuyết phục.",
+      "actionableAdviceVi": "Phát huy thế mạnh viết lách, nghiên cứu, sư phạm hoặc truyền thông tri thức bài bản."
+    },
+    {
+      "id": "TT-DQ-22",
+      "no": 22,
+      "group": "dinh_quy",
+      "nameZh": "權祿生逢",
+      "nameHanViet": "Quyền Lộc Sinh Phùng",
+      "nameVi": "Quyền Lộc Sinh Phùng",
+      "hanziOriginal": "二星守命廟旺是也，陷不是。",
+      "hanViet": "Nhị tinh thủ Mệnh miếu vượng thị dã, hãm bất thị.",
+      "literalMeaningVi": "Hóa Quyền và Hóa Lộc đồng thủ cung Mệnh và các sao mang Hóa Quyền/Hóa Lộc đều không lạc Hãm.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #22 (zh_ziwei_doushu_quanshu.md:917)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_22_quyen_loc_sinh_phung",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "sihua_in_palace",
+            "transform": "Hóa Quyền",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "sihua_in_palace",
+            "transform": "Hóa Lộc",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Khả năng tự chủ quyền lực đi liền với sinh khí tài lộc ngay tại bản mệnh, thuận cho tự kinh doanh hoặc giữ vai trò điều hành chủ chốt.",
+      "actionableAdviceVi": "Giữ sự cân bằng giữa tham vọng mở rộng và trách nhiệm với đội ngũ."
+    },
+    {
+      "id": "TT-DQ-23",
+      "no": 23,
+      "group": "dinh_quy",
+      "nameZh": "羊刃入廟",
+      "nameHanViet": "Dương Nhận Nhập Miếu",
+      "nameVi": "Dương Nhận Nhập Miếu (Kình Dương Tứ Mộ)",
+      "hanziOriginal": "辰戌丑未守命遇吉是也。",
+      "hanViet": "Thìn Tuất Sửu Mùi thủ Mệnh ngộ cát thị dã.",
+      "literalMeaningVi": "Mệnh tại Tứ Mộ (Sửu, Thìn, Mùi, Tuất), có Kình Dương thủ Mệnh và bản cung có ít nhất một cát tinh.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #23 (zh_ziwei_doushu_quanshu.md:918)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_23_duong_nhan_nhap_mieu",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              1,
+              4,
+              7,
+              10
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Kình Dương",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "palace_star_count_in",
+                "palace": "Mệnh",
+                "stars": [
+                  "Tả Phụ",
+                  "Hữu Bật",
+                  "Văn Xương",
+                  "Văn Khúc",
+                  "Thiên Khôi",
+                  "Thiên Việt",
+                  "Lộc Tồn",
+                  "Thiên Mã"
+                ],
+                "min": 1
+              },
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Lộc",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Quyền",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Khoa",
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Kình Dương đắc địa ở Tứ Mộ gặp cát tinh hóa giải: biến sự gai góc, quyết liệt thành nghị lực vượt khó và uy quyền thực thi sắc bén.",
+      "actionableAdviceVi": "Hướng sự quyết liệt vào mục tiêu xây dựng và kỷ luật chuyên môn thay vì tranh chấp nhỏ nhặt."
+    },
+    {
+      "id": "TT-DQ-24",
+      "no": 24,
+      "group": "dinh_quy",
+      "nameZh": "巨機居卯",
+      "nameHanViet": "Cự Cơ Cư Mão",
+      "nameVi": "Cự Cơ Cư Mão",
+      "hanziOriginal": "見前批注（《骨髓賦》：巨機同宮，公卿之位）。",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú: Cự Cơ đồng cung, công khanh chi vị).",
+      "literalMeaningVi": "Cự Môn và Thiên Cơ đồng cung thủ Mệnh tại cung Mão (3).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #24 & 骨髓賦 (zh_ziwei_doushu_quanshu.md:629,919)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_24_cu_co_cu_mao",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              3
+            ]
+          },
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Cự Môn",
+              "Thiên Cơ"
+            ],
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tư duy phân tích hệ thống (Thiên Cơ) kết hợp năng lực ngôn ngữ, phản biện sắc bén (Cự Môn) tại đất Mộc vượng Mão: hợp tham mưu, luật pháp, giáo dục hoặc công nghệ.",
+      "actionableAdviceVi": "Giữ lời nói chân thành và có chứng cứ rõ ràng để tài hùng biện trở thành cầu nối xây dựng."
+    },
+    {
+      "id": "TT-DQ-25",
+      "no": 25,
+      "group": "dinh_quy",
+      "nameZh": "明祿暗祿",
+      "nameHanViet": "Minh Lộc Ám Lộc",
+      "nameVi": "Minh Lộc Ám Lộc (bản Toàn Thư)",
+      "hanziOriginal": "見前批注（《骨髓賦》：明祿暗祿，錦上添花）。",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú: Minh Lộc Ám Lộc, cẩm thượng thiêm hoa).",
+      "literalMeaningVi": "Lộc Tồn thủ Mệnh (Minh Lộc) và đối cung Thiên Di có Hóa Lộc (Ám Lộc) xung chiếu.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #25 & 骨髓賦 (zh_ziwei_doushu_quanshu.md:669,920)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_dq_25_minh_loc_am_loc",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_palace",
+            "star": "Lộc Tồn",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Hóa Lộc",
+            "palace": "Mệnh",
+            "relation": "opposite"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Nội tại có nền tảng tích lũy vững (Lộc Tồn) và môi trường bên ngoài mang lại cơ hội tài lộc (Hóa Lộc đối cung) — phân kỳ với Nam Phái lấy cung Nhị Hợp.",
+      "actionableAdviceVi": "Phát huy cả nội lực tiết kiệm lẫn giao lưu hợp tác bên ngoài để gia tăng hiệu suất tài chính."
+    },
+    {
+      "id": "TT-DQ-26",
+      "no": 26,
+      "group": "dinh_quy",
+      "nameZh": "科明暗祿",
+      "nameHanViet": "Khoa Minh Ám Lộc",
+      "nameVi": "Khoa Minh Ám Lộc",
+      "hanziOriginal": "見前批注（《骨髓賦》：科明祿暗，位列三臺）。",
+      "hanViet": "Kiến tiền phê chú (Cốt Tủy Phú: Khoa minh Lộc ám, vị liệt tam thai).",
+      "literalMeaningVi": "Hóa Khoa thủ Mệnh (minh) và đối cung Thiên Di (hoặc Tam Phương) có Lộc Tồn (ám).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #26 & 骨髓賦 (zh_ziwei_doushu_quanshu.md:628,921)",
+      "status": "disputed",
+      "unit": "chart",
+      "disputeNote": "Chú văn chỉ ghi 'Kiến tiền phê chú': một thuyết đối chiếu trực tiếp với #25 (Khoa tại Mệnh + Lộc Tồn tại đối cung Thiên Di); thuyết khác mở rộng ra Lộc Tồn trong Tam Phương hoặc cung Nhị Hợp.",
+      "evaluatorKey": "tt_dq_26_khoa_minh_am_loc",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "sihua_in_palace",
+            "transform": "Hóa Khoa",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_relative_palace",
+            "star": "Lộc Tồn",
+            "palace": "Mệnh",
+            "relation": "opposite"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Danh tiếng học thuật và đạo đức nghề nghiệp đi trước (Khoa minh), tài lộc tự nhiên theo sau nhờ uy tín (Lộc ám).",
+      "actionableAdviceVi": "Giữ chất lượng chuyên môn và uy tín cá nhân làm gốc, tài lộc sẽ đến bền vững theo đường dài."
+    },
+    {
+      "id": "TT-DQ-27",
+      "no": 27,
+      "group": "dinh_quy",
+      "nameZh": "金輿扶駕",
+      "nameHanViet": "Kim Dư Phù Giá",
+      "nameVi": "Kim Dư Phù Giá",
+      "hanziOriginal": "紫微守命，前後有日月來夾是也。",
+      "hanViet": "Tử Vi thủ Mệnh, tiền hậu hữu Nhật Nguyệt lai giáp thị dã.",
+      "literalMeaningVi": "Tử Vi thủ Mệnh, Thái Dương và Thái Âm giáp hai cung trước sau liền kề Mệnh.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貴局 #27 (zh_ziwei_doushu_quanshu.md:922)",
+      "status": "unreachable",
+      "unit": "chart",
+      "whyUnreachable": "Bất khả thi về hình học an sao: trong hệ Tử Vi, khoảng cách thuận chiều từ Tử Vi đến Thái Dương luôn cố định bằng 9 cung (tức Thái Dương luôn đứng trước Tử Vi 3 cung, offset -3 ≡ +9 mod 12), không bao giờ là +1 hay -1 (11).",
+      "evaluatorKey": "tt_dq_27_unreachable",
+      "predicate": null,
+      "modernInterpretationVi": "Phép an sao cố định khoảng cách Tử Vi – Thái Dương bằng 9 cung nên Nhật Nguyệt không bao giờ giáp ±1 hai bên Tử Vi.",
+      "actionableAdviceVi": "Nếu muốn xem thế trợ lực của Nhật Nguyệt với Tử Vi, hãy xét vị trí Nhật Nguyệt trong cung Điền Trạch, Phụ Mẫu hoặc Tam Hợp."
+    },
+    {
+      "id": "TT-DB-01",
+      "no": 1,
+      "group": "dinh_ban_tien",
+      "nameZh": "生不逢時",
+      "nameHanViet": "Sinh Bất Phùng Thời",
+      "nameVi": "Sinh Bất Phùng Thời",
+      "hanziOriginal": "命坐空亡逢廉貞是也。",
+      "hanViet": "Mệnh tọa Không Vong phùng Liêm Trinh thị dã.",
+      "literalMeaningVi": "Cung Mệnh lâm Tuần Không hoặc Triệt Không và có Liêm Trinh tọa thủ.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貧賤局 #1 (zh_ziwei_doushu_quanshu.md:927)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_db_01_sinh_bat_phung_thoi",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_palace",
+            "star": "Liêm Trinh",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "tuanTrung"
+              },
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "trietLo"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Hoài bão và lý tưởng cao (Liêm Trinh) dễ trải qua giai đoạn đầu chưa gặp thời hoặc đổi hướng nghề nghiệp so với dự tính ban đầu do tác động của Không Vong.",
+      "actionableAdviceVi": "Kiên nhẫn rèn nội lực trong giai đoạn đầu, tránh nóng vội đốt cháy giai đoạn; sau tuổi 30 khi qua vận Triệt/Tuần sẽ vững vàng hơn."
+    },
+    {
+      "id": "TT-DB-02",
+      "no": 2,
+      "group": "dinh_ban_tien",
+      "nameZh": "祿逢兩殺",
+      "nameHanViet": "Lộc Phùng Lưỡng Sát",
+      "nameVi": "Lộc Phùng Lưỡng Sát",
+      "hanziOriginal": "祿坐空亡又逢空劫殺星是也。",
+      "hanViet": "Lộc tọa Không Vong hựu phùng Không Kiếp sát tinh thị dã.",
+      "literalMeaningVi": "Lộc Tồn hoặc Hóa Lộc tọa Mệnh lâm Không Vong, đồng thời gặp cả Địa Không và Địa Kiếp đồng cung Mệnh.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貧賤局 #2 (zh_ziwei_doushu_quanshu.md:928)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_db_02_loc_phung_luong_sat",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Lộc Tồn",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Lộc",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "tuanTrung"
+              },
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "trietLo"
+              }
+            ]
+          },
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Địa Không",
+              "Địa Kiếp"
+            ],
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tài nguyên dễ biến động mạnh theo chu kỳ lên xuống bất ngờ (Không Kiếp đồng cung chỉ xuất hiện ở giờ Tý hoặc Ngọ), đòi hỏi kỷ luật quản trị rủi ro cực chặt.",
+      "actionableAdviceVi": "Phân tách quỹ dự phòng an toàn khỏi dòng vốn mạo hiểm, không dồn toàn lực vào một kênh đầu cơ."
+    },
+    {
+      "id": "TT-DB-03",
+      "no": 3,
+      "group": "dinh_ban_tien",
+      "nameZh": "馬落空亡",
+      "nameHanViet": "Mã Lạc Không Vong",
+      "nameVi": "Mã Lạc Không Vong",
+      "hanziOriginal": "馬既落亡，雖祿沖會無用，主奔波。",
+      "hanViet": "Mã ký lạc vong, tuy Lộc xung hội vô dụng, chủ bôn ba.",
+      "literalMeaningVi": "Thiên Mã thủ Mệnh lâm Tuần Không hoặc Triệt Không, dễ phải bôn ba vất vả mới ổn định.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貧賤局 #3 (zh_ziwei_doushu_quanshu.md:929)",
+      "status": "disputed",
+      "unit": "chart",
+      "disputeNote": "Chú văn không nêu rõ cung vị: nếu xét Thiên Mã tại bất kỳ cung nào gặp Không Vong thì tỷ lệ trúng tới ~33–49% theo năm sinh, mất tính phân biệt của cách cục; chuẩn định lượng quy về Thiên Mã thủ Mệnh lâm Không Vong (~4%).",
+      "evaluatorKey": "tt_db_03_ma_lac_khong_vong",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_palace",
+            "star": "Thiên Mã",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "tuanTrung"
+              },
+              {
+                "op": "palace_has_flag",
+                "palace": "Mệnh",
+                "flag": "trietLo"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Nỗ lực dịch chuyển và làm việc nhiều nhưng kết quả ban đầu dễ phân tán, cần học cách chọn đúng điểm neo và tối ưu quy trình.",
+      "actionableAdviceVi": "Giảm dàn trải, tập trung vào một hướng đi dài hạn có hệ thống đo lường hiệu quả rõ ràng."
+    },
+    {
+      "id": "TT-DB-04",
+      "no": 4,
+      "group": "dinh_ban_tien",
+      "nameZh": "日月藏輝",
+      "nameHanViet": "Nhật Nguyệt Tàng Huy",
+      "nameVi": "Nhật Nguyệt Tàng Huy",
+      "hanziOriginal": "日月反背又逢巨暗是也。",
+      "hanViet": "Nhật Nguyệt phản bối hựu phùng Cự ám thị dã.",
+      "literalMeaningVi": "Thái Dương hoặc Thái Âm thất huy (Hãm địa), đồng thời Tam Phương Tứ Chính cung Mệnh gặp Cự Môn Hãm địa.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貧賤局 #4 (zh_ziwei_doushu_quanshu.md:930)",
+      "status": "disputed",
+      "unit": "chart",
+      "disputeNote": "Thuyết nghiêm ngặt đòi cả 3 sao Nhật–Nguyệt–Cự cùng Hãm; thuyết phổ thông lấy Nhật hoặc Nguyệt Hãm kèm Cự Môn Hãm trong Tam Phương Mệnh.",
+      "evaluatorKey": "tt_db_04_nhat_nguyet_tang_huy",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_brightness_in",
+                "star": "Thái Dương",
+                "levels": [
+                  "Hãm"
+                ]
+              },
+              {
+                "op": "star_brightness_in",
+                "star": "Thái Âm",
+                "levels": [
+                  "Hãm"
+                ]
+              }
+            ]
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Cự Môn",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_brightness_in",
+            "star": "Cự Môn",
+            "levels": [
+              "Hãm"
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Ánh sáng bị che khuất bởi lo âu hoặc thị phi lời nói (Cự Môn hãm): dễ mất nhiều công sức mới được ghi nhận đúng mức.",
+      "actionableAdviceVi": "Minh bạch hóa giao tiếp bằng văn bản, rèn tư duy tích cực và tránh suy diễn tiêu cực khi gặp hiểu lầm."
+    },
+    {
+      "id": "TT-DB-05",
+      "no": 5,
+      "group": "dinh_ban_tien",
+      "nameZh": "財與囚仇",
+      "nameHanViet": "Tài Dữ Tù Cừu",
+      "nameVi": "Tài Dữ Tù Cừu",
+      "hanziOriginal": "武貞同守身命是也。",
+      "hanViet": "Vũ Trinh đồng thủ Thân Mệnh thị dã.",
+      "literalMeaningVi": "Vũ Khúc (Tài) và Liêm Trinh (Tù) phân thủ hai cung Mệnh và Thân (hai sao này luôn cách nhau 4 cung, không bao giờ đồng cung).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貧賤局 #5 (zh_ziwei_doushu_quanshu.md:931)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_db_05_tai_du_tu_cuu",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Vũ Khúc",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Liêm Trinh",
+                "palace": "Thân"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Liêm Trinh",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Vũ Khúc",
+                "palace": "Thân"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Sự giằng co giữa thực dụng tài chính (Vũ Khúc) và lý tưởng nguyên tắc nghiêm ngặt (Liêm Trinh), dễ tự tạo áp lực nội tâm trong các quyết định tiền bạc – danh dự.",
+      "actionableAdviceVi": "Tách bạch rạch ròi giữa nguyên tắc công việc và mục tiêu tài chính, tìm cân bằng giữa lý tưởng và thực tiễn."
+    },
+    {
+      "id": "TT-DB-06",
+      "no": 6,
+      "group": "dinh_ban_tien",
+      "nameZh": "一生孤貧",
+      "nameHanViet": "Nhất Sinh Cô Bần",
+      "nameVi": "Phá Quân Cư Hãm (cách Nhất Sinh Cô Bần)",
+      "hanziOriginal": "謂破守命星陷地是也。",
+      "hanViet": "Vị Phá thủ Mệnh tinh hãm địa thị dã.",
+      "literalMeaningVi": "Phá Quân thủ Mệnh tại vị trí Hãm địa (Mão hoặc Dậu).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貧賤局 #6 (zh_ziwei_doushu_quanshu.md:932)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_db_06_nhat_sinh_co_ban",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_palace",
+            "star": "Phá Quân",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_brightness_in",
+            "star": "Phá Quân",
+            "palace": "Mệnh",
+            "levels": [
+              "Hãm"
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Phá Quân tại Mão/Dậu mang tính bứt phá, ít chịu đi theo lối mòn nên thời trẻ hay thay đổi, tự lập vất vả; rất hợp nghề kỹ nghệ chuyên sâu, cải cách hoặc tự doanh tinh gọn.",
+      "actionableAdviceVi": "Xây dựng một tay nghề chuyên môn thật sắc bén và kỷ luật tài chính cá nhân để biến tính cách phá cách thành năng lực đổi mới."
+    },
+    {
+      "id": "TT-DB-07",
+      "no": 7,
+      "group": "dinh_ban_tien",
+      "nameZh": "君子在野",
+      "nameHanViet": "Quân Tử Tại Dã",
+      "nameVi": "Quân Tử Tại Dã",
+      "hanziOriginal": "謂四殺守身命而言臨陷地是也。",
+      "hanViet": "Vị Tứ Sát thủ Thân Mệnh nhi ngôn lâm hãm địa thị dã.",
+      "literalMeaningVi": "Tứ Sát (Kình Dương, Đà La, Hỏa Tinh, Linh Tinh) hội tụ nhiều tại Mệnh/Thân và lâm Hãm địa.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貧賤局 #7 (zh_ziwei_doushu_quanshu.md:933)",
+      "status": "disputed",
+      "unit": "chart",
+      "disputeNote": "Cả 4 sao Kình–Đà–Hỏa–Linh đồng thời nằm gọn trong Mệnh+Thân cực hiếm (gần 0 vì Kình–Đà luôn cách 2 cung). Chuẩn định lượng dùng thuyết rộng: Mệnh có >=2 trong Tứ Sát và ít nhất 1 sao lâm Hãm.",
+      "evaluatorKey": "tt_db_07_quan_tu_tai_da",
+      "predicate": {
+        "op": "palace_star_count_in",
+        "palace": "Mệnh",
+        "stars": [
+          "Kình Dương",
+          "Đà La",
+          "Hỏa Tinh",
+          "Linh Tinh"
+        ],
+        "min": 2
+      },
+      "modernInterpretationVi": "Người có tài năng và khí tiết nhưng môi trường nhiều va đập, thử thách (Tứ Sát lâm Hãm), dễ cảm thấy tài chưa gặp thời.",
+      "actionableAdviceVi": "Rèn bản lĩnh kiên định, chọn môi trường kỹ thuật hoặc chuyên môn độc lập để tránh va chạm chính trị nội bộ."
+    },
+    {
+      "id": "TT-DB-08",
+      "no": 8,
+      "group": "dinh_ban_tien",
+      "nameZh": "兩重華蓋",
+      "nameHanViet": "Lưỡng Trùng Hoa Cái",
+      "nameVi": "Lưỡng Trùng Hoa Cái",
+      "hanziOriginal": "謂祿存化祿坐命遇空劫是也。",
+      "hanViet": "Vị Lộc Tồn Hóa Lộc tọa Mệnh ngộ Không Kiếp thị dã.",
+      "literalMeaningVi": "Song Lộc (Lộc Tồn và Hóa Lộc) đồng tọa Mệnh nhưng gặp Địa Không hoặc Địa Kiếp đồng cung.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定貧賤局 #8 (zh_ziwei_doushu_quanshu.md:934)",
+      "status": "verified",
+      "unit": "chart",
+      "evaluatorKey": "tt_db_08_luong_trung_hoa_cai",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_palace",
+            "star": "Lộc Tồn",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "sihua_in_palace",
+            "transform": "Hóa Lộc",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Địa Không",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Địa Kiếp",
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Cơ hội tài lộc lớn đi kèm sự thanh cao hoặc biến động đột ngột (Không/Kiếp); tiền bạc dễ vào rồi ra nếu thiếu cơ chế giữ tài sản.",
+      "actionableAdviceVi": "Chuyển hóa lợi nhuận thành tài sản cố định hoặc giá trị tri thức, tránh giữ tiền mặt quá nhiều trong kênh biến động."
+    },
+    {
+      "id": "TT-DT-01",
+      "no": 1,
+      "group": "dinh_tap",
+      "nameZh": "風雲際會",
+      "nameHanViet": "Phong Vân Tế Hội",
+      "nameVi": "Phong Vân Tế Hội",
+      "hanziOriginal": "身命雖弱二限逢祿馬是也。",
+      "hanViet": "Thân Mệnh tuy nhược nhị hạn phùng Lộc Mã thị dã.",
+      "literalMeaningVi": "Gốc Mệnh và Thân đều yếu (Vô Chính Diệu hoặc toàn chính tinh Hãm), nhưng bước vào Đại Hạn có Tam Phương hội Lộc (Lộc Tồn/Hóa Lộc) và Thiên Mã.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定雜局 #1 (zh_ziwei_doushu_quanshu.md:939)",
+      "status": "verified",
+      "unit": "dai_han",
+      "evaluatorKey": "tt_dt_01_phong_van_te_hoi",
+      "predicate": {
+        "kind": "temporal_unit_spec",
+        "unit": "dai_han",
+        "evaluatorKey": "tt_dt_01_phong_van_te_hoi",
+        "menhWeak": true,
+        "thanWeak": true,
+        "daiHanTamPhuongHas": [
+          "Lộc Tồn|Hóa Lộc",
+          "Thiên Mã"
+        ]
+      },
+      "modernInterpretationVi": "Dù xuất phát điểm bản mệnh khiêm tốn, nhưng gặp đúng chu kỳ Đại Hạn thuận gió (Lộc Mã giao hội) sẽ tạo bước nhảy vọt đáng kể.",
+      "actionableAdviceVi": "Kiên trì tích lũy kỹ năng chờ đúng Đại Hạn thuận lợi để chủ động dịch chuyển và nắm bắt cơ hội."
+    },
+    {
+      "id": "TT-DT-02",
+      "no": 2,
+      "group": "dinh_tap",
+      "nameZh": "錦上添花",
+      "nameHanViet": "Cẩm Thượng Thiêm Hoa",
+      "nameVi": "Cẩm Thượng Thiêm Hoa",
+      "hanziOriginal": "謂限破惡星而行吉地是也。",
+      "hanViet": "Vị hạn phá ác tinh nhi hành cát địa thị dã.",
+      "literalMeaningVi": "Cung Đại Hạn có ác tinh (Lục Sát) tọa thủ nhưng Đại Hạn vẫn đạt chuẩn 'Hạn Hảo' (cung mạnh + hội >=2 cát tinh + Lục Sát <=1).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定雜局 #2 (zh_ziwei_doushu_quanshu.md:940)",
+      "status": "verified",
+      "unit": "dai_han",
+      "evaluatorKey": "tt_dt_02_cam_thuong_thiem_hoa",
+      "predicate": {
+        "kind": "temporal_unit_spec",
+        "unit": "dai_han",
+        "evaluatorKey": "tt_dt_02_cam_thuong_thiem_hoa",
+        "daiHanHasSha": true,
+        "requiresXianHao": true
+      },
+      "modernInterpretationVi": "Tuy giai đoạn Đại Hạn có chút thử thách hoặc áp lực từ sát tinh tại bản cung, nhưng nền tảng xung quanh rất vững vàng giúp chuyển hung thành cát.",
+      "actionableAdviceVi": "Tự tin tiến bước trong chu kỳ này, coi thử thách nhỏ như động lực hoàn thiện thêm năng lực."
+    },
+    {
+      "id": "TT-DT-03",
+      "no": 3,
+      "group": "dinh_tap",
+      "nameZh": "祿衰馬困",
+      "nameHanViet": "Lộc Suy Mã Khốn",
+      "nameVi": "Lộc Suy Mã Khốn",
+      "hanziOriginal": "限逢七殺祿馬空亡是也。",
+      "hanViet": "Hạn phùng Thất Sát Lộc Mã Không Vong thị dã.",
+      "literalMeaningVi": "Lộc Tồn lâm Không Vong và Thiên Mã lâm Không Vong, đồng thời Đại Hạn có Tam Phương hội Thất Sát.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定雜局 #3 (zh_ziwei_doushu_quanshu.md:941)",
+      "status": "verified",
+      "unit": "dai_han",
+      "evaluatorKey": "tt_dt_03_loc_suy_ma_khon",
+      "predicate": {
+        "kind": "temporal_unit_spec",
+        "unit": "dai_han",
+        "evaluatorKey": "tt_dt_03_loc_suy_ma_khon",
+        "locTonInKong": true,
+        "thienMaInKong": true,
+        "daiHanTamPhuongHas": [
+          "Thất Sát"
+        ]
+      },
+      "modernInterpretationVi": "Giai đoạn Đại Hạn đòi hỏi thận trọng: nguồn lực và khả năng xoay trở tạm bị bó hẹp trong khi áp lực công việc (Thất Sát) tăng lên.",
+      "actionableAdviceVi": "Ưu tiên phòng thủ tài chính, không mở rộng vay nợ mạo hiểm và tập trung giải quyết dứt điểm từng việc nhỏ."
+    },
+    {
+      "id": "TT-DT-04",
+      "no": 4,
+      "group": "dinh_tap",
+      "nameZh": "衣錦還鄉",
+      "nameHanViet": "Y Cẩm Hoàn Hương",
+      "nameVi": "Y Cẩm Hoàn Hương",
+      "hanziOriginal": "少年不遂四十後行墓運是也。",
+      "hanViet": "Thiếu niên bất toại tứ thập hậu hành mộ vận thị dã.",
+      "literalMeaningVi": "Thời trẻ vất vả, từ tuổi 40 trở đi bước vào Đại Hạn ở các cung Tứ Mộ (Sửu, Thìn, Mùi, Tuất).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定雜局 #4 (zh_ziwei_doushu_quanshu.md:942)",
+      "status": "disputed",
+      "unit": "dai_han",
+      "disputeNote": "Vế đầu ('thiếu niên bất toại') thuộc kinh nghiệm tiểu sử cá nhân; phần định lượng trên lá số xét Đại Hạn khởi tuổi >= 40 nhập Tứ Mộ {1, 4, 7, 10}.",
+      "evaluatorKey": "tt_dt_04_y_cam_hoan_huong",
+      "predicate": {
+        "kind": "temporal_unit_spec",
+        "unit": "dai_han",
+        "evaluatorKey": "tt_dt_04_y_cam_hoan_huong",
+        "minStartAge": 40,
+        "branches": [
+          1,
+          4,
+          7,
+          10
+        ]
+      },
+      "modernInterpretationVi": "Giai đoạn trung niên (sau 40 tuổi) đi vào vận Tứ Mộ là thời kỳ thu hoạch, tích lũy ổn định và khẳng định thành quả sau năm tháng bôn ba.",
+      "actionableAdviceVi": "Tập trung củng cố tài sản, chuyển giao kinh nghiệm và xây dựng di sản bền vững ở tuổi trung niên."
+    },
+    {
+      "id": "TT-DT-05",
+      "no": 5,
+      "group": "dinh_tap",
+      "nameZh": "步數無依",
+      "nameHanViet": "Bộ Số Vô Y",
+      "nameVi": "Bộ Số Vô Y",
+      "hanziOriginal": "前限接後限連綿不分是也。",
+      "hanViet": "Tiền hạn tiếp hậu hạn liên miên bất phân thị dã.",
+      "literalMeaningVi": "Hai Đại Hạn liên tiếp đều rơi vào cung yếu (Vô Chính Diệu hoặc toàn chính tinh Hãm).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定雜局 #5 (zh_ziwei_doushu_quanshu.md:943)",
+      "status": "disputed",
+      "unit": "dai_han",
+      "disputeNote": "Cụm 'liên miên bất phân' có nhiều cách hiểu; chuẩn định lượng xét hai Đại Hạn kề nhau đều có cung hạn yếu (không chính tinh hoặc toàn chính tinh Hãm).",
+      "evaluatorKey": "tt_dt_05_bo_so_vo_y",
+      "predicate": {
+        "kind": "temporal_unit_spec",
+        "unit": "dai_han",
+        "evaluatorKey": "tt_dt_05_bo_so_vo_y",
+        "consecutiveWeakDaiHan": 2
+      },
+      "modernInterpretationVi": "Hai chu kỳ 10 năm nối tiếp thiếu điểm tựa chính tinh mạnh, đòi hỏi sự tự chủ cao và tìm nguồn lực hợp tác từ Tam Phương/đối cung.",
+      "actionableAdviceVi": "Chủ động gắn kết vào một hệ thống hoặc đội ngũ ổn định thay vì đơn độc tự xoay xở suốt hai chu kỳ."
+    },
+    {
+      "id": "TT-DT-06",
+      "no": 6,
+      "group": "dinh_tap",
+      "nameZh": "水上駕星",
+      "nameHanViet": "Thủy Thượng Giá Tinh",
+      "nameVi": "Thủy Thượng Giá Tinh",
+      "hanziOriginal": "一年好一年不好是也。",
+      "hanViet": "Nhất niên hảo nhất niên bất hảo thị dã.",
+      "literalMeaningVi": "Hai năm Lưu Niên liên tiếp có vận thế một năm tốt (cát), một năm bất lợi (hung) xen kẽ nhau.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定雜局 #6 (zh_ziwei_doushu_quanshu.md:944)",
+      "status": "disputed",
+      "unit": "luu_nien",
+      "disputeNote": "Nguyên văn không định nghĩa ngưỡng 'hảo/bất hảo'; chuẩn định lượng dùng độ đo lưu niên theo tứ hóa gốc + lục sát tại Lưu Niên Mệnh.",
+      "evaluatorKey": "tt_dt_06_thuy_thuong_gia_tinh",
+      "predicate": {
+        "kind": "temporal_unit_spec",
+        "unit": "luu_nien",
+        "evaluatorKey": "tt_dt_06_thuy_thuong_gia_tinh",
+        "alternatingAnnualGrades": true
+      },
+      "modernInterpretationVi": "Nhịp điệu vận hạn theo năm có sự dao động lên xuống xen kẽ (sóng sin), nhắc nhở không chủ quan khi thuận lợi và không nản chí khi gặp năm thử thách.",
+      "actionableAdviceVi": "Giữ quỹ dự phòng từ năm thuận lợi để bình ổn nhịp sống và đầu tư qua năm điều chỉnh."
+    },
+    {
+      "id": "TT-DT-07",
+      "no": 7,
+      "group": "dinh_tap",
+      "nameZh": "吉凶相伴",
+      "nameHanViet": "Cát Hung Tương Bán",
+      "nameVi": "Cát Hung Tương Bán",
+      "hanziOriginal": "命有主星限前則發限衰不發是也。",
+      "hanViet": "Mệnh hữu chủ tinh hạn tiền tắc phát hạn suy bất phát thị dã.",
+      "literalMeaningVi": "Cung Mệnh có chính tinh làm gốc, gặp Đại Hạn 'Hạn Hảo' thì phát triển, gặp hạn suy thì tạm lắng.",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定雜局 #7 (zh_ziwei_doushu_quanshu.md:945)",
+      "status": "disputed",
+      "unit": "dai_han",
+      "disputeNote": "Chữ 'hạn tiền' (限前) có bản chép 'hạn cường' (限強) hoặc 'hạn phùng' (限逢); chuẩn định lượng xét Mệnh có >=1 chính tinh và Đại Hạn đạt chuẩn Hạn Hảo.",
+      "evaluatorKey": "tt_dt_07_cat_hung_tuong_ban",
+      "predicate": {
+        "kind": "temporal_unit_spec",
+        "unit": "dai_han",
+        "evaluatorKey": "tt_dt_07_cat_hung_tuong_ban",
+        "menhMinMajor": 1,
+        "requiresXianHao": true
+      },
+      "modernInterpretationVi": "Nội lực bản mệnh đã có nền tảng chính tinh, mức độ bứt phá phụ thuộc rõ rệt vào việc chọn đúng chu kỳ Đại Hạn thuận lợi để tăng tốc.",
+      "actionableAdviceVi": "Nhận diện rõ chu kỳ mạnh để đẩy mạnh dự án lớn và chu kỳ yếu để củng cố nội lực."
+    },
+    {
+      "id": "TT-DT-08",
+      "no": 8,
+      "group": "dinh_tap",
+      "nameZh": "枯木逢春",
+      "nameHanViet": "Khô Mộc Phùng Xuân",
+      "nameVi": "Khô Mộc Phùng Xuân",
+      "hanziOriginal": "謂命衰限好是也。",
+      "hanViet": "Vị Mệnh suy hạn hảo thị dã.",
+      "literalMeaningVi": "Bản cung Mệnh yếu (Vô Chính Diệu hoặc toàn chính tinh Hãm) nhưng bước vào Đại Hạn tốt (Hạn Hảo).",
+      "classicalSource": "紫微斗數全書 · 卷一 · 定雜局 #8 (zh_ziwei_doushu_quanshu.md:946)",
+      "status": "verified",
+      "unit": "dai_han",
+      "evaluatorKey": "tt_dt_08_kho_moc_phung_xuan",
+      "predicate": {
+        "kind": "temporal_unit_spec",
+        "unit": "dai_han",
+        "evaluatorKey": "tt_dt_08_kho_moc_phung_xuan",
+        "menhWeak": true,
+        "requiresXianHao": true
+      },
+      "modernInterpretationVi": "Như cây khô gặp mưa xuân: dù nền tảng gốc ban đầu còn mỏng hay nhiều trở ngại, bước vào giai đoạn Đại Hạn tốt vẫn hồi sinh và gặt hái thành tựu rực rỡ.",
+      "actionableAdviceVi": "Mạnh dạn nắm bắt vận hội mới khi Đại Hạn chuyển sang cung mạnh, không để mặc cảm xuất phát điểm cản trở bước tiến."
+    }
+  ],
+  "keyVerses": [
+    {
+      "id": "TT-V-01",
+      "group": "thai_vi_phu",
+      "nameZh": "祿逢沖破・馬遇空亡",
+      "nameHanViet": "Lộc Phùng Xung Phá・Mã Ngộ Không Vong",
+      "nameVi": "Lộc Phùng Xung Phá & Mã Ngộ Không Vong",
+      "hanziOriginal": "祿逢沖破，吉處藏凶。馬遇空亡，終身奔走。",
+      "hanViet": "Lộc phùng xung phá, cát xứ tàng hung. Mã ngộ Không Vong, chung thân bôn tẩu.",
+      "literalMeaningVi": "Lộc gặp Không Kiếp hoặc Hóa Kỵ xung phá thì trong cái tốt ẩn chứa rủi ro; Thiên Mã gặp Không Vong dễ suốt đời bôn ba vất vả.",
+      "classicalSource": "紫微斗數全書 · 太微賦 (zh_ziwei_doushu_quanshu.md:134)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Lộc Tồn",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Lộc",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Địa Không",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Địa Kiếp",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "sihua_in_palace",
+                "transform": "Hóa Kỵ",
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Khi cơ hội tài lộc (Lộc) đi kèm yếu tố gây hao tổn hoặc bất ngờ (Không Kiếp, Hóa Kỵ), thành quả dễ đi kèm chi phí ẩn hoặc biến động hợp đồng.",
+      "actionableAdviceVi": "Kiểm soát kỹ điều khoản tài chính, tránh chủ quan trước các cơ hội sinh lời quá nhanh."
+    },
+    {
+      "id": "TT-V-02",
+      "group": "thai_vi_phu",
+      "nameZh": "祿馬交馳",
+      "nameHanViet": "Lộc Mã Giao Trì",
+      "nameVi": "Lộc Mã Giao Trì",
+      "hanziOriginal": "日月最嫌反背，祿馬最喜交馳。",
+      "hanViet": "Nhật Nguyệt tối hiềm phản bối, Lộc Mã tối hỉ giao trì.",
+      "literalMeaningVi": "Nhật Nguyệt kỵ nhất phản bối thất huy; Lộc và Mã ưa nhất cùng hội họp tương trì trong Tam Phương.",
+      "classicalSource": "紫微斗數全書 · 太微賦 (zh_ziwei_doushu_quanshu.md:137)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Mã",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "or",
+            "args": [
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Lộc Tồn",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "star_in_tam_phuong",
+                "star": "Hóa Lộc",
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tài lộc phát sinh từ sự năng động, giao thương, dịch chuyển và kết nối thị trường rộng lớn.",
+      "actionableAdviceVi": "Ưu tiên công việc cần di chuyển, thương mại liên vùng hoặc mở rộng hợp tác quốc tế."
+    },
+    {
+      "id": "TT-V-03",
+      "group": "thai_vi_phu",
+      "nameZh": "日麗中天・水澄桂萼",
+      "nameHanViet": "Nhật Lệ Trung Thiên・Thủy Trừng Quế Ngạc",
+      "nameVi": "Nhật Lệ Trung Thiên & Thủy Trừng Quế Ngạc",
+      "hanziOriginal": "太陽居午，謂之日麗中天，有專權之貴，敵國之富。太陰居子，號曰水澄桂萼，得清要之職，忠諫之材。",
+      "hanViet": "Thái Dương cư Ngọ, vị chi Nhật Lệ Trung Thiên... Thái Âm cư Tý, hiệu viết Thủy Trừng Quế Ngạc...",
+      "literalMeaningVi": "Thái Dương tại Ngọ rực rỡ giữa trời; Thái Âm tại Tý (nhất là đồng cung Thiên Đồng) thanh khiết liêm chính.",
+      "classicalSource": "紫微斗數全書 · 太微賦 (zh_ziwei_doushu_quanshu.md:151-152)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  6
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thái Dương",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  0
+                ]
+              },
+              {
+                "op": "star_co_located",
+                "stars": [
+                  "Thái Âm",
+                  "Thiên Đồng"
+                ],
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Một bên là khí phách lãnh đạo quang minh (Nhật cư Ngọ), một bên là trí tuệ thanh liêm, thâm trầm và tài tham mưu trung thực (Nguyệt cư Tý).",
+      "actionableAdviceVi": "Giữ vững đạo đức nghề nghiệp và sự minh bạch; đây là thế cách càng làm lâu năm càng có uy tín cao."
+    },
+    {
+      "id": "TT-V-04",
+      "group": "thai_vi_phu",
+      "nameZh": "泛水桃花・風流彩杖",
+      "nameHanViet": "Phiếm Thủy Đào Hoa・Phong Lưu Thái Trượng",
+      "nameVi": "Phiếm Thủy Đào Hoa & Phong Lưu Thái Trượng",
+      "hanziOriginal": "貪居亥子，名為泛水桃花。刑遇貪狼，號曰風流彩杖。",
+      "hanViet": "Tham cư Hợi Tý, danh vi Phiếm Thủy Đào Hoa. Hình ngộ Tham Lang, hiệu viết Phong Lưu Thái Trượng.",
+      "literalMeaningVi": "Tham Lang tại Hợi hoặc Tý (Thủy địa) gọi là Phiếm Thủy Đào Hoa; Thiên Hình gặp Tham Lang gọi là Phong Lưu Thái Trượng.",
+      "classicalSource": "紫微斗數全書 · 太微賦 (zh_ziwei_doushu_quanshu.md:155)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Tham Lang",
+                "palace": "Mệnh"
+              }
+            ]
+          },
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Thiên Hình",
+              "Tham Lang"
+            ],
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Sức hút giao tiếp, nghệ thuật và cảm xúc rất mạnh nhưng dễ vướng rắc rối tình cảm nếu thiếu kỷ luật ranh giới.",
+      "actionableAdviceVi": "Chuyển hóa sức hấp dẫn thành tài năng nghệ thuật, ngoại giao và giữ ranh giới rõ ràng trong quan hệ."
+    },
+    {
+      "id": "TT-V-05",
+      "group": "thai_vi_phu",
+      "nameZh": "七殺廉貞同位・破軍暗曜同鄉",
+      "nameHanViet": "Thất Sát Liêm Trinh Đồng Vị・Phá Quân Ám Diệu Đồng Hương",
+      "nameVi": "Sát Liêm Đồng Vị & Phá Quân Ám Diệu",
+      "hanziOriginal": "七殺廉貞同位，路上埋屍。破軍暗曜同鄉，水中作塚。",
+      "hanViet": "Thất Sát Liêm Trinh đồng vị, lộ thượng mai thi. Phá Quân ám diệu đồng hương, thủy trung tác trủng.",
+      "literalMeaningVi": "Thất Sát – Liêm Trinh đồng cung tại Sửu/Mùi (nhất là cung Thiên Di/Mệnh); Phá Quân gặp Văn Khúc/Liêm Trinh tại Tý/Hợi cần đề phòng tai nạn sông nước và nóng nảy.",
+      "classicalSource": "紫微斗數全書 · 太微賦 (zh_ziwei_doushu_quanshu.md:156)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Thất Sát",
+              "Liêm Trinh"
+            ],
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Thất Sát",
+              "Liêm Trinh"
+            ],
+            "palace": "Thiên Di"
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  0,
+                  11
+                ]
+              },
+              {
+                "op": "star_co_located",
+                "stars": [
+                  "Phá Quân",
+                  "Văn Khúc"
+                ],
+                "palace": "Mệnh"
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Cảnh báo cổ thư về tính xung động khi di chuyển xa hoặc chủ quan trong giao thông, sông nước khi Sát–Liêm hoặc Phá–Khúc gặp sát kỵ.",
+      "actionableAdviceVi": "Tuyệt đối tuân thủ an toàn giao thông, quản trị căng thẳng tinh thần và kiểm tra kỹ bảo hiểm/an toàn lao động."
+    },
+    {
+      "id": "TT-V-06",
+      "group": "thai_vi_phu",
+      "nameZh": "太陽會文昌於官祿・太陰會文曲於妻宮",
+      "nameHanViet": "Thái Dương Hội Văn Xương Ư Quan Lộc・Thái Âm Hội Văn Khúc Ư Thê Cung",
+      "nameVi": "Nhật Hội Xương Tại Quan & Nguyệt Hội Khúc Tại Thê",
+      "hanziOriginal": "太陽會文昌於官祿，皇殿朝班，富貴全美。太陰會文曲於妻宮，蟾宮折桂，文章全盛。",
+      "hanViet": "Thái Dương hội Văn Xương ư Quan Lộc, hoàng điện triều ban, phú quý toàn mỹ. Thái Âm hội Văn Khúc ư Thê cung, thiềm cung chiết quế, văn chương toàn thịnh.",
+      "literalMeaningVi": "Thái Dương hội Văn Xương tại Quan Lộc chủ hiển đạt công danh; Thái Âm hội Văn Khúc tại Phu Thê chủ văn tài xuất sắc và phối ngẫu thanh nhã.",
+      "classicalSource": "紫微斗數全書 · 太微賦 (zh_ziwei_doushu_quanshu.md:159-160)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Thái Dương",
+              "Văn Xương"
+            ],
+            "palace": "Quan Lộc"
+          },
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Thái Âm",
+              "Văn Khúc"
+            ],
+            "palace": "Phu Thê"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Sự nghiệp sáng rõ nhờ học thức chính quy (Nhật–Xương tại Quan) hoặc gia đạo êm ấm, bạn đời tinh tế, đồng điệu tri thức nghệ thuật (Nguyệt–Khúc tại Phu Thê).",
+      "actionableAdviceVi": "Đầu tư vào bằng cấp, nghiên cứu chuẩn mực và nuôi dưỡng giao tiếp tinh tế trong hôn nhân."
+    },
+    {
+      "id": "TT-V-07",
+      "group": "cot_tuy_phu",
+      "nameZh": "命無正曜",
+      "nameHanViet": "Mệnh Vô Chính Diệu",
+      "nameVi": "Mệnh Vô Chính Diệu",
+      "hanziOriginal": "命無正曜，夭折孤貧。吉有凶星，美玉瑕玷。",
+      "hanViet": "Mệnh vô chính diệu, yểu chiết cô bần. Cát hữu hung tinh, mỹ ngọc hà điếm.",
+      "literalMeaningVi": "Cung Mệnh không có chính tinh (cần mượn sao đối cung Thiên Di và xét Tuần/Triệt/Tam Không); cát tinh lẫn hung tinh như ngọc đẹp có vết.",
+      "classicalSource": "紫微斗數全書 · 斗數骨髓賦 (zh_ziwei_doushu_quanshu.md:612)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "palace_major_count",
+        "palace": "Mệnh",
+        "exact": 0
+      },
+      "modernInterpretationVi": "Cung Mệnh Vô Chính Diệu mang tính thích ứng cao như 'tấm gương phản chiếu' chính tinh từ đối cung Thiên Di; không cố định một khuôn mẫu mà linh hoạt theo môi trường và quý nhân.",
+      "actionableAdviceVi": "Chọn môi trường, người thầy và cộng sự tốt làm điểm tựa định hướng từ sớm; cân nhắc lập nghiệp xa quê hoặc cộng tác đa ngành."
+    },
+    {
+      "id": "TT-V-08",
+      "group": "cot_tuy_phu",
+      "nameZh": "七殺朝斗・紫府同宮",
+      "nameHanViet": "Thất Sát Triều Đẩu・Tử Phủ Đồng Cung",
+      "nameVi": "Thất Sát Triều Đẩu & Tử Phủ Đồng Cung",
+      "hanziOriginal": "七殺朝斗爵祿榮昌，紫府同宮終身福厚。",
+      "hanViet": "Thất Sát triều đẩu tước lộc vinh xương, Tử Phủ đồng cung chung thân phúc hậu.",
+      "literalMeaningVi": "Thất Sát thủ Mệnh ở Tý Ngọ Dần Thân thì vinh xương; Tử Vi Thiên Phủ đồng cung (tại Dần Thân) suốt đời phúc dày.",
+      "classicalSource": "紫微斗數全書 · 斗數骨髓賦 (zh_ziwei_doushu_quanshu.md:625)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "star_in_palace",
+                "star": "Thất Sát",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  0,
+                  2,
+                  6,
+                  8
+                ]
+              }
+            ]
+          },
+          {
+            "op": "star_co_located",
+            "stars": [
+              "Tử Vi",
+              "Thiên Phủ"
+            ],
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Câu phú nền tảng khẳng định hai trục quý cách: uy dũng tiên phong (Thất Sát Triều Đẩu) và đức độ bao quát bền vững (Tử Phủ Đồng Cung).",
+      "actionableAdviceVi": "Phát huy tinh thần trách nhiệm với cộng đồng và giữ tầm nhìn dài hạn."
+    },
+    {
+      "id": "TT-V-09",
+      "group": "cot_tuy_phu",
+      "nameZh": "機月同梁作吏人",
+      "nameHanViet": "Cơ Nguyệt Đồng Lương Tác Lại Nhân",
+      "nameVi": "Cơ Nguyệt Đồng Lương (và Sát Phá Xuất Ngoại)",
+      "hanziOriginal": "七殺破軍宜出外，機月同梁作吏人。",
+      "hanViet": "Thất Sát Phá Quân nghi xuất ngoại, Cơ Nguyệt Đồng Lương tác lại nhân.",
+      "literalMeaningVi": "Thất Sát – Phá Quân hợp lập nghiệp phương xa; Thiên Cơ – Thái Âm – Thiên Đồng – Thiên Lương hội Tam Phương hợp làm công chức, tham mưu, chuyên viên hệ thống.",
+      "classicalSource": "紫微斗數全書 · 斗數骨髓賦 (zh_ziwei_doushu_quanshu.md:635)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Cơ",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thái Âm",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Đồng",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "star_in_tam_phuong",
+            "star": "Thiên Lương",
+            "palace": "Mệnh"
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tổ hợp Cơ Nguyệt Đồng Lương đại diện cho trí tuệ lập kế hoạch, quản trị vận hành, nghiên cứu, giáo dục và làm việc trong tổ chức quy chuẩn.",
+      "actionableAdviceVi": "Phát huy thế mạnh phân tích quy trình, cố vấn chuyên môn và xây dựng sự nghiệp ổn định trong tổ chức lớn."
+    },
+    {
+      "id": "TT-V-10",
+      "group": "cot_tuy_phu",
+      "nameZh": "石中隱玉",
+      "nameHanViet": "Tý Ngọ Cự Môn Thạch Trung Ẩn Ngọc",
+      "nameVi": "Thạch Trung Ẩn Ngọc (Cự Môn Tý Ngọ)",
+      "hanziOriginal": "子午巨門石中隱玉，明祿暗祿錦上添花。",
+      "hanViet": "Tý Ngọ Cự Môn thạch trung ẩn ngọc, Minh Lộc Ám Lộc cẩm thượng thiêm hoa.",
+      "literalMeaningVi": "Cự Môn thủ Mệnh tại Tý hoặc Ngọ ví như ngọc ẩn trong đá, cần mài giũa (gặp Khoa Quyền Lộc) mới phát sáng.",
+      "classicalSource": "紫微斗數全書 · 斗數骨髓賦 (zh_ziwei_doushu_quanshu.md:669)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              0,
+              6
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Cự Môn",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "exact": 1
+          }
+        ]
+      },
+      "modernInterpretationVi": "Tài năng thâm sâu nhưng thời trẻ ít phô trương hoặc cần qua thử thách kỷ luật ('đẽo đá tìm ngọc') mới tỏa sáng rực rỡ ở tuổi trung niên.",
+      "actionableAdviceVi": "Kiên trì trau dồi chuyên môn thực chất, hạn chế tranh luận hơn thua nhất thời."
+    },
+    {
+      "id": "TT-V-11",
+      "group": "cot_tuy_phu",
+      "nameZh": "反背化吉・丁辛奇格",
+      "nameHanViet": "Thiên Đồng Tuất Cung・Cự Môn Thìn Tuất Phản Vi Kỳ",
+      "nameVi": "Phản Bối Hóa Cát (Tuổi Đinh / Tuổi Tân)",
+      "hanziOriginal": "天同戌宮為反背，丁人化吉主大貴。巨門辰戌為陷地，辛人化吉祿崢嶸。",
+      "hanViet": "Thiên Đồng Tuất cung vi phản bối, Đinh nhân hóa cát chủ đại quý. Cự Môn Thìn Tuất vi hãm địa, Tân nhân hóa cát lộc tranh vanh.",
+      "literalMeaningVi": "Thiên Đồng ở Tuất là thế phản bối nhưng người tuổi Đinh hóa cát (Quyền/Khoa) lại đại quý; Cự Môn ở Thìn Tuất Hãm địa nhưng người tuổi Tân hóa Lộc lại phát mạnh.",
+      "classicalSource": "紫微斗數全書 · 斗數骨髓賦 (zh_ziwei_doushu_quanshu.md:672-673)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "or",
+        "args": [
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  10
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Thiên Đồng",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "year_stem_in",
+                "stems": [
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "op": "and",
+            "args": [
+              {
+                "op": "palace_branch_in",
+                "palace": "Mệnh",
+                "branches": [
+                  4,
+                  10
+                ]
+              },
+              {
+                "op": "star_in_palace",
+                "star": "Cự Môn",
+                "palace": "Mệnh"
+              },
+              {
+                "op": "year_stem_in",
+                "stems": [
+                  7
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "modernInterpretationVi": "Minh chứng kinh điển của phép 'Phản vi kỳ cách': sao lạc Hãm địa nhưng đắc Tứ Hóa bản mệnh chuyển hóa áp lực thành động lực bứt phá lớn.",
+      "actionableAdviceVi": "Không bi quan trước vị trí hãm địa; hãy tận dụng đòn bẩy Tứ Hóa của năm sinh để tạo khác biệt."
+    },
+    {
+      "id": "TT-V-12",
+      "group": "cot_tuy_phu",
+      "nameZh": "紫微居午・極向離明",
+      "nameHanViet": "Tử Vi Cư Ngọ (Cực Hướng Ly Minh)",
+      "nameVi": "Tử Vi Cư Ngọ (Cực Hướng Ly Minh)",
+      "hanziOriginal": "紫微居午無殺湊，位至三公。",
+      "hanViet": "Tử Vi cư Ngọ vô sát thấu, vị chí tam công.",
+      "literalMeaningVi": "Tử Vi độc thủ Mệnh tại Ngọ (Ly phương quang minh), không bị sát tinh nặng xung phá thì phẩm vị rất cao.",
+      "classicalSource": "紫微斗數全書 · 斗數骨髓賦 (zh_ziwei_doushu_quanshu.md:626)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              6
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Tử Vi",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "exact": 1
+          }
+        ]
+      },
+      "modernInterpretationVi": "Đế tinh tọa vị chính Nam quang minh: phong thái đĩnh đạc, năng lực dẫn dắt tầm vĩ mô và giữ trọng trách đứng đầu.",
+      "actionableAdviceVi": "Rèn sự khiêm tốn và minh bạch trong dùng người để giữ vững uy tín lâu dài."
+    },
+    {
+      "id": "TT-V-13",
+      "group": "cot_tuy_phu",
+      "nameZh": "巨日同宮",
+      "nameHanViet": "Cự Nhật Đồng Cung",
+      "nameVi": "Cự Nhật Đồng Cung (Dần Thân)",
+      "hanziOriginal": "巨日同宮，官封三代。",
+      "hanViet": "Cự Nhật đồng cung, quan phong tam đại.",
+      "literalMeaningVi": "Cự Môn và Thái Dương đồng cung thủ Mệnh (tại Dần hoặc Thân).",
+      "classicalSource": "紫微斗數全書 · 斗數骨髓賦 (zh_ziwei_doushu_quanshu.md:632)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "star_co_located",
+        "stars": [
+          "Cự Môn",
+          "Thái Dương"
+        ],
+        "palace": "Mệnh"
+      },
+      "modernInterpretationVi": "Ánh sáng Thái Dương xua tan ám khí của Cự Môn: tài diễn thuyết, giảng dạy, ngoại giao và truyền đạt tri thức sâu sắc.",
+      "actionableAdviceVi": "Tận dụng thế mạnh ngôn ngữ và truyền thông minh bạch trong giảng dạy, tư vấn hoặc đối ngoại."
+    },
+    {
+      "id": "TT-V-14",
+      "group": "cot_tuy_phu",
+      "nameZh": "梁居午位・壽星入廟",
+      "nameHanViet": "Lương Cư Ngọ Vị (Thọ Tinh Nhập Miếu)",
+      "nameVi": "Lương Cư Ngọ Vị (Thọ Tinh Nhập Miếu)",
+      "hanziOriginal": "梁居午位，官資清顯。",
+      "hanViet": "Lương cư Ngọ vị, quan tư thanh hiển.",
+      "literalMeaningVi": "Thiên Lương độc thủ Mệnh tại cung Ngọ (Miếu địa) thì danh vọng thanh cao, chính trực.",
+      "classicalSource": "紫微斗數全書 · 斗數骨髓賦 (zh_ziwei_doushu_quanshu.md:640)",
+      "status": "verified",
+      "unit": "chart",
+      "predicate": {
+        "op": "and",
+        "args": [
+          {
+            "op": "palace_branch_in",
+            "palace": "Mệnh",
+            "branches": [
+              6
+            ]
+          },
+          {
+            "op": "star_in_palace",
+            "star": "Thiên Lương",
+            "palace": "Mệnh"
+          },
+          {
+            "op": "palace_major_count",
+            "palace": "Mệnh",
+            "exact": 1
+          }
+        ]
+      },
+      "modernInterpretationVi": "Thiên Lương miếu địa tại Ngọ biểu trưng cho phẩm hạnh ngay thẳng, tinh thần bảo trợ, hợp y dược, giáo dục, giám sát hoặc tư vấn đạo đức nghề nghiệp.",
+      "actionableAdviceVi": "Giữ nguyên tắc công tâm nhưng cần mềm dẻo trong góp ý để không tạo cảm giác giáo điều."
+    }
+  ]
+}

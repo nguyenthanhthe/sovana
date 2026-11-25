@@ -1,0 +1,1379 @@
+[
+  {
+    "id": "NP-001",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Tử Vi",
+      "palace": "Mệnh",
+      "levels": [
+        "Miếu",
+        "Vượng"
+      ]
+    },
+    "claimVi": "Tử Vi Miếu/Vượng tọa thủ cung Mệnh: khí độ đĩnh đạc, có năng lực tổ chức và định hướng chiến lược độc lập.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Sao Tử Vi"
+  },
+  {
+    "id": "NP-002",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Thiên Phủ",
+      "palace": "Mệnh",
+      "levels": [
+        "Miếu",
+        "Vượng"
+      ]
+    },
+    "claimVi": "Thiên Phủ Miếu/Vượng thủ Mệnh: bản tính cẩn trọng, giỏi quản trị nguồn lực và tích lũy bền vững.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Sao Thiên Phủ"
+  },
+  {
+    "id": "NP-003",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "quan",
+    "polarity": "CAT",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Thái Dương",
+      "palace": "Quan Lộc",
+      "levels": [
+        "Miếu",
+        "Vượng"
+      ]
+    },
+    "claimVi": "Thái Dương Miếu/Vượng cư Quan Lộc: danh tiếng quang minh, thuận lợi trong công việc quản lý, học thuật hoặc đối ngoại công chúng.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Sao Thái Dương"
+  },
+  {
+    "id": "NP-004",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "tai",
+    "polarity": "CAT",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Vũ Khúc",
+      "palace": "Tài Bạch",
+      "levels": [
+        "Miếu",
+        "Vượng"
+      ]
+    },
+    "claimVi": "Vũ Khúc Miếu/Vượng chính tọa Tài Bạch: tài tinh đắc vị, quyết đoán thực tế trong thực thi tài chính và kinh doanh.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Sao Vũ Khúc"
+  },
+  {
+    "id": "NP-005",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "dien",
+    "polarity": "CAT",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Thái Âm",
+      "palace": "Điền Trạch",
+      "levels": [
+        "Miếu",
+        "Vượng"
+      ]
+    },
+    "claimVi": "Thái Âm Miếu/Vượng cư Điền Trạch: cơ nghiệp điền sản vững vàng, thuận lợi tích lũy bất động sản lâu dài.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Sao Thái Âm"
+  },
+  {
+    "id": "NP-006",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Thiên Cơ",
+      "palace": "Mệnh",
+      "levels": [
+        "Miếu",
+        "Vượng"
+      ]
+    },
+    "claimVi": "Thiên Cơ Miếu/Vượng thủ Mệnh: tư duy phân tích sắc bén, thích ứng linh hoạt với biến đổi kỹ thuật và kế hoạch.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Sao Thiên Cơ"
+  },
+  {
+    "id": "NP-007",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "phuc",
+    "polarity": "CAT",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Thiên Lương",
+      "palace": "Phúc Đức",
+      "levels": [
+        "Miếu",
+        "Vượng"
+      ]
+    },
+    "claimVi": "Thiên Lương Miếu/Vượng cư Phúc Đức: ấm tinh che chở, nội tâm điềm tĩnh và giàu truyền thống nhân hậu.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Sao Thiên Lương"
+  },
+  {
+    "id": "NP-008",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Thất Sát",
+      "palace": "Mệnh",
+      "levels": [
+        "Miếu",
+        "Vượng"
+      ]
+    },
+    "claimVi": "Thất Sát Miếu/Vượng tọa Mệnh: nghị lực khai phá mạnh mẽ, dám gánh vác trọng trách trong môi trường áp lực cao.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Sao Thất Sát"
+  },
+  {
+    "id": "NP-009",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "phu_the",
+    "polarity": "HUNG",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Phá Quân",
+      "palace": "Phu Thê",
+      "levels": [
+        "Hãm"
+      ]
+    },
+    "claimVi": "Phá Quân Hãm địa cư Phu Thê: quan hệ hôn nhân dễ trải qua thử thách va chạm, nên kết hôn muộn và tôn trọng không gian riêng.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Cung Phu Thê"
+  },
+  {
+    "id": "NP-010",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "HUNG",
+    "when": {
+      "op": "or",
+      "args": [
+        {
+          "op": "star_brightness_in",
+          "star": "Cự Môn",
+          "palace": "Mệnh",
+          "levels": [
+            "Hãm"
+          ]
+        },
+        {
+          "op": "star_brightness_in",
+          "star": "Liêm Trinh",
+          "palace": "Mệnh",
+          "levels": [
+            "Hãm"
+          ]
+        },
+        {
+          "op": "star_brightness_in",
+          "star": "Thái Dương",
+          "palace": "Mệnh",
+          "levels": [
+            "Hãm"
+          ]
+        },
+        {
+          "op": "star_brightness_in",
+          "star": "Thái Âm",
+          "palace": "Mệnh",
+          "levels": [
+            "Hãm"
+          ]
+        }
+      ]
+    },
+    "claimVi": "Chính tinh Hãm địa tọa Mệnh: buổi đầu lập thân vất vả, dễ hao tổn tâm lực hoặc chịu thị phi nếu thiếu kỷ luật tự thân.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Tổng Luận Mệnh Viên"
+  },
+  {
+    "id": "NP-011",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "thien_di",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Thiên Mã",
+          "palace": "Thiên Di"
+        },
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Lộc Tồn",
+              "palace": "Thiên Di"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Hóa Lộc",
+              "palace": "Thiên Di"
+            }
+          ]
+        }
+      ]
+    },
+    "claimVi": "Lộc Mã giao trì tại tuyến Mệnh - Thiên Di: càng dịch chuyển xa quê hương hoặc mở rộng thị trường ngoài càng phát đạt.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Cách Lộc Mã Giao Trì"
+  },
+  {
+    "id": "NP-012",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Tả Phụ",
+          "palace": "Mệnh"
+        },
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Hữu Bật",
+          "palace": "Mệnh"
+        }
+      ]
+    },
+    "claimVi": "Tả Phụ - Hữu Bật hội chiếu cung Mệnh: có đội ngũ cộng sự đắc lực và mạng lưới hỗ trợ đa chiều.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Lục Cát Tinh"
+  },
+  {
+    "id": "NP-013",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "quan",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Văn Xương",
+          "palace": "Quan Lộc"
+        },
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Văn Khúc",
+          "palace": "Quan Lộc"
+        }
+      ]
+    },
+    "claimVi": "Văn Xương - Văn Khúc hội Quan Lộc: năng lực biểu đạt, nghiên cứu chuyên môn và biên soạn tri thức nổi trội.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Văn Tinh"
+  },
+  {
+    "id": "NP-014",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "tai",
+    "polarity": "CAT",
+    "when": {
+      "op": "star_in_tam_phuong",
+      "star": "Hóa Lộc",
+      "palace": "Tài Bạch"
+    },
+    "claimVi": "Hóa Lộc hội tam phương Tài Bạch: dòng tiền lưu thông thuận lợi, nhạy bén nắm bắt cơ hội tạo giá trị kinh tế.",
+    "classicalSource": "Tử Vi Nghiệm Lý — Luận Tứ Hóa"
+  },
+  {
+    "id": "NP-015",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "tat_ach",
+    "polarity": "HUNG",
+    "when": {
+      "op": "sihua_in_palace",
+      "transform": "Hóa Kỵ",
+      "palace": "Tật Ách"
+    },
+    "claimVi": "Hóa Kỵ nhập cung Tật Ách: cơ địa dễ tích tụ căng thẳng mãn tính hoặc rối loạn tiêu hóa - nội tiết, cần khám định kỳ.",
+    "classicalSource": "Tử Vi Nghiệm Lý — Luận Cung Tật Ách"
+  },
+  {
+    "id": "NP-016",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "tai",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "star_brightness_in",
+          "star": "Tham Lang",
+          "palace": "Mệnh",
+          "levels": [
+            "Miếu",
+            "Vượng"
+          ]
+        },
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Hỏa Tinh",
+              "palace": "Mệnh"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Linh Tinh",
+              "palace": "Mệnh"
+            }
+          ]
+        }
+      ]
+    },
+    "claimVi": "Tham Hỏa / Tham Linh tương phùng Miếu Vượng: bùng nổ cơ hội tài lộc đột phá nhờ nắm đúng thời cơ bước ngoặt.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Cách Tham Hỏa Tương Phùng"
+  },
+  {
+    "id": "NP-017",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "tai",
+    "polarity": "HUNG",
+    "when": {
+      "op": "year_stem_in",
+      "stems": [
+        6
+      ]
+    },
+    "claimVi": "Tuổi Canh theo Nam Phái Cụ Thiên Lương an Thái Âm Hóa Kỵ: tài sản tĩnh và dòng vốn tích lũy dễ chịu hao hụt ngầm hoặc tranh chấp sổ sách nếu chủ quan.",
+    "classicalSource": "Số Tử Vi Dưới Mắt Khoa Học (Thiên Lương) — Tứ Hóa Tuổi Canh"
+  },
+  {
+    "id": "NP-018",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "phuc",
+    "polarity": "CAT",
+    "when": {
+      "op": "year_stem_in",
+      "stems": [
+        6
+      ]
+    },
+    "claimVi": "Tuổi Canh theo Nam Phái Cụ Thiên Lương an Thiên Đồng Hóa Khoa: phúc tinh đắc Khoa giải ách, tâm tính phóng khoáng tự tìm được lối thoát tinh thần khi gặp nghịch cảnh.",
+    "classicalSource": "Số Tử Vi Dưới Mắt Khoa Học (Thiên Lương) — Tứ Hóa Tuổi Canh"
+  },
+  {
+    "id": "NP-019",
+    "silo": "nam-phai",
+    "stratum": 1,
+    "domain": "dien",
+    "polarity": "CAT",
+    "when": {
+      "op": "year_stem_in",
+      "stems": [
+        8
+      ]
+    },
+    "claimVi": "Tuổi Nhâm theo Nam Phái an Thiên Phủ Hóa Khoa: kho tàng và cơ sở hậu cần có quy củ minh bạch, giữ tài sản bền chắc qua biến động.",
+    "classicalSource": "Số Tử Vi Dưới Mắt Khoa Học (Thiên Lương) — Tứ Hóa Tuổi Nhâm"
+  },
+  {
+    "id": "NP-020",
+    "silo": "nam-phai",
+    "stratum": 2,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "NP-001"
+        },
+        {
+          "op": "derived_node",
+          "nodeId": "NP-012"
+        }
+      ]
+    },
+    "claimVi": "Quân Thần Khánh Hội (Tử Vi Miếu/Vượng đắc Tả Hữu hội chiếu): năng lực lãnh đạo kết hợp hệ sinh thái nhân sự mạnh, lập nghiệp lớn bền vững.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Quân Thần Khánh Hội Cách"
+  },
+  {
+    "id": "NP-021",
+    "silo": "nam-phai",
+    "stratum": 2,
+    "domain": "menh",
+    "polarity": "HUNG",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "derived_node",
+              "nodeId": "NP-001"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "NP-002"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "NP-006"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "NP-008"
+            }
+          ]
+        },
+        {
+          "op": "palace_has_flag",
+          "palace": "Mệnh",
+          "flag": "trietLo"
+        }
+      ]
+    },
+    "claimVi": "Chính tinh Miếu/Vượng cư Mệnh ngộ Triệt Lộ án ngữ (Lưỡng thuyết Cát/Hung): cát khí bị chiết giảm mạnh trước tuổi 30, phải tự lập qua gãy đổ ban đầu mới thành tựu.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Triệt Tuần Không Vong"
+  },
+  {
+    "id": "NP-022",
+    "silo": "nam-phai",
+    "stratum": 2,
+    "domain": "menh",
+    "polarity": "HUNG",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "derived_node",
+              "nodeId": "NP-001"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "NP-002"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "NP-006"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "NP-008"
+            }
+          ]
+        },
+        {
+          "op": "palace_has_flag",
+          "palace": "Mệnh",
+          "flag": "tuanTrung"
+        }
+      ]
+    },
+    "claimVi": "Chính tinh Miếu/Vượng cư Mệnh ngộ Tuần Trung Không Vong: tài năng dễ bị kiềm tỏa hoặc chậm phát lộ ở giai đoạn đầu, cần kiên nhẫn tích lũy chiều sâu.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Triệt Tuần Không Vong"
+  },
+  {
+    "id": "NP-023",
+    "silo": "nam-phai",
+    "stratum": 2,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "NP-010"
+        },
+        {
+          "op": "palace_has_flag",
+          "palace": "Mệnh",
+          "flag": "trietLo"
+        }
+      ]
+    },
+    "claimVi": "Chính tinh Hãm địa cư Mệnh đắc Triệt Lộ phản vi kỳ cách (Lưỡng thuyết Hung hóa Cát): Triệt bẻ gãy tính xung động của sao hãm, rèn luyện qua nghịch cảnh thành người sắc sảo hậu vận.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Tuần Triệt Đương Đầu Phản Vi Kỳ"
+  },
+  {
+    "id": "NP-024",
+    "silo": "nam-phai",
+    "stratum": 2,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "NP-010"
+        },
+        {
+          "op": "palace_has_flag",
+          "palace": "Mệnh",
+          "flag": "tuanTrung"
+        }
+      ]
+    },
+    "claimVi": "Chính tinh Hãm địa cư Mệnh đắc Tuần Trung bao bọc (Lưỡng thuyết Hung hóa Cát): giảm nhẹ thị phi bộc phát, chuyển hóa áp lực thành nội lực trầm ổn về trung niên.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Tuần Triệt Đương Đầu Phản Vi Kỳ"
+  },
+  {
+    "id": "NP-025",
+    "silo": "nam-phai",
+    "stratum": 2,
+    "domain": "quan",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Hóa Lộc",
+          "palace": "Mệnh"
+        },
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Hóa Quyền",
+          "palace": "Mệnh"
+        },
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Hóa Khoa",
+          "palace": "Mệnh"
+        },
+        {
+          "op": "not",
+          "arg": {
+            "op": "sihua_in_palace",
+            "transform": "Hóa Kỵ",
+            "palace": "Mệnh"
+          }
+        }
+      ]
+    },
+    "claimVi": "Tam Kỳ Gia Hội (Khoa - Quyền - Lộc hội tam phương Mệnh không bị Hóa Kỵ trực xung): uy tín chuyên môn, quyền tự quyết và nguồn lực tài chính đồng bộ.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Cách Tam Kỳ Gia Hội"
+  },
+  {
+    "id": "NP-026",
+    "silo": "nam-phai",
+    "stratum": 2,
+    "domain": "tai",
+    "polarity": "HUNG",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "NP-017"
+        },
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Địa Không",
+              "palace": "Tài Bạch"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Địa Kiếp",
+              "palace": "Tài Bạch"
+            }
+          ]
+        }
+      ]
+    },
+    "claimVi": "Tuổi Canh Nam Phái Thái Âm Hóa Kỵ kiêm Không Kiếp hội Tài Bạch: rủi ro thất thoát vốn do đầu cơ đòn bẩy cao, bắt buộc giữ quỹ dự phòng thanh khoản.",
+    "classicalSource": "Tử Vi Nghiệm Lý — Luận Thái Âm Hóa Kỵ Hội Sát"
+  },
+  {
+    "id": "NP-027",
+    "silo": "nam-phai",
+    "stratum": 2,
+    "domain": "tat_ach",
+    "polarity": "HUNG",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "NP-015"
+        },
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Kình Dương",
+              "palace": "Tật Ách"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Đà La",
+              "palace": "Tật Ách"
+            }
+          ]
+        }
+      ]
+    },
+    "claimVi": "Tật Ách Hóa Kỵ hội Kình Đà: chú ý chấn thương ngoại khoa hoặc viêm nhiễm tái phát, nên duy trì lối sống điều độ.",
+    "classicalSource": "Tử Vi Đẩu Số Tân Biên — Luận Tật Ách"
+  },
+  {
+    "id": "TT-001",
+    "silo": "toan-thu",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Tử Vi",
+          "palace": "Mệnh"
+        },
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Thiên Phủ",
+          "palace": "Mệnh"
+        }
+      ]
+    },
+    "claimVi": "Tử Phủ Triều Viên theo Đẩu Số Toàn Thư: cấu trúc công thủ song toàn, vừa có tầm nhìn mở rộng vừa có năng lực tích trữ bền vững.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Thái Vi Phú"
+  },
+  {
+    "id": "TT-002",
+    "silo": "toan-thu",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Thái Dương",
+          "palace": "Mệnh"
+        },
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Thái Âm",
+          "palace": "Mệnh"
+        },
+        {
+          "op": "not",
+          "arg": {
+            "op": "star_brightness_in",
+            "star": "Thái Dương",
+            "palace": "Mệnh",
+            "levels": [
+              "Bất",
+              "Hãm"
+            ]
+          }
+        }
+      ]
+    },
+    "claimVi": "Nhật Nguyệt hội chiếu đắc độ sáng theo Toàn Thư: lý tính và cảm tính hài hòa, thuận lợi phát triển uy tín xã hội rộng rãi.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Chư Tinh Vấn Đáp Luận"
+  },
+  {
+    "id": "TT-003",
+    "silo": "toan-thu",
+    "stratum": 1,
+    "domain": "quan",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Thiên Cơ",
+          "palace": "Quan Lộc"
+        },
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Thiên Lương",
+          "palace": "Quan Lộc"
+        }
+      ]
+    },
+    "claimVi": "Cơ Lương hội hợp tuyến Quan Lộc theo Toàn Thư: sở trường tham mưu chiến lược, thiết kế quy trình, pháp chế và quản trị hệ thống.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Cốt Tủy Phú"
+  },
+  {
+    "id": "TT-004",
+    "silo": "toan-thu",
+    "stratum": 1,
+    "domain": "tai",
+    "polarity": "TRUNG",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Vũ Khúc",
+      "palace": "Tài Bạch",
+      "levels": [
+        "Lợi",
+        "Bình"
+      ]
+    },
+    "claimVi": "Vũ Khúc cư Tài Bạch bậc Lợi/Bình (thang 7 bậc Toàn Thư): tài lộc đến từ chuyên môn thực chất đều đặn, không nên mạo hiểm đầu cơ ngắn hạn.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Chư Tinh Vấn Đáp Vũ Khúc"
+  },
+  {
+    "id": "TT-005",
+    "silo": "toan-thu",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "HUNG",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Thái Dương",
+      "palace": "Mệnh",
+      "levels": [
+        "Bất",
+        "Hãm"
+      ]
+    },
+    "claimVi": "Thái Dương cư Mệnh bậc Bất/Hãm theo Toàn Thư: hay lo toan gánh vác thay người khác mà ít được ghi nhận tương xứng buổi đầu.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Chư Tinh Vấn Đáp Thái Dương"
+  },
+  {
+    "id": "TT-006",
+    "silo": "toan-thu",
+    "stratum": 1,
+    "domain": "phu_the",
+    "polarity": "HUNG",
+    "when": {
+      "op": "star_brightness_in",
+      "star": "Cự Môn",
+      "palace": "Phu Thê",
+      "levels": [
+        "Bất",
+        "Hãm"
+      ]
+    },
+    "claimVi": "Cự Môn Bất/Hãm cư Phu Thê theo Toàn Thư: dễ nảy sinh hiểu lầm ngôn từ trong đời sống lứa đôi, cần đối thoại thẳng thắn và lắng nghe.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.2 — Luận Phu Thê"
+  },
+  {
+    "id": "TT-007",
+    "silo": "toan-thu",
+    "stratum": 1,
+    "domain": "tai",
+    "polarity": "CAT",
+    "when": {
+      "op": "year_stem_in",
+      "stems": [
+        6
+      ]
+    },
+    "claimVi": "Tuổi Canh theo Tử Vi Đẩu Số Toàn Thư an Thái Âm Hóa Khoa: tài tinh đắc Khoa chủ về quản trị tài chính thanh liêm, tích lũy tài sản có kế hoạch vững chắc.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Thập Can Tứ Hóa Quyết (Canh Dương Vũ Âm Đồng)"
+  },
+  {
+    "id": "TT-008",
+    "silo": "toan-thu",
+    "stratum": 1,
+    "domain": "phuc",
+    "polarity": "HUNG",
+    "when": {
+      "op": "year_stem_in",
+      "stems": [
+        6
+      ]
+    },
+    "claimVi": "Tuổi Canh theo Tử Vi Đẩu Số Toàn Thư an Thiên Đồng Hóa Kỵ: phúc tinh hóa Kỵ chủ nội tâm hay tự trăn trở, phúc hưởng thường đến muộn sau nhiều phen tự thân xoay xở.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Thập Can Tứ Hóa Quyết (Canh Dương Vũ Âm Đồng)"
+  },
+  {
+    "id": "TT-009",
+    "silo": "toan-thu",
+    "stratum": 1,
+    "domain": "dien",
+    "polarity": "TRUNG",
+    "when": {
+      "op": "year_stem_in",
+      "stems": [
+        8
+      ]
+    },
+    "claimVi": "Tuổi Nhâm theo Tử Vi Đẩu Số Toàn Thư an Tả Phụ Hóa Khoa (thay vì Thiên Phủ Hóa Khoa): cơ nghiệp dựa vào quý nhân đồng hành trợ lực hơn là chỉ thủ kho tĩnh tại.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Thập Can Tứ Hóa Quyết (Nhâm Lương Tử Phụ Vũ)"
+  },
+  {
+    "id": "TT-010",
+    "silo": "toan-thu",
+    "stratum": 2,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "TT-001"
+        },
+        {
+          "op": "star_in_tam_phuong",
+          "star": "Lộc Tồn",
+          "palace": "Mệnh"
+        }
+      ]
+    },
+    "claimVi": "Tử Phủ Triều Viên đắc Lộc Tồn hội hợp: nền tảng tài chính và vị thế quản trị củng cố lẫn nhau qua từng chu kỳ đại vận.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Đẩu Số Cốt Tủy Phú"
+  },
+  {
+    "id": "TT-011",
+    "silo": "toan-thu",
+    "stratum": 2,
+    "domain": "tai",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "TT-007"
+        },
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Hóa Lộc",
+              "palace": "Mệnh"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Hóa Lộc",
+              "palace": "Tài Bạch"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Hóa Lộc",
+              "palace": "Quan Lộc"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Hóa Lộc",
+              "palace": "Phúc Đức"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Hóa Lộc",
+              "palace": "Điền Trạch"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Hóa Lộc",
+              "palace": "Phụ Mẫu"
+            }
+          ]
+        }
+      ]
+    },
+    "claimVi": "Tuổi Canh Toàn Thư Thái Dương Hóa Lộc kiêm Thái Âm Hóa Khoa song chiếu: Nhật Nguyệt Khoa Lộc tương huy, danh tiếng chuyên môn chuyển hóa thành thành quả tài chính minh bạch.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.1 — Nhật Nguyệt Khoa Lộc Luận"
+  },
+  {
+    "id": "TT-012",
+    "silo": "toan-thu",
+    "stratum": 2,
+    "domain": "phuc",
+    "polarity": "HUNG",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "TT-008"
+        },
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Kình Dương",
+              "palace": "Phúc Đức"
+            },
+            {
+              "op": "star_in_tam_phuong",
+              "star": "Đà La",
+              "palace": "Phúc Đức"
+            }
+          ]
+        }
+      ]
+    },
+    "claimVi": "Tuổi Canh Toàn Thư Thiên Đồng Hóa Kỵ gặp Dương Đà chiếu Phúc Đức: tránh ôm đồm lo âu thái quá, cần rèn thói quen nghỉ ngơi tái tạo năng lượng.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư Q.2 — Luận Phúc Đức"
+  },
+  {
+    "id": "BZ-001",
+    "silo": "bazi",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "bazi_strength_is",
+      "value": "CAN_BANG"
+    },
+    "claimVi": "Tứ Trụ Bát Tự Trung Hòa Cân Bằng (44% < Tỷ-Ấn < 52%): khí lực ngũ hành ổn định, khả năng tự điều tiết tốt trước thăng trầm vận hạn.",
+    "classicalSource": "Uyên Hải Tử Bình — Luận Trung Hòa Chi Đạo"
+  },
+  {
+    "id": "BZ-002",
+    "silo": "bazi",
+    "stratum": 1,
+    "domain": "quan",
+    "polarity": "CAT",
+    "when": {
+      "op": "bazi_strength_is",
+      "value": "THAN_VUONG"
+    },
+    "claimVi": "Nhật Chủ Thân Vượng (Tỷ-Ấn ≥ 52%): nội lực dồi dào, đủ sức gánh Tài tinh và Quan Sát lớn, hợp môi trường cạnh tranh chủ động.",
+    "classicalSource": "Tử Bình Chân Thuyên — Luận Dụng Thần Thân Vượng"
+  },
+  {
+    "id": "BZ-003",
+    "silo": "bazi",
+    "stratum": 1,
+    "domain": "tat_ach",
+    "polarity": "TRUNG",
+    "when": {
+      "op": "bazi_strength_is",
+      "value": "THAN_NHUOC"
+    },
+    "claimVi": "Nhật Chủ Thân Nhược (Tỷ-Ấn ≤ 44%): hỉ Ấn tinh và Tỷ Kiếp trợ thân; nên ưu tiên chuyên môn sâu, hợp tác tập thể và bảo toàn thể lực thay vì dàn trải.",
+    "classicalSource": "Tử Bình Chân Thuyên — Luận Thân Nhược Phù Ức"
+  },
+  {
+    "id": "BZ-004",
+    "silo": "bazi",
+    "stratum": 1,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "year_stem_in",
+          "stems": [
+            0,
+            1
+          ]
+        },
+        {
+          "op": "bazi_strength_is",
+          "value": "THAN_VUONG"
+        }
+      ]
+    },
+    "claimVi": "Tuổi Giáp/Ất Mộc gặp Thân Vượng: nhân từ sinh phát có căn cơ, thuận lợi dẫn dắt đội ngũ giáo dục, công nghệ hoặc phát triển sản phẩm.",
+    "classicalSource": "Cùng Thông Bảo Giám — Luận Mộc Mệnh Xuân Hạ"
+  },
+  {
+    "id": "BZ-005",
+    "silo": "bazi",
+    "stratum": 1,
+    "domain": "quan",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "year_stem_in",
+          "stems": [
+            2,
+            3
+          ]
+        },
+        {
+          "op": "bazi_strength_is",
+          "value": "CAN_BANG"
+        }
+      ]
+    },
+    "claimVi": "Tuổi Bính/Đinh Hỏa khí trung hòa: văn minh lễ độ, truyền cảm hứng rõ ràng mà không nóng vội cực đoan.",
+    "classicalSource": "Cùng Thông Bảo Giám — Luận Hỏa Mệnh Điều Hậu"
+  },
+  {
+    "id": "BZ-006",
+    "silo": "bazi",
+    "stratum": 1,
+    "domain": "dien",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "year_stem_in",
+          "stems": [
+            4,
+            5
+          ]
+        },
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "bazi_strength_is",
+              "value": "THAN_VUONG"
+            },
+            {
+              "op": "bazi_strength_is",
+              "value": "CAN_BANG"
+            }
+          ]
+        }
+      ]
+    },
+    "claimVi": "Tuổi Mậu/Kỷ Thổ căn khí vững: chữ tín trọng hậu, giỏi tích lũy hạ tầng, điền sản và vận hành nền tảng dài hạn.",
+    "classicalSource": "Cùng Thông Bảo Giám — Luận Thổ Mệnh Tứ Thời"
+  },
+  {
+    "id": "BZ-007",
+    "silo": "bazi",
+    "stratum": 2,
+    "domain": "tai",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "BZ-002"
+        },
+        {
+          "op": "year_stem_in",
+          "stems": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "claimVi": "Tuổi Canh/Tân Kim kiêm Nhật Chủ Thân Vượng: tính kỷ luật và khả năng thực thi sắc bén giúp kiểm soát dòng tiền lớn hiệu quả.",
+    "classicalSource": "Cùng Thông Bảo Giám — Luận Kim Mệnh Đắc Dụng"
+  },
+  {
+    "id": "BZ-008",
+    "silo": "bazi",
+    "stratum": 2,
+    "domain": "thien_di",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "derived_node",
+              "nodeId": "BZ-001"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "BZ-002"
+            }
+          ]
+        },
+        {
+          "op": "year_stem_in",
+          "stems": [
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    "claimVi": "Tuổi Nhâm/Quý Thủy nội lực vững/cân bằng: trí tuệ linh hoạt như dòng nước lớn, thích nghi xuất sắc khi vươn ra môi trường liên vùng và quốc tế.",
+    "classicalSource": "Cùng Thông Bảo Giám — Luận Thủy Mệnh Thông Nguyên"
+  },
+  {
+    "id": "LY-001",
+    "silo": "liuyao",
+    "stratum": 1,
+    "domain": "quan",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "year_stem_in",
+          "stems": [
+            0,
+            2,
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "op": "bazi_strength_is",
+          "value": "THAN_VUONG"
+        }
+      ]
+    },
+    "claimVi": "Tượng Dương Can gặp bản khí Vượng theo Tăng San Bốc Dịch: hào Thế đắc nguyên khí chủ động, hành sự quyết đoán đúng thời điểm tất ứng nghiệm nhanh.",
+    "classicalSource": "Tăng San Bốc Dịch — Luận Thế Ứng Vượng Tướng"
+  },
+  {
+    "id": "LY-002",
+    "silo": "liuyao",
+    "stratum": 1,
+    "domain": "phuc",
+    "polarity": "TRUNG",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "year_stem_in",
+          "stems": [
+            1,
+            3,
+            5,
+            7,
+            9
+          ]
+        },
+        {
+          "op": "bazi_strength_is",
+          "value": "THAN_NHUOC"
+        }
+      ]
+    },
+    "claimVi": "Tượng Âm Can gặp khí Hưu Tù theo Tăng San Bốc Dịch: nghi tĩnh bất nghi động, đợi tiết khí Nguyên Thần sinh vượng mới nên khởi sự lớn.",
+    "classicalSource": "Tăng San Bốc Dịch — Luận Dụng Thần Ứng Kỳ"
+  },
+  {
+    "id": "LY-003",
+    "silo": "liuyao",
+    "stratum": 1,
+    "domain": "tai",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "year_stem_in",
+          "stems": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "op": "bazi_strength_is",
+          "value": "CAN_BANG"
+        }
+      ]
+    },
+    "claimVi": "Tượng Thế - Ứng trung hòa bất thiên lệch theo Bốc Dịch: cầu tài mưu sự tuần tự tiệm tiến, giao dịch đôi bên cùng có lợi.",
+    "classicalSource": "Tăng San Bốc Dịch — Luận Tài Tinh Hòa Hợp"
+  },
+  {
+    "id": "CR-001",
+    "silo": "cross",
+    "stratum": 2,
+    "domain": "menh",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "derived_node",
+              "nodeId": "NP-001"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "NP-002"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "TT-001"
+            }
+          ]
+        },
+        {
+          "op": "bazi_strength_is",
+          "value": "THAN_VUONG"
+        }
+      ]
+    },
+    "claimVi": "Giao thoa Tử Vi × Bát Tự: Đế tinh Tử Phủ đắc vị đồng thời Nhật Chủ Bát Tự Thân Vượng — cả Tượng tinh đẩu lẫn Khí ngũ hành đều hội đủ để đảm đương vị trí dẫn dắt.",
+    "classicalSource": "Tinh Bình Hội Hải — Luận Mệnh Tinh Khí Hợp Tham"
+  },
+  {
+    "id": "CR-002",
+    "silo": "cross",
+    "stratum": 2,
+    "domain": "tai",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "derived_node",
+              "nodeId": "NP-004"
+            },
+            {
+              "op": "derived_node",
+              "nodeId": "NP-014"
+            }
+          ]
+        },
+        {
+          "op": "or",
+          "args": [
+            {
+              "op": "bazi_strength_is",
+              "value": "THAN_VUONG"
+            },
+            {
+              "op": "bazi_strength_is",
+              "value": "CAN_BANG"
+            }
+          ]
+        }
+      ]
+    },
+    "claimVi": "Giao thoa Tử Vi × Bát Tự: Tài tinh Vũ Khúc / Hóa Lộc sáng sủa đi cùng Bát Tự Thân Vượng hoặc Trung Hòa — Thân cường thắng Tài, giữ vững thành quả tài chính thực chất.",
+    "classicalSource": "Tinh Bình Hội Hải — Thân Cường Tài Vượng Luận"
+  },
+  {
+    "id": "CR-003",
+    "silo": "cross",
+    "stratum": 2,
+    "domain": "tai",
+    "polarity": "HUNG",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "NP-014"
+        },
+        {
+          "op": "bazi_strength_is",
+          "value": "THAN_NHUOC"
+        }
+      ]
+    },
+    "claimVi": "Giao thoa Tử Vi × Bát Tự (Phú ốc bần nhân cảnh báo): cung Tài có Hóa Lộc nhưng Bát Tự Thân Nhược — dòng tiền qua tay lớn song dễ quá tải áp lực nếu tự đứng mũi chịu sào một mình.",
+    "classicalSource": "Tử Bình Chân Thuyên × Tử Vi Nghiệm Lý — Tài Đa Thân Nhược"
+  },
+  {
+    "id": "CR-004",
+    "silo": "cross",
+    "stratum": 2,
+    "domain": "menh",
+    "polarity": "HUNG",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "NP-010"
+        },
+        {
+          "op": "bazi_strength_is",
+          "value": "THAN_NHUOC"
+        }
+      ]
+    },
+    "claimVi": "Giao thoa Tử Vi × Bát Tự: Chính tinh Mệnh Hãm địa đồng thời Bát Tự Thân Nhược — tuyệt đối tránh khởi nghiệp đơn độc dùng đòn bẩy nợ, nên tựa vào tổ chức lớn và bồi dưỡng chuyên môn cốt lõi.",
+    "classicalSource": "Tinh Bình Hội Hải — Phù Nhược Phòng Hung Luận"
+  },
+  {
+    "id": "CR-005",
+    "silo": "cross",
+    "stratum": 2,
+    "domain": "thien_di",
+    "polarity": "CAT",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "NP-011"
+        },
+        {
+          "op": "bazi_strength_is",
+          "value": "THAN_VUONG"
+        }
+      ]
+    },
+    "claimVi": "Giao thoa Tử Vi × Bát Tự: Lộc Mã Giao Trì kết hợp Nhật Chủ Thân Vượng — dịch chuyển lập nghiệp phương xa mang lại bước nhảy vọt cả danh vị lẫn tích lũy.",
+    "classicalSource": "Tinh Bình Hội Hải — Dịch Mã Thông Tài Luận"
+  },
+  {
+    "id": "CR-006",
+    "silo": "cross",
+    "stratum": 2,
+    "domain": "phuc",
+    "polarity": "TRUNG",
+    "when": {
+      "op": "and",
+      "args": [
+        {
+          "op": "derived_node",
+          "nodeId": "NP-018"
+        },
+        {
+          "op": "derived_node",
+          "nodeId": "TT-008"
+        }
+      ]
+    },
+    "claimVi": "Trọng tài Thực chứng Đa Phái (Tuổi Canh): Nam Phái luận Thiên Đồng Hóa Khoa (Cát), Toàn Thư luận Thiên Đồng Hóa Kỵ (Hung) — cần đối chiếu biến cố thực chứng quá khứ để khóa hệ tiên đề phù hợp.",
+    "classicalSource": "Tử Vi Đẩu Số Toàn Thư × Tử Vi Nghiệm Lý — Khảo Dị Tứ Hóa Tuổi Canh"
+  }
+]

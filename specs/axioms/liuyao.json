@@ -1,0 +1,2977 @@
+{
+  "schemaVersion": "1.0.0",
+  "tienThienMod8ToTrigramBits": {
+    "1": 7,
+    "2": 3,
+    "3": 5,
+    "4": 1,
+    "5": 6,
+    "6": 2,
+    "7": 4,
+    "0": 0
+  },
+  "hexagrams": {
+    "000000": {
+      "bitsIndex": 0,
+      "code6bit": "000000",
+      "kingWenNumber": 2,
+      "nameVi": "Thuần Khôn",
+      "upperTrigram": "Khôn",
+      "lowerTrigram": "Khôn",
+      "houseNameVi": "Khôn",
+      "houseElementVi": "Thổ",
+      "generationType": "Bát Thuần",
+      "theLine": 6,
+      "ungLine": 3,
+      "lineBranches": [
+        7,
+        5,
+        3,
+        1,
+        11,
+        9
+      ],
+      "lineStems": [
+        1,
+        1,
+        1,
+        9,
+        9,
+        9
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Kim"
+      ],
+      "lineRelativesVi": [
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn"
+      ]
+    },
+    "100000": {
+      "bitsIndex": 1,
+      "code6bit": "100000",
+      "kingWenNumber": 24,
+      "nameVi": "Địa Lôi Phục",
+      "upperTrigram": "Khôn",
+      "lowerTrigram": "Chấn",
+      "houseNameVi": "Khôn",
+      "houseElementVi": "Thổ",
+      "generationType": "Nhất Thế",
+      "theLine": 1,
+      "ungLine": 4,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        1,
+        11,
+        9
+      ],
+      "lineStems": [
+        6,
+        6,
+        6,
+        9,
+        9,
+        9
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Thổ",
+        "Thủy",
+        "Kim"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn"
+      ]
+    },
+    "010000": {
+      "bitsIndex": 2,
+      "code6bit": "010000",
+      "kingWenNumber": 7,
+      "nameVi": "Địa Thủy Sư",
+      "upperTrigram": "Khôn",
+      "lowerTrigram": "Khảm",
+      "houseNameVi": "Khảm",
+      "houseElementVi": "Thủy",
+      "generationType": "Quy Hồn",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        2,
+        4,
+        6,
+        1,
+        11,
+        9
+      ],
+      "lineStems": [
+        4,
+        4,
+        4,
+        9,
+        9,
+        9
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Thổ",
+        "Thủy",
+        "Kim"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "110000": {
+      "bitsIndex": 3,
+      "code6bit": "110000",
+      "kingWenNumber": 19,
+      "nameVi": "Địa Trạch Lâm",
+      "upperTrigram": "Khôn",
+      "lowerTrigram": "Đoài",
+      "houseNameVi": "Khôn",
+      "houseElementVi": "Thổ",
+      "generationType": "Nhị Thế",
+      "theLine": 2,
+      "ungLine": 5,
+      "lineBranches": [
+        5,
+        3,
+        1,
+        1,
+        11,
+        9
+      ],
+      "lineStems": [
+        3,
+        3,
+        3,
+        9,
+        9,
+        9
+      ],
+      "lineElementsVi": [
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Thổ",
+        "Thủy",
+        "Kim"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn"
+      ]
+    },
+    "001000": {
+      "bitsIndex": 4,
+      "code6bit": "001000",
+      "kingWenNumber": 15,
+      "nameVi": "Địa Sơn Khiêm",
+      "upperTrigram": "Khôn",
+      "lowerTrigram": "Cấn",
+      "houseNameVi": "Đoài",
+      "houseElementVi": "Kim",
+      "generationType": "Ngũ Thế",
+      "theLine": 5,
+      "ungLine": 2,
+      "lineBranches": [
+        4,
+        6,
+        8,
+        1,
+        11,
+        9
+      ],
+      "lineStems": [
+        2,
+        2,
+        2,
+        9,
+        9,
+        9
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ",
+        "Thủy",
+        "Kim"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "101000": {
+      "bitsIndex": 5,
+      "code6bit": "101000",
+      "kingWenNumber": 36,
+      "nameVi": "Địa Hỏa Minh Di",
+      "upperTrigram": "Khôn",
+      "lowerTrigram": "Ly",
+      "houseNameVi": "Khảm",
+      "houseElementVi": "Thủy",
+      "generationType": "Du Hồn",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        3,
+        1,
+        11,
+        1,
+        11,
+        9
+      ],
+      "lineStems": [
+        5,
+        5,
+        5,
+        9,
+        9,
+        9
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Thổ",
+        "Thủy",
+        "Kim"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "011000": {
+      "bitsIndex": 6,
+      "code6bit": "011000",
+      "kingWenNumber": 46,
+      "nameVi": "Địa Phong Thăng",
+      "upperTrigram": "Khôn",
+      "lowerTrigram": "Tốn",
+      "houseNameVi": "Chấn",
+      "houseElementVi": "Mộc",
+      "generationType": "Tứ Thế",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        1,
+        11,
+        9,
+        1,
+        11,
+        9
+      ],
+      "lineStems": [
+        7,
+        7,
+        7,
+        9,
+        9,
+        9
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Thổ",
+        "Thủy",
+        "Kim"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ"
+      ]
+    },
+    "111000": {
+      "bitsIndex": 7,
+      "code6bit": "111000",
+      "kingWenNumber": 11,
+      "nameVi": "Địa Thiên Thái",
+      "upperTrigram": "Khôn",
+      "lowerTrigram": "Càn",
+      "houseNameVi": "Khôn",
+      "houseElementVi": "Thổ",
+      "generationType": "Tam Thế",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        1,
+        11,
+        9
+      ],
+      "lineStems": [
+        0,
+        0,
+        0,
+        9,
+        9,
+        9
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Thổ",
+        "Thủy",
+        "Kim"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn"
+      ]
+    },
+    "000100": {
+      "bitsIndex": 8,
+      "code6bit": "000100",
+      "kingWenNumber": 16,
+      "nameVi": "Lôi Địa Dự",
+      "upperTrigram": "Chấn",
+      "lowerTrigram": "Khôn",
+      "houseNameVi": "Chấn",
+      "houseElementVi": "Mộc",
+      "generationType": "Nhất Thế",
+      "theLine": 1,
+      "ungLine": 4,
+      "lineBranches": [
+        7,
+        5,
+        3,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        1,
+        1,
+        1,
+        6,
+        6,
+        6
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Mộc",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Thê Tài"
+      ]
+    },
+    "100100": {
+      "bitsIndex": 9,
+      "code6bit": "100100",
+      "kingWenNumber": 51,
+      "nameVi": "Thuần Chấn",
+      "upperTrigram": "Chấn",
+      "lowerTrigram": "Chấn",
+      "houseNameVi": "Chấn",
+      "houseElementVi": "Mộc",
+      "generationType": "Bát Thuần",
+      "theLine": 6,
+      "ungLine": 3,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Thê Tài"
+      ]
+    },
+    "010100": {
+      "bitsIndex": 10,
+      "code6bit": "010100",
+      "kingWenNumber": 40,
+      "nameVi": "Lôi Thủy Giải",
+      "upperTrigram": "Chấn",
+      "lowerTrigram": "Khảm",
+      "houseNameVi": "Chấn",
+      "houseElementVi": "Mộc",
+      "generationType": "Nhị Thế",
+      "theLine": 2,
+      "ungLine": 5,
+      "lineBranches": [
+        2,
+        4,
+        6,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        4,
+        4,
+        4,
+        6,
+        6,
+        6
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Thê Tài"
+      ]
+    },
+    "110100": {
+      "bitsIndex": 11,
+      "code6bit": "110100",
+      "kingWenNumber": 54,
+      "nameVi": "Lôi Trạch Quy Muội",
+      "upperTrigram": "Chấn",
+      "lowerTrigram": "Đoài",
+      "houseNameVi": "Đoài",
+      "houseElementVi": "Kim",
+      "generationType": "Quy Hồn",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        5,
+        3,
+        1,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        3,
+        3,
+        3,
+        6,
+        6,
+        6
+      ],
+      "lineElementsVi": [
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Quan Quỷ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "001100": {
+      "bitsIndex": 12,
+      "code6bit": "001100",
+      "kingWenNumber": 62,
+      "nameVi": "Lôi Sơn Tiểu Quá",
+      "upperTrigram": "Chấn",
+      "lowerTrigram": "Cấn",
+      "houseNameVi": "Đoài",
+      "houseElementVi": "Kim",
+      "generationType": "Du Hồn",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        4,
+        6,
+        8,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        2,
+        2,
+        2,
+        6,
+        6,
+        6
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "101100": {
+      "bitsIndex": 13,
+      "code6bit": "101100",
+      "kingWenNumber": 55,
+      "nameVi": "Lôi Hỏa Phong",
+      "upperTrigram": "Chấn",
+      "lowerTrigram": "Ly",
+      "houseNameVi": "Khảm",
+      "houseElementVi": "Thủy",
+      "generationType": "Ngũ Thế",
+      "theLine": 5,
+      "ungLine": 2,
+      "lineBranches": [
+        3,
+        1,
+        11,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        5,
+        5,
+        5,
+        6,
+        6,
+        6
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ"
+      ]
+    },
+    "011100": {
+      "bitsIndex": 14,
+      "code6bit": "011100",
+      "kingWenNumber": 32,
+      "nameVi": "Lôi Phong Hằng",
+      "upperTrigram": "Chấn",
+      "lowerTrigram": "Tốn",
+      "houseNameVi": "Chấn",
+      "houseElementVi": "Mộc",
+      "generationType": "Tam Thế",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        1,
+        11,
+        9,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        7,
+        7,
+        7,
+        6,
+        6,
+        6
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Thê Tài"
+      ]
+    },
+    "111100": {
+      "bitsIndex": 15,
+      "code6bit": "111100",
+      "kingWenNumber": 34,
+      "nameVi": "Lôi Thiên Đại Tráng",
+      "upperTrigram": "Chấn",
+      "lowerTrigram": "Càn",
+      "houseNameVi": "Khôn",
+      "houseElementVi": "Thổ",
+      "generationType": "Tứ Thế",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        0,
+        0,
+        0,
+        6,
+        6,
+        6
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "000010": {
+      "bitsIndex": 16,
+      "code6bit": "000010",
+      "kingWenNumber": 8,
+      "nameVi": "Thủy Địa Tỷ",
+      "upperTrigram": "Khảm",
+      "lowerTrigram": "Khôn",
+      "houseNameVi": "Khôn",
+      "houseElementVi": "Thổ",
+      "generationType": "Quy Hồn",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        7,
+        5,
+        3,
+        8,
+        10,
+        0
+      ],
+      "lineStems": [
+        1,
+        1,
+        1,
+        4,
+        4,
+        4
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Mộc",
+        "Kim",
+        "Thổ",
+        "Thủy"
+      ],
+      "lineRelativesVi": [
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Thê Tài"
+      ]
+    },
+    "100010": {
+      "bitsIndex": 17,
+      "code6bit": "100010",
+      "kingWenNumber": 3,
+      "nameVi": "Thủy Lôi Truân",
+      "upperTrigram": "Khảm",
+      "lowerTrigram": "Chấn",
+      "houseNameVi": "Khảm",
+      "houseElementVi": "Thủy",
+      "generationType": "Nhị Thế",
+      "theLine": 2,
+      "ungLine": 5,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        8,
+        10,
+        0
+      ],
+      "lineStems": [
+        6,
+        6,
+        6,
+        4,
+        4,
+        4
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Kim",
+        "Thổ",
+        "Thủy"
+      ],
+      "lineRelativesVi": [
+        "Huynh Đệ",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ"
+      ]
+    },
+    "010010": {
+      "bitsIndex": 18,
+      "code6bit": "010010",
+      "kingWenNumber": 29,
+      "nameVi": "Thuần Khảm",
+      "upperTrigram": "Khảm",
+      "lowerTrigram": "Khảm",
+      "houseNameVi": "Khảm",
+      "houseElementVi": "Thủy",
+      "generationType": "Bát Thuần",
+      "theLine": 6,
+      "ungLine": 3,
+      "lineBranches": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        0
+      ],
+      "lineStems": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ",
+        "Thủy"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ"
+      ]
+    },
+    "110010": {
+      "bitsIndex": 19,
+      "code6bit": "110010",
+      "kingWenNumber": 60,
+      "nameVi": "Thủy Trạch Tiết",
+      "upperTrigram": "Khảm",
+      "lowerTrigram": "Đoài",
+      "houseNameVi": "Khảm",
+      "houseElementVi": "Thủy",
+      "generationType": "Nhất Thế",
+      "theLine": 1,
+      "ungLine": 4,
+      "lineBranches": [
+        5,
+        3,
+        1,
+        8,
+        10,
+        0
+      ],
+      "lineStems": [
+        3,
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "lineElementsVi": [
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Kim",
+        "Thổ",
+        "Thủy"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ"
+      ]
+    },
+    "001010": {
+      "bitsIndex": 20,
+      "code6bit": "001010",
+      "kingWenNumber": 39,
+      "nameVi": "Thủy Sơn Kiển",
+      "upperTrigram": "Khảm",
+      "lowerTrigram": "Cấn",
+      "houseNameVi": "Đoài",
+      "houseElementVi": "Kim",
+      "generationType": "Tứ Thế",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        4,
+        6,
+        8,
+        8,
+        10,
+        0
+      ],
+      "lineStems": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Kim",
+        "Thổ",
+        "Thủy"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Tử Tôn"
+      ]
+    },
+    "101010": {
+      "bitsIndex": 21,
+      "code6bit": "101010",
+      "kingWenNumber": 63,
+      "nameVi": "Thủy Hỏa Ký Tế",
+      "upperTrigram": "Khảm",
+      "lowerTrigram": "Ly",
+      "houseNameVi": "Khảm",
+      "houseElementVi": "Thủy",
+      "generationType": "Tam Thế",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        3,
+        1,
+        11,
+        8,
+        10,
+        0
+      ],
+      "lineStems": [
+        5,
+        5,
+        5,
+        4,
+        4,
+        4
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Thổ",
+        "Thủy"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ"
+      ]
+    },
+    "011010": {
+      "bitsIndex": 22,
+      "code6bit": "011010",
+      "kingWenNumber": 48,
+      "nameVi": "Thủy Phong Tỉnh",
+      "upperTrigram": "Khảm",
+      "lowerTrigram": "Tốn",
+      "houseNameVi": "Chấn",
+      "houseElementVi": "Mộc",
+      "generationType": "Ngũ Thế",
+      "theLine": 5,
+      "ungLine": 2,
+      "lineBranches": [
+        1,
+        11,
+        9,
+        8,
+        10,
+        0
+      ],
+      "lineStems": [
+        7,
+        7,
+        7,
+        4,
+        4,
+        4
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Kim",
+        "Thổ",
+        "Thủy"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Phụ Mẫu"
+      ]
+    },
+    "111010": {
+      "bitsIndex": 23,
+      "code6bit": "111010",
+      "kingWenNumber": 5,
+      "nameVi": "Thủy Thiên Nhu",
+      "upperTrigram": "Khảm",
+      "lowerTrigram": "Càn",
+      "houseNameVi": "Khôn",
+      "houseElementVi": "Thổ",
+      "generationType": "Du Hồn",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        8,
+        10,
+        0
+      ],
+      "lineStems": [
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Kim",
+        "Thổ",
+        "Thủy"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Thê Tài"
+      ]
+    },
+    "000110": {
+      "bitsIndex": 24,
+      "code6bit": "000110",
+      "kingWenNumber": 45,
+      "nameVi": "Trạch Địa Tụy",
+      "upperTrigram": "Đoài",
+      "lowerTrigram": "Khôn",
+      "houseNameVi": "Đoài",
+      "houseElementVi": "Kim",
+      "generationType": "Nhị Thế",
+      "theLine": 2,
+      "ungLine": 5,
+      "lineBranches": [
+        7,
+        5,
+        3,
+        11,
+        9,
+        7
+      ],
+      "lineStems": [
+        1,
+        1,
+        1,
+        3,
+        3,
+        3
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Mộc",
+        "Thủy",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "100110": {
+      "bitsIndex": 25,
+      "code6bit": "100110",
+      "kingWenNumber": 17,
+      "nameVi": "Trạch Lôi Tùy",
+      "upperTrigram": "Đoài",
+      "lowerTrigram": "Chấn",
+      "houseNameVi": "Chấn",
+      "houseElementVi": "Mộc",
+      "generationType": "Quy Hồn",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        11,
+        9,
+        7
+      ],
+      "lineStems": [
+        6,
+        6,
+        6,
+        3,
+        3,
+        3
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài"
+      ]
+    },
+    "010110": {
+      "bitsIndex": 26,
+      "code6bit": "010110",
+      "kingWenNumber": 47,
+      "nameVi": "Trạch Thủy Khốn",
+      "upperTrigram": "Đoài",
+      "lowerTrigram": "Khảm",
+      "houseNameVi": "Đoài",
+      "houseElementVi": "Kim",
+      "generationType": "Nhất Thế",
+      "theLine": 1,
+      "ungLine": 4,
+      "lineBranches": [
+        2,
+        4,
+        6,
+        11,
+        9,
+        7
+      ],
+      "lineStems": [
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Thủy",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "110110": {
+      "bitsIndex": 27,
+      "code6bit": "110110",
+      "kingWenNumber": 58,
+      "nameVi": "Thuần Đoài",
+      "upperTrigram": "Đoài",
+      "lowerTrigram": "Đoài",
+      "houseNameVi": "Đoài",
+      "houseElementVi": "Kim",
+      "generationType": "Bát Thuần",
+      "theLine": 6,
+      "ungLine": 3,
+      "lineBranches": [
+        5,
+        3,
+        1,
+        11,
+        9,
+        7
+      ],
+      "lineStems": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "lineElementsVi": [
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Quan Quỷ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "001110": {
+      "bitsIndex": 28,
+      "code6bit": "001110",
+      "kingWenNumber": 31,
+      "nameVi": "Trạch Sơn Hàm",
+      "upperTrigram": "Đoài",
+      "lowerTrigram": "Cấn",
+      "houseNameVi": "Đoài",
+      "houseElementVi": "Kim",
+      "generationType": "Tam Thế",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        4,
+        6,
+        8,
+        11,
+        9,
+        7
+      ],
+      "lineStems": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thủy",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "101110": {
+      "bitsIndex": 29,
+      "code6bit": "101110",
+      "kingWenNumber": 49,
+      "nameVi": "Trạch Hỏa Cách",
+      "upperTrigram": "Đoài",
+      "lowerTrigram": "Ly",
+      "houseNameVi": "Khảm",
+      "houseElementVi": "Thủy",
+      "generationType": "Tứ Thế",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        3,
+        1,
+        11,
+        11,
+        9,
+        7
+      ],
+      "lineStems": [
+        5,
+        5,
+        5,
+        3,
+        3,
+        3
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Thủy",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Quan Quỷ"
+      ]
+    },
+    "011110": {
+      "bitsIndex": 30,
+      "code6bit": "011110",
+      "kingWenNumber": 28,
+      "nameVi": "Trạch Phong Đại Quá",
+      "upperTrigram": "Đoài",
+      "lowerTrigram": "Tốn",
+      "houseNameVi": "Chấn",
+      "houseElementVi": "Mộc",
+      "generationType": "Du Hồn",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        1,
+        11,
+        9,
+        11,
+        9,
+        7
+      ],
+      "lineStems": [
+        7,
+        7,
+        7,
+        3,
+        3,
+        3
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Thủy",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài"
+      ]
+    },
+    "111110": {
+      "bitsIndex": 31,
+      "code6bit": "111110",
+      "kingWenNumber": 43,
+      "nameVi": "Trạch Thiên Quải",
+      "upperTrigram": "Đoài",
+      "lowerTrigram": "Càn",
+      "houseNameVi": "Khôn",
+      "houseElementVi": "Thổ",
+      "generationType": "Ngũ Thế",
+      "theLine": 5,
+      "ungLine": 2,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        11,
+        9,
+        7
+      ],
+      "lineStems": [
+        0,
+        0,
+        0,
+        3,
+        3,
+        3
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "000001": {
+      "bitsIndex": 32,
+      "code6bit": "000001",
+      "kingWenNumber": 23,
+      "nameVi": "Sơn Địa Bác",
+      "upperTrigram": "Cấn",
+      "lowerTrigram": "Khôn",
+      "houseNameVi": "Càn",
+      "houseElementVi": "Kim",
+      "generationType": "Ngũ Thế",
+      "theLine": 5,
+      "ungLine": 2,
+      "lineBranches": [
+        7,
+        5,
+        3,
+        10,
+        0,
+        2
+      ],
+      "lineStems": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Thê Tài"
+      ]
+    },
+    "100001": {
+      "bitsIndex": 33,
+      "code6bit": "100001",
+      "kingWenNumber": 27,
+      "nameVi": "Sơn Lôi Di",
+      "upperTrigram": "Cấn",
+      "lowerTrigram": "Chấn",
+      "houseNameVi": "Tốn",
+      "houseElementVi": "Mộc",
+      "generationType": "Du Hồn",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        10,
+        0,
+        2
+      ],
+      "lineStems": [
+        6,
+        6,
+        6,
+        2,
+        2,
+        2
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Thổ",
+        "Thủy",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Huynh Đệ"
+      ]
+    },
+    "010001": {
+      "bitsIndex": 34,
+      "code6bit": "010001",
+      "kingWenNumber": 4,
+      "nameVi": "Sơn Thủy Mông",
+      "upperTrigram": "Cấn",
+      "lowerTrigram": "Khảm",
+      "houseNameVi": "Ly",
+      "houseElementVi": "Hỏa",
+      "generationType": "Tứ Thế",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        2,
+        4,
+        6,
+        10,
+        0,
+        2
+      ],
+      "lineStems": [
+        4,
+        4,
+        4,
+        2,
+        2,
+        2
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Thổ",
+        "Thủy",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Phụ Mẫu"
+      ]
+    },
+    "110001": {
+      "bitsIndex": 35,
+      "code6bit": "110001",
+      "kingWenNumber": 41,
+      "nameVi": "Sơn Trạch Tổn",
+      "upperTrigram": "Cấn",
+      "lowerTrigram": "Đoài",
+      "houseNameVi": "Cấn",
+      "houseElementVi": "Thổ",
+      "generationType": "Tam Thế",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        5,
+        3,
+        1,
+        10,
+        0,
+        2
+      ],
+      "lineStems": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "lineElementsVi": [
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Thổ",
+        "Thủy",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Quan Quỷ"
+      ]
+    },
+    "001001": {
+      "bitsIndex": 36,
+      "code6bit": "001001",
+      "kingWenNumber": 52,
+      "nameVi": "Thuần Cấn",
+      "upperTrigram": "Cấn",
+      "lowerTrigram": "Cấn",
+      "houseNameVi": "Cấn",
+      "houseElementVi": "Thổ",
+      "generationType": "Bát Thuần",
+      "theLine": 6,
+      "ungLine": 3,
+      "lineBranches": [
+        4,
+        6,
+        8,
+        10,
+        0,
+        2
+      ],
+      "lineStems": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ",
+        "Thủy",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Quan Quỷ"
+      ]
+    },
+    "101001": {
+      "bitsIndex": 37,
+      "code6bit": "101001",
+      "kingWenNumber": 22,
+      "nameVi": "Sơn Hỏa Bí",
+      "upperTrigram": "Cấn",
+      "lowerTrigram": "Ly",
+      "houseNameVi": "Cấn",
+      "houseElementVi": "Thổ",
+      "generationType": "Nhất Thế",
+      "theLine": 1,
+      "ungLine": 4,
+      "lineBranches": [
+        3,
+        1,
+        11,
+        10,
+        0,
+        2
+      ],
+      "lineStems": [
+        5,
+        5,
+        5,
+        2,
+        2,
+        2
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Thổ",
+        "Thủy",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Quan Quỷ"
+      ]
+    },
+    "011001": {
+      "bitsIndex": 38,
+      "code6bit": "011001",
+      "kingWenNumber": 18,
+      "nameVi": "Sơn Phong Cổ",
+      "upperTrigram": "Cấn",
+      "lowerTrigram": "Tốn",
+      "houseNameVi": "Tốn",
+      "houseElementVi": "Mộc",
+      "generationType": "Quy Hồn",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        1,
+        11,
+        9,
+        10,
+        0,
+        2
+      ],
+      "lineStems": [
+        7,
+        7,
+        7,
+        2,
+        2,
+        2
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Thổ",
+        "Thủy",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Huynh Đệ"
+      ]
+    },
+    "111001": {
+      "bitsIndex": 39,
+      "code6bit": "111001",
+      "kingWenNumber": 26,
+      "nameVi": "Sơn Thiên Đại Súc",
+      "upperTrigram": "Cấn",
+      "lowerTrigram": "Càn",
+      "houseNameVi": "Cấn",
+      "houseElementVi": "Thổ",
+      "generationType": "Nhị Thế",
+      "theLine": 2,
+      "ungLine": 5,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        10,
+        0,
+        2
+      ],
+      "lineStems": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Thổ",
+        "Thủy",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Quan Quỷ"
+      ]
+    },
+    "000101": {
+      "bitsIndex": 40,
+      "code6bit": "000101",
+      "kingWenNumber": 35,
+      "nameVi": "Hỏa Địa Tấn",
+      "upperTrigram": "Ly",
+      "lowerTrigram": "Khôn",
+      "houseNameVi": "Càn",
+      "houseElementVi": "Kim",
+      "generationType": "Du Hồn",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        7,
+        5,
+        3,
+        9,
+        7,
+        5
+      ],
+      "lineStems": [
+        1,
+        1,
+        1,
+        5,
+        5,
+        5
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Mộc",
+        "Kim",
+        "Thổ",
+        "Hỏa"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Quan Quỷ"
+      ]
+    },
+    "100101": {
+      "bitsIndex": 41,
+      "code6bit": "100101",
+      "kingWenNumber": 21,
+      "nameVi": "Hỏa Lôi Phệ Hạp",
+      "upperTrigram": "Ly",
+      "lowerTrigram": "Chấn",
+      "houseNameVi": "Tốn",
+      "houseElementVi": "Mộc",
+      "generationType": "Ngũ Thế",
+      "theLine": 5,
+      "ungLine": 2,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        9,
+        7,
+        5
+      ],
+      "lineStems": [
+        6,
+        6,
+        6,
+        5,
+        5,
+        5
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Kim",
+        "Thổ",
+        "Hỏa"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Tử Tôn"
+      ]
+    },
+    "010101": {
+      "bitsIndex": 42,
+      "code6bit": "010101",
+      "kingWenNumber": 64,
+      "nameVi": "Hỏa Thủy Vị Tế",
+      "upperTrigram": "Ly",
+      "lowerTrigram": "Khảm",
+      "houseNameVi": "Ly",
+      "houseElementVi": "Hỏa",
+      "generationType": "Tam Thế",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        2,
+        4,
+        6,
+        9,
+        7,
+        5
+      ],
+      "lineStems": [
+        4,
+        4,
+        4,
+        5,
+        5,
+        5
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ",
+        "Hỏa"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "110101": {
+      "bitsIndex": 43,
+      "code6bit": "110101",
+      "kingWenNumber": 38,
+      "nameVi": "Hỏa Trạch Khuê",
+      "upperTrigram": "Ly",
+      "lowerTrigram": "Đoài",
+      "houseNameVi": "Cấn",
+      "houseElementVi": "Thổ",
+      "generationType": "Tứ Thế",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        5,
+        3,
+        1,
+        9,
+        7,
+        5
+      ],
+      "lineStems": [
+        3,
+        3,
+        3,
+        5,
+        5,
+        5
+      ],
+      "lineElementsVi": [
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Kim",
+        "Thổ",
+        "Hỏa"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "001101": {
+      "bitsIndex": 44,
+      "code6bit": "001101",
+      "kingWenNumber": 56,
+      "nameVi": "Hỏa Sơn Lữ",
+      "upperTrigram": "Ly",
+      "lowerTrigram": "Cấn",
+      "houseNameVi": "Ly",
+      "houseElementVi": "Hỏa",
+      "generationType": "Nhất Thế",
+      "theLine": 1,
+      "ungLine": 4,
+      "lineBranches": [
+        4,
+        6,
+        8,
+        9,
+        7,
+        5
+      ],
+      "lineStems": [
+        2,
+        2,
+        2,
+        5,
+        5,
+        5
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Kim",
+        "Thổ",
+        "Hỏa"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "101101": {
+      "bitsIndex": 45,
+      "code6bit": "101101",
+      "kingWenNumber": 30,
+      "nameVi": "Thuần Ly",
+      "upperTrigram": "Ly",
+      "lowerTrigram": "Ly",
+      "houseNameVi": "Ly",
+      "houseElementVi": "Hỏa",
+      "generationType": "Bát Thuần",
+      "theLine": 6,
+      "ungLine": 3,
+      "lineBranches": [
+        3,
+        1,
+        11,
+        9,
+        7,
+        5
+      ],
+      "lineStems": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Thổ",
+        "Hỏa"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "011101": {
+      "bitsIndex": 46,
+      "code6bit": "011101",
+      "kingWenNumber": 50,
+      "nameVi": "Hỏa Phong Đỉnh",
+      "upperTrigram": "Ly",
+      "lowerTrigram": "Tốn",
+      "houseNameVi": "Ly",
+      "houseElementVi": "Hỏa",
+      "generationType": "Nhị Thế",
+      "theLine": 2,
+      "ungLine": 5,
+      "lineBranches": [
+        1,
+        11,
+        9,
+        9,
+        7,
+        5
+      ],
+      "lineStems": [
+        7,
+        7,
+        7,
+        5,
+        5,
+        5
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Kim",
+        "Thổ",
+        "Hỏa"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "111101": {
+      "bitsIndex": 47,
+      "code6bit": "111101",
+      "kingWenNumber": 14,
+      "nameVi": "Hỏa Thiên Đại Hữu",
+      "upperTrigram": "Ly",
+      "lowerTrigram": "Càn",
+      "houseNameVi": "Càn",
+      "houseElementVi": "Kim",
+      "generationType": "Quy Hồn",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        9,
+        7,
+        5
+      ],
+      "lineStems": [
+        0,
+        0,
+        0,
+        5,
+        5,
+        5
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Kim",
+        "Thổ",
+        "Hỏa"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Quan Quỷ"
+      ]
+    },
+    "000011": {
+      "bitsIndex": 48,
+      "code6bit": "000011",
+      "kingWenNumber": 20,
+      "nameVi": "Phong Địa Quán",
+      "upperTrigram": "Tốn",
+      "lowerTrigram": "Khôn",
+      "houseNameVi": "Càn",
+      "houseElementVi": "Kim",
+      "generationType": "Tứ Thế",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        7,
+        5,
+        3,
+        7,
+        5,
+        3
+      ],
+      "lineStems": [
+        1,
+        1,
+        1,
+        7,
+        7,
+        7
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài"
+      ]
+    },
+    "100011": {
+      "bitsIndex": 49,
+      "code6bit": "100011",
+      "kingWenNumber": 42,
+      "nameVi": "Phong Lôi Ích",
+      "upperTrigram": "Tốn",
+      "lowerTrigram": "Chấn",
+      "houseNameVi": "Tốn",
+      "houseElementVi": "Mộc",
+      "generationType": "Tam Thế",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        7,
+        5,
+        3
+      ],
+      "lineStems": [
+        6,
+        6,
+        6,
+        7,
+        7,
+        7
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Thổ",
+        "Hỏa",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "010011": {
+      "bitsIndex": 50,
+      "code6bit": "010011",
+      "kingWenNumber": 59,
+      "nameVi": "Phong Thủy Hoán",
+      "upperTrigram": "Tốn",
+      "lowerTrigram": "Khảm",
+      "houseNameVi": "Ly",
+      "houseElementVi": "Hỏa",
+      "generationType": "Ngũ Thế",
+      "theLine": 5,
+      "ungLine": 2,
+      "lineBranches": [
+        2,
+        4,
+        6,
+        7,
+        5,
+        3
+      ],
+      "lineStems": [
+        4,
+        4,
+        4,
+        7,
+        7,
+        7
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Thổ",
+        "Hỏa",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "110011": {
+      "bitsIndex": 51,
+      "code6bit": "110011",
+      "kingWenNumber": 61,
+      "nameVi": "Phong Trạch Trung Phu",
+      "upperTrigram": "Tốn",
+      "lowerTrigram": "Đoài",
+      "houseNameVi": "Cấn",
+      "houseElementVi": "Thổ",
+      "generationType": "Du Hồn",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        5,
+        3,
+        1,
+        7,
+        5,
+        3
+      ],
+      "lineStems": [
+        3,
+        3,
+        3,
+        7,
+        7,
+        7
+      ],
+      "lineElementsVi": [
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Thổ",
+        "Hỏa",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Quan Quỷ"
+      ]
+    },
+    "001011": {
+      "bitsIndex": 52,
+      "code6bit": "001011",
+      "kingWenNumber": 53,
+      "nameVi": "Phong Sơn Tiệm",
+      "upperTrigram": "Tốn",
+      "lowerTrigram": "Cấn",
+      "houseNameVi": "Cấn",
+      "houseElementVi": "Thổ",
+      "generationType": "Quy Hồn",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        4,
+        6,
+        8,
+        7,
+        5,
+        3
+      ],
+      "lineStems": [
+        2,
+        2,
+        2,
+        7,
+        7,
+        7
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ",
+        "Hỏa",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Quan Quỷ"
+      ]
+    },
+    "101011": {
+      "bitsIndex": 53,
+      "code6bit": "101011",
+      "kingWenNumber": 37,
+      "nameVi": "Phong Hỏa Gia Nhân",
+      "upperTrigram": "Tốn",
+      "lowerTrigram": "Ly",
+      "houseNameVi": "Tốn",
+      "houseElementVi": "Mộc",
+      "generationType": "Nhị Thế",
+      "theLine": 2,
+      "ungLine": 5,
+      "lineBranches": [
+        3,
+        1,
+        11,
+        7,
+        5,
+        3
+      ],
+      "lineStems": [
+        5,
+        5,
+        5,
+        7,
+        7,
+        7
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Thổ",
+        "Hỏa",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Huynh Đệ",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "011011": {
+      "bitsIndex": 54,
+      "code6bit": "011011",
+      "kingWenNumber": 57,
+      "nameVi": "Thuần Tốn",
+      "upperTrigram": "Tốn",
+      "lowerTrigram": "Tốn",
+      "houseNameVi": "Tốn",
+      "houseElementVi": "Mộc",
+      "generationType": "Bát Thuần",
+      "theLine": 6,
+      "ungLine": 3,
+      "lineBranches": [
+        1,
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "lineStems": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Thổ",
+        "Hỏa",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "111011": {
+      "bitsIndex": 55,
+      "code6bit": "111011",
+      "kingWenNumber": 9,
+      "nameVi": "Phong Thiên Tiểu Súc",
+      "upperTrigram": "Tốn",
+      "lowerTrigram": "Càn",
+      "houseNameVi": "Tốn",
+      "houseElementVi": "Mộc",
+      "generationType": "Nhất Thế",
+      "theLine": 1,
+      "ungLine": 4,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        7,
+        5,
+        3
+      ],
+      "lineStems": [
+        0,
+        0,
+        0,
+        7,
+        7,
+        7
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Thổ",
+        "Hỏa",
+        "Mộc"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Thê Tài",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "000111": {
+      "bitsIndex": 56,
+      "code6bit": "000111",
+      "kingWenNumber": 12,
+      "nameVi": "Thiên Địa Bĩ",
+      "upperTrigram": "Càn",
+      "lowerTrigram": "Khôn",
+      "houseNameVi": "Càn",
+      "houseElementVi": "Kim",
+      "generationType": "Tam Thế",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        7,
+        5,
+        3,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        1,
+        1,
+        1,
+        8,
+        8,
+        8
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Mộc",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Thê Tài",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "100111": {
+      "bitsIndex": 57,
+      "code6bit": "100111",
+      "kingWenNumber": 25,
+      "nameVi": "Thiên Lôi Vô Vọng",
+      "upperTrigram": "Càn",
+      "lowerTrigram": "Chấn",
+      "houseNameVi": "Tốn",
+      "houseElementVi": "Mộc",
+      "generationType": "Tứ Thế",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        6,
+        6,
+        6,
+        8,
+        8,
+        8
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Thê Tài"
+      ]
+    },
+    "010111": {
+      "bitsIndex": 58,
+      "code6bit": "010111",
+      "kingWenNumber": 6,
+      "nameVi": "Thiên Thủy Tụng",
+      "upperTrigram": "Càn",
+      "lowerTrigram": "Khảm",
+      "houseNameVi": "Ly",
+      "houseElementVi": "Hỏa",
+      "generationType": "Du Hồn",
+      "theLine": 4,
+      "ungLine": 1,
+      "lineBranches": [
+        2,
+        4,
+        6,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        4,
+        4,
+        4,
+        8,
+        8,
+        8
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn"
+      ]
+    },
+    "110111": {
+      "bitsIndex": 59,
+      "code6bit": "110111",
+      "kingWenNumber": 10,
+      "nameVi": "Thiên Trạch Lý",
+      "upperTrigram": "Càn",
+      "lowerTrigram": "Đoài",
+      "houseNameVi": "Cấn",
+      "houseElementVi": "Thổ",
+      "generationType": "Ngũ Thế",
+      "theLine": 5,
+      "ungLine": 2,
+      "lineBranches": [
+        5,
+        3,
+        1,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        3,
+        3,
+        3,
+        8,
+        8,
+        8
+      ],
+      "lineElementsVi": [
+        "Hỏa",
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ"
+      ]
+    },
+    "001111": {
+      "bitsIndex": 60,
+      "code6bit": "001111",
+      "kingWenNumber": 33,
+      "nameVi": "Thiên Sơn Độn",
+      "upperTrigram": "Càn",
+      "lowerTrigram": "Cấn",
+      "houseNameVi": "Càn",
+      "houseElementVi": "Kim",
+      "generationType": "Nhị Thế",
+      "theLine": 2,
+      "ungLine": 5,
+      "lineBranches": [
+        4,
+        6,
+        8,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        2,
+        2,
+        2,
+        8,
+        8,
+        8
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "101111": {
+      "bitsIndex": 61,
+      "code6bit": "101111",
+      "kingWenNumber": 13,
+      "nameVi": "Thiên Hỏa Đồng Nhân",
+      "upperTrigram": "Càn",
+      "lowerTrigram": "Ly",
+      "houseNameVi": "Ly",
+      "houseElementVi": "Hỏa",
+      "generationType": "Quy Hồn",
+      "theLine": 3,
+      "ungLine": 6,
+      "lineBranches": [
+        3,
+        1,
+        11,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        5,
+        5,
+        5,
+        8,
+        8,
+        8
+      ],
+      "lineElementsVi": [
+        "Mộc",
+        "Thổ",
+        "Thủy",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Thê Tài",
+        "Tử Tôn"
+      ]
+    },
+    "011111": {
+      "bitsIndex": 62,
+      "code6bit": "011111",
+      "kingWenNumber": 44,
+      "nameVi": "Thiên Phong Cấu",
+      "upperTrigram": "Càn",
+      "lowerTrigram": "Tốn",
+      "houseNameVi": "Càn",
+      "houseElementVi": "Kim",
+      "generationType": "Nhất Thế",
+      "theLine": 1,
+      "ungLine": 4,
+      "lineBranches": [
+        1,
+        11,
+        9,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        7,
+        7,
+        7,
+        8,
+        8,
+        8
+      ],
+      "lineElementsVi": [
+        "Thổ",
+        "Thủy",
+        "Kim",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Phụ Mẫu",
+        "Tử Tôn",
+        "Huynh Đệ",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    },
+    "111111": {
+      "bitsIndex": 63,
+      "code6bit": "111111",
+      "kingWenNumber": 1,
+      "nameVi": "Thuần Càn",
+      "upperTrigram": "Càn",
+      "lowerTrigram": "Càn",
+      "houseNameVi": "Càn",
+      "houseElementVi": "Kim",
+      "generationType": "Bát Thuần",
+      "theLine": 6,
+      "ungLine": 3,
+      "lineBranches": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "lineStems": [
+        0,
+        0,
+        0,
+        8,
+        8,
+        8
+      ],
+      "lineElementsVi": [
+        "Thủy",
+        "Mộc",
+        "Thổ",
+        "Hỏa",
+        "Kim",
+        "Thổ"
+      ],
+      "lineRelativesVi": [
+        "Tử Tôn",
+        "Thê Tài",
+        "Phụ Mẫu",
+        "Quan Quỷ",
+        "Huynh Đệ",
+        "Phụ Mẫu"
+      ]
+    }
+  },
+  "sixBeastsByDayStem": {
+    "0": [
+      "Thanh Long",
+      "Chu Tước",
+      "Câu Trần",
+      "Đằng Xà",
+      "Bạch Hổ",
+      "Huyền Vũ"
+    ],
+    "1": [
+      "Thanh Long",
+      "Chu Tước",
+      "Câu Trần",
+      "Đằng Xà",
+      "Bạch Hổ",
+      "Huyền Vũ"
+    ],
+    "2": [
+      "Chu Tước",
+      "Câu Trần",
+      "Đằng Xà",
+      "Bạch Hổ",
+      "Huyền Vũ",
+      "Thanh Long"
+    ],
+    "3": [
+      "Chu Tước",
+      "Câu Trần",
+      "Đằng Xà",
+      "Bạch Hổ",
+      "Huyền Vũ",
+      "Thanh Long"
+    ],
+    "4": [
+      "Câu Trần",
+      "Đằng Xà",
+      "Bạch Hổ",
+      "Huyền Vũ",
+      "Thanh Long",
+      "Chu Tước"
+    ],
+    "5": [
+      "Đằng Xà",
+      "Bạch Hổ",
+      "Huyền Vũ",
+      "Thanh Long",
+      "Chu Tước",
+      "Câu Trần"
+    ],
+    "6": [
+      "Bạch Hổ",
+      "Huyền Vũ",
+      "Thanh Long",
+      "Chu Tước",
+      "Câu Trần",
+      "Đằng Xà"
+    ],
+    "7": [
+      "Bạch Hổ",
+      "Huyền Vũ",
+      "Thanh Long",
+      "Chu Tước",
+      "Câu Trần",
+      "Đằng Xà"
+    ],
+    "8": [
+      "Huyền Vũ",
+      "Thanh Long",
+      "Chu Tước",
+      "Câu Trần",
+      "Đằng Xà",
+      "Bạch Hổ"
+    ],
+    "9": [
+      "Huyền Vũ",
+      "Thanh Long",
+      "Chu Tước",
+      "Câu Trần",
+      "Đằng Xà",
+      "Bạch Hổ"
+    ]
+  }
+}

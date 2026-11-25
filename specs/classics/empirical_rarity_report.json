@@ -1,0 +1,3283 @@
+{
+  "schemaVersion": "1.0.0",
+  "totalCharts": 100000,
+  "dateRange": "1900-01-01..2100-12-31",
+  "calendarDaysSpan": 73414,
+  "coprimeStride": 49999,
+  "silos": [
+    "nam-phai",
+    "toan-thu"
+  ],
+  "workersUsed": 8,
+  "elapsedSeconds": 59.058,
+  "notes": {
+    "minorStarBrightness": "cast_ziwei_chart populates minorStarBrightnessByBranch on minorStars from specs/axioms/{nam-phai,toan-thu}.json; verifier uses Toàn Thư L1358-1538 / SB_QS canonical brightness for Tham Lang (Miếu at Sửu/Thìn/Mùi/Tuất, Vượng at Tý/Ngọ for TT-DQ-17).",
+    "m3PendingPatterns": []
+  },
+  "allPassed": true,
+  "unreachableAllZero": true,
+  "unreachableFailures": [],
+  "structuralInvariants": [
+    {
+      "id": "INV-01",
+      "formula": "delta(Thiên Tướng -> Thiên Lương) == {1}",
+      "implies": "Proves #1 Tài Ấm Giáp Ấn, #4 Ấm Ấn Củng Thân, #13 Tài Ấn Giáp Lộc unreachable",
+      "passed": true,
+      "bySilo": {
+        "nam-phai": {
+          "passed": true,
+          "observed": [
+            1
+          ]
+        },
+        "toan-thu": {
+          "passed": true,
+          "observed": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "INV-02",
+      "formula": "delta(Vũ Khúc -> Thiên Tướng) subset {0, 2, 4, 6, 8, 10}",
+      "implies": "Proves #1 Tài Ấm Giáp Ấn unreachable (Vũ Khúc never ±1 adjacent to Thiên Tướng)",
+      "passed": true,
+      "bySilo": {
+        "nam-phai": {
+          "passed": true,
+          "observed": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+        "toan-thu": {
+          "passed": true,
+          "observed": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "id": "INV-03",
+      "formula": "delta(Văn Xương -> Văn Khúc) subset {0, 2, 4, 6, 8, 10}",
+      "implies": "Proves Xương-Khúc separation is strictly even (never ±1 adjacent; ±1 flanking = delta 2 IS reachable for TT-DQ-21, correcting MIT patterns-dinggui.ts:392)",
+      "passed": true,
+      "bySilo": {
+        "nam-phai": {
+          "passed": true,
+          "observed": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+        "toan-thu": {
+          "passed": true,
+          "observed": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "id": "INV-04",
+      "formula": "delta(Tử Vi -> Thái Dương) == {9}",
+      "implies": "Proves #33 Kim Dư Phù Giá unreachable (Thái Dương never ±1 adjacent to Tử Vi)",
+      "passed": true,
+      "bySilo": {
+        "nam-phai": {
+          "passed": true,
+          "observed": [
+            9
+          ]
+        },
+        "toan-thu": {
+          "passed": true,
+          "observed": [
+            9
+          ]
+        }
+      }
+    },
+    {
+      "id": "INV-05",
+      "formula": "0 not in delta(Thiên Mã -> Kình Dương)",
+      "implies": "Proves #16 Mã Đầu Đới Kiếm (Toàn Thư literal Thiên Mã+Kình Dương) unreachable",
+      "passed": true,
+      "bySilo": {
+        "nam-phai": {
+          "passed": true,
+          "observed": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11
+          ]
+        },
+        "toan-thu": {
+          "passed": true,
+          "observed": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11
+          ]
+        }
+      }
+    },
+    {
+      "id": "INV-06",
+      "formula": "delta(Liêm Trinh -> Vũ Khúc) == {4}",
+      "implies": "Proves #38 Tài Dữ Tù Cừu cannot co-locate; splits Mệnh & Thân",
+      "passed": true,
+      "bySilo": {
+        "nam-phai": {
+          "passed": true,
+          "observed": [
+            4
+          ]
+        },
+        "toan-thu": {
+          "passed": true,
+          "observed": [
+            4
+          ]
+        }
+      }
+    },
+    {
+      "id": "INV-07",
+      "formula": "Địa Không == Địa Kiếp iff h_branch in {0, 6}",
+      "implies": "Proves #35 Lộc Phùng Lưỡng Sát shichen-restricted rarity (Tý/Ngọ only)",
+      "passed": true,
+      "bySilo": {
+        "nam-phai": {
+          "passed": true,
+          "observed": {
+            "coLocatedHours": [
+              0,
+              6
+            ],
+            "mismatches": 0
+          }
+        },
+        "toan-thu": {
+          "passed": true,
+          "observed": {
+            "coLocatedHours": [
+              0,
+              6
+            ],
+            "mismatches": 0
+          }
+        }
+      }
+    }
+  ],
+  "toanThu49": [
+    {
+      "id": "TT-DF-01",
+      "no": 1,
+      "group": "dinh_phu",
+      "name": "Tài Ấm Giáp Ấn",
+      "nameZh": "財蔭夾印",
+      "status": "unreachable",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        },
+        "toan-thu": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        }
+      }
+    },
+    {
+      "id": "TT-DF-02",
+      "no": 2,
+      "group": "dinh_phu",
+      "name": "Nhật Nguyệt Giáp Tài",
+      "nameZh": "日月夾財",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2768,
+          "frequencyBps": 277,
+          "rarityPct": 2.768,
+          "sampleBirth": {
+            "year": 1960,
+            "month": 9,
+            "day": 26,
+            "hourBranch": 4,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2768,
+          "frequencyBps": 277,
+          "rarityPct": 2.768,
+          "sampleBirth": {
+            "year": 1960,
+            "month": 9,
+            "day": 26,
+            "hourBranch": 4,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DF-03",
+      "no": 3,
+      "group": "dinh_phu",
+      "name": "Tài Lộc Giáp Mã",
+      "nameZh": "財祿夾馬",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 142,
+          "frequencyBps": 14,
+          "rarityPct": 0.142,
+          "sampleBirth": {
+            "year": 1913,
+            "month": 2,
+            "day": 7,
+            "hourBranch": 3,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 142,
+          "frequencyBps": 14,
+          "rarityPct": 0.142,
+          "sampleBirth": {
+            "year": 1913,
+            "month": 2,
+            "day": 7,
+            "hourBranch": 3,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DF-04",
+      "no": 4,
+      "group": "dinh_phu",
+      "name": "Ấm Ấn Củng Thân",
+      "nameZh": "蔭印拱身",
+      "status": "unreachable",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        },
+        "toan-thu": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        }
+      }
+    },
+    {
+      "id": "TT-DF-05",
+      "no": 5,
+      "group": "dinh_phu",
+      "name": "Nhật Nguyệt Chiếu Bích",
+      "nameZh": "日月照璧",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1418,
+          "frequencyBps": 142,
+          "rarityPct": 1.418,
+          "sampleBirth": {
+            "year": 2094,
+            "month": 4,
+            "day": 3,
+            "hourBranch": 11,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1418,
+          "frequencyBps": 142,
+          "rarityPct": 1.418,
+          "sampleBirth": {
+            "year": 2094,
+            "month": 4,
+            "day": 3,
+            "hourBranch": 11,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DF-06",
+      "no": 6,
+      "group": "dinh_phu",
+      "name": "Kim Xán Quang Huy",
+      "nameZh": "金燦光輝",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 539,
+          "frequencyBps": 54,
+          "rarityPct": 0.539,
+          "sampleBirth": {
+            "year": 1914,
+            "month": 6,
+            "day": 21,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 539,
+          "frequencyBps": 54,
+          "rarityPct": 0.539,
+          "sampleBirth": {
+            "year": 1914,
+            "month": 6,
+            "day": 21,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-01",
+      "no": 1,
+      "group": "dinh_quy",
+      "name": "Nhật Nguyệt Giáp Mệnh",
+      "nameZh": "日月夾命",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 804,
+          "frequencyBps": 80,
+          "rarityPct": 0.804,
+          "sampleBirth": {
+            "year": 2038,
+            "month": 10,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 742,
+          "frequencyBps": 74,
+          "rarityPct": 0.742,
+          "sampleBirth": {
+            "year": 2038,
+            "month": 10,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-02",
+      "no": 2,
+      "group": "dinh_quy",
+      "name": "Nhật Xuất Phù Tang",
+      "nameZh": "日出扶桑",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1735,
+          "frequencyBps": 174,
+          "rarityPct": 1.735,
+          "sampleBirth": {
+            "year": 1969,
+            "month": 5,
+            "day": 31,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1735,
+          "frequencyBps": 174,
+          "rarityPct": 1.735,
+          "sampleBirth": {
+            "year": 1969,
+            "month": 5,
+            "day": 31,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-03",
+      "no": 3,
+      "group": "dinh_quy",
+      "name": "Nguyệt Lạc Hợi Cung (Nguyệt Lãng Thiên Môn)",
+      "nameZh": "月落亥宮",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 860,
+          "frequencyBps": 86,
+          "rarityPct": 0.86,
+          "sampleBirth": {
+            "year": 2061,
+            "month": 6,
+            "day": 24,
+            "hourBranch": 7,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 860,
+          "frequencyBps": 86,
+          "rarityPct": 0.86,
+          "sampleBirth": {
+            "year": 2061,
+            "month": 6,
+            "day": 24,
+            "hourBranch": 7,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-04",
+      "no": 4,
+      "group": "dinh_quy",
+      "name": "Nguyệt Sinh Thương Hải",
+      "nameZh": "月生滄海",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 903,
+          "frequencyBps": 90,
+          "rarityPct": 0.903,
+          "sampleBirth": {
+            "year": 1983,
+            "month": 5,
+            "day": 24,
+            "hourBranch": 8,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 903,
+          "frequencyBps": 90,
+          "rarityPct": 0.903,
+          "sampleBirth": {
+            "year": 1983,
+            "month": 5,
+            "day": 24,
+            "hourBranch": 8,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-05",
+      "no": 5,
+      "group": "dinh_quy",
+      "name": "Phụ Bật Củng Chủ",
+      "nameZh": "輔弼拱主",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2073,
+          "frequencyBps": 207,
+          "rarityPct": 2.073,
+          "sampleBirth": {
+            "year": 1905,
+            "month": 4,
+            "day": 22,
+            "hourBranch": 9,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2073,
+          "frequencyBps": 207,
+          "rarityPct": 2.073,
+          "sampleBirth": {
+            "year": 1905,
+            "month": 4,
+            "day": 22,
+            "hourBranch": 9,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-06",
+      "no": 6,
+      "group": "dinh_quy",
+      "name": "Quân Thần Khánh Hội",
+      "nameZh": "君臣慶會",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 121,
+          "frequencyBps": 12,
+          "rarityPct": 0.121,
+          "sampleBirth": {
+            "year": 2011,
+            "month": 5,
+            "day": 16,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 121,
+          "frequencyBps": 12,
+          "rarityPct": 0.121,
+          "sampleBirth": {
+            "year": 2011,
+            "month": 5,
+            "day": 16,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-07",
+      "no": 7,
+      "group": "dinh_quy",
+      "name": "Tài Ấn Giáp Lộc",
+      "nameZh": "財印夾祿",
+      "status": "unreachable",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        },
+        "toan-thu": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-08",
+      "no": 8,
+      "group": "dinh_quy",
+      "name": "Lộc Mã Bội Ấn",
+      "nameZh": "祿馬佩印",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 314,
+          "frequencyBps": 31,
+          "rarityPct": 0.314,
+          "sampleBirth": {
+            "year": 2030,
+            "month": 2,
+            "day": 23,
+            "hourBranch": 6,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 314,
+          "frequencyBps": 31,
+          "rarityPct": 0.314,
+          "sampleBirth": {
+            "year": 2030,
+            "month": 2,
+            "day": 23,
+            "hourBranch": 6,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-09",
+      "no": 9,
+      "group": "dinh_quy",
+      "name": "Tọa Quý Hướng Quý",
+      "nameZh": "坐貴向貴",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 4606,
+          "frequencyBps": 461,
+          "rarityPct": 4.606,
+          "sampleBirth": {
+            "year": 2038,
+            "month": 10,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 4606,
+          "frequencyBps": 461,
+          "rarityPct": 4.606,
+          "sampleBirth": {
+            "year": 2038,
+            "month": 10,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-10",
+      "no": 10,
+      "group": "dinh_quy",
+      "name": "Mã Đầu Đới Kiếm (bản Toàn Thư)",
+      "nameZh": "馬頭帶劍",
+      "status": "unreachable",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        },
+        "toan-thu": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-11",
+      "no": 11,
+      "group": "dinh_quy",
+      "name": "Thất Sát Triều Đẩu",
+      "nameZh": "七殺朝斗",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2883,
+          "frequencyBps": 288,
+          "rarityPct": 2.883,
+          "sampleBirth": {
+            "year": 2000,
+            "month": 9,
+            "day": 29,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2883,
+          "frequencyBps": 288,
+          "rarityPct": 2.883,
+          "sampleBirth": {
+            "year": 2000,
+            "month": 9,
+            "day": 29,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-12",
+      "no": 12,
+      "group": "dinh_quy",
+      "name": "Nhật Nguyệt Tịnh Minh",
+      "nameZh": "日月並明",
+      "status": "disputed",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1197,
+          "frequencyBps": 120,
+          "rarityPct": 1.197,
+          "sampleBirth": {
+            "year": 2097,
+            "month": 8,
+            "day": 17,
+            "hourBranch": 11,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1197,
+          "frequencyBps": 120,
+          "rarityPct": 1.197,
+          "sampleBirth": {
+            "year": 2097,
+            "month": 8,
+            "day": 17,
+            "hourBranch": 11,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-13",
+      "no": 13,
+      "group": "dinh_quy",
+      "name": "Minh Châu Xuất Hải",
+      "nameZh": "明珠出海",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 881,
+          "frequencyBps": 88,
+          "rarityPct": 0.881,
+          "sampleBirth": {
+            "year": 1943,
+            "month": 5,
+            "day": 21,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 881,
+          "frequencyBps": 88,
+          "rarityPct": 0.881,
+          "sampleBirth": {
+            "year": 1943,
+            "month": 5,
+            "day": 21,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-14",
+      "no": 14,
+      "group": "dinh_quy",
+      "name": "Nhật Nguyệt Đồng Lâm",
+      "nameZh": "日月同臨",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1415,
+          "frequencyBps": 142,
+          "rarityPct": 1.415,
+          "sampleBirth": {
+            "year": 1977,
+            "month": 2,
+            "day": 18,
+            "hourBranch": 1,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1415,
+          "frequencyBps": 142,
+          "rarityPct": 1.415,
+          "sampleBirth": {
+            "year": 1977,
+            "month": 2,
+            "day": 18,
+            "hourBranch": 1,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-15",
+      "no": 15,
+      "group": "dinh_quy",
+      "name": "Hình Tù Giáp Ấn",
+      "nameZh": "刑囚夾印",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1390,
+          "frequencyBps": 139,
+          "rarityPct": 1.39,
+          "sampleBirth": {
+            "year": 1966,
+            "month": 7,
+            "day": 12,
+            "hourBranch": 7,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1390,
+          "frequencyBps": 139,
+          "rarityPct": 1.39,
+          "sampleBirth": {
+            "year": 1966,
+            "month": 7,
+            "day": 12,
+            "hourBranch": 7,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-16",
+      "no": 16,
+      "group": "dinh_quy",
+      "name": "Khoa Quyền Lộc Củng (Tam Kỳ Gia Hội)",
+      "nameZh": "科權祿拱",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 4781,
+          "frequencyBps": 478,
+          "rarityPct": 4.781,
+          "sampleBirth": {
+            "year": 2018,
+            "month": 2,
+            "day": 5,
+            "hourBranch": 9,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 4781,
+          "frequencyBps": 478,
+          "rarityPct": 4.781,
+          "sampleBirth": {
+            "year": 2018,
+            "month": 2,
+            "day": 5,
+            "hourBranch": 9,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-17",
+      "no": 17,
+      "group": "dinh_quy",
+      "name": "Tham Hỏa Tương Phùng",
+      "nameZh": "貪火相逢",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        },
+        "toan-thu": {
+          "hitCount": 89,
+          "frequencyBps": 9,
+          "rarityPct": 0.089,
+          "sampleBirth": {
+            "year": 1947,
+            "month": 10,
+            "day": 2,
+            "hourBranch": 11,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-18",
+      "no": 18,
+      "group": "dinh_quy",
+      "name": "Vũ Khúc Thủ Viên",
+      "nameZh": "武曲守垣",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 713,
+          "frequencyBps": 71,
+          "rarityPct": 0.713,
+          "sampleBirth": {
+            "year": 1902,
+            "month": 6,
+            "day": 3,
+            "hourBranch": 2,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 713,
+          "frequencyBps": 71,
+          "rarityPct": 0.713,
+          "sampleBirth": {
+            "year": 1902,
+            "month": 6,
+            "day": 3,
+            "hourBranch": 2,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-19",
+      "no": 19,
+      "group": "dinh_quy",
+      "name": "Phủ Tướng Triều Viên",
+      "nameZh": "府相朝垣",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1393,
+          "frequencyBps": 139,
+          "rarityPct": 1.393,
+          "sampleBirth": {
+            "year": 1940,
+            "month": 1,
+            "day": 5,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1393,
+          "frequencyBps": 139,
+          "rarityPct": 1.393,
+          "sampleBirth": {
+            "year": 1940,
+            "month": 1,
+            "day": 5,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-20",
+      "no": 20,
+      "group": "dinh_quy",
+      "name": "Tử Phủ Triều Viên (Tử Phủ Đồng Cung Dần Thân)",
+      "nameZh": "紫府朝垣",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1500,
+          "frequencyBps": 150,
+          "rarityPct": 1.5,
+          "sampleBirth": {
+            "year": 1953,
+            "month": 12,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1500,
+          "frequencyBps": 150,
+          "rarityPct": 1.5,
+          "sampleBirth": {
+            "year": 1953,
+            "month": 12,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-21",
+      "no": 21,
+      "group": "dinh_quy",
+      "name": "Văn Tinh Ám Củng (Xương Khúc Giáp Mệnh)",
+      "nameZh": "文星暗拱",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2737,
+          "frequencyBps": 274,
+          "rarityPct": 2.737,
+          "sampleBirth": {
+            "year": 2038,
+            "month": 10,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2737,
+          "frequencyBps": 274,
+          "rarityPct": 2.737,
+          "sampleBirth": {
+            "year": 2038,
+            "month": 10,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-22",
+      "no": 22,
+      "group": "dinh_quy",
+      "name": "Quyền Lộc Sinh Phùng",
+      "nameZh": "權祿生逢",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 437,
+          "frequencyBps": 44,
+          "rarityPct": 0.437,
+          "sampleBirth": {
+            "year": 2039,
+            "month": 10,
+            "day": 19,
+            "hourBranch": 3,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 480,
+          "frequencyBps": 48,
+          "rarityPct": 0.48,
+          "sampleBirth": {
+            "year": 2039,
+            "month": 10,
+            "day": 19,
+            "hourBranch": 3,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-23",
+      "no": 23,
+      "group": "dinh_quy",
+      "name": "Dương Nhận Nhập Miếu (Kình Dương Tứ Mộ)",
+      "nameZh": "羊刃入廟",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1683,
+          "frequencyBps": 168,
+          "rarityPct": 1.683,
+          "sampleBirth": {
+            "year": 2020,
+            "month": 1,
+            "day": 11,
+            "hourBranch": 6,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1683,
+          "frequencyBps": 168,
+          "rarityPct": 1.683,
+          "sampleBirth": {
+            "year": 2020,
+            "month": 1,
+            "day": 11,
+            "hourBranch": 6,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-24",
+      "no": 24,
+      "group": "dinh_quy",
+      "name": "Cự Cơ Cư Mão",
+      "nameZh": "巨機居卯",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 946,
+          "frequencyBps": 95,
+          "rarityPct": 0.946,
+          "sampleBirth": {
+            "year": 2007,
+            "month": 6,
+            "day": 29,
+            "hourBranch": 3,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 946,
+          "frequencyBps": 95,
+          "rarityPct": 0.946,
+          "sampleBirth": {
+            "year": 2007,
+            "month": 6,
+            "day": 29,
+            "hourBranch": 3,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-25",
+      "no": 25,
+      "group": "dinh_quy",
+      "name": "Minh Lộc Ám Lộc (bản Toàn Thư)",
+      "nameZh": "明祿暗祿",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 702,
+          "frequencyBps": 70,
+          "rarityPct": 0.702,
+          "sampleBirth": {
+            "year": 2054,
+            "month": 3,
+            "day": 31,
+            "hourBranch": 1,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 702,
+          "frequencyBps": 70,
+          "rarityPct": 0.702,
+          "sampleBirth": {
+            "year": 2054,
+            "month": 3,
+            "day": 31,
+            "hourBranch": 1,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-26",
+      "no": 26,
+      "group": "dinh_quy",
+      "name": "Khoa Minh Ám Lộc",
+      "nameZh": "科明暗祿",
+      "status": "disputed",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 596,
+          "frequencyBps": 60,
+          "rarityPct": 0.596,
+          "sampleBirth": {
+            "year": 1911,
+            "month": 2,
+            "day": 5,
+            "hourBranch": 11,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 615,
+          "frequencyBps": 62,
+          "rarityPct": 0.615,
+          "sampleBirth": {
+            "year": 1911,
+            "month": 2,
+            "day": 5,
+            "hourBranch": 11,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DQ-27",
+      "no": 27,
+      "group": "dinh_quy",
+      "name": "Kim Dư Phù Giá",
+      "nameZh": "金輿扶駕",
+      "status": "unreachable",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        },
+        "toan-thu": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        }
+      }
+    },
+    {
+      "id": "TT-DB-01",
+      "no": 1,
+      "group": "dinh_ban_tien",
+      "name": "Sinh Bất Phùng Thời",
+      "nameZh": "生不逢時",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2400,
+          "frequencyBps": 240,
+          "rarityPct": 2.4,
+          "sampleBirth": {
+            "year": 1941,
+            "month": 12,
+            "day": 10,
+            "hourBranch": 7,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2400,
+          "frequencyBps": 240,
+          "rarityPct": 2.4,
+          "sampleBirth": {
+            "year": 1941,
+            "month": 12,
+            "day": 10,
+            "hourBranch": 7,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DB-02",
+      "no": 2,
+      "group": "dinh_ban_tien",
+      "name": "Lộc Phùng Lưỡng Sát",
+      "nameZh": "祿逢兩殺",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 124,
+          "frequencyBps": 12,
+          "rarityPct": 0.124,
+          "sampleBirth": {
+            "year": 1932,
+            "month": 11,
+            "day": 15,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 124,
+          "frequencyBps": 12,
+          "rarityPct": 0.124,
+          "sampleBirth": {
+            "year": 1932,
+            "month": 11,
+            "day": 15,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DB-03",
+      "no": 3,
+      "group": "dinh_ban_tien",
+      "name": "Mã Lạc Không Vong",
+      "nameZh": "馬落空亡",
+      "status": "disputed",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2818,
+          "frequencyBps": 282,
+          "rarityPct": 2.818,
+          "sampleBirth": {
+            "year": 1934,
+            "month": 9,
+            "day": 16,
+            "hourBranch": 1,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2818,
+          "frequencyBps": 282,
+          "rarityPct": 2.818,
+          "sampleBirth": {
+            "year": 1934,
+            "month": 9,
+            "day": 16,
+            "hourBranch": 1,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DB-04",
+      "no": 4,
+      "group": "dinh_ban_tien",
+      "name": "Nhật Nguyệt Tàng Huy",
+      "nameZh": "日月藏輝",
+      "status": "disputed",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 8231,
+          "frequencyBps": 823,
+          "rarityPct": 8.231,
+          "sampleBirth": {
+            "year": 2036,
+            "month": 11,
+            "day": 22,
+            "hourBranch": 7,
+            "gender": "female"
+          },
+          "strict3HamHitCount": 8231
+        },
+        "toan-thu": {
+          "hitCount": 3371,
+          "frequencyBps": 337,
+          "rarityPct": 3.371,
+          "sampleBirth": {
+            "year": 2036,
+            "month": 11,
+            "day": 22,
+            "hourBranch": 7,
+            "gender": "female"
+          },
+          "strict3HamHitCount": 3371
+        }
+      }
+    },
+    {
+      "id": "TT-DB-05",
+      "no": 5,
+      "group": "dinh_ban_tien",
+      "name": "Tài Dữ Tù Cừu",
+      "nameZh": "財與囚仇",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2816,
+          "frequencyBps": 282,
+          "rarityPct": 2.816,
+          "sampleBirth": {
+            "year": 2085,
+            "month": 7,
+            "day": 30,
+            "hourBranch": 2,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2816,
+          "frequencyBps": 282,
+          "rarityPct": 2.816,
+          "sampleBirth": {
+            "year": 2085,
+            "month": 7,
+            "day": 30,
+            "hourBranch": 2,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DB-06",
+      "no": 6,
+      "group": "dinh_ban_tien",
+      "name": "Phá Quân Cư Hãm (cách Nhất Sinh Cô Bần)",
+      "nameZh": "一生孤貧",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 4122,
+          "frequencyBps": 412,
+          "rarityPct": 4.122,
+          "sampleBirth": {
+            "year": 1910,
+            "month": 8,
+            "day": 11,
+            "hourBranch": 6,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1400,
+          "frequencyBps": 140,
+          "rarityPct": 1.4,
+          "sampleBirth": {
+            "year": 1983,
+            "month": 5,
+            "day": 24,
+            "hourBranch": 8,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DB-07",
+      "no": 7,
+      "group": "dinh_ban_tien",
+      "name": "Quân Tử Tại Dã",
+      "nameZh": "君子在野",
+      "status": "disputed",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2606,
+          "frequencyBps": 261,
+          "rarityPct": 2.606,
+          "sampleBirth": {
+            "year": 2012,
+            "month": 10,
+            "day": 17,
+            "hourBranch": 0,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2073,
+          "frequencyBps": 207,
+          "rarityPct": 2.073,
+          "sampleBirth": {
+            "year": 2006,
+            "month": 1,
+            "day": 18,
+            "hourBranch": 11,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DB-08",
+      "no": 8,
+      "group": "dinh_ban_tien",
+      "name": "Lưỡng Trùng Hoa Cái",
+      "nameZh": "兩重華蓋",
+      "status": "verified",
+      "unit": "chart",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 93,
+          "frequencyBps": 9,
+          "rarityPct": 0.093,
+          "sampleBirth": {
+            "year": 1941,
+            "month": 7,
+            "day": 20,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 93,
+          "frequencyBps": 9,
+          "rarityPct": 0.093,
+          "sampleBirth": {
+            "year": 1941,
+            "month": 7,
+            "day": 20,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-DT-01",
+      "no": 1,
+      "group": "dinh_tap",
+      "name": "Phong Vân Tế Hội",
+      "nameZh": "風雲際會",
+      "status": "verified",
+      "unit": "dai_han",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 15424,
+          "frequencyBps": 1542,
+          "rarityPct": 15.424,
+          "sampleBirth": {
+            "year": 1990,
+            "month": 2,
+            "day": 20,
+            "hourBranch": 8,
+            "gender": "male"
+          },
+          "unitHitCount": 45265,
+          "unitRarityPct": 3.7721
+        },
+        "toan-thu": {
+          "hitCount": 6604,
+          "frequencyBps": 660,
+          "rarityPct": 6.604,
+          "sampleBirth": {
+            "year": 2016,
+            "month": 3,
+            "day": 2,
+            "hourBranch": 0,
+            "gender": "female"
+          },
+          "unitHitCount": 19429,
+          "unitRarityPct": 1.6191
+        }
+      }
+    },
+    {
+      "id": "TT-DT-02",
+      "no": 2,
+      "group": "dinh_tap",
+      "name": "Cẩm Thượng Thiêm Hoa",
+      "nameZh": "錦上添花",
+      "status": "verified",
+      "unit": "dai_han",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 36384,
+          "frequencyBps": 3638,
+          "rarityPct": 36.384,
+          "sampleBirth": {
+            "year": 1908,
+            "month": 9,
+            "day": 5,
+            "hourBranch": 9,
+            "gender": "female"
+          },
+          "unitHitCount": 40785,
+          "unitRarityPct": 3.3988
+        },
+        "toan-thu": {
+          "hitCount": 43912,
+          "frequencyBps": 4391,
+          "rarityPct": 43.912,
+          "sampleBirth": {
+            "year": 2036,
+            "month": 11,
+            "day": 22,
+            "hourBranch": 7,
+            "gender": "female"
+          },
+          "unitHitCount": 52192,
+          "unitRarityPct": 4.3493
+        }
+      }
+    },
+    {
+      "id": "TT-DT-03",
+      "no": 3,
+      "group": "dinh_tap",
+      "name": "Lộc Suy Mã Khốn",
+      "nameZh": "祿衰馬困",
+      "status": "verified",
+      "unit": "dai_han",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 6995,
+          "frequencyBps": 700,
+          "rarityPct": 6.995,
+          "sampleBirth": {
+            "year": 2024,
+            "month": 11,
+            "day": 4,
+            "hourBranch": 9,
+            "gender": "male"
+          },
+          "unitHitCount": 27980,
+          "unitRarityPct": 2.3317
+        },
+        "toan-thu": {
+          "hitCount": 6995,
+          "frequencyBps": 700,
+          "rarityPct": 6.995,
+          "sampleBirth": {
+            "year": 2024,
+            "month": 11,
+            "day": 4,
+            "hourBranch": 9,
+            "gender": "male"
+          },
+          "unitHitCount": 27980,
+          "unitRarityPct": 2.3317
+        }
+      }
+    },
+    {
+      "id": "TT-DT-04",
+      "no": 4,
+      "group": "dinh_tap",
+      "name": "Y Cẩm Hoàn Hương",
+      "nameZh": "衣錦還鄉",
+      "status": "disputed",
+      "unit": "dai_han",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 100000,
+          "frequencyBps": 10000,
+          "rarityPct": 100.0,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          },
+          "unitHitCount": 266855,
+          "unitRarityPct": 22.2379
+        },
+        "toan-thu": {
+          "hitCount": 100000,
+          "frequencyBps": 10000,
+          "rarityPct": 100.0,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          },
+          "unitHitCount": 266855,
+          "unitRarityPct": 22.2379
+        }
+      }
+    },
+    {
+      "id": "TT-DT-05",
+      "no": 5,
+      "group": "dinh_tap",
+      "name": "Bộ Số Vô Y",
+      "nameZh": "步數無依",
+      "status": "disputed",
+      "unit": "dai_han",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 56778,
+          "frequencyBps": 5678,
+          "rarityPct": 56.778,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          },
+          "unitHitCount": 186107,
+          "unitRarityPct": 15.5089
+        },
+        "toan-thu": {
+          "hitCount": 32001,
+          "frequencyBps": 3200,
+          "rarityPct": 32.001,
+          "sampleBirth": {
+            "year": 2036,
+            "month": 11,
+            "day": 22,
+            "hourBranch": 7,
+            "gender": "female"
+          },
+          "unitHitCount": 45740,
+          "unitRarityPct": 3.8117
+        }
+      }
+    },
+    {
+      "id": "TT-DT-06",
+      "no": 6,
+      "group": "dinh_tap",
+      "name": "Thủy Thượng Giá Tinh",
+      "nameZh": "水上駕星",
+      "status": "disputed",
+      "unit": "luu_nien",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 99964,
+          "frequencyBps": 9996,
+          "rarityPct": 99.964,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          },
+          "unitHitCount": 3119208,
+          "unitRarityPct": 31.5072
+        },
+        "toan-thu": {
+          "hitCount": 99964,
+          "frequencyBps": 9996,
+          "rarityPct": 99.964,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          },
+          "unitHitCount": 3104302,
+          "unitRarityPct": 31.3566
+        }
+      }
+    },
+    {
+      "id": "TT-DT-07",
+      "no": 7,
+      "group": "dinh_tap",
+      "name": "Cát Hung Tương Bán",
+      "nameZh": "吉凶相伴",
+      "status": "disputed",
+      "unit": "dai_han",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 67030,
+          "frequencyBps": 6703,
+          "rarityPct": 67.03,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          },
+          "unitHitCount": 139874,
+          "unitRarityPct": 11.6562
+        },
+        "toan-thu": {
+          "hitCount": 74547,
+          "frequencyBps": 7455,
+          "rarityPct": 74.547,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          },
+          "unitHitCount": 179492,
+          "unitRarityPct": 14.9577
+        }
+      }
+    },
+    {
+      "id": "TT-DT-08",
+      "no": 8,
+      "group": "dinh_tap",
+      "name": "Khô Mộc Phùng Xuân",
+      "nameZh": "枯木逢春",
+      "status": "verified",
+      "unit": "dai_han",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 30434,
+          "frequencyBps": 3043,
+          "rarityPct": 30.434,
+          "sampleBirth": {
+            "year": 1908,
+            "month": 9,
+            "day": 5,
+            "hourBranch": 9,
+            "gender": "female"
+          },
+          "unitHitCount": 56594,
+          "unitRarityPct": 4.7162
+        },
+        "toan-thu": {
+          "hitCount": 21278,
+          "frequencyBps": 2128,
+          "rarityPct": 21.278,
+          "sampleBirth": {
+            "year": 2036,
+            "month": 11,
+            "day": 22,
+            "hourBranch": 7,
+            "gender": "female"
+          },
+          "unitHitCount": 47676,
+          "unitRarityPct": 3.973
+        }
+      }
+    }
+  ],
+  "toanThuKeyVerses": [
+    {
+      "id": "TT-V-01",
+      "group": "thai_vi_phu",
+      "name": "Lộc Phùng Xung Phá & Mã Ngộ Không Vong",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 3722,
+          "frequencyBps": 372,
+          "rarityPct": 3.722,
+          "sampleBirth": {
+            "year": 2045,
+            "month": 7,
+            "day": 27,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 3585,
+          "frequencyBps": 358,
+          "rarityPct": 3.585,
+          "sampleBirth": {
+            "year": 2045,
+            "month": 7,
+            "day": 27,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-02",
+      "group": "thai_vi_phu",
+      "name": "Lộc Mã Giao Trì",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 18500,
+          "frequencyBps": 1850,
+          "rarityPct": 18.5,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 18500,
+          "frequencyBps": 1850,
+          "rarityPct": 18.5,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-03",
+      "group": "thai_vi_phu",
+      "name": "Nhật Lệ Trung Thiên & Thủy Trừng Quế Ngạc",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1455,
+          "frequencyBps": 146,
+          "rarityPct": 1.455,
+          "sampleBirth": {
+            "year": 1966,
+            "month": 1,
+            "day": 15,
+            "hourBranch": 1,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1455,
+          "frequencyBps": 146,
+          "rarityPct": 1.455,
+          "sampleBirth": {
+            "year": 1966,
+            "month": 1,
+            "day": 15,
+            "hourBranch": 1,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-04",
+      "group": "thai_vi_phu",
+      "name": "Phiếm Thủy Đào Hoa & Phong Lưu Thái Trượng",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2156,
+          "frequencyBps": 216,
+          "rarityPct": 2.156,
+          "sampleBirth": {
+            "year": 1908,
+            "month": 9,
+            "day": 5,
+            "hourBranch": 9,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2156,
+          "frequencyBps": 216,
+          "rarityPct": 2.156,
+          "sampleBirth": {
+            "year": 1908,
+            "month": 9,
+            "day": 5,
+            "hourBranch": 9,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-05",
+      "group": "thai_vi_phu",
+      "name": "Sát Liêm Đồng Vị & Phá Quân Ám Diệu",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 2984,
+          "frequencyBps": 298,
+          "rarityPct": 2.984,
+          "sampleBirth": {
+            "year": 1981,
+            "month": 6,
+            "day": 18,
+            "hourBranch": 11,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 2984,
+          "frequencyBps": 298,
+          "rarityPct": 2.984,
+          "sampleBirth": {
+            "year": 1981,
+            "month": 6,
+            "day": 18,
+            "hourBranch": 11,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-06",
+      "group": "thai_vi_phu",
+      "name": "Nhật Hội Xương Tại Quan & Nguyệt Hội Khúc Tại Thê",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1268,
+          "frequencyBps": 127,
+          "rarityPct": 1.268,
+          "sampleBirth": {
+            "year": 1986,
+            "month": 10,
+            "day": 7,
+            "hourBranch": 8,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1268,
+          "frequencyBps": 127,
+          "rarityPct": 1.268,
+          "sampleBirth": {
+            "year": 1986,
+            "month": 10,
+            "day": 7,
+            "hourBranch": 8,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-07",
+      "group": "cot_tuy_phu",
+      "name": "Mệnh Vô Chính Diệu",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 16343,
+          "frequencyBps": 1634,
+          "rarityPct": 16.343,
+          "sampleBirth": {
+            "year": 1972,
+            "month": 10,
+            "day": 14,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 16343,
+          "frequencyBps": 1634,
+          "rarityPct": 16.343,
+          "sampleBirth": {
+            "year": 1972,
+            "month": 10,
+            "day": 14,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-08",
+      "group": "cot_tuy_phu",
+      "name": "Thất Sát Triều Đẩu & Tử Phủ Đồng Cung",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 4383,
+          "frequencyBps": 438,
+          "rarityPct": 4.383,
+          "sampleBirth": {
+            "year": 2000,
+            "month": 9,
+            "day": 29,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 4383,
+          "frequencyBps": 438,
+          "rarityPct": 4.383,
+          "sampleBirth": {
+            "year": 2000,
+            "month": 9,
+            "day": 29,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-09",
+      "group": "cot_tuy_phu",
+      "name": "Cơ Nguyệt Đồng Lương (và Sát Phá Xuất Ngoại)",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 12436,
+          "frequencyBps": 1244,
+          "rarityPct": 12.436,
+          "sampleBirth": {
+            "year": 1972,
+            "month": 10,
+            "day": 14,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 12436,
+          "frequencyBps": 1244,
+          "rarityPct": 12.436,
+          "sampleBirth": {
+            "year": 1972,
+            "month": 10,
+            "day": 14,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-10",
+      "group": "cot_tuy_phu",
+      "name": "Thạch Trung Ẩn Ngọc (Cự Môn Tý Ngọ)",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1392,
+          "frequencyBps": 139,
+          "rarityPct": 1.392,
+          "sampleBirth": {
+            "year": 2009,
+            "month": 11,
+            "day": 28,
+            "hourBranch": 5,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1392,
+          "frequencyBps": 139,
+          "rarityPct": 1.392,
+          "sampleBirth": {
+            "year": 2009,
+            "month": 11,
+            "day": 28,
+            "hourBranch": 5,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-11",
+      "group": "cot_tuy_phu",
+      "name": "Phản Bối Hóa Cát (Tuổi Đinh / Tuổi Tân)",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 275,
+          "frequencyBps": 28,
+          "rarityPct": 0.275,
+          "sampleBirth": {
+            "year": 1947,
+            "month": 4,
+            "day": 7,
+            "hourBranch": 5,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 275,
+          "frequencyBps": 28,
+          "rarityPct": 0.275,
+          "sampleBirth": {
+            "year": 1947,
+            "month": 4,
+            "day": 7,
+            "hourBranch": 5,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-12",
+      "group": "cot_tuy_phu",
+      "name": "Tử Vi Cư Ngọ (Cực Hướng Ly Minh)",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 911,
+          "frequencyBps": 91,
+          "rarityPct": 0.911,
+          "sampleBirth": {
+            "year": 2076,
+            "month": 11,
+            "day": 25,
+            "hourBranch": 5,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 911,
+          "frequencyBps": 91,
+          "rarityPct": 0.911,
+          "sampleBirth": {
+            "year": 2076,
+            "month": 11,
+            "day": 25,
+            "hourBranch": 5,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-13",
+      "group": "cot_tuy_phu",
+      "name": "Cự Nhật Đồng Cung (Dần Thân)",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1325,
+          "frequencyBps": 132,
+          "rarityPct": 1.325,
+          "sampleBirth": {
+            "year": 1978,
+            "month": 2,
+            "day": 2,
+            "hourBranch": 11,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1325,
+          "frequencyBps": 132,
+          "rarityPct": 1.325,
+          "sampleBirth": {
+            "year": 1978,
+            "month": 2,
+            "day": 2,
+            "hourBranch": 11,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "TT-V-14",
+      "group": "cot_tuy_phu",
+      "name": "Lương Cư Ngọ Vị (Thọ Tinh Nhập Miếu)",
+      "status": "verified",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 818,
+          "frequencyBps": 82,
+          "rarityPct": 0.818,
+          "sampleBirth": {
+            "year": 2058,
+            "month": 8,
+            "day": 5,
+            "hourBranch": 1,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 818,
+          "frequencyBps": 82,
+          "rarityPct": 0.818,
+          "sampleBirth": {
+            "year": 2058,
+            "month": 8,
+            "day": 5,
+            "hourBranch": 1,
+            "gender": "female"
+          }
+        }
+      }
+    }
+  ],
+  "namPhaiPatterns": [
+    {
+      "id": "NP-PC-01",
+      "name": "Mệnh Vô Chính Diệu Đắc Tam Không",
+      "status": "verified",
+      "requiresM3Stars": [
+        "Thiên Không"
+      ],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 533,
+          "frequencyBps": 53,
+          "rarityPct": 0.533,
+          "sampleBirth": {
+            "year": 1964,
+            "month": 8,
+            "day": 6,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        }
+      }
+    },
+    {
+      "id": "NP-PC-02",
+      "name": "Miếu Vượng Ngộ Tuần / Triệt (Tiền Trở Hậu Thông)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 11901,
+          "frequencyBps": 1190,
+          "rarityPct": 11.901,
+          "sampleBirth": {
+            "year": 2007,
+            "month": 6,
+            "day": 29,
+            "hourBranch": 3,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 16260,
+          "frequencyBps": 1626,
+          "rarityPct": 16.26,
+          "sampleBirth": {
+            "year": 1908,
+            "month": 9,
+            "day": 5,
+            "hourBranch": 9,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-03",
+      "name": "Hãm Địa Phùng Tuần / Triệt — Phản Vi Kỳ Cách",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 7360,
+          "frequencyBps": 736,
+          "rarityPct": 7.36,
+          "sampleBirth": {
+            "year": 2036,
+            "month": 11,
+            "day": 22,
+            "hourBranch": 7,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 3472,
+          "frequencyBps": 347,
+          "rarityPct": 3.472,
+          "sampleBirth": {
+            "year": 2036,
+            "month": 11,
+            "day": 22,
+            "hourBranch": 7,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-04",
+      "name": "Mệnh Tuần Thân Triệt (hoặc Mệnh Triệt Thân Tuần)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 5064,
+          "frequencyBps": 506,
+          "rarityPct": 5.064,
+          "sampleBirth": {
+            "year": 1990,
+            "month": 2,
+            "day": 20,
+            "hourBranch": 8,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 5064,
+          "frequencyBps": 506,
+          "rarityPct": 5.064,
+          "sampleBirth": {
+            "year": 1990,
+            "month": 2,
+            "day": 20,
+            "hourBranch": 8,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-05",
+      "name": "Vòng Thái Tuế Đắc Tứ Linh (Long – Phượng – Hổ – Cái)",
+      "status": "verified",
+      "requiresM3Stars": [
+        "Long Trì",
+        "Phượng Các",
+        "Hoa Cái"
+      ],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 17846,
+          "frequencyBps": 1785,
+          "rarityPct": 17.846,
+          "sampleBirth": {
+            "year": 1926,
+            "month": 1,
+            "day": 12,
+            "hourBranch": 3,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 17846,
+          "frequencyBps": 1785,
+          "rarityPct": 17.846,
+          "sampleBirth": {
+            "year": 1926,
+            "month": 1,
+            "day": 12,
+            "hourBranch": 3,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-06",
+      "name": "Nhật Nguyệt Chiếu Bích (Nam Phái — Đối Cung)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1495,
+          "frequencyBps": 150,
+          "rarityPct": 1.495,
+          "sampleBirth": {
+            "year": 1950,
+            "month": 8,
+            "day": 14,
+            "hourBranch": 4,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1495,
+          "frequencyBps": 150,
+          "rarityPct": 1.495,
+          "sampleBirth": {
+            "year": 1950,
+            "month": 8,
+            "day": 14,
+            "hourBranch": 4,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-07",
+      "name": "Phiếm Thủy Đào Hoa (Tham Lang Tý Hợi + Kình/Đà/Đào Hoa)",
+      "status": "verified",
+      "requiresM3Stars": [
+        "Đào Hoa"
+      ],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        },
+        "toan-thu": {
+          "hitCount": 0,
+          "frequencyBps": 0,
+          "rarityPct": 0.0,
+          "sampleBirth": null
+        }
+      }
+    },
+    {
+      "id": "NP-PC-08",
+      "name": "Mã Đầu Đới Kiếm (Nam Phái — Kình Dương Cư Ngọ)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1807,
+          "frequencyBps": 181,
+          "rarityPct": 1.807,
+          "sampleBirth": {
+            "year": 2076,
+            "month": 11,
+            "day": 25,
+            "hourBranch": 5,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1807,
+          "frequencyBps": 181,
+          "rarityPct": 1.807,
+          "sampleBirth": {
+            "year": 2076,
+            "month": 11,
+            "day": 25,
+            "hourBranch": 5,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-09",
+      "name": "Tử Phủ Vũ Tướng",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 12608,
+          "frequencyBps": 1261,
+          "rarityPct": 12.608,
+          "sampleBirth": {
+            "year": 1917,
+            "month": 5,
+            "day": 10,
+            "hourBranch": 6,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 12608,
+          "frequencyBps": 1261,
+          "rarityPct": 12.608,
+          "sampleBirth": {
+            "year": 1917,
+            "month": 5,
+            "day": 10,
+            "hourBranch": 6,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-10",
+      "name": "Cơ Nguyệt Đồng Lương",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 12436,
+          "frequencyBps": 1244,
+          "rarityPct": 12.436,
+          "sampleBirth": {
+            "year": 1972,
+            "month": 10,
+            "day": 14,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 12436,
+          "frequencyBps": 1244,
+          "rarityPct": 12.436,
+          "sampleBirth": {
+            "year": 1972,
+            "month": 10,
+            "day": 14,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-11",
+      "name": "Sát Phá Liêm Tham (Trúc La Tam Hạn)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 17048,
+          "frequencyBps": 1705,
+          "rarityPct": 17.048,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 17048,
+          "frequencyBps": 1705,
+          "rarityPct": 17.048,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-12",
+      "name": "Cự Nhật Đồng Lâm (Dần Thân)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1325,
+          "frequencyBps": 132,
+          "rarityPct": 1.325,
+          "sampleBirth": {
+            "year": 1978,
+            "month": 2,
+            "day": 2,
+            "hourBranch": 11,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1325,
+          "frequencyBps": 132,
+          "rarityPct": 1.325,
+          "sampleBirth": {
+            "year": 1978,
+            "month": 2,
+            "day": 2,
+            "hourBranch": 11,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-13",
+      "name": "Minh Lộc Ám Lộc / Uyên Ương Lộc Hội (Nam Phái — Nhị Hợp)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1328,
+          "frequencyBps": 133,
+          "rarityPct": 1.328,
+          "sampleBirth": {
+            "year": 2021,
+            "month": 6,
+            "day": 21,
+            "hourBranch": 9,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1328,
+          "frequencyBps": 133,
+          "rarityPct": 1.328,
+          "sampleBirth": {
+            "year": 2021,
+            "month": 6,
+            "day": 21,
+            "hourBranch": 9,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-14",
+      "name": "Quân Thần Khánh Hội (Nam Phái — Tam Phương)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 160,
+          "frequencyBps": 16,
+          "rarityPct": 0.16,
+          "sampleBirth": {
+            "year": 2085,
+            "month": 2,
+            "day": 9,
+            "hourBranch": 10,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 160,
+          "frequencyBps": 16,
+          "rarityPct": 0.16,
+          "sampleBirth": {
+            "year": 2085,
+            "month": 2,
+            "day": 9,
+            "hourBranch": 10,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-15",
+      "name": "Phủ Tướng Triều Viên (Nam Phái)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 25231,
+          "frequencyBps": 2523,
+          "rarityPct": 25.231,
+          "sampleBirth": {
+            "year": 1917,
+            "month": 5,
+            "day": 10,
+            "hourBranch": 6,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 25231,
+          "frequencyBps": 2523,
+          "rarityPct": 25.231,
+          "sampleBirth": {
+            "year": 1917,
+            "month": 5,
+            "day": 10,
+            "hourBranch": 6,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-16",
+      "name": "Tam Kỳ Gia Hội (Khoa – Quyền – Lộc)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 4781,
+          "frequencyBps": 478,
+          "rarityPct": 4.781,
+          "sampleBirth": {
+            "year": 2018,
+            "month": 2,
+            "day": 5,
+            "hourBranch": 9,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 4781,
+          "frequencyBps": 478,
+          "rarityPct": 4.781,
+          "sampleBirth": {
+            "year": 2018,
+            "month": 2,
+            "day": 5,
+            "hourBranch": 9,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-17",
+      "name": "Lộc Mã Giao Trì",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 18500,
+          "frequencyBps": 1850,
+          "rarityPct": 18.5,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 18500,
+          "frequencyBps": 1850,
+          "rarityPct": 18.5,
+          "sampleBirth": {
+            "year": 1900,
+            "month": 1,
+            "day": 1,
+            "hourBranch": 0,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-18",
+      "name": "Tham Hỏa Tương Phùng (Nam Phái)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 80,
+          "frequencyBps": 8,
+          "rarityPct": 0.08,
+          "sampleBirth": {
+            "year": 1988,
+            "month": 6,
+            "day": 30,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 183,
+          "frequencyBps": 18,
+          "rarityPct": 0.183,
+          "sampleBirth": {
+            "year": 1947,
+            "month": 10,
+            "day": 2,
+            "hourBranch": 11,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-19",
+      "name": "Tham Linh Tương Phùng (Nam Phái)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 68,
+          "frequencyBps": 7,
+          "rarityPct": 0.068,
+          "sampleBirth": {
+            "year": 2018,
+            "month": 4,
+            "day": 2,
+            "hourBranch": 11,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 161,
+          "frequencyBps": 16,
+          "rarityPct": 0.161,
+          "sampleBirth": {
+            "year": 2028,
+            "month": 4,
+            "day": 10,
+            "hourBranch": 3,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-20",
+      "name": "Tọa Quý Hướng Quý (Khôi Việt Tọa Chiếu)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 4606,
+          "frequencyBps": 461,
+          "rarityPct": 4.606,
+          "sampleBirth": {
+            "year": 2038,
+            "month": 10,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 4606,
+          "frequencyBps": 461,
+          "rarityPct": 4.606,
+          "sampleBirth": {
+            "year": 2038,
+            "month": 10,
+            "day": 28,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-21",
+      "name": "Nhật Chiếu Lôi Môn (Thái Dương Cư Mão)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1735,
+          "frequencyBps": 174,
+          "rarityPct": 1.735,
+          "sampleBirth": {
+            "year": 1969,
+            "month": 5,
+            "day": 31,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1735,
+          "frequencyBps": 174,
+          "rarityPct": 1.735,
+          "sampleBirth": {
+            "year": 1969,
+            "month": 5,
+            "day": 31,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-22",
+      "name": "Nguyệt Lãng Thiên Môn (Thái Âm Cư Hợi)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 860,
+          "frequencyBps": 86,
+          "rarityPct": 0.86,
+          "sampleBirth": {
+            "year": 2061,
+            "month": 6,
+            "day": 24,
+            "hourBranch": 7,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 860,
+          "frequencyBps": 86,
+          "rarityPct": 0.86,
+          "sampleBirth": {
+            "year": 2061,
+            "month": 6,
+            "day": 24,
+            "hourBranch": 7,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-23",
+      "name": "Minh Châu Xuất Hải (Mệnh Mùi Vô Chính Diệu)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 881,
+          "frequencyBps": 88,
+          "rarityPct": 0.881,
+          "sampleBirth": {
+            "year": 1943,
+            "month": 5,
+            "day": 21,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 881,
+          "frequencyBps": 88,
+          "rarityPct": 0.881,
+          "sampleBirth": {
+            "year": 1943,
+            "month": 5,
+            "day": 21,
+            "hourBranch": 10,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-24",
+      "name": "Thạch Trung Ẩn Ngọc (Cự Môn Tý Ngọ + Khoa Quyền Lộc)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1066,
+          "frequencyBps": 107,
+          "rarityPct": 1.066,
+          "sampleBirth": {
+            "year": 2009,
+            "month": 11,
+            "day": 28,
+            "hourBranch": 5,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1119,
+          "frequencyBps": 112,
+          "rarityPct": 1.119,
+          "sampleBirth": {
+            "year": 2009,
+            "month": 11,
+            "day": 28,
+            "hourBranch": 5,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-25",
+      "name": "Không Kiếp Đắc Địa Tỵ Hợi",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 1358,
+          "frequencyBps": 136,
+          "rarityPct": 1.358,
+          "sampleBirth": {
+            "year": 2023,
+            "month": 11,
+            "day": 21,
+            "hourBranch": 0,
+            "gender": "female"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 1358,
+          "frequencyBps": 136,
+          "rarityPct": 1.358,
+          "sampleBirth": {
+            "year": 2023,
+            "month": 11,
+            "day": 21,
+            "hourBranch": 0,
+            "gender": "female"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-26",
+      "name": "Lộc Phùng Xung Phá (Lộc Gặp Không Kiếp / Kỵ)",
+      "status": "verified",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 6947,
+          "frequencyBps": 695,
+          "rarityPct": 6.947,
+          "sampleBirth": {
+            "year": 2045,
+            "month": 7,
+            "day": 27,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 6705,
+          "frequencyBps": 670,
+          "rarityPct": 6.705,
+          "sampleBirth": {
+            "year": 2045,
+            "month": 7,
+            "day": 27,
+            "hourBranch": 4,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-27",
+      "name": "Phân Kỳ Tứ Hóa Can Canh (Nam Phái vs Toàn Thư)",
+      "status": "disputed",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 10421,
+          "frequencyBps": 1042,
+          "rarityPct": 10.421,
+          "sampleBirth": {
+            "year": 1990,
+            "month": 2,
+            "day": 20,
+            "hourBranch": 8,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 10421,
+          "frequencyBps": 1042,
+          "rarityPct": 10.421,
+          "sampleBirth": {
+            "year": 1990,
+            "month": 2,
+            "day": 20,
+            "hourBranch": 8,
+            "gender": "male"
+          }
+        }
+      }
+    },
+    {
+      "id": "NP-PC-28",
+      "name": "Phân Kỳ Tứ Hóa Can Nhâm (Nam Phái vs Toàn Thư)",
+      "status": "disputed",
+      "requiresM3Stars": [],
+      "m3Pending": false,
+      "evaluatedScope": "full",
+      "bySilo": {
+        "nam-phai": {
+          "hitCount": 9930,
+          "frequencyBps": 993,
+          "rarityPct": 9.93,
+          "sampleBirth": {
+            "year": 1972,
+            "month": 10,
+            "day": 14,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        },
+        "toan-thu": {
+          "hitCount": 9930,
+          "frequencyBps": 993,
+          "rarityPct": 9.93,
+          "sampleBirth": {
+            "year": 1972,
+            "month": 10,
+            "day": 14,
+            "hourBranch": 2,
+            "gender": "male"
+          }
+        }
+      }
+    }
+  ]
+}

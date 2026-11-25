@@ -1,0 +1,37 @@
+[project]
+name = "sovana-workspace"
+version = "0.1.0"
+description = "SOVANA polyglot workspace: deterministic astronomical ephemeris, bi-temporal Vietnam GIS, and symbolic engine"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.uv.workspace]
+members = [
+    "python/sovana",
+    "python/tools",
+]
+
+[dependency-groups]
+dev = [
+    "hypothesis>=6.115.0",
+    "mypy>=1.13.0",
+    "pytest>=8.3.0",
+    "ruff>=0.8.0",
+    "zstandard>=0.23.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"python/tools/ephemeris_compiler/*.py" = ["E501", "F401", "F841", "UP017"]
+"python/tools/geo_compiler/*.py" = ["E501", "F401", "UP017"]
+"python/tools/tests/test_*_compiler.py" = ["E501", "F401"]
+
+[tool.pytest.ini_options]
+testpaths = ["python/sovana/tests", "python/tools/tests"]
