@@ -1,0 +1,67 @@
+{
+  "name": "@sovana/kernel",
+  "version": "0.1.0",
+  "description": "Deterministic Finite-Ring (Z10 x Z12) multi-dialect symbolic kernel for Ziwei (Nam Phai & Toan Thu), Bazi, and Liuyao ChartIR.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "node": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "browser": {
+        "types": "./dist/index.browser.d.ts",
+        "default": "./dist/index.browser.js"
+      },
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./data": {
+      "node": {
+        "types": "./dist/data.d.ts",
+        "default": "./dist/data.js"
+      },
+      "browser": {
+        "types": "./dist/data.browser.d.ts",
+        "default": "./dist/data.browser.js"
+      },
+      "types": "./dist/data.d.ts",
+      "import": "./dist/data.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "node scripts/copy-specs.mjs && tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@sovana/geo-time": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyenthanhthe/sovana.git",
+    "directory": "packages/kernel"
+  },
+  "keywords": [
+    "sovana",
+    "ziwei",
+    "tu-vi",
+    "bazi",
+    "liuyao",
+    "symbolic-kernel",
+    "deterministic"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "fast-check": "^3.22.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
