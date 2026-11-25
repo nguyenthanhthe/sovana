@@ -1,0 +1,24 @@
+{
+  "name": "@sovana/xray-inspector",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SOVANA DeepTech Astronomical Telemetry & Stratified Proof-DAG X-Ray Inspector Showcase",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@sovana/geo-time": "workspace:*",
+    "@sovana/kernel": "workspace:*",
+    "@sovana/solver": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "esbuild": "^0.21.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

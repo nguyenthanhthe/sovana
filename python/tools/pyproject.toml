@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sovana-tools"
+version = "0.1.0"
+description = "Offline NASA JPL ephemeris compiler and Vietnam GIS dataset compiler for SOVANA"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "skyfield>=1.49",
+    "numpy>=2.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["ephemeris_compiler", "geo_compiler", "oracle_fuzzer"]

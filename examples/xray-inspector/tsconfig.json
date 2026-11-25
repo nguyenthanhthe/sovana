@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@sovana/geo-time": ["../../packages/geo-time/src/index.ts"],
+      "@sovana/geo-time/data": ["../../packages/geo-time/src/data.ts"],
+      "@sovana/kernel": ["../../packages/kernel/src/index.ts"],
+      "@sovana/kernel/data": ["../../packages/kernel/src/data.ts"],
+      "@sovana/solver": ["../../packages/solver/src/index.ts"],
+      "@sovana/solver/data": ["../../packages/solver/src/data.ts"]
+    }
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"]
+}
