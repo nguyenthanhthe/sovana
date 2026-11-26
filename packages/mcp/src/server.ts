@@ -2,7 +2,7 @@ import { createInterface } from 'node:readline';
 import { SOVANA_MCP_TOOLS, callSovanaTool } from './tools.js';
 
 export const MCP_SERVER_NAME = '@sovana/mcp';
-export const MCP_SERVER_VERSION = '0.1.0';
+export const MCP_SERVER_VERSION = '0.2.0';
 export const SUPPORTED_PROTOCOL_VERSIONS = ['2025-03-26', '2024-11-05'] as const;
 
 export interface JsonRpcRequest {

@@ -1,8 +1,19 @@
 {
   "name": "@sovana/kernel",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Deterministic Finite-Ring (Z10 x Z12) multi-dialect symbolic kernel for Ziwei (Nam Phai & Toan Thu), Bazi, and Liuyao ChartIR.",
   "license": "MIT",
+  "author": "nguyenthanhthe",
+  "homepage": "https://vanmenh-tuvi.vercel.app",
+  "bugs": {
+    "url": "https://github.com/nguyenthanhthe/sovana/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -1,8 +1,19 @@
 {
   "name": "@sovana/solver",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Zero-dependency Stratified Forward-Chaining DAG Solver with Paraconsistent Conflict Tracking and Shannon-Entropy Anti-Barnum Bayesian Rectification.",
   "license": "MIT",
+  "author": "nguyenthanhthe",
+  "homepage": "https://vanmenh-tuvi.vercel.app",
+  "bugs": {
+    "url": "https://github.com/nguyenthanhthe/sovana/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

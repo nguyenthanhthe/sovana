@@ -59,6 +59,12 @@ jobs:
       - name: Verify @sovana/mcp CLI entrypoint
         run: node packages/mcp/dist/cli.js --version
 
+      - name: Validate cross-harness agent plugin & clean-room audit
+        run: pnpm validate:plugin
+
+      - name: Verify standalone packed tarballs & offline npx execution
+        run: pnpm verify:packed
+
       - name: Lint Python with Ruff
         run: uv run ruff check
 

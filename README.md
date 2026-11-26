@@ -3,12 +3,13 @@
 </p>
 
 <p align="center">
-  <strong>Zero-Dependency Astronomical Ephemeris (NASA JPL DE440s), Bi-Temporal Vietnam GIS (63↔34), Multi-System Symbolic Kernel, Rule Solver &amp; MCP Server</strong><br/>
+  <strong>Zero-Dependency Astronomical Ephemeris (NASA JPL DE440s), Bi-Temporal Vietnam GIS (63↔34), Multi-System Symbolic Kernel, MCP Server &amp; Cross-Harness Agent Plugin</strong><br/>
   <a href="https://github.com/nguyenthanhthe/sovana/actions/workflows/ci.yml"><img src="https://github.com/nguyenthanhthe/sovana/actions/workflows/ci.yml/badge.svg" alt="Polyglot Lockstep CI" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License" /></a>
   <img src="https://img.shields.io/badge/TypeScript-ESM%20%2B%20Browser-3178C6.svg" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Python-3.11%2B-3776AB.svg" alt="Python 3.11+" />
-  <img src="https://img.shields.io/badge/MCP-stdio%20JSON--RPC%202.0-10B981.svg" alt="MCP Server" />
+  <img src="https://img.shields.io/badge/MCP-npx%20%40sovana%2Fmcp-10B981.svg" alt="MCP Server" />
+  <img src="https://img.shields.io/badge/Agent%20Plugin-Claude%20%7C%20Antigravity%20%7C%20Codex%20%7C%20OpenCode%20%7C%20Cursor-7C3AED.svg" alt="Cross-Harness Agent Plugin" />
 </p>
 
 <p align="center">
@@ -30,7 +31,80 @@ LLMs cannot reliably compute lunisolar dates, solar terms, historical timezones,
 | **Vietnam 2025 Administrative Merger** (`Nghị quyết 202/2025/QH15`: `63 → 34` provinces) | Unmapped or stale province list | Bidirectional GIS: **63 legacy provinces (~705 districts) ↔ 34 post-2025 provinces** + historical aliases (`Sài Gòn`, `Gia Định`, `Hà Tây`) |
 | **True Solar Time & Geodesics** | Uses civil clock time directly | Meeus Equation of Time + longitude meridian offset + WGS-84 Vincenty geodesic azimuth |
 | **Cross-School Integrity** | Mixes Vietnamese *Nam Phái* and *Toàn Thư* rules silently | Compiles isolated `nam-phai` (109 stars) & `toan-thu` charts side-by-side with explicit `empiricalForks` |
-| **AI Agents & Hallucination Control** | Prompts ask LLM to calculate dates/stars | First-class zero-dependency **MCP server (`@sovana/mcp`)** + RFC 8785 SHA-256 deterministic digests |
+| **AI Agents & Hallucination Control** | Prompts ask LLM to calculate dates/stars | First-class zero-dependency **MCP server (`npx -y @sovana/mcp`)**, **5 Thầy Số Agent Skills**, **5 Slash Commands**, **2 Specialist Subagents** & RFC 8785 SHA-256 digests |
+
+---
+
+## Quickstart 1: Cross-Harness Agent Plugin + `npx -y @sovana/mcp`
+
+SOVANA ships as a **Cross-Harness Agent Plugin** — one canonical source of **Skills**, **Slash Commands**, **Specialist Subagents**, **Operating Rules**, and **MCP Tools** (`npx -y @sovana/mcp`) with native manifests for every major AI coding harness:
+
+| Harness | Install / Connect Command | Native Manifest |
+|---|---|---|
+| **Claude Code** | `/plugin marketplace add nguyenthanhthe/sovana` then `/plugin install sovana` | `.claude-plugin/marketplace.json`, `.claude-plugin/plugin.json`, `.mcp.json` |
+| **Any Agent (`skills.sh`)** | `npx skills add nguyenthanhthe/sovana` | `skills/*/SKILL.md` |
+| **Gemini CLI** | `gemini extensions install https://github.com/nguyenthanhthe/sovana` | `gemini-extension.json`, `GEMINI.md` |
+| **Antigravity** | Install plugin from repository URL or configure `mcp_config.json` | `plugin.json`, `mcp_config.json`, `rules/AGENTS.md` |
+| **Cursor** | Install plugin from `.cursor-plugin/plugin.json` or use `.mcp.json` | `.cursor-plugin/plugin.json`, `.mcp.json` |
+| **OpenCode** | Clone/open repo (auto-loads `opencode.json` + `AGENTS.md`) | `opencode.json`, `AGENTS.md` |
+| **OpenAI Codex** | Reads `AGENTS.md` + `skills/` natively; add 3-line `[mcp_servers.sovana]` block below | `AGENTS.md`, `skills/*/SKILL.md` |
+
+### Standalone MCP Config (`npx -y @sovana/mcp`)
+
+<details open>
+<summary><strong>Claude Desktop / Cursor / Windsurf / Antigravity (JSON)</strong></summary>
+
+```json
+{
+  "mcpServers": {
+    "sovana": {
+      "command": "npx",
+      "args": ["-y", "@sovana/mcp"]
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary><strong>Claude Code CLI &amp; OpenAI Codex CLI</strong></summary>
+
+```bash
+# Claude Code
+claude mcp add sovana -- npx -y @sovana/mcp
+```
+
+```toml
+# OpenAI Codex (~/.codex/config.toml)
+[mcp_servers.sovana]
+command = "npx"
+args = ["-y", "@sovana/mcp"]
+```
+</details>
+
+<details>
+<summary><strong>Run From Local Source (Without npm Registry)</strong></summary>
+
+```bash
+git clone https://github.com/nguyenthanhthe/sovana.git
+cd sovana
+pnpm install && pnpm build
+node packages/mcp/dist/cli.js --version
+```
+
+Point your MCP client `command` to `node` and `args` to `["/absolute/path/to/sovana/packages/mcp/dist/cli.js"]`.
+</details>
+
+### Bundled Agent Capabilities
+
+| Layer | Included Components |
+|---|---|
+| **5 Specialist Skills (`skills/`)** | `thay-tu-vi` (Nam Phái 109 stars & Toàn Thư) · `thay-dinh-gio` (Blind Birth-Hour Rectification) · `thay-bat-tu` (Four Pillars & *Cùng Thông Bảo Giám* Điều Hậu) · `thay-gieo-que` (64-hexagram Chu Dịch & Lục Hào) · `thay-hop-ban` (2-chart Synastry for Marriage & Co-Founders) |
+| **5 Slash Commands (`commands/`)** | `/tu-vi` · `/dinh-gio` · `/bat-tu` · `/gieo-que` · `/hop-ban` |
+| **2 Specialist Subagents (`agents/`)** | `sovana-diviner` (multi-system chart reading) · `sovana-rectifier` (ambiguous shichen & pre-1975 timezone rectification) |
+| **6 Deterministic MCP Tools (`@sovana/mcp`)** | `resolve_vietnam_location` · `convert_vietnam_calendar` · `compile_ziwei_chart` · `compile_bazi_chart` · `cast_iching_hexagram` · `compare_charts_hopban` |
+
+See [`packages/mcp/README.md`](./packages/mcp/README.md) for full tool schemas and protocol details.
 
 ---
 
@@ -41,47 +115,9 @@ LLMs cannot reliably compute lunisolar dates, solar terms, historical timezones,
 | [`@sovana/geo-time`](./packages/geo-time) | Node.js & Browser | `16.8 KB` | NASA JPL DE440s ephemeris (`1900–2100`), VN/CN lunisolar converter, bi-temporal `63↔34` Vietnam GIS, historical timezones, Meeus True Solar Time, WGS-84 Vincenty |
 | [`@sovana/kernel`](./packages/kernel) | Node.js & Browser | `23.0 KB` | Immutable `ChartIR` compiler: Tử Vi (`nam-phai` 109 stars + `toan-thu`), multi-layer Tứ Hóa, structured patterns, quantitative Bát Tự (*Cùng Thông Bảo Giám*), 64-hexagram Chu Dịch |
 | [`@sovana/solver`](./packages/solver) | Node.js & Browser | `25.3 KB` | Stratified forward-chaining DAG rule solver (Church-Rosser confluent), paraconsistent conflict tracking, Shannon-entropy Bayesian birth-hour rectifier, and 2-chart Hợp Bàn synastry |
-| [`@sovana/mcp`](./packages/mcp) | Node.js (`>=22`) | Zero deps | Model Context Protocol (`2025-03-26` / `2024-11-05`) stdio JSON-RPC 2.0 server exposing 6 deterministic tools for AI agents |
+| [`@sovana/mcp`](./packages/mcp) | Node.js (`>=22`) | Zero deps | Model Context Protocol (`2025-03-26` / `2024-11-05`) stdio JSON-RPC 2.0 server (`npx -y @sovana/mcp`) exposing 6 deterministic tools |
 | [`sovana`](./python/sovana) | Python `>=3.11` | Pure Python + Pydantic | Bit-exact Python mirror verified against TypeScript via RFC 8785 Canonical JSON SHA-256 lockstep |
 | [`examples/xray-inspector`](./examples/xray-inspector) | Browser | Self-contained HTML | Standalone visual X-Ray inspector for 12-palace charts, DAG provenance graphs, and astronomical telemetry |
-
----
-
-## Quickstart 1: MCP Server for AI Agents (Claude Desktop, Cursor, Windsurf, Antigravity)
-
-Give any AI agent **zero-hallucination** Vietnamese astronomy, calendar conversion, GIS, Zi Wei Dou Shu, Bazi, I-Ching, and Hop Ban calculation with zero external runtime dependencies.
-
-```bash
-git clone https://github.com/nguyenthanhthe/sovana.git
-cd sovana
-pnpm install && pnpm build
-```
-
-Add to your MCP client configuration (`claude_desktop_config.json`, `.cursor/mcp.json`, or Antigravity `mcp_config.json`):
-
-```json
-{
-  "mcpServers": {
-    "sovana": {
-      "command": "node",
-      "args": ["/absolute/path/to/sovana/packages/mcp/dist/cli.js"]
-    }
-  }
-}
-```
-
-### Exposed MCP Tools (6 Deterministic Tools)
-
-| Tool | Description |
-|---|---|
-| `resolve_vietnam_location` | Map legacy 63 provinces / ~705 districts / historical aliases (`Sài Gòn`, `Gia Định`...) ↔ 34 post-2025 provinces (`202/2025/QH15`) + WGS-84 coords + Köppen climate + timezone zone |
-| `convert_vietnam_calendar` | Bidirectional solar ↔ lunar (`1900–2100`), pre-1975 South/North timezone, Meeus True Solar Time, 24 Solar Terms, Can-Chi pillars, and VN `UTC+7` vs CN `UTC+8` divergence flag |
-| `compile_ziwei_chart` | Compile deterministic 12-palace Zi Wei Dou Shu chart (`nam-phai`, `toan-thu`, or `both`), structured classical patterns, multi-layer Tứ Hóa, Đại Hạn, Lưu Niên & `chartSha256` |
-| `compile_bazi_chart` | Compile Four Pillars (Tứ Trụ Bát Tự), hidden stems, Ten Gods, quantitative Day Master strength (`bps`), 10-year Đại Vận & *Cùng Thông Bảo Giám* Điều Hậu |
-| `cast_iching_hexagram` | Cast deterministic 64-hexagram Chu Dịch (`mai-hoa` timestamp or 6-line `Lục Hào` coins `[6\|7\|8\|9]`) with Nạp Giáp, Lục Thân, Lục Thú, Thế/Ứng & Tuần Không |
-| `compare_charts_hopban` | Deterministic 2-chart synastry (Hợp Bàn) for Marriage (`HON_NHAN`) & Partnership (`HOP_TAC`) with 5-pillar scoring & cross-chart Phi Hóa flights |
-
-See [`packages/mcp/README.md`](./packages/mcp/README.md) for full tool schemas and protocol details.
 
 ---
 
@@ -145,9 +181,9 @@ print(sha256_canonical(temporal))  # Bit-exact match with TypeScript @sovana/geo
 
 ## Comparison with Prior Art
 
-SOVANA builds respectfully on ideas from open-source pioneers (`iztro`, `lunar-typescript`, `lasotuvi`, `astronomy-engine`) while focusing specifically on **astronomical determinism, Vietnam historical regimes, polyglot lockstep, and AI agent tooling**:
+SOVANA builds respectfully on ideas from open-source pioneers (`iztro`, `lunar-typescript`, `lasotuvi`, `astronomy-engine`) while focusing specifically on **astronomical determinism, Vietnam historical regimes, polyglot lockstep, and cross-harness AI agent tooling**:
 
-| Capability | `lasotuvi` (Py) | `iztro` (TS) | `lunar-typescript` | **SOVANA (TS + Py + MCP)** |
+| Capability | `lasotuvi` (Py) | `iztro` (TS) | `lunar-typescript` | **SOVANA (TS + Py + MCP + Plugin)** |
 |---|:---:|:---:|:---:|:---:|
 | NASA JPL `DE440s` binary ephemeris (`1900–2100`) | — | — | — | **Yes (`58.9 KB`)** |
 | Pre-1975 Vietnam North/South historical timezones | — | — | — | **Yes** |
@@ -157,7 +193,8 @@ SOVANA builds respectfully on ideas from open-source pioneers (`iztro`, `lunar-t
 | Quantitative Bazi (*Cùng Thông Bảo Giám*) + 64-hex I-Ching | — | — | Bazi | **Both + Köppen climate audit** |
 | Bayesian Blind Birth-Hour Rectification + DAG Solver | — | — | — | **Yes (Church-Rosser confluent)** |
 | Bit-Exact TypeScript ↔ Python SHA-256 Lockstep | — | — | — | **Yes (RFC 8785 JCS)** |
-| Native Zero-Dependency MCP Server for AI Agents | — | — | — | **Yes (`@sovana/mcp`)** |
+| Zero-Dependency MCP Server (`npx -y @sovana/mcp`) | — | — | — | **Yes (`6` tools)** |
+| Cross-Harness Agent Plugin (Claude / Antigravity / Codex / OpenCode / Cursor) | — | — | — | **Yes (`5` skills, `5` commands, `2` agents)** |
 
 ---
 
@@ -172,6 +209,7 @@ Every commit is verified in GitHub Actions across **Ubuntu + Windows** (`pnpm ve
 | Full-Stack Lockstep (`geo-time` + `kernel` + `solver`) | `1,200` full charts + DAG proofs | **`0`** | TS `3.35 ms/vec` · Py `13.64 ms/vec` |
 | Algebraic `Z12` Invariants & Kernel Throughput | `10,000` trials / `2,000` bench ops | **`0`** | **`0.0326 ms/chart`** (~30,600 charts/sec) |
 | Church-Rosser Rule-Order Confluence | `100` random permutations | **`0`** | Identical RFC 8785 SHA-256 across all orders |
+| Cross-Harness Plugin & Standalone Packed `npx` Smoke | `8` manifests + `4` packed `.tgz` tarballs | **`0`** | All `6` MCP tools verified offline outside monorepo |
 
 ---
 
@@ -191,6 +229,8 @@ pnpm install
 pnpm build
 pnpm typecheck
 pnpm test
+pnpm validate:plugin
+pnpm verify:packed
 
 # Python workspace (Python >= 3.11, uv)
 uv sync --all-packages

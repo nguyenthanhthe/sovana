@@ -1,0 +1,64 @@
+name: Publish npm Packages
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Pack & verify tarballs without publishing to npmjs.org"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish-npm:
+    name: Build, Verify & Publish @sovana/* to npm
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+          cache: "pnpm"
+
+      - name: Install workspace dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build, typecheck, test & validate plugin
+        run: |
+          pnpm build
+          pnpm typecheck
+          pnpm test
+          pnpm validate:plugin
+
+      - name: Check npm credentials
+        id: auth
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -n "$NPM_TOKEN" ]; then
+            echo "has_token=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_token=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::NPM_TOKEN secret is not configured yet — running offline tarball pack smoke check instead of publishing to npmjs.org."
+          fi
+
+      - name: Verify standalone packed tarballs (offline npx simulation)
+        run: node scripts/test-packed-npx.mjs
+
+      - name: Publish @sovana/* packages to npm with provenance
+        if: steps.auth.outputs.has_token == 'true' && inputs.dry_run != true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: pnpm -r --filter "./packages/*" publish --access public --no-git-checks --provenance

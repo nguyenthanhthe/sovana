@@ -1,0 +1,38 @@
+{
+  "name": "sovana",
+  "displayName": "SOVANA — Vietnamese Astronomy, GIS & Divination Engine",
+  "version": "0.2.0",
+  "description": "Zero-hallucination NASA JPL DE440s ephemeris (1900-2100), bi-temporal 63<->34 Vietnam GIS, Nam Phái & Toàn Thư Tử Vi, Bát Tự Điều Hậu, 64-hexagram Chu Dịch, and 2-chart Hợp Bàn via @sovana/mcp.",
+  "logo": "./brand/sovana-mark.svg",
+  "category": "Developer Tools",
+  "keywords": [
+    "sovana",
+    "mcp",
+    "vietnam",
+    "lunar-calendar",
+    "ephemeris",
+    "ziwei-doushu",
+    "tu-vi",
+    "bazi",
+    "iching",
+    "hop-ban"
+  ],
+  "author": {
+    "name": "nguyenthanhthe",
+    "url": "https://github.com/nguyenthanhthe"
+  },
+  "homepage": "https://vanmenh-tuvi.vercel.app",
+  "repository": "https://github.com/nguyenthanhthe/sovana",
+  "license": "MIT",
+  "skills": ["./skills"],
+  "commands": ["./commands"],
+  "agents": ["./agents"],
+  "rules": ["./rules"],
+  "suggestedPrompts": [
+    "An và luận giải lá số Tử Vi Nam Phái sinh 15/06/1990 14:30 nam tại Hà Nội cho năm 2026",
+    "Định giờ sinh cho người sinh 15/05/1968 khoảng 01:15 tại Sài Gòn (lưu ý múi giờ Nam Việt Nam UTC+8 trước 1975)",
+    "Lập Bát Tự Tứ Trụ và xem Điều Hậu Cùng Thông Bảo Giám cho nữ sinh 16/04/1985 10:00 tại Huế",
+    "Gieo quẻ Chu Dịch Mai Hoa cho quyết định nhận offer công việc mới trong quý tới",
+    "Hợp Bàn đồng sáng lập giữa nam sinh 09/03/1992 10:00 Hà Nội và nữ sinh 21/09/1994 16:00 Đà Nẵng"
+  ]
+}

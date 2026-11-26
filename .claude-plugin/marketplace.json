@@ -1,0 +1,28 @@
+{
+  "name": "sovana-marketplace",
+  "description": "Official SOVANA plugin marketplace for deterministic Vietnamese astronomy, GIS, Zi Wei Dou Shu, Bazi, I-Ching, and Hop Ban.",
+  "owner": {
+    "name": "nguyenthanhthe",
+    "url": "https://github.com/nguyenthanhthe"
+  },
+  "plugins": [
+    {
+      "name": "sovana",
+      "description": "Zero-hallucination NASA JPL DE440s ephemeris, Vietnam 63<->34 GIS, 5 Thầy Số skills, 5 slash commands, 2 specialist subagents, and @sovana/mcp stdio server.",
+      "version": "0.2.0",
+      "source": "./",
+      "homepage": "https://vanmenh-tuvi.vercel.app",
+      "repository": "https://github.com/nguyenthanhthe/sovana",
+      "license": "MIT",
+      "keywords": [
+        "sovana",
+        "mcp",
+        "vietnam",
+        "tu-vi",
+        "bazi",
+        "iching",
+        "hop-ban"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sovana": {
+      "command": "npx",
+      "args": ["-y", "@sovana/mcp"]
+    }
+  }
+}

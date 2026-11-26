@@ -1,0 +1,12 @@
+{
+  "name": "sovana",
+  "version": "0.2.0",
+  "description": "Zero-hallucination NASA JPL DE440s ephemeris, Vietnam 63<->34 GIS, Zi Wei Dou Shu (Nam Phái & Toàn Thư), Bazi Điều Hậu, Chu Dịch & Hợp Bàn via @sovana/mcp.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "sovana": {
+      "command": "npx",
+      "args": ["-y", "@sovana/mcp"]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sovana": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@sovana/mcp"]
+    }
+  }
+}

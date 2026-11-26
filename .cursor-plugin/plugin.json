@@ -1,0 +1,16 @@
+{
+  "name": "sovana",
+  "displayName": "SOVANA",
+  "version": "0.2.0",
+  "description": "Zero-hallucination Vietnamese astronomical ephemeris (NASA JPL DE440s), bi-temporal 63<->34 GIS, Nam Phái & Toàn Thư Tử Vi, Bát Tự Điều Hậu, Chu Dịch & Hợp Bàn via @sovana/mcp.",
+  "author": {
+    "name": "nguyenthanhthe",
+    "url": "https://github.com/nguyenthanhthe"
+  },
+  "homepage": "https://vanmenh-tuvi.vercel.app",
+  "repository": "https://github.com/nguyenthanhthe/sovana",
+  "license": "MIT",
+  "skills": "./skills",
+  "rules": "./rules",
+  "mcpServers": "./.mcp.json"
+}
