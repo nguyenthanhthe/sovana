@@ -655,6 +655,7 @@ describe('@sovana/solver — Stratified Forward-Chaining DAG & Confluence', () =
     ].join('\n');
     const pySha = execFileSync('uv', ['run', 'python', '-c', pyCheckScript], {
       cwd: repoRoot,
+      env: { ...process.env, PYTHONUTF8: '1', PYTHONIOENCODING: 'utf-8' },
       input: JSON.stringify({ chart: chartAmDong, rules }),
       encoding: 'utf-8',
     }).trim();
@@ -840,6 +841,7 @@ describe('@sovana/solver — Shannon-Entropy Anti-Barnum Bayesian Rectification'
 
     const pyStdout = execFileSync('uv', ['run', 'python', '-c', pyScript], {
       cwd: repoRoot,
+      env: { ...process.env, PYTHONUTF8: '1', PYTHONIOENCODING: 'utf-8' },
       encoding: 'utf-8',
     });
     const pyVectorHashes = JSON.parse(pyStdout.trim()) as string[];
@@ -965,6 +967,7 @@ describe('@sovana/solver — Shannon-Entropy Anti-Barnum Bayesian Rectification'
     const pyShas = JSON.parse(
       execFileSync('uv', ['run', 'python', '-c', pyScript], {
         cwd: repoRoot,
+        env: { ...process.env, PYTHONUTF8: '1', PYTHONIOENCODING: 'utf-8' },
         input: JSON.stringify([
           { chart: chartVcd, rules: tamKhongRules },
           { chart: chartTuLinh, rules: tuLinhRules },
@@ -1165,6 +1168,7 @@ describe('@sovana/solver — Shannon-Entropy Anti-Barnum Bayesian Rectification'
     const pyShas = JSON.parse(
       execFileSync('uv', ['run', 'python', '-c', pyScript], {
         cwd: repoRoot,
+        env: { ...process.env, PYTHONUTF8: '1', PYTHONIOENCODING: 'utf-8' },
         input: JSON.stringify(sampleCharts),
         encoding: 'utf-8',
       }).trim(),

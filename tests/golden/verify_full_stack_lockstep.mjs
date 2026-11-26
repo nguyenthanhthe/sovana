@@ -566,6 +566,7 @@ function run10kAlgebraicAndConfluenceGates() {
   ].join('\n');
   const pyAstOut = execFileSync('uv', ['run', 'python', '-c', pyAstScript], {
     cwd: repoRoot,
+    env: { ...process.env, PYTHONUTF8: '1', PYTHONIOENCODING: 'utf-8' },
     input: JSON.stringify(astVectors.map((v) => ({ chart: v.chart, rules: v.rules }))),
     encoding: 'utf-8',
   });
@@ -604,6 +605,7 @@ function run10kAlgebraicAndConfluenceGates() {
   const pyInqShas = JSON.parse(
     execFileSync('uv', ['run', 'python', '-c', pyInqScript], {
       cwd: repoRoot,
+      env: { ...process.env, PYTHONUTF8: '1', PYTHONIOENCODING: 'utf-8' },
       input: JSON.stringify(inquiryTimes),
       encoding: 'utf-8',
     }).trim(),
