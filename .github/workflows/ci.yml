@@ -53,6 +53,9 @@ jobs:
       - name: Run TypeScript unit & property tests
         run: pnpm test
 
+      - name: Verify @sovana/mcp CLI entrypoint
+        run: node packages/mcp/dist/cli.js --version
+
       - name: Lint Python with Ruff
         run: uv run ruff check
 

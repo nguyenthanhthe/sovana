@@ -77,6 +77,28 @@ importers:
         specifier: ^2.1.8
         version: 2.1.9(@types/node@22.20.5)
 
+  packages/mcp:
+    dependencies:
+      '@sovana/geo-time':
+        specifier: workspace:*
+        version: link:../geo-time
+      '@sovana/kernel':
+        specifier: workspace:*
+        version: link:../kernel
+      '@sovana/solver':
+        specifier: workspace:*
+        version: link:../solver
+    devDependencies:
+      '@types/node':
+        specifier: ^22.10.0
+        version: 22.20.5
+      typescript:
+        specifier: ^5.7.2
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.8
+        version: 2.1.9(@types/node@22.20.5)
+
   packages/solver:
     dependencies:
       '@sovana/geo-time':

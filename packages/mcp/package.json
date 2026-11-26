@@ -1,0 +1,53 @@
+{
+  "name": "@sovana/mcp",
+  "version": "0.1.0",
+  "description": "Zero-dependency Model Context Protocol (MCP) stdio server for SOVANA — deterministic NASA JPL DE440s Vietnamese lunar calendar, bi-temporal 63<->34 Vietnam GIS, Zi Wei Dou Shu, Bazi, I-Ching, and Hop Ban tools for AI agents.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "sovana-mcp": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@sovana/geo-time": "workspace:*",
+    "@sovana/kernel": "workspace:*",
+    "@sovana/solver": "workspace:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nguyenthanhthe/sovana.git",
+    "directory": "packages/mcp"
+  },
+  "keywords": [
+    "sovana",
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "vietnam",
+    "lunar-calendar",
+    "jpl-de440",
+    "ziwei-doushu",
+    "bazi",
+    "iching"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
