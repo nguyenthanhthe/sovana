@@ -369,3 +369,99 @@ export interface InvariantIntersectionReport {
 }
 
 export type { BaziChartIR, ChartIR };
+
+export type HopBanMode = 'HON_NHAN' | 'HOP_TAC';
+
+export type HopBanBondType =
+  | 'SONG_LOC_GIAO_DUYEN'
+  | 'KHOA_LOC_TUONG_TRO'
+  | 'QUYEN_LOC_BO_KHUYET'
+  | 'NGHICH_DUYEN_CAN_TU'
+  | 'BINH_HOA_DONG_HANH';
+
+export interface HopBanCrossPhiHoaFlightIR {
+  direction: 'A_TO_B' | 'B_TO_A';
+  fromPersonLabel: string;
+  toPersonLabel: string;
+  stemIndex: number;
+  stemVi: string;
+  transform: 'Hóa Lộc' | 'Hóa Quyền' | 'Hóa Khoa' | 'Hóa Kỵ';
+  starName: string;
+  targetBranchIndex: number;
+  targetBranchVi: string;
+  targetPalaceName: string;
+  impact: 'CAT' | 'TRUNG' | 'CANH_BAO';
+  noteVi: string;
+}
+
+export interface HopBanPillarScoreIR {
+  id:
+    | 'cot_cach_menh_phuc'
+    | 'doi_chieu_cung_chuyen_trach'
+    | 'phi_hoa_tuong_tac_cheo'
+    | 'bo_khuyet_bat_tu_ngu_hanh'
+    | 'dong_pha_dai_han_luu_nien';
+  titleVi: string;
+  score: number;
+  maxScore: number;
+  verdictVi: string;
+  highlightsVi: string[];
+  cautionsVi: string[];
+}
+
+export interface HopBanModeEvaluationIR {
+  mode: HopBanMode;
+  modeLabelVi: string;
+  totalScore: number;
+  starRating: 1 | 2 | 3 | 4 | 5;
+  ratingLabelVi: string;
+  bondType: HopBanBondType;
+  bondTypeLabelVi: string;
+  headlineVi: string;
+  pillars: HopBanPillarScoreIR[];
+  strengthsVi: string[];
+  frictionPointsVi: string[];
+  actionableAdviceVi: string[];
+  bestTimingHintVi: string;
+}
+
+export interface HopBanPersonSummaryIR {
+  label: string;
+  gender: 'male' | 'female';
+  lunarYearCanChiVi: string;
+  cucNameVi: string;
+  napAmVi: string;
+  archetypeId: 'TU_PHU_VU_TUONG' | 'CO_NGUYET_DONG_LUONG' | 'SAT_PHA_THAM' | 'CU_NHAT' | 'HON_HOP';
+  archetypeLabelVi: string;
+  menhBranchVi: string;
+  menhMajorStars: string[];
+  phuTheMajorStars: string[];
+  phucDucMajorStars: string[];
+  quanLocMajorStars: string[];
+  taiBachMajorStars: string[];
+  dayMasterVi: string;
+  dayMasterElementVi: string;
+  dungThanElementVi: string;
+  hyThanElementVi: string;
+  activeDaiHanRange: string;
+  activeDaiHanPalaceName: string;
+}
+
+export interface HopBanOptions {
+  readonly silo?: ZiweiSilo | undefined;
+  readonly targetYear?: number | undefined;
+  readonly labelA?: string | undefined;
+  readonly labelB?: string | undefined;
+}
+
+export interface HopBanReportIR {
+  schemaVersion: string;
+  silo: ZiweiSilo;
+  targetYear: number;
+  personA: HopBanPersonSummaryIR;
+  personB: HopBanPersonSummaryIR;
+  crossPhiHoaFlights: HopBanCrossPhiHoaFlightIR[];
+  honNhan: HopBanModeEvaluationIR;
+  hopTac: HopBanModeEvaluationIR;
+}
+

@@ -25,6 +25,18 @@ function pad2(n: number): string {
 
 export * from './types.js';
 export { castZiweiChart, compareCodePoint, sexagenaryIndex } from './ziwei.js';
+export {
+  analyzeZiweiMultiLayerSihua,
+  detectPalaceTuHoa,
+  getLuuNguyetStemIndex,
+  getLuuThoiStemIndex,
+  getSihuaTupleByStem,
+  resolveDongHan,
+  resolveSihuaPlacements,
+  type LuuNguyetOptions,
+  type MultiLayerSihuaOptions,
+} from './sihua.js';
+export { detectDinhTapCuc, detectStructuredPatterns } from './patterns.js';
 export { ELEMENTS_VI, castBaziChart, computeTenGodIndex, stemElementIndex } from './bazi.js';
 export { castLiuyaoChart, computeLiuyaoRelativeVi, deriveMaiHoaLines } from './liuyao.js';
 

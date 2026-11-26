@@ -343,3 +343,199 @@ export interface InquiryDivinationIR {
   inquiryTemporal: NormalizedBirthTemporal;
   liuyao: LiuyaoChartIR;
 }
+
+export type GengSihuaVariant =
+  | 'default'
+  | 'duong-vu-am-dong'
+  | 'duong-vu-dong-am'
+  | 'duong-vu-phu-dong'
+  | 'duong-vu-phu-tuong'
+  | 'duong-vu-dong-tuong';
+
+export interface ZiweiSihuaPlacementIR {
+  transform: SihuaTransform;
+  starName: string;
+  branchIndex: number;
+  branchVi: string;
+  palaceName: string;
+}
+
+export interface ZiweiDongHanEntryIR {
+  nominalAge: number;
+  year: number;
+  branchIndex: number;
+  branchVi: string;
+  palaceName: string;
+  stemIndex: number;
+  stemVi: string;
+}
+
+export interface ZiweiDongHanIR {
+  hasDongHan: boolean;
+  startAge: number;
+  endAge: number;
+  entries: ZiweiDongHanEntryIR[];
+  isTargetYearInDongHan: boolean;
+  activeEntry: ZiweiDongHanEntryIR | null;
+}
+
+export interface ZiweiTuHoaEntryIR {
+  transform: SihuaTransform;
+  starName: string;
+  kind: 'TU_HOA_BAN_CUNG' | 'HOA_XUAT_DOI_CUNG';
+  targetBranchIndex: number;
+  targetBranchVi: string;
+  targetPalaceName: string;
+}
+
+export interface ZiweiPalaceTuHoaIR {
+  branchIndex: number;
+  branchVi: string;
+  stemIndex: number;
+  stemVi: string;
+  palaceName: string;
+  selfTransforms: ZiweiTuHoaEntryIR[];
+  oppositeOutwardTransforms: ZiweiTuHoaEntryIR[];
+}
+
+export interface ZiweiIncomingPhiTinhEntryIR {
+  fromBranchIndex: number;
+  fromBranchVi: string;
+  fromStemIndex: number;
+  fromStemVi: string;
+  fromPalaceName: string;
+  transform: SihuaTransform;
+  starName: string;
+  relation: 'NHAP_CUNG' | 'XUNG_CHIEU';
+}
+
+export interface ZiweiLuuNguyetSihuaIR {
+  lunarMonth: number;
+  stemIndex: number;
+  stemVi: string;
+  nguyetHanBranchIndex: number;
+  nguyetHanBranchVi: string;
+  nguyetHanPalaceName: string;
+  transforms: ZiweiSihuaPlacementIR[];
+}
+
+export interface ZiweiMultiLayerSihuaIR {
+  silo: ZiweiSilo;
+  gengVariant: GengSihuaVariant;
+  laiNhanCung: {
+    stemIndex: number;
+    stemVi: string;
+    primaryBranchIndex: number;
+    primaryBranchVi: string;
+    primaryPalaceName: string;
+    allMatchingBranches: number[];
+  };
+  dongHan: ZiweiDongHanIR;
+  banMenhSihua: ZiweiSihuaPlacementIR[];
+  daiHanSihua: {
+    sourceKind: 'DAI_HAN' | 'DONG_HAN';
+    palaceBranchIndex: number;
+    palaceBranchVi: string;
+    palaceName: string;
+    stemIndex: number;
+    stemVi: string;
+    startAge: number;
+    endAge: number;
+    transforms: ZiweiSihuaPlacementIR[];
+  } | null;
+  luuNienSihua: ZiweiSihuaPlacementIR[];
+  luuNguyetSihua: ZiweiLuuNguyetSihuaIR[];
+  luuNhatSihua: {
+    stemIndex: number;
+    stemVi: string;
+    transforms: ZiweiSihuaPlacementIR[];
+  } | null;
+  luuThoiSihua: {
+    stemIndex: number;
+    stemVi: string;
+    hourBranch: number;
+    hourBranchVi: string;
+    transforms: ZiweiSihuaPlacementIR[];
+  } | null;
+  tuHoaByBranch: ZiweiPalaceTuHoaIR[];
+  incomingPhiTinhByBranch: ZiweiIncomingPhiTinhEntryIR[][];
+}
+
+export type ZiweiPatternLevel =
+  | 'THUONG_CACH'
+  | 'CAT_CACH'
+  | 'TRUNG_CACH'
+  | 'PHA_CACH'
+  | 'CANH_BAO';
+
+export interface ZiweiStructuredPatternIR {
+  id: string;
+  nameVi: string;
+  hanziOriginal: string;
+  baseLevel: Exclude<ZiweiPatternLevel, 'PHA_CACH'>;
+  effectiveLevel: ZiweiPatternLevel;
+  isBroken: boolean;
+  palaces: string[];
+  classicalSource: string;
+  conditions: {
+    required: string[];
+    bonus: string[];
+    breaking: string[];
+  };
+  descriptionVi: string;
+  adviceVi: string;
+}
+
+export interface ZiweiDinhTapHitIR {
+  id: string;
+  no: number;
+  nameVi: string;
+  hanziOriginal: string;
+  classicalNote: string;
+  status: 'verified' | 'disputed';
+  unit: 'DAI_HAN' | 'LUU_NIEN';
+  polarity: 'CAT' | 'HUNG' | 'TRUNG';
+  startAge: number;
+  endAge: number;
+  startYear: number;
+  endYear: number;
+  palaceBranch: number;
+  palaceBranchVi: string;
+  palaceName: string;
+  detailVi: string;
+  adviceVi: string;
+}
+
+export interface ZiweiDinhTapReportIR {
+  targetYear: number | null;
+  targetAge: number | null;
+  allHits: ZiweiDinhTapHitIR[];
+  activeHits: ZiweiDinhTapHitIR[];
+}
+
+export type ZiweiPatternCatalogTuple = readonly [
+  nameVi: string,
+  hanziOriginal: string,
+  baseLevel: Exclude<ZiweiPatternLevel, 'PHA_CACH'>,
+  classicalSource: string,
+  descriptionVi: string,
+  adviceVi: string,
+];
+
+export type ZiweiDinhTapCatalogTuple = readonly [
+  no: number,
+  nameVi: string,
+  hanziOriginal: string,
+  classicalNote: string,
+  status: 'verified' | 'disputed',
+  polarity: 'CAT' | 'HUNG' | 'TRUNG',
+  detailTemplateVi: string,
+  adviceVi: string,
+];
+
+export interface ZiweiPatternCatalogSpec {
+  schemaVersion: string;
+  patterns: Record<string, ZiweiPatternCatalogTuple>;
+  dinhTap: Record<string, ZiweiDinhTapCatalogTuple>;
+}
+

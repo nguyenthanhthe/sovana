@@ -4,13 +4,20 @@ import {
   normalizeZiweiAxiom,
 } from './normalize.js';
 import { registerKernelLoaders } from './store.js';
-import type { BaziAxiomSpec, LiuyaoAxiomSpec, ZiweiAxiomSpec, ZiweiSilo } from './types.js';
+import type {
+  BaziAxiomSpec,
+  LiuyaoAxiomSpec,
+  ZiweiAxiomSpec,
+  ZiweiPatternCatalogSpec,
+  ZiweiSilo,
+} from './types.js';
 
 export interface KernelBrowserInit {
   namPhai?: Record<string, unknown> | ZiweiAxiomSpec | undefined;
   toanThu?: Record<string, unknown> | ZiweiAxiomSpec | undefined;
   bazi?: Record<string, unknown> | BaziAxiomSpec | undefined;
   liuyao?: Record<string, unknown> | LiuyaoAxiomSpec | undefined;
+  ziweiPatterns?: ZiweiPatternCatalogSpec | undefined;
 }
 
 export interface KernelAssetUrls {
@@ -18,11 +25,13 @@ export interface KernelAssetUrls {
   toanThuUrl?: string | undefined;
   baziUrl?: string | undefined;
   liuyaoUrl?: string | undefined;
+  ziweiPatternsUrl?: string | undefined;
 }
 
 const cachedZiwei: Partial<Record<ZiweiSilo, ZiweiAxiomSpec>> = {};
 let cachedBazi: BaziAxiomSpec | null = null;
 let cachedLiuyao: LiuyaoAxiomSpec | null = null;
+let cachedPatterns: ZiweiPatternCatalogSpec | null = null;
 let inflightPreload: Promise<void> | null = null;
 
 async function fetchJson(url: string, label: string): Promise<Record<string, unknown>> {
@@ -73,10 +82,18 @@ export function initKernelBrowser(init: KernelBrowserInit): void {
   if (init.toanThu) cachedZiwei['toan-thu'] = asZiweiSpec(init.toanThu, 'toan-thu');
   if (init.bazi) cachedBazi = asBaziSpec(init.bazi);
   if (init.liuyao) cachedLiuyao = asLiuyaoSpec(init.liuyao);
+  if (init.ziweiPatterns) cachedPatterns = init.ziweiPatterns;
 }
 
 export async function preloadKernelData(urls?: KernelAssetUrls): Promise<void> {
-  if (!urls && cachedZiwei['nam-phai'] && cachedZiwei['toan-thu'] && cachedBazi && cachedLiuyao) {
+  if (
+    !urls &&
+    cachedZiwei['nam-phai'] &&
+    cachedZiwei['toan-thu'] &&
+    cachedBazi &&
+    cachedLiuyao &&
+    cachedPatterns
+  ) {
     return;
   }
   if (!urls && inflightPreload) {
@@ -88,8 +105,10 @@ export async function preloadKernelData(urls?: KernelAssetUrls): Promise<void> {
     const toanThuUrl = urls?.toanThuUrl ?? new URL('../data/toan-thu.json', import.meta.url).href;
     const baziUrl = urls?.baziUrl ?? new URL('../data/bazi.json', import.meta.url).href;
     const liuyaoUrl = urls?.liuyaoUrl ?? new URL('../data/liuyao.json', import.meta.url).href;
+    const patUrl =
+      urls?.ziweiPatternsUrl ?? new URL('../data/ziwei-patterns.json', import.meta.url).href;
 
-    const [npRaw, ttRaw, bzRaw, lyRaw] = await Promise.all([
+    const [npRaw, ttRaw, bzRaw, lyRaw, patRaw] = await Promise.all([
       cachedZiwei['nam-phai'] && !urls?.namPhaiUrl
         ? Promise.resolve(null)
         : fetchJson(namPhaiUrl, 'nam-phai'),
@@ -98,12 +117,14 @@ export async function preloadKernelData(urls?: KernelAssetUrls): Promise<void> {
         : fetchJson(toanThuUrl, 'toan-thu'),
       cachedBazi && !urls?.baziUrl ? Promise.resolve(null) : fetchJson(baziUrl, 'bazi'),
       cachedLiuyao && !urls?.liuyaoUrl ? Promise.resolve(null) : fetchJson(liuyaoUrl, 'liuyao'),
+      cachedPatterns && !urls?.ziweiPatternsUrl ? Promise.resolve(null) : fetchJson(patUrl, 'patterns'),
     ]);
 
     if (npRaw) cachedZiwei['nam-phai'] = normalizeZiweiAxiom(npRaw, 'nam-phai');
     if (ttRaw) cachedZiwei['toan-thu'] = normalizeZiweiAxiom(ttRaw, 'toan-thu');
     if (bzRaw) cachedBazi = normalizeBaziAxiom(bzRaw);
     if (lyRaw) cachedLiuyao = normalizeLiuyaoAxiom(lyRaw);
+    if (patRaw) cachedPatterns = patRaw as unknown as ZiweiPatternCatalogSpec;
   };
 
   if (!urls) {
@@ -144,8 +165,18 @@ export function loadLiuyaoAxiom(): LiuyaoAxiomSpec {
   return cachedLiuyao;
 }
 
+export function loadZiweiPatternCatalog(): ZiweiPatternCatalogSpec {
+  if (!cachedPatterns) {
+    throw new Error(
+      '@sovana/kernel pattern catalog not loaded. Call await preloadKernelData() first.',
+    );
+  }
+  return cachedPatterns;
+}
+
 registerKernelLoaders({
   loadZiweiAxiom,
   loadBaziAxiom,
   loadLiuyaoAxiom,
+  loadZiweiPatternCatalog,
 });

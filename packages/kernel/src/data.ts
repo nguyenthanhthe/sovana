@@ -7,13 +7,20 @@ import {
   normalizeZiweiAxiom,
 } from './normalize.js';
 import { registerKernelLoaders } from './store.js';
-import type { BaziAxiomSpec, LiuyaoAxiomSpec, ZiweiAxiomSpec, ZiweiSilo } from './types.js';
+import type {
+  BaziAxiomSpec,
+  LiuyaoAxiomSpec,
+  ZiweiAxiomSpec,
+  ZiweiPatternCatalogSpec,
+  ZiweiSilo,
+} from './types.js';
 
 export interface KernelBrowserInit {
   namPhai?: Record<string, unknown> | ZiweiAxiomSpec | undefined;
   toanThu?: Record<string, unknown> | ZiweiAxiomSpec | undefined;
   bazi?: Record<string, unknown> | BaziAxiomSpec | undefined;
   liuyao?: Record<string, unknown> | LiuyaoAxiomSpec | undefined;
+  ziweiPatterns?: ZiweiPatternCatalogSpec | undefined;
 }
 
 export interface KernelAssetUrls {
@@ -21,6 +28,7 @@ export interface KernelAssetUrls {
   toanThuUrl?: string | undefined;
   baziUrl?: string | undefined;
   liuyaoUrl?: string | undefined;
+  ziweiPatternsUrl?: string | undefined;
 }
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -30,6 +38,7 @@ const repoRoot = path.resolve(pkgRoot, '../..');
 const cachedZiwei: Partial<Record<ZiweiSilo, ZiweiAxiomSpec>> = {};
 let cachedBazi: BaziAxiomSpec | null = null;
 let cachedLiuyao: LiuyaoAxiomSpec | null = null;
+let cachedPatterns: ZiweiPatternCatalogSpec | null = null;
 
 function resolveAxiomFile(fileName: string): string {
   const pkgPath = path.join(pkgRoot, 'data', fileName);
@@ -81,6 +90,7 @@ export function initKernelBrowser(init: KernelBrowserInit): void {
   if (init.toanThu) cachedZiwei['toan-thu'] = asZiweiSpec(init.toanThu, 'toan-thu');
   if (init.bazi) cachedBazi = asBaziSpec(init.bazi);
   if (init.liuyao) cachedLiuyao = asLiuyaoSpec(init.liuyao);
+  if (init.ziweiPatterns) cachedPatterns = init.ziweiPatterns;
 }
 
 export async function preloadKernelData(_urls?: KernelAssetUrls): Promise<void> {
@@ -88,6 +98,7 @@ export async function preloadKernelData(_urls?: KernelAssetUrls): Promise<void> 
   loadZiweiAxiom('toan-thu');
   loadBaziAxiom();
   loadLiuyaoAxiom();
+  loadZiweiPatternCatalog();
 }
 
 export function loadZiweiAxiom(silo: ZiweiSilo): ZiweiAxiomSpec {
@@ -125,8 +136,18 @@ export function loadLiuyaoAxiom(): LiuyaoAxiomSpec {
   return cachedLiuyao;
 }
 
+export function loadZiweiPatternCatalog(): ZiweiPatternCatalogSpec {
+  if (!cachedPatterns) {
+    cachedPatterns = JSON.parse(
+      fs.readFileSync(resolveAxiomFile('ziwei-patterns.json'), 'utf-8'),
+    ) as ZiweiPatternCatalogSpec;
+  }
+  return cachedPatterns;
+}
+
 registerKernelLoaders({
   loadZiweiAxiom,
   loadBaziAxiom,
   loadLiuyaoAxiom,
+  loadZiweiPatternCatalog,
 });

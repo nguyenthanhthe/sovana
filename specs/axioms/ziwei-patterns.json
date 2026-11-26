@@ -1,0 +1,423 @@
+{
+  "schemaVersion": "1.0.0",
+  "patterns": {
+    "PAT-01": [
+      "Quân Thần Khánh Hội",
+      "君臣慶會",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Quân Thần Khánh Hội Cách",
+      "Đế tinh Tử Vi đắc quần thần Tả Hữu phò tá, chủ về năng lực điều phối tổ chức, uy tín lãnh đạo và luôn có cộng sự đắc lực đồng hành.",
+      "Phát huy vai trò kiến tạo hệ thống và trao quyền cho đội ngũ thay vì tự mình ôm trọn chi tiết vận hành."
+    ],
+    "PAT-02": [
+      "Tử Phủ Đồng Cung",
+      "紫府同宮",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Tử Phủ Đồng Cung Cách",
+      "Đế tinh song hành cùng Tài khố tinh tại trục Dần – Thân, kết hợp cả tầm nhìn quản trị lẫn khả năng tích lũy, bảo toàn nguồn lực bền vững.",
+      "Hợp các định hướng quản lý định chế, tài chính hoặc điều hành quy mô lớn đòi hỏi sự chuẩn mực."
+    ],
+    "PAT-03": [
+      "Phủ Tướng Triều Viên",
+      "府相朝垣",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Phủ Tướng Triều Viên Cách",
+      "Tài khố và Ấn tín cùng triều củng cung Mệnh, chủ về hậu thuẫn tổ chức vững vàng, trọng chữ tín, lộc thực dồi dào và quan hệ xã hội bền chặt.",
+      "Giữ vững uy tín nghề nghiệp và kỷ luật tài chính là chìa khóa nhân đôi giá trị của cách cục này."
+    ],
+    "PAT-04": [
+      "Dương Lương Xương Lộc",
+      "陽梁昌祿",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Dương Lương Xương Lộc (Lô Truyền Đệ Nhất Danh)",
+      "Tổ hợp đệ nhất khoa bảng và học thuật truyền thống, rất thuận lợi cho nghiên cứu chuyên sâu, thi cử, chứng chỉ chuyên môn cao và gây dựng danh tiếng chính trực.",
+      "Đầu tư bài bản vào học hàm, bằng cấp chuyên gia hoặc công bố tri thức để chuyển hóa uy tín thành tài lộc."
+    ],
+    "PAT-05": [
+      "Hỏa Tham Cách",
+      "火貪格",
+      "THUONG_CACH",
+      "Đẩu Số Cốt Tủy Phú · Hỏa Linh Tham Cách",
+      "Năng lượng khát vọng của Tham Lang được Hỏa Tinh kích hoạt tạo sức bật đột phá bất ngờ về cơ hội kinh doanh, mở thị trường mới hoặc lập công trong hoàn cảnh biến động.",
+      "Khi đón vận bùng nổ cần chủ động trích lập tài sản an toàn ngay lập tức, tránh tái đầu tư quá đà lúc hưng phấn."
+    ],
+    "PAT-06": [
+      "Linh Tham Cách",
+      "鈴貪格",
+      "CAT_CACH",
+      "Đẩu Số Cốt Tủy Phú · Hỏa Linh Tham Cách",
+      "Tham Lang hội Linh Tinh tạo sức bật nhạy bén, bền bỉ nắm bắt thời cơ đột xuất trong thương trường và chuyên môn thực chiến.",
+      "Khi đón vận bùng nổ cần chủ động trích lập tài sản an toàn ngay lập tức, tránh tái đầu tư quá đà lúc hưng phấn."
+    ],
+    "PAT-07": [
+      "Vũ Tham Đồng Hành",
+      "武貪格",
+      "CAT_CACH",
+      "Đẩu Số Cốt Tủy Phú (Vũ Tham bất phát thiếu niên nhân)",
+      "Tài tinh Vũ Khúc giao hội Tham Lang chủ về hậu phát: tuổi trẻ trải qua va chạm rèn giũa bản lĩnh thực chiến, từ sau tuổi 30–35 mới tích tụ thành cơ nghiệp lớn.",
+      "Giai đoạn đầu đời nên tập trung rèn nghề và quản trị rủi ro, kiên nhẫn chờ độ chín trung vận thay vì nóng vội."
+    ],
+    "PAT-08": [
+      "Sát Phá Tham Hội Mệnh",
+      "殺破狼格",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Trục Trúc La Tam Hạn",
+      "Mẫu người tiên phong, quyết đoán, không ngại đập cũ xây mới và phát huy tối đa năng lực trong môi trường cạnh tranh, khởi nghiệp hoặc kỹ thuật mũi nhọn.",
+      "Mỗi chu kỳ mở rộng cần đi kèm một chốt chặn quản trị tài chính để giữ thành quả sau khi khai phá."
+    ],
+    "PAT-09": [
+      "Cơ Nguyệt Đồng Lương",
+      "機月同梁",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư (Cơ Nguyệt Đồng Lương tác lại nhân)",
+      "Cấu trúc mưu lược, quy củ và nhân hòa; cực kỳ đắc dụng trong quản trị hệ thống, tham mưu chiến lược, giáo dục, y dược, nghiên cứu hoặc các tập đoàn lớn.",
+      "Phát triển theo hướng chuyên gia hoạch định và tích lũy bền bỉ, hạn chế đầu cơ mạo hiểm ngắn hạn."
+    ],
+    "PAT-10": [
+      "Liêm Tướng Đồng Cung",
+      "廉貞天相格",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư",
+      "Thiên Tướng chế hóa sự quyết liệt của Liêm Trinh thành nguyên tắc hành xử công minh, hợp pháp chế, quản trị hành chính và kiểm soát chất lượng.",
+      "Rạch ròi giấy tờ, cam kết ngay từ đầu khi hợp tác để tránh rắc rối thủ tục về sau."
+    ],
+    "PAT-11": [
+      "Vũ Khúc Thất Sát Đồng Độ",
+      "武曲七殺",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư",
+      "Tài tinh đi cùng Tướng tinh tạo phong thái dứt khoát, dám gánh vác việc khó trong kỹ thuật, tài chính thực nghiệp hoặc điều hành hiện trường.",
+      "Giữ nhịp nghỉ ngơi điều độ và tránh dồn toàn bộ vốn vào một quyết định tất tay."
+    ],
+    "PAT-12": [
+      "Đồng Lương Đồng Độ",
+      "天同天梁格",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Đồng Lương Dần Thân",
+      "Phúc tinh hội Ấm tinh chủ về tấm lòng nhân hậu, trí tuệ điềm tĩnh, hay gặp người che chở khi hữu sự, rất hợp y tế, giáo dục, tư vấn và công tác xã hội.",
+      "Chủ động đặt mục tiêu cụ thể theo quý để tránh tâm lý an phận khi mọi việc đang thuận lợi."
+    ],
+    "PAT-13": [
+      "Nhật Nguyệt Đồng Lâm",
+      "日月同宮",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư",
+      "Âm Dương giao hòa tại Sửu/Mùi tạo tư duy đa chiều, vừa có tính hướng ngoại quyết đoán vừa có chiều sâu thấu cảm nội tâm.",
+      "Rèn sự nhất quán khi ra quyết định để tránh dao động giữa hai luồng suy nghĩ đối lập."
+    ],
+    "PAT-14": [
+      "Nhật Nguyệt Giáp Mệnh",
+      "日月夾命",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Nhật Nguyệt Giáp Mệnh",
+      "Hai nguồn sáng Âm Dương bao bọc cung Mệnh, chủ về hậu thuẫn gia đình – quý nhân dày dặn và nền tảng tài danh vững chắc.",
+      "Trân trọng các mối liên kết gia đạo và người thầy dẫn dắt vì đó là nguồn trợ lực bền bỉ nhất của bản mệnh."
+    ],
+    "PAT-15": [
+      "Cự Nhật Đồng Cung",
+      "巨日同宮",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư (Cự Nhật đồng cung, quan phong tam đại)",
+      "Ánh sáng Thái Dương giải ám cho Cự Môn, biến năng lực phản biện, ngôn ngữ, ngoại giao, luật pháp hoặc truyền thông thành danh vị thực chất.",
+      "Phát triển sự nghiệp gắn với ngoại ngữ, diễn thuyết, pháp lý, thương mại quốc tế hoặc học thuật."
+    ],
+    "PAT-16": [
+      "Thạch Trung Ẩn Ngọc",
+      "石中隱玉",
+      "THUONG_CACH",
+      "Đẩu Số Cốt Tủy Phú · Thạch Trung Ẩn Ngọc",
+      "Ngọc quý ẩn trong đá: nội lực chuyên môn và tư duy phân tích cực kỳ sắc bén nhưng không phô trương hào nhoáng, càng qua rèn giũa trung niên càng tỏa sáng.",
+      "Lấy chiều sâu chuyên môn làm thước đo giá trị, tránh tranh thắng hơn thua bằng lời nói nhất thời."
+    ],
+    "PAT-17": [
+      "Minh Châu Xuất Hải",
+      "明珠出海",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Tập · Minh Châu Xuất Hải",
+      "Viên ngọc sáng vươn lên từ biển lớn: khởi đầu khiêm nhường nhưng nhờ mượn trọn tinh hoa Nhật Nguyệt – Dương Lương nên hậu vận hiển đạt, danh tiếng vang xa.",
+      "Mạnh dạn bước ra môi trường lớn hoặc đi xa lập nghiệp để kích hoạt tối đa trục xung chiếu Thiên Di."
+    ],
+    "PAT-18": [
+      "Tử Vi Độc Thủ Cung Mệnh",
+      "紫微獨坐",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư",
+      "Khí chất tự chủ cao, có tầm nhìn bao quát và lòng tự trọng lớn; thành bại phụ thuộc mạnh vào khả năng quy tụ người hiền tài quanh mình.",
+      "Chủ động lắng nghe phản biện và xây dựng mạng lưới cộng sự bổ khuyết thay vì làm việc đơn độc."
+    ],
+    "PAT-19": [
+      "Tả Hữu Giáp Mệnh",
+      "輔弼夾命",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Phụ Bật Giáp Mệnh",
+      "Hai cát tinh trợ lực kề cận bảo vệ cung Mệnh, đi tới đâu cũng dễ quy tụ cộng sự trung thành và được tập thể nâng đỡ.",
+      "Đầu tư xây dựng văn hóa đội nhóm và chia sẻ thành quả công bằng để giữ lực trợ giúp lâu dài."
+    ],
+    "PAT-20": [
+      "Xương Khúc Giáp Mệnh",
+      "昌曲夾命",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư (Xương Khúc giáp Mệnh bất quý tắc phú)",
+      "Văn tinh giáp chiếu hai bên tạo phong thái thanh nhã, tư duy học thuật nhạy bén, rất thuận lợi cho nghiên cứu, biên soạn, nghệ thuật và danh tiếng tri thức.",
+      "Khai thác thế mạnh truyền đạt và tri thức chuyên khảo để tạo lợi thế cạnh tranh riêng biệt."
+    ],
+    "PAT-21": [
+      "Khôi Việt Giáp Mệnh",
+      "魁鉞夾命",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư",
+      "Thiên Ất Quý Nhân kề bên hộ trì, trong các bước ngoặt thi cử, tuyển dụng hoặc chuyển mình sự nghiệp thường gặp người đi trước mở đường.",
+      "Giữ thái độ cầu thị và lễ nghĩa với bậc tiền bối để đón nhận cơ hội đề bạt."
+    ],
+    "PAT-22": [
+      "Song Lộc Triều Viên",
+      "雙祿朝垣",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Song Lộc Triều Viên",
+      "Hai nguồn tài lộc chính thống và cơ duyên cùng quy tụ về bản mệnh, chủ về dòng tiền dồi dào, nhạy bén thương mại và khả năng tích sản tốt.",
+      "Kết hợp kênh thu nhập chủ động với danh mục tích sản dài hạn để giữ vững kho tài chính."
+    ],
+    "PAT-23": [
+      "Tam Kỳ Gia Hội",
+      "三奇加會",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Tam Kỳ Gia Hội Cách",
+      "Ba cát hóa Tài lộc (Lộc) – Thực quyền (Quyền) – Thanh danh (Khoa) cùng quy tụ, giúp bản mệnh hội đủ thiên thời và năng lực xoay chuyển cục diện lớn.",
+      "Dùng uy tín chuyên môn (Khoa) dẫn dắt quyền điều hành (Quyền) thì tài lộc (Lộc) tự khắc bền lâu."
+    ],
+    "PAT-24": [
+      "Khoa Quyền Song Hội",
+      "科權雙會",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Tứ Hóa Hội Chiếu",
+      "Vừa có uy tín học thuật/danh tiếng (Hóa Khoa) vừa có năng lực quyết đoán thực thi (Hóa Quyền), rất hợp lộ trình chuyên gia đầu ngành hoặc quản lý kỹ trị.",
+      "Lấy chuẩn mực nghề nghiệp làm nền tảng thăng tiến vững chắc."
+    ],
+    "PAT-25": [
+      "Hóa Lộc Thủ Mệnh",
+      "化祿入命",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Tứ Hóa Luận",
+      "Chính tinh Hóa Lộc tại Mệnh mang lại nhân duyên thuận lợi, tư duy cởi mở và khả năng tự tạo nguồn thu từ chính sở trường bản thân.",
+      "Phát triển sâu năng lực cốt lõi gắn với sao Hóa Lộc để duy trì mạch lộc ổn định."
+    ],
+    "PAT-26": [
+      "Hóa Lộc Nhập Tài Bạch",
+      "化祿入財",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Tứ Hóa Luận",
+      "Cung Tài Bạch đắc Hóa Lộc chủ về mạch tiền bạc lưu thông thuận lợi, có duyên thương mại và tạo giá trị thực tế.",
+      "Thiết lập quy tắc tái đầu tư kỷ luật để dòng tiền sinh sôi bền vững."
+    ],
+    "PAT-27": [
+      "Hóa Quyền Nhập Quan Lộc",
+      "化權入官",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Tứ Hóa Luận",
+      "Hóa Quyền cư Quan Lộc thể hiện sức chịu trách nhiệm cao, năng lực điều hành độc lập và uy quyền chuyên môn trong công việc.",
+      "Kết hợp sự quyết đoán với nghệ thuật lắng nghe để tránh tạo áp lực vô hình lên cấp dưới."
+    ],
+    "PAT-28": [
+      "Hóa Khoa Thủ Mệnh Thân",
+      "化科入命身",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Tứ Hóa Luận",
+      "Hóa Khoa là đệ nhất giải thần và văn danh tinh, đem lại phong thái điềm đạm, trọng danh dự và quý nhân nâng đỡ lúc khó khăn.",
+      "Xây dựng thương hiệu cá nhân dựa trên tri thức thật và sự minh bạch."
+    ],
+    "PAT-29": [
+      "Lộc Tồn Thủ Mệnh Thân",
+      "祿存守命身",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Lộc Tồn Tinh Luận",
+      "Thiên Lộc trấn giữ Mệnh/Thân giúp tính cách cẩn trọng, biết tích lũy phòng xa và luôn có nền tảng kinh tế ổn định.",
+      "Do Lộc Tồn luôn bị Kình – Đà giáp hai bên nên cần giữ sự rộng rãi, hài hòa trong quan hệ để hóa giải đố kỵ."
+    ],
+    "PAT-30": [
+      "Lộc Mã Giao Trì",
+      "祿馬交馳",
+      "THUONG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Lộc Mã Giao Trì",
+      "Thiên Mã trên trục Mệnh – Thiên Di biểu thị cuộc đời năng động; hội cùng Lộc càng dịch chuyển, mở rộng thị trường xa càng vượng phát tài lộc.",
+      "Chọn lĩnh vực có tính lưu thông, xuất nhập khẩu, công nghệ số hoặc làm việc đa vùng địa lý."
+    ],
+    "PAT-31": [
+      "Văn Tinh Hội Mệnh",
+      "昌曲同會",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Văn Tinh Luận",
+      "Song văn tinh Văn Xương – Văn Khúc hội tụ mang lại khả năng ngôn ngữ, học thuật, thẩm mỹ và tiếp thu tri thức mới rất nhanh.",
+      "Luôn rà soát chặt điều khoản pháp lý trên giấy tờ khi Xương Khúc đi cùng Tứ Hóa biến động."
+    ],
+    "PAT-32": [
+      "Phụ Bật Đồng Hội",
+      "輔弼同會",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Phụ Bật Luận",
+      "Có duyên cộng tác nhóm, dễ gặp đồng sự tốt và phù hợp mô hình phối hợp liên ngành hơn là làm việc cô lập.",
+      "Mở rộng mạng lưới cộng tác chuyên nghiệp để nhân rộng hiệu suất."
+    ],
+    "PAT-33": [
+      "Tọa Quý Hướng Quý (Khôi Việt Hội)",
+      "坐貴向貴",
+      "CAT_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Khôi Việt Luận",
+      "Âm Dương Quý Nhân chiếu hội bản mệnh, thường được cấp trên, thầy giỏi hoặc tổ chức uy tín nâng đỡ đúng thời điểm then chốt.",
+      "Giữ chữ tín và sự chuẩn mực lễ độ để duy trì phúc duyên quý nhân dài lâu."
+    ],
+    "PAT-34": [
+      "Cơ Nguyệt Đồng Lương Tam Tinh Hội",
+      "機月同梁三星會",
+      "TRUNG_CACH",
+      "Tử Vi Đẩu Số Toàn Thư · Cơ Nguyệt Đồng Lương Luận",
+      "Mang khí chất điềm đạm, thiên về kế hoạch và chuyên môn ổn định của hệ Cơ Nguyệt Đồng Lương ở mức bán cách.",
+      "Kết hợp quy trình bài bản với sự linh hoạt thực tế để bù đắp mắt xích còn khuyết trong tam hợp."
+    ],
+    "PAT-35": [
+      "Hóa Kỵ Tại Trục Mệnh – Di",
+      "化忌入命遷",
+      "CANH_BAO",
+      "Tử Vi Đẩu Số Toàn Thư · Tứ Hóa Luận",
+      "Hóa Kỵ trên trục Mệnh – Thiên Di tạo sự trăn trở sâu sắc, cầu toàn và tập trung cao độ; tuy đầu đời nhiều áp lực nhưng hợp chuyên môn đào sâu.",
+      "Chuyển hóa năng lượng tập trung của Hóa Kỵ thành kỹ năng chuyên sâu và buông bớt lo âu quá mức."
+    ],
+    "PAT-36": [
+      "Dương Đà Giáp Kỵ",
+      "羊陀夾忌",
+      "CANH_BAO",
+      "Đẩu Số Cốt Tủy Phú · Dương Đà Giáp Kỵ",
+      "Lộc Tồn tại Mệnh đi cùng Hóa Kỵ và bị Kình – Đà kẹp hai bên, báo hiệu tài lộc đi kèm áp lực cạnh tranh hoặc trách nhiệm nặng nề.",
+      "Minh bạch tài chính, không đứng tên bảo lãnh vay nợ hộ và ưu tiên an toàn pháp lý."
+    ],
+    "PAT-37": [
+      "Hỏa Linh Giáp Mệnh",
+      "火鈴夾命",
+      "CANH_BAO",
+      "Tử Vi Đẩu Số Toàn Thư",
+      "Nhịp sống xung quanh thường gấp gáp, nhiều tình huống phát sinh bất ngờ đòi hỏi phản xạ nhanh.",
+      "Thực hành quy tắc chậm lại một nhịp trước các quyết định nóng để giữ thế chủ động."
+    ],
+    "PAT-38": [
+      "Không Kiếp Giáp Mệnh",
+      "空劫夾命",
+      "CANH_BAO",
+      "Tử Vi Đẩu Số Toàn Thư",
+      "Tư duy độc đáo, khác biệt đám đông nhưng đường tích lũy vật chất truyền thống dễ trải qua thăng trầm nếu đầu cơ ngắn hạn.",
+      "Hợp sáng tạo công nghệ, nghệ thuật, triết học, nghiên cứu hoặc chuyên môn chất xám độc bản."
+    ],
+    "PAT-39": [
+      "Liêm Sát Dương Hội Chiếu",
+      "廉殺羊",
+      "CANH_BAO",
+      "Tử Vi Đẩu Số Toàn Thư",
+      "Tổ hợp cương nghị mạnh mẽ, hợp ngành kỹ thuật cơ khí, ngoại khoa, an ninh hoặc xử lý khủng hoảng; cần chú ý an toàn đi lại.",
+      "Tuân thủ nghiêm ngặt quy chuẩn an toàn lao động – giao thông và rèn sự mềm mỏng trong đối nhân xử thế."
+    ],
+    "PAT-40": [
+      "Cự Hỏa Dương Hội",
+      "巨火羊",
+      "CANH_BAO",
+      "Đẩu Số Cốt Tủy Phú",
+      "Lời nói thẳng thắn sắc nhọn dễ chạm tự ái người nghe hoặc phát sinh tranh cãi gay gắt lúc căng thẳng.",
+      "Chủ động điều hòa cảm xúc và dùng văn bản chuẩn mực thay cho tranh luận trực diện khi bất đồng."
+    ],
+    "PAT-41": [
+      "Linh Xương Đà Vũ Hội",
+      "鈴昌陀武",
+      "CANH_BAO",
+      "Đẩu Số Cốt Tủy Phú · Linh Xương Đà Vũ",
+      "Tổ hợp nhắc nhở cẩn trọng sai sót văn bản – tài chính dây chuyền trong các giai đoạn áp lực cao (đặc biệt năm Thìn – Tuất).",
+      "Áp dụng kiểm toán chéo hai lớp với mọi hợp đồng tài chính lớn và duy trì quỹ dự phòng thanh khoản."
+    ],
+    "PAT-42": [
+      "Mã Đầu Đái Tiễn",
+      "馬頭帶箭",
+      "CANH_BAO",
+      "Đẩu Số Cốt Tủy Phú · Mã Đầu Đái Tiễn",
+      "Kình Dương cư Ngọ được Hỏa khí trui rèn: vất vả bôn ba thuở thiếu thời nhưng ý chí sắt đá, gặp vận tốt bứt phá mạnh mẽ ở môi trường thực chiến.",
+      "Hướng năng lượng quyết liệt vào mục tiêu sự nghiệp dài hạn và rèn sự điềm tĩnh bảo vệ sức khỏe."
+    ]
+  },
+  "dinhTap": {
+    "DT-01": [
+      1,
+      "Phong Vân Tế Hội",
+      "風雲際會",
+      "Thân Mệnh tuy nhược, nhị hạn phùng Lộc Mã thị dã.",
+      "verified",
+      "CAT",
+      "Mệnh Thân gốc tuy trầm nhưng Đại Hạn hội đủ Lộc – Mã như rồng gặp mây.",
+      "Nắm bắt cơ hội dịch chuyển, mở rộng quy mô và kết nối đối tác trong 10 năm đắc thời thế này."
+    ],
+    "DT-02": [
+      2,
+      "Cẩm Thượng Thiêm Hoa",
+      "錦上添花",
+      "Vị hạn phá ác tinh nhi hành cát địa thị dã.",
+      "verified",
+      "CAT",
+      "Đại Hạn có một sát tinh kích phát nhưng bản cung Miếu Vượng hội nhiều cát tinh, biến áp lực thành bước nhảy vọt.",
+      "Không ngại thử thách ban đầu của vận hạn vì chính va chạm đó là đòn bẩy nâng tầm thành tựu."
+    ],
+    "DT-03": [
+      3,
+      "Lộc Suy Mã Khốn",
+      "祿衰馬困",
+      "Hạn phùng Thất Sát, Lộc Mã không vong thị dã.",
+      "verified",
+      "HUNG",
+      "Đại Hạn hội Thất Sát trong khi Lộc Tồn và Thiên Mã đều lâm Không Vong, dễ hao lực khi bôn ba cầu tài xa.",
+      "Ưu tiên củng cố nội lực tại chỗ, hạn chế vay mượn mở rộng đầu tư mạo hiểm trong giai đoạn này."
+    ],
+    "DT-04": [
+      4,
+      "Y Cẩm Hoàn Hương",
+      "衣錦還鄉",
+      "Thiếu niên bất toại, tứ thập hậu hành Mộ vận thị dã.",
+      "disputed",
+      "CAT",
+      "Từ sau tuổi 40 Đại Hạn tiến vào cung Tứ Mộ đắc địa, chủ về trung – hậu vận tích tụ thành danh vững chãi.",
+      "Tập trung đóng gói kinh nghiệm nửa đầu đời thành tài sản hữu hình và uy tín bền vững."
+    ],
+    "DT-05": [
+      5,
+      "Bộ Số Vô Y",
+      "步數無依",
+      "Tiền hạn tiếp hậu hạn liên miên bất phân thị dã.",
+      "disputed",
+      "TRUNG",
+      "Hai Đại Hạn liên tiếp đều rơi vào thế cung trầm / Vô Chính Diệu, cần tự làm điểm tựa.",
+      "Lấy chuyên môn bền bỉ và kỷ luật tích lũy đều đặn làm neo giữ nhịp thay vì chờ vận may bên ngoài."
+    ],
+    "DT-06": [
+      6,
+      "Thủy Thượng Giá Tinh",
+      "水上駕星",
+      "Nhất niên hảo nhất niên bất hảo thị dã.",
+      "disputed",
+      "TRUNG",
+      "Cặp năm Lưu Niên liên tiếp đảo chiều Cát – Hung rõ rệt trên tinh bàn.",
+      "Năm thuận lợi nên trích dự phòng trước để giữ nhịp êm ái khi sang năm biến động."
+    ],
+    "DT-07": [
+      7,
+      "Đắc Vận Khai Phát (Cát Hung Tương Bán)",
+      "吉凶相伴",
+      "Mệnh hữu chủ tinh, hạn cường tắc phát, hạn suy bất phát thị dã.",
+      "disputed",
+      "CAT",
+      "Bản Mệnh sẵn có Chính tinh, bước vào Đại Hạn Miếu Vượng hội cát tinh nên phát huy trọn vẹn thực lực.",
+      "Chu kỳ 10 năm thuận gió đẩy thuyền, thích hợp mở rộng tầm ảnh hưởng và tích lũy tài sản."
+    ],
+    "DT-08": [
+      8,
+      "Khô Mộc Phùng Xuân",
+      "枯木逢春",
+      "Vị Mệnh suy hạn hảo thị dã.",
+      "verified",
+      "CAT",
+      "Cung Mệnh gốc tuy khiêm nhường nhưng Đại Hạn đắc địa hội cát tinh như cây khô gặp mùa xuân.",
+      "Mạnh dạn dồn lực bứt phá trong 10 năm vàng son này để kiến tạo nền tảng dài lâu."
+    ]
+  }
+}

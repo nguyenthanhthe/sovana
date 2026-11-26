@@ -4,6 +4,7 @@ export {
   loadBaziAxiom,
   loadLiuyaoAxiom,
   loadZiweiAxiom,
+  loadZiweiPatternCatalog,
   preloadKernelData,
   type KernelAssetUrls,
   type KernelBrowserInit,

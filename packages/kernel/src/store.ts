@@ -1,9 +1,10 @@
-import type { BaziAxiomSpec, LiuyaoAxiomSpec, ZiweiAxiomSpec, ZiweiSilo } from './types.js';
+import type { BaziAxiomSpec, LiuyaoAxiomSpec, ZiweiAxiomSpec, ZiweiPatternCatalogSpec, ZiweiSilo } from './types.js';
 
 export interface KernelDataLoaders {
   loadZiweiAxiom: (silo: ZiweiSilo) => ZiweiAxiomSpec;
   loadBaziAxiom: () => BaziAxiomSpec;
   loadLiuyaoAxiom: () => LiuyaoAxiomSpec;
+  loadZiweiPatternCatalog: () => ZiweiPatternCatalogSpec;
 }
 
 let activeLoaders: KernelDataLoaders | null = null;
@@ -29,4 +30,8 @@ export function loadBaziAxiom(): BaziAxiomSpec {
 
 export function loadLiuyaoAxiom(): LiuyaoAxiomSpec {
   return requireLoaders().loadLiuyaoAxiom();
+}
+
+export function loadZiweiPatternCatalog(): ZiweiPatternCatalogSpec {
+  return requireLoaders().loadZiweiPatternCatalog();
 }

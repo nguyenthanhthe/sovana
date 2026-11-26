@@ -14,6 +14,7 @@ const filesToCopy = [
   ['specs/axioms/toan-thu.json', 'toan-thu.json'],
   ['specs/axioms/bazi.json', 'bazi.json'],
   ['specs/axioms/liuyao.json', 'liuyao.json'],
+  ['specs/axioms/ziwei-patterns.json', 'ziwei-patterns.json'],
 ];
 
 for (const [srcRel, dstName] of filesToCopy) {

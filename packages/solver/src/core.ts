@@ -1,5 +1,6 @@
 export * from './types.js';
 export { evaluateRulesDAG } from './dag.js';
+export { evaluateHopBan } from './hopban.js';
 export {
   PUBLIC_RECTIFICATION_QUESTIONS,
   answerQuestion,
